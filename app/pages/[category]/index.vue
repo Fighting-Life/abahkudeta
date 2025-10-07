@@ -165,13 +165,25 @@ useHead({
 });
 
 const user = useSupabaseUser();
+const { searchTerm, selectedFilter, selectedProvider } = useGames();
+
 const categorParams = route.params.category as string;
 const category = computed(() =>
 	CategoriesTopMenu.find((val) => val.slug === categorParams),
 );
 
-const goBack = () => {
-	router.back();
+const handleSelectProvider = (provider?: Partner) => {
+	selectedProvider.value = provider;
+};
+const handleFilterChange = (filter?: FilterType) => {
+	if (!filter || filter === "Semua permainan") {
+		selectedFilter.value = undefined;
+	} else {
+		selectedFilter.value = filter;
+	}
+};
+const handleSearch = (value?: string) => {
+	searchTerm.value = value;
 };
 </script>
 <template>
@@ -250,6 +262,9 @@ const goBack = () => {
 				<slot-provider-category
 					v-if="category?.slug === 'slots'"
 					:providers="SlotsProvidersCategory"
+					@select-provider="handleSelectProvider"
+					@filter-change="handleFilterChange"
+					@on-search="handleSearch"
 				/>
 				<crash-provider-category
 					v-if="category?.slug === 'crash-game'"
@@ -270,6 +285,15 @@ const goBack = () => {
 					"
 					:category="category?.sub"
 					:title="category?.alias"
+				/>
+				<SlotsGameCardHorizontal
+					v-if="category?.slug === 'slots'"
+					:selected-provider="selectedProvider"
+					:filtered-type="selectedFilter"
+					:search-term="searchTerm"
+					:initial-limit="12"
+					:load-more-increment="12"
+					:use-filter="true"
 				/>
 			</div>
 		</div>

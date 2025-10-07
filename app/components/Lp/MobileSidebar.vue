@@ -246,14 +246,17 @@ async function handleSignOut() {
 								</span>
 							</NuxtLink>
 							<SidebarKasirMenu
+								v-if="user"
 								:open="expandMenuType === 'kasir'"
 								@click="handleMenuExpand('kasir')"
 							/>
 							<SidebarMessageMenu
+								v-if="user"
 								:open="expandMenuType === 'pesan'"
 								@click="handleMenuExpand('pesan')"
 							/>
 							<SidebarProfileMenu
+								v-if="user"
 								:open="expandMenuType === 'profile'"
 								@click="handleMenuExpand('profile')"
 							/>

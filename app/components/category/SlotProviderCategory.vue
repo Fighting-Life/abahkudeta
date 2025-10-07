@@ -5,15 +5,19 @@ const props = defineProps<{
 
 const emit = defineEmits<{
 	(e: "selectProvider", provider?: Partner): void;
-	(e: "filterChange", filter: string): void;
+	(e: "filterChange", filter?: FilterType): void;
+	(e: "onSearch", value?: string): void;
 }>();
 
+const searchTerm = ref("");
+const selectedFilter = ref<FilterType | undefined>(undefined);
+const selectedProvider = ref<Partner | null | undefined>(undefined);
 const carouselRef = ref<HTMLElement | null>(null);
 const currentIndex = ref(0);
 const isAutoScrolling = ref(true);
 const autoScrollInterval = ref<number | null>(null);
 
-const filters = [
+const filters: FilterType[] = [
 	"Semua permainan",
 	"Top 20",
 	"New",
@@ -24,9 +28,6 @@ const filters = [
 	"Jackpot Play Games",
 	"Video Slots",
 ];
-
-const activeFilter = ref("Semua permainan");
-const searchQuery = ref("");
 
 const visibleCount = 5;
 const visibleProviders = computed(() => {
@@ -69,12 +70,17 @@ const prev = () => {
 };
 
 const selectProvider = (provider?: Partner) => {
+	selectedProvider.value = provider;
 	emit("selectProvider", provider);
 };
 
-const selectFilter = (filter: string) => {
-	activeFilter.value = filter;
+const selectFilter = (filter?: FilterType) => {
+	selectedFilter.value = filter;
 	emit("filterChange", filter);
+};
+const onSearchChange = (e: Event) => {
+	searchTerm.value = (e.target as HTMLInputElement).value;
+	emit("onSearch", (e.target as HTMLInputElement).value);
 };
 
 onMounted(() => {
@@ -200,7 +206,7 @@ onUnmounted(() => {
 					v-for="filter in filters"
 					:key="filter"
 					class="filter-btn cursor-pointer"
-					:class="{ 'filter-btn-active': activeFilter === filter }"
+					:class="{ 'filter-btn-active': selectedFilter === filter }"
 					@click="selectFilter(filter)"
 				>
 					{{ filter }}
@@ -212,10 +218,11 @@ onUnmounted(() => {
 				<!-- Search Input -->
 				<div class="relative">
 					<input
-						v-model="searchQuery"
+						v-model="searchTerm"
 						type="text"
 						placeholder="Cari Permainan"
 						class="search-input"
+						@input="onSearchChange"
 					/>
 					<svg
 						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-gray-400"
@@ -234,8 +241,8 @@ onUnmounted(() => {
 
 				<!-- Mobile Dropdown Filter -->
 				<Select
-					v-model="activeFilter"
-					@update:model-value="selectFilter(activeFilter)"
+					v-model="selectedFilter"
+					@update:model-value="selectFilter(selectedFilter)"
 				>
 					<SelectTrigger class="filter-select bg-gray-900 text-gray-100">
 						<SelectValue placeholder="Pilih" />
@@ -259,10 +266,11 @@ onUnmounted(() => {
 			<div class="ml-auto hidden lg:flex">
 				<div class="relative">
 					<input
-						v-model="searchQuery"
+						v-model="searchTerm"
 						type="text"
 						placeholder="Cari Permainan"
 						class="search-input"
+						@input="onSearchChange"
 					/>
 					<svg
 						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-gray-400"

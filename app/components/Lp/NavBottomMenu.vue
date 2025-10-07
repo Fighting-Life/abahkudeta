@@ -6,41 +6,58 @@ interface NavMenu {
 	icon: string;
 	link: string;
 	type_link: "page" | "button" | "external";
+	auth: boolean;
 }
 
 const route = useRoute();
+const user = useSupabaseUser();
+const { $event } = useNuxtApp();
+
 const navMenus: NavMenu[] = [
 	{
 		label: "Beranda",
 		icon: "ic:round-home",
 		link: "/",
 		type_link: "page",
+		auth: false,
 	},
 	{
 		label: "Promosi",
 		icon: "tabler:gift",
 		link: "/promotion",
 		type_link: "page",
+		auth: false,
 	},
 	{
 		label: "Depo/WD",
 		icon: "solar:dollar-linear",
-		link: "#",
+		link: "/deposit",
 		type_link: "button",
+		auth: true,
 	},
 	{
 		label: "Live Chat",
 		icon: "garden:headset-stroke-12",
 		link: "https://direct.lc.chat/19100937",
 		type_link: "external",
+		auth: false,
 	},
 	{
 		label: "Akun Saya",
 		icon: "ph:user-bold",
-		link: "/account",
-		type_link: "page",
+		link: "/account-summary",
+		type_link: "button",
+		auth: true,
 	},
 ];
+
+async function goToPage(menu: NavMenu) {
+	if (menu.auth && !user.value) {
+		$event("alert-login", true);
+		return;
+	}
+	await navigateTo(menu.link);
+}
 </script>
 <template>
 	<div class="block lg:hidden">
@@ -49,9 +66,9 @@ const navMenus: NavMenu[] = [
 		>
 			<div class="flex w-full items-center justify-between px-4">
 				<template v-for="(menu, i) in navMenus" :key="i">
-					<a
+					<nuxt-link
 						v-if="menu.type_link === 'page'"
-						:href="menu.link"
+						:to="menu.link"
 						:class="
 							cn(
 								'flex flex-col items-center gap-1',
@@ -63,10 +80,11 @@ const navMenus: NavMenu[] = [
 						<div class="text-xs font-semibold">
 							{{ menu.label }}
 						</div>
-					</a>
+					</nuxt-link>
 					<button
 						v-else-if="menu.type_link === 'button'"
-						class="flex cursor-pointer flex-col items-center gap-1"
+						:class="cn('flex cursor-pointer flex-col items-center gap-1')"
+						@click="goToPage(menu)"
 					>
 						<icon :name="menu.icon" class="text-2xl" />
 						<div class="text-xs font-semibold">

@@ -14,15 +14,13 @@ const props = withDefaults(defineProps<Props>(), {
 
 const carouselItems = computed(() => props.items || defaultCarouselItems);
 
-// Reactive state
 const currentSlide = ref(0);
 const isVertical = ref(false);
 const autoSlideInterval = ref<NodeJS.Timeout | null>(null);
 const carouselContainer = ref<HTMLElement | null>(null);
 const isTransitioning = ref(false);
-
-// Drag/Swipe state
 const isDragging = ref(false);
+const isMouseOver = ref(false);
 const startX = ref(0);
 const startY = ref(0);
 const currentX = ref(0);
@@ -30,17 +28,14 @@ const currentY = ref(0);
 const dragOffset = ref(0);
 const dragDirection = ref<"horizontal" | "vertical" | null>(null);
 
-// Auto slide configuration
 const SLIDE_INTERVAL = computed(() => props.slideInterval);
 const TRANSITION_DURATION = computed(() => props.transitionDuration);
 const DRAG_THRESHOLD = 50; // Minimum pixels to trigger slide change
 const DIRECTION_THRESHOLD = 30; // Pixels to determine drag direction
 
-// Random direction generator
 const getRandomDirection = (): boolean => {
 	return Math.random() > 0.5;
 };
-
 // Go to specific slide
 const goToSlide = (index: number, vertical: boolean = false) => {
 	if (isTransitioning.value || index === currentSlide.value) return;
@@ -53,8 +48,6 @@ const goToSlide = (index: number, vertical: boolean = false) => {
 		isTransitioning.value = false;
 	}, TRANSITION_DURATION.value);
 };
-
-// Auto slide function
 const startAutoSlide = () => {
 	if (autoSlideInterval.value) {
 		clearInterval(autoSlideInterval.value);
@@ -66,8 +59,6 @@ const startAutoSlide = () => {
 		goToSlide(nextIndex, randomVertical);
 	}, SLIDE_INTERVAL.value);
 };
-
-// Stop auto slide
 const stopAutoSlide = () => {
 	if (autoSlideInterval.value) {
 		clearInterval(autoSlideInterval.value);
@@ -75,7 +66,6 @@ const stopAutoSlide = () => {
 	}
 };
 
-// Handle manual slide selection
 const handleSlideSelect = (index: number) => {
 	stopAutoSlide();
 	const randomVertical = getRandomDirection();
@@ -88,7 +78,6 @@ const handleSlideSelect = (index: number) => {
 	}, SLIDE_INTERVAL.value);
 };
 
-// Drag/Swipe handlers
 const handleDragStart = (e: MouseEvent | TouchEvent) => {
 	if (isTransitioning.value) return;
 
@@ -102,12 +91,16 @@ const handleDragStart = (e: MouseEvent | TouchEvent) => {
 	currentY.value = point?.clientY ?? 0;
 	dragDirection.value = null;
 
-	// Prevent text selection during drag
+	// Set cursor to grabbing
 	if (carouselContainer.value) {
 		carouselContainer.value.style.cursor = "grabbing";
 	}
-};
 
+	// Prevent default hanya untuk mouse events, bukan touch
+	if (!("touches" in e)) {
+		e.preventDefault();
+	}
+};
 const handleDragMove = (e: MouseEvent | TouchEvent) => {
 	if (!isDragging.value) return;
 
@@ -132,23 +125,36 @@ const handleDragMove = (e: MouseEvent | TouchEvent) => {
 	// Calculate drag offset based on direction
 	if (dragDirection.value === "horizontal") {
 		dragOffset.value = deltaX;
-		// Prevent vertical scroll
-		e.preventDefault();
+		// Hanya prevent default jika benar-benar diperlukan
+		if (Math.abs(deltaX) > 5) {
+			e.preventDefault();
+		}
 	} else if (dragDirection.value === "vertical") {
 		dragOffset.value = deltaY;
-		// Prevent horizontal scroll
-		e.preventDefault();
+		// Hanya prevent default jika benar-benar diperlukan
+		if (Math.abs(deltaY) > 5) {
+			e.preventDefault();
+		}
 	}
 };
-
 const handleDragEnd = () => {
 	if (!isDragging.value) return;
 
-	isDragging.value = false;
+	// console.log("Drag end triggered"); // Debug log
 
-	if (carouselContainer.value) {
-		carouselContainer.value.style.cursor = "grab";
-	}
+	// Reset semua drag state
+	isDragging.value = false;
+	dragOffset.value = 0;
+	dragDirection.value = null;
+
+	// Reset cursor dengan delay kecil untuk memastikan
+	setTimeout(() => {
+		if (carouselContainer.value) {
+			carouselContainer.value.style.cursor = isMouseOver.value
+				? "grab"
+				: "default";
+		}
+	}, 50);
 
 	const containerWidth = carouselContainer.value?.offsetWidth || 0;
 	const containerHeight = carouselContainer.value?.offsetHeight || 0;
@@ -159,7 +165,7 @@ const handleDragEnd = () => {
 
 	// Determine if slide should change based on drag distance
 	if (dragDirection.value === "horizontal") {
-		const threshold = containerWidth * 0.2; // 20% of width
+		const threshold = containerWidth * 0.2;
 		if (
 			Math.abs(dragOffset.value) > threshold ||
 			Math.abs(dragOffset.value) > DRAG_THRESHOLD
@@ -167,10 +173,8 @@ const handleDragEnd = () => {
 			shouldChange = true;
 			vertical = false;
 			if (dragOffset.value < 0) {
-				// Drag left - next slide
 				nextIndex = (currentSlide.value + 1) % carouselItems.value.length;
 			} else {
-				// Drag right - previous slide
 				nextIndex =
 					currentSlide.value === 0
 						? carouselItems.value.length - 1
@@ -178,7 +182,7 @@ const handleDragEnd = () => {
 			}
 		}
 	} else if (dragDirection.value === "vertical") {
-		const threshold = containerHeight * 0.2; // 20% of height
+		const threshold = containerHeight * 0.2;
 		if (
 			Math.abs(dragOffset.value) > threshold ||
 			Math.abs(dragOffset.value) > DRAG_THRESHOLD
@@ -186,10 +190,8 @@ const handleDragEnd = () => {
 			shouldChange = true;
 			vertical = true;
 			if (dragOffset.value < 0) {
-				// Drag up - next slide
 				nextIndex = (currentSlide.value + 1) % carouselItems.value.length;
 			} else {
-				// Drag down - previous slide
 				nextIndex =
 					currentSlide.value === 0
 						? carouselItems.value.length - 1
@@ -198,24 +200,99 @@ const handleDragEnd = () => {
 		}
 	}
 
-	// Reset drag state
-	dragOffset.value = 0;
-	dragDirection.value = null;
-
 	// Change slide if needed
 	if (shouldChange) {
 		goToSlide(nextIndex, vertical);
 	}
 
-	// Restart auto slide
+	// Restart auto slide dengan delay yang lebih aman
 	setTimeout(() => {
-		if (props.autoSlide) {
+		if (props.autoSlide && isMouseOver.value) {
 			startAutoSlide();
 		}
 	}, SLIDE_INTERVAL.value);
 };
+const handleMouseEnter = () => {
+	isMouseOver.value = true;
+	if (carouselContainer.value && !isDragging.value) {
+		carouselContainer.value.style.cursor = "grab";
+	}
+	stopAutoSlide();
+};
+const handleMouseLeave = () => {
+	isMouseOver.value = false;
+	if (carouselContainer.value && !isDragging.value) {
+		carouselContainer.value.style.cursor = "default";
+	}
 
-// Lifecycle hooks
+	// Jika tidak dragging, restart auto slide
+	if (!isDragging.value && props.autoSlide) {
+		startAutoSlide();
+	}
+};
+const forceResetCursor = () => {
+	isDragging.value = false;
+	dragOffset.value = 0;
+	dragDirection.value = null;
+
+	if (carouselContainer.value) {
+		carouselContainer.value.style.cursor = isMouseOver.value
+			? "grab"
+			: "default";
+	}
+};
+const setupEventListeners = () => {
+	if (carouselContainer.value) {
+		// Remove existing listeners dulu
+		carouselContainer.value.removeEventListener(
+			"touchmove",
+			handleDragMove as EventListener,
+		);
+
+		// Add non-passive listener untuk touchmove
+		carouselContainer.value.addEventListener(
+			"touchmove",
+			handleDragMove as EventListener,
+			{
+				passive: false,
+			},
+		);
+	}
+};
+const handleContextMenu = (e: MouseEvent) => {
+	if (isDragging.value) {
+		e.preventDefault();
+		return false;
+	}
+	return true;
+};
+const handleContainerClick = (event: MouseEvent) => {
+	// Jika sedang dragging, prevent click
+	if (isDragging.value) {
+		event.preventDefault();
+		event.stopPropagation();
+		return;
+	}
+
+	// Cek jika click terjadi pada link carousel
+	const target = event.target as HTMLElement;
+	const link = target.closest(".carousel-link") as HTMLAnchorElement;
+
+	if (link && !isDragging.value) {
+		const slideIndex = parseInt(link.dataset.slideIndex || "0");
+
+		// Hanya allow click pada slide yang aktif
+		if (slideIndex === currentSlide.value) {
+			// Biarkan NuxtLink handle navigation
+			// console.log("Navigating to:", link.href);
+		} else {
+			// Prevent click pada slide yang tidak aktif
+			event.preventDefault();
+			event.stopPropagation();
+		}
+	}
+};
+
 onMounted(() => {
 	if (props.autoSlide) {
 		startAutoSlide();
@@ -224,11 +301,43 @@ onMounted(() => {
 	// Set initial cursor
 	if (carouselContainer.value) {
 		carouselContainer.value.style.cursor = "grab";
+		// Setup non-passive event listeners
+		setupEventListeners();
 	}
 
-	// Add global event listeners for drag end
-	window.addEventListener("mouseup", handleDragEnd);
-	window.addEventListener("touchend", handleDragEnd);
+	// Add global event listeners
+	const handleGlobalMouseUp = () => {
+		if (isDragging.value) {
+			handleDragEnd();
+		}
+	};
+
+	const handleGlobalTouchEnd = () => {
+		if (isDragging.value) {
+			handleDragEnd();
+		}
+	};
+
+	window.addEventListener("mouseup", handleGlobalMouseUp);
+	window.addEventListener("touchend", handleGlobalTouchEnd, { passive: true });
+	window.addEventListener("touchcancel", handleGlobalTouchEnd, {
+		passive: true,
+	});
+
+	onUnmounted(() => {
+		stopAutoSlide();
+		window.removeEventListener("mouseup", handleGlobalMouseUp);
+		window.removeEventListener("touchend", handleGlobalTouchEnd);
+		window.removeEventListener("touchcancel", handleGlobalTouchEnd);
+
+		// Cleanup custom event listeners
+		if (carouselContainer.value) {
+			carouselContainer.value.removeEventListener(
+				"touchmove",
+				handleDragMove as EventListener,
+			);
+		}
+	});
 });
 
 onUnmounted(() => {
@@ -237,7 +346,6 @@ onUnmounted(() => {
 	window.removeEventListener("touchend", handleDragEnd);
 });
 
-// Computed styles for transformation
 const getTransformStyle = () => {
 	const baseTranslate = currentSlide.value * -100;
 
@@ -260,18 +368,13 @@ const getTransformStyle = () => {
 	}
 	return `translateX(${baseTranslate}%)`;
 };
-
-// Prevent context menu on long press
-const handleContextMenu = (e: MouseEvent) => {
-	if (isDragging.value) {
-		e.preventDefault();
-	}
-};
 </script>
 
 <template>
 	<div
 		class="relative h-[200px] w-full overflow-hidden rounded-lg bg-gray-900 py-3 shadow-2xl md:h-[300px] lg:h-[400px] xl:h-[500px]"
+		@mouseenter="handleMouseEnter"
+		@mouseleave="handleMouseLeave"
 	>
 		<!-- Carousel Container -->
 		<div
@@ -280,8 +383,6 @@ const handleContextMenu = (e: MouseEvent) => {
 			:class="{
 				'vertical-track': isVertical,
 				'horizontal-track': !isVertical,
-				'cursor-grabbing': isDragging,
-				'cursor-grab': !isDragging,
 			}"
 			:style="{
 				transform: getTransformStyle(),
@@ -289,14 +390,13 @@ const handleContextMenu = (e: MouseEvent) => {
 					isDragging || !isTransitioning
 						? 'none'
 						: `transform ${TRANSITION_DURATION}ms cubic-bezier(0.4, 0, 0.2, 1)`,
+				cursor: isDragging ? 'grabbing' : isMouseOver ? 'grab' : 'default',
 			}"
 			@mousedown="handleDragStart"
-			@touchstart.passive="handleDragStart"
+			@touchstart="handleDragStart"
 			@mousemove="handleDragMove"
-			@touchmove="handleDragMove"
 			@contextmenu="handleContextMenu"
-			@mouseenter="stopAutoSlide"
-			@mouseleave="!isDragging && startAutoSlide()"
+			@click="handleContainerClick"
 		>
 			<!-- Carousel Items -->
 			<div
@@ -306,6 +406,7 @@ const handleContextMenu = (e: MouseEvent) => {
 				:class="{
 					'slide-vertical': isVertical,
 					'slide-horizontal': !isVertical,
+					'active-slide': currentSlide === index,
 				}"
 				:style="{
 					transform: isVertical
@@ -317,9 +418,9 @@ const handleContextMenu = (e: MouseEvent) => {
 					:to="item.link"
 					:target="item.is_external ? '_blank' : null"
 					:external="item.is_external"
-					class="group pointer-events-none block h-full w-full"
-					:class="{ 'pointer-events-auto': !isDragging }"
-					@click.prevent="isDragging && $event.preventDefault()"
+					class="carousel-link group block h-full w-full"
+					:data-slide-index="index"
+					:class="{ 'pointer-events-none': isDragging }"
 				>
 					<div class="relative h-full w-full overflow-hidden">
 						<img
@@ -329,10 +430,16 @@ const handleContextMenu = (e: MouseEvent) => {
 							loading="lazy"
 							draggable="false"
 						/>
-						<!-- Overlay for better text readability -->
 						<div
 							class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"
 						></div>
+
+						<div
+							v-if="item.alt"
+							class="absolute right-4 bottom-4 left-4 text-white"
+						>
+							<h3 class="mb-2 text-xl font-bold">{{ item.alt }}</h3>
+						</div>
 					</div>
 				</NuxtLink>
 			</div>
@@ -346,7 +453,7 @@ const handleContextMenu = (e: MouseEvent) => {
 				<button
 					v-for="(item, index) in carouselItems"
 					:key="`bottom-${index}`"
-					class="pagination-dot transition-all duration-300 hover:scale-125"
+					class="pagination-dot cursor-pointer transition-all duration-300 hover:scale-125"
 					:class="{
 						'h-2 w-8 rounded-full bg-white': currentSlide === index,
 						'h-2 w-2 rounded-full bg-white/50 hover:bg-white/70':
@@ -366,7 +473,7 @@ const handleContextMenu = (e: MouseEvent) => {
 				<button
 					v-for="(item, index) in carouselItems"
 					:key="`right-${index}`"
-					class="pagination-dot transition-all duration-300 hover:scale-125"
+					class="pagination-dot cursor-pointer transition-all duration-300 hover:scale-125"
 					:class="{
 						'h-8 w-2 rounded-full bg-white': currentSlide === index,
 						'h-2 w-2 rounded-full bg-white/50 hover:bg-white/70':
@@ -406,7 +513,7 @@ const handleContextMenu = (e: MouseEvent) => {
 			></div>
 		</div>
 
-		<!-- Slide Counter (Top Right) -->
+		<!-- Slide Counter -->
 		<div
 			class="absolute top-4 right-4 z-10 rounded-full bg-black/50 px-3 py-1 text-sm font-medium text-white backdrop-blur-sm"
 		>
@@ -415,6 +522,7 @@ const handleContextMenu = (e: MouseEvent) => {
 
 		<!-- Swipe Hint (Mobile) -->
 		<div
+			v-if="!isDragging"
 			class="pointer-events-none absolute bottom-20 left-1/2 z-10 -translate-x-1/2 transform md:hidden"
 		>
 			<div
@@ -424,6 +532,16 @@ const handleContextMenu = (e: MouseEvent) => {
 				<span>Geser untuk slide</span>
 			</div>
 		</div>
+
+		<!-- Emergency Reset Button (Debug) -->
+		<button
+			v-if="isDragging"
+			class="absolute top-4 left-4 z-50 cursor-pointer rounded bg-red-500 px-2 py-1 text-xs text-white"
+			style="display: none"
+			@click="forceResetCursor"
+		>
+			Reset Cursor
+		</button>
 	</div>
 </template>
 
@@ -431,10 +549,20 @@ const handleContextMenu = (e: MouseEvent) => {
 .carousel-track {
 	will-change: transform;
 	touch-action: pan-y pan-x;
+	cursor: grab;
+}
+
+.carousel-track:active {
+	cursor: grabbing;
 }
 
 .carousel-slide {
 	backface-visibility: hidden;
+}
+
+.carousel-link {
+	cursor: pointer;
+	pointer-events: auto;
 }
 
 .pagination-dot {
@@ -446,7 +574,14 @@ const handleContextMenu = (e: MouseEvent) => {
 	outline: 2px solid rgba(255, 255, 255, 0.5);
 	outline-offset: 2px;
 }
-
+.active-slide .carousel-link {
+	pointer-events: auto;
+	cursor: pointer;
+}
+.carousel-slide:not(.active-slide) .carousel-link {
+	pointer-events: none;
+	cursor: default;
+}
 /* Prevent image dragging */
 img {
 	-webkit-user-drag: none;
@@ -454,15 +589,14 @@ img {
 	-moz-user-drag: none;
 	-o-user-drag: none;
 	user-drag: none;
+	pointer-events: none; /* Prevent image from interfering with drag */
 }
-
 /* Smooth transitions for different screen sizes */
 @media (max-width: 768px) {
 	.carousel-track {
 		transition-duration: 600ms;
 	}
 }
-
 /* Loading animation */
 @keyframes spin {
 	to {
@@ -474,16 +608,21 @@ img {
 	animation: spin 1s linear infinite;
 }
 
-/* Custom scrollbar (if needed) */
-.carousel-track::-webkit-scrollbar {
-	display: none;
-}
-
 .carousel-track {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
 
+.carousel-track::-webkit-scrollbar {
+	display: none;
+}
+.carousel-track.grabbing .carousel-link {
+	pointer-events: none;
+	cursor: grabbing;
+}
+.cursor-reset {
+	cursor: default !important;
+}
 /* Cursor states */
 .cursor-grab {
 	cursor: grab;
@@ -491,5 +630,14 @@ img {
 
 .cursor-grabbing {
 	cursor: grabbing;
+}
+
+.pagination-dot {
+	cursor: pointer;
+	will-change: transform, background-color;
+}
+.pagination-dot:focus {
+	outline: 2px solid rgba(255, 255, 255, 0.5);
+	outline-offset: 2px;
 }
 </style>

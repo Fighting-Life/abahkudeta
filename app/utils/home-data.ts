@@ -24,7 +24,7 @@ export const defaultItems: MarqueeItem[] = [
 export const defaultCarouselItems: CarouselItem[] = [
 	{
 		image: "/images/carousels/banner-01.jpg",
-		link: "#",
+		link: "/",
 		alt: "Carousel slide 1",
 		is_external: false,
 	},
@@ -42,7 +42,7 @@ export const defaultCarouselItems: CarouselItem[] = [
 	},
 	{
 		image: "/images/carousels/banner-02.jpg",
-		link: "#",
+		link: "/",
 		alt: "Carousel slide 1",
 		is_external: false,
 	},

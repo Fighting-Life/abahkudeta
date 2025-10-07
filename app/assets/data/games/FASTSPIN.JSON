@@ -1,0 +1,1359 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 3
+			},
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3524
+			}
+		],
+		"provider": 0,
+		"name": "Jungle Quest",
+		"gameCode": "S-JQ01",
+		"gameImage": "S-JQ01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-JQ01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3196
+			}
+		],
+		"provider": 0,
+		"name": "Wild Mafia",
+		"gameCode": "S-WM04",
+		"gameImage": "S-WM04.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-WM04', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 7
+			},
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3850
+			}
+		],
+		"provider": 0,
+		"name": "Candy Super Tumble",
+		"gameCode": "S-CT01",
+		"gameImage": "S-CT01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-CT01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 6
+			},
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3749
+			}
+		],
+		"provider": 0,
+		"name": "Alien Smash",
+		"gameCode": "S-AS01",
+		"gameImage": "S-AS01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-AS01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3433
+			}
+		],
+		"provider": 0,
+		"name": "Blade of Fortune",
+		"gameCode": "S-BF03",
+		"gameImage": "S-BF03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-BF03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6652
+			}
+		],
+		"provider": 0,
+		"name": "The Great Safari ",
+		"gameCode": "S_GS05",
+		"gameImage": "S_GS05.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_GS05', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 38
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6667
+			}
+		],
+		"provider": 0,
+		"name": "Mahjong Princess ",
+		"gameCode": "S_MP03",
+		"gameImage": "S_MP03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MP03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 47
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6676
+			}
+		],
+		"provider": 0,
+		"name": "Royale House",
+		"gameCode": "S_RH02",
+		"gameImage": "S_RH02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_RH02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 14
+			},
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6641
+			}
+		],
+		"provider": 0,
+		"name": "Adventure To The West",
+		"gameCode": "S_AW01",
+		"gameImage": "S_AW01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_AW01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 51
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6680
+			}
+		],
+		"provider": 0,
+		"name": "Ranger Showdown",
+		"gameCode": "S_RS01",
+		"gameImage": "S_RS01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_RS01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6666
+			}
+		],
+		"provider": 0,
+		"name": "The Maya Myth",
+		"gameCode": "S_MM02",
+		"gameImage": "S_MM02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MM02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 42
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6671
+			}
+		],
+		"provider": 0,
+		"name": "Neko Riches",
+		"gameCode": "S_NR01",
+		"gameImage": "S_NR01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_NR01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 5
+			},
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3587
+			}
+		],
+		"provider": 0,
+		"name": "Snake Treasure",
+		"gameCode": "S-ST01",
+		"gameImage": "S-ST01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-ST01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 4
+			},
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3574
+			}
+		],
+		"provider": 0,
+		"name": "Wild Calavera",
+		"gameCode": "S-WC04",
+		"gameImage": "S-WC04.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-WC04', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 8
+			},
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3936
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Jewels I",
+		"gameCode": "S-FJ01",
+		"gameImage": "S-FJ01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-FJ01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 57
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6686
+			}
+		],
+		"provider": 0,
+		"name": "The Nutcrackers",
+		"gameCode": "S_TN01",
+		"gameImage": "S_TN01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_TN01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 48
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6677
+			}
+		],
+		"provider": 0,
+		"name": "Royal Katt",
+		"gameCode": "S_RK02",
+		"gameImage": "S_RK02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_RK02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 61
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6690
+			}
+		],
+		"provider": 0,
+		"name": "Yeti Boom",
+		"gameCode": "S_YB01",
+		"gameImage": "S_YB01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_YB01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6651
+			}
+		],
+		"provider": 0,
+		"name": "Gold Rush Cowboys",
+		"gameCode": "S_GR01",
+		"gameImage": "S_GR01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_GR01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 58
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6687
+			}
+		],
+		"provider": 0,
+		"name": "Tiki Rush ",
+		"gameCode": "S_TR01",
+		"gameImage": "S_TR01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_TR01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 45
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6674
+			}
+		],
+		"provider": 0,
+		"name": "Poker Ways",
+		"gameCode": "S_PW03",
+		"gameImage": "S_PW03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_PW03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 17
+			},
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6644
+			}
+		],
+		"provider": 0,
+		"name": "Caribbean Riches",
+		"gameCode": "S_CR02",
+		"gameImage": "S_CR02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_CR02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6668
+			}
+		],
+		"provider": 0,
+		"name": "Mighty Sevens",
+		"gameCode": "S_MS01",
+		"gameImage": "S_MS01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MS01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 46
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6675
+			}
+		],
+		"provider": 0,
+		"name": "Rich Cai Shen",
+		"gameCode": "S_RC01",
+		"gameImage": "S_RC01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_RC01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 10
+			},
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4191
+			}
+		],
+		"provider": 0,
+		"name": "Guardian of the Museum",
+		"gameCode": "S-GM01",
+		"gameImage": "S-GM01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-GM01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 9
+			},
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4023
+			}
+		],
+		"provider": 0,
+		"name": "Beasts Of Luck",
+		"gameCode": "S-BL01",
+		"gameImage": "S-BL01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S-BL01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 13
+			},
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6640
+			}
+		],
+		"provider": 0,
+		"name": "Apollo Ray of Luck",
+		"gameCode": "S_AR01",
+		"gameImage": "S_AR01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_AR01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 44
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6673
+			}
+		],
+		"provider": 0,
+		"name": "Pai Gow Ways",
+		"gameCode": "S_PG02",
+		"gameImage": "S_PG02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_PG02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6665
+			}
+		],
+		"provider": 0,
+		"name": "Money Empire",
+		"gameCode": "S_ME01",
+		"gameImage": "S_ME01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_ME01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6664
+			}
+		],
+		"provider": 0,
+		"name": "Money Dragon",
+		"gameCode": "S_MD01",
+		"gameImage": "S_MD01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MD01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 60
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6689
+			}
+		],
+		"provider": 0,
+		"name": "Wild Wet Win",
+		"gameCode": "S_WW02",
+		"gameImage": "S_WW02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_WW02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 50
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6679
+			}
+		],
+		"provider": 0,
+		"name": "Nezha",
+		"gameCode": "S_RN01",
+		"gameImage": "S_RN01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_RN01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 19
+			},
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6646
+			}
+		],
+		"provider": 0,
+		"name": "Fiery Lava",
+		"gameCode": "S_FL03",
+		"gameImage": "S_FL03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_FL03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6655
+			}
+		],
+		"provider": 0,
+		"name": "Heavenly Fortunes 2",
+		"gameCode": "S_HF03",
+		"gameImage": "S_HF03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_HF03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6658
+			}
+		],
+		"provider": 0,
+		"name": "Legend Of Eagle",
+		"gameCode": "S_LE04",
+		"gameImage": "S_LE04.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_LE04', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 56
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6685
+			}
+		],
+		"provider": 0,
+		"name": "Triple Happiness",
+		"gameCode": "S_TH01",
+		"gameImage": "S_TH01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_TH01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 55
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6684
+			}
+		],
+		"provider": 0,
+		"name": "Spin and Win",
+		"gameCode": "S_SW01",
+		"gameImage": "S_SW01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_SW01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6653
+			}
+		],
+		"provider": 0,
+		"name": "God Of Wealth",
+		"gameCode": "S_GW02",
+		"gameImage": "S_GW02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_GW02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 20
+			},
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6647
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Lions",
+		"gameCode": "S_FL04",
+		"gameImage": "S_FL04.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_FL04', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6660
+			}
+		],
+		"provider": 0,
+		"name": "Legend of Nian",
+		"gameCode": "S_LN01",
+		"gameImage": "S_LN01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_LN01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 43
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6672
+			}
+		],
+		"provider": 0,
+		"name": "Oceanic Melodies",
+		"gameCode": "S_OM01",
+		"gameImage": "S_OM01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_OM01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 15
+			},
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6642
+			}
+		],
+		"provider": 0,
+		"name": "Pumpkins Go Lucky",
+		"gameCode": "S_BW01",
+		"gameImage": "S_BW01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_BW01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 16
+			},
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6643
+			}
+		],
+		"provider": 0,
+		"name": "City of Jewels",
+		"gameCode": "S_CJ01",
+		"gameImage": "S_CJ01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_CJ01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 40
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6669
+			}
+		],
+		"provider": 0,
+		"name": "Muay Thai Fighter",
+		"gameCode": "S_MT01",
+		"gameImage": "S_MT01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MT01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 54
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6683
+			}
+		],
+		"provider": 0,
+		"name": "Sweet Frenzy",
+		"gameCode": "S_SF02",
+		"gameImage": "S_SF02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_SF02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6650
+			}
+		],
+		"provider": 0,
+		"name": "Ganesha Luck",
+		"gameCode": "S_GL03",
+		"gameImage": "S_GL03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_GL03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6649
+			}
+		],
+		"provider": 0,
+		"name": "Goddess Of Egypt",
+		"gameCode": "S_GE01",
+		"gameImage": "S_GE01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_GE01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 52
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6681
+			}
+		],
+		"provider": 0,
+		"name": "Safari Blitz",
+		"gameCode": "S_SB02",
+		"gameImage": "S_SB02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_SB02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6661
+			}
+		],
+		"provider": 0,
+		"name": "Loki ",
+		"gameCode": "S_LO01",
+		"gameImage": "S_LO01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_LO01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6654
+			}
+		],
+		"provider": 0,
+		"name": "Heavenly Fortunes",
+		"gameCode": "S_HF02",
+		"gameImage": "S_HF02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_HF02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6648
+			}
+		],
+		"provider": 0,
+		"name": "Fruits Mania",
+		"gameCode": "S_FM03",
+		"gameImage": "S_FM03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_FM03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 18
+			},
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6645
+			}
+		],
+		"provider": 0,
+		"name": "Farm Of Fortune",
+		"gameCode": "S_FF02",
+		"gameImage": "S_FF02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_FF02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6663
+			}
+		],
+		"provider": 0,
+		"name": "Mushroom Bandit",
+		"gameCode": "S_MB03",
+		"gameImage": "S_MB03.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MB03', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6662
+			}
+		],
+		"provider": 0,
+		"name": "Mining Bonanza",
+		"gameCode": "S_MB02",
+		"gameImage": "S_MB02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_MB02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 59
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6688
+			}
+		],
+		"provider": 0,
+		"name": "Sexy Vegas",
+		"gameCode": "S_VB01",
+		"gameImage": "S_VB01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_VB01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 53
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6682
+			}
+		],
+		"provider": 0,
+		"name": "Space Conquest",
+		"gameCode": "S_SC01",
+		"gameImage": "S_SC01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_SC01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 41
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6670
+			}
+		],
+		"provider": 0,
+		"name": "Neon Fantasy",
+		"gameCode": "S_NF01",
+		"gameImage": "S_NF01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_NF01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6659
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Fortune",
+		"gameCode": "S_LF02",
+		"gameImage": "S_LF02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_LF02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6656
+			}
+		],
+		"provider": 0,
+		"name": "Honey Trap",
+		"gameCode": "S_HT01",
+		"gameImage": "S_HT01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_HT01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6657
+			}
+		],
+		"provider": 0,
+		"name": "Leprechaun Bonanza",
+		"gameCode": "S_LB02",
+		"gameImage": "S_LB02.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_LB02', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 49
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6678
+			}
+		],
+		"provider": 0,
+		"name": "Roma",
+		"gameCode": "S_RM01",
+		"gameImage": "S_RM01.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FASTSPIN/Desktop/S_RM01', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

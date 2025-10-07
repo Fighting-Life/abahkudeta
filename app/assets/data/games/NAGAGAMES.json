@@ -1,0 +1,1283 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 13
+			}
+		],
+		"provider": 0,
+		"name": "Nomikai Fever",
+		"gameCode": "nomikai-fever",
+		"gameImage": "nomikai-fever.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/nomikai-fever', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 10
+			},
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 28
+			}
+		],
+		"provider": 0,
+		"name": "Lion Dance Fortune",
+		"gameCode": "lion-dance-fortune",
+		"gameImage": "lion-dance-fortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/lion-dance-fortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 63
+			}
+		],
+		"provider": 0,
+		"name": "Legend of the White and Green Snake",
+		"gameCode": "legend-of-the-white-and-green-snake",
+		"gameImage": "legend-of-the-white-and-green-snake.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/legend-of-the-white-and-green-snake', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 18
+			},
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 85
+			}
+		],
+		"provider": 0,
+		"name": "Pawsome Xmas",
+		"gameCode": "pawsome-xmas",
+		"gameImage": "pawsome-xmas.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/pawsome-xmas', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 106
+			}
+		],
+		"provider": 0,
+		"name": "Countdown to Fortune",
+		"gameCode": "countdown-to-fortune",
+		"gameImage": "countdown-to-fortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/countdown-to-fortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 123
+			}
+		],
+		"provider": 0,
+		"name": "Kung Fu Warrior",
+		"gameCode": "kungfu-warrior",
+		"gameImage": "kungfu-warrior.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/kungfu-warrior', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 140
+			}
+		],
+		"provider": 0,
+		"name": "Las Vegas Party",
+		"gameCode": "las-vegas-party",
+		"gameImage": "las-vegas-party.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/las-vegas-party', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 159
+			}
+		],
+		"provider": 0,
+		"name": "Mayan Gold Hunt",
+		"gameCode": "mayan-gold-hunt",
+		"gameImage": "mayan-gold-hunt.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/mayan-gold-hunt', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 176
+			}
+		],
+		"provider": 0,
+		"name": "Steampunk Reloaded",
+		"gameCode": "steampunk",
+		"gameImage": "steampunk.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/steampunk', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 8
+			},
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 193
+			}
+		],
+		"provider": 0,
+		"name": "Surf Monkey",
+		"gameCode": "surf-monkey",
+		"gameImage": "surf-monkey.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/surf-monkey', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 210
+			}
+		],
+		"provider": 0,
+		"name": "Pumpkin Night",
+		"gameCode": "pumpkin-night",
+		"gameImage": "pumpkin-night.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/pumpkin-night', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 227
+			}
+		],
+		"provider": 0,
+		"name": "Bierfest Delight",
+		"gameCode": "bierfest-delight",
+		"gameImage": "bierfest-delight.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/bierfest-delight', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 20
+			},
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 242
+			}
+		],
+		"provider": 0,
+		"name": "Forbidden Island",
+		"gameCode": "forbidden-island",
+		"gameImage": "forbidden-island.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/forbidden-island', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 259
+			}
+		],
+		"provider": 0,
+		"name": "Heavenly Sage",
+		"gameCode": "heavenly-sage",
+		"gameImage": "heavenly-sage.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/heavenly-sage', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 256
+			}
+		],
+		"provider": 0,
+		"name": "Wishes of the Genie",
+		"gameCode": "wishes-of-the-genie",
+		"gameImage": "wishes-of-the-genie.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/wishes-of-the-genie', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 275
+			}
+		],
+		"provider": 0,
+		"name": "Gangster's Paradise",
+		"gameCode": "gangster-paradise",
+		"gameImage": "gangster-paradise.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/gangster-paradise', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 292
+			}
+		],
+		"provider": 0,
+		"name": "Vault of Riches",
+		"gameCode": "vault-of-riches",
+		"gameImage": "vault-of-riches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/vault-of-riches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 313
+			}
+		],
+		"provider": 0,
+		"name": "Golden Hatch",
+		"gameCode": "golden-hatch",
+		"gameImage": "golden-hatch.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/golden-hatch', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 334
+			}
+		],
+		"provider": 0,
+		"name": "Lulu's Enchanted Forest",
+		"gameCode": "lulu-enchanted-forest",
+		"gameImage": "lulu-enchanted-forest.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/lulu-enchanted-forest', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 11
+			},
+			{
+				"name": "Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 352
+			}
+		],
+		"provider": 0,
+		"name": "Mermaid's Treasure",
+		"gameCode": "mermaid",
+		"gameImage": "mermaid.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/mermaid', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 367
+			}
+		],
+		"provider": 0,
+		"name": "Muay Thai Arena",
+		"gameCode": "muay-thai-arena",
+		"gameImage": "muay-thai-arena.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/muay-thai-arena', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 384
+			}
+		],
+		"provider": 0,
+		"name": "TNT Fiesta",
+		"gameCode": "tnt-fiesta",
+		"gameImage": "tnt-fiesta.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/tnt-fiesta', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 400
+			}
+		],
+		"provider": 0,
+		"name": "Viking Valor",
+		"gameCode": "viking-valor",
+		"gameImage": "viking-valor.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/viking-valor', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 419
+			}
+		],
+		"provider": 0,
+		"name": "Mega Wild Safari",
+		"gameCode": "mega-wild-safari",
+		"gameImage": "mega-wild-safari.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/mega-wild-safari', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 435
+			}
+		],
+		"provider": 0,
+		"name": "Gladiators",
+		"gameCode": "gladiators",
+		"gameImage": "gladiators.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/gladiators', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 12
+			},
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 453
+			}
+		],
+		"provider": 0,
+		"name": "Adventures Of Caramelo",
+		"gameCode": "adventures-of-caramelo",
+		"gameImage": "adventures-of-caramelo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/adventures-of-caramelo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 3
+			},
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 469
+			}
+		],
+		"provider": 0,
+		"name": "Wild Fish Hunter",
+		"gameCode": "wild-fish-hunter",
+		"gameImage": "wild-fish-hunter.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/wild-fish-hunter', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 487
+			}
+		],
+		"provider": 0,
+		"name": "Dragon Wonder",
+		"gameCode": "dragon-wonder",
+		"gameImage": "dragon-wonder.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/dragon-wonder', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 4
+			},
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 502
+			}
+		],
+		"provider": 0,
+		"name": "Rave On",
+		"gameCode": "rave-on",
+		"gameImage": "rave-on.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/rave-on', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 519
+			}
+		],
+		"provider": 0,
+		"name": "Empress of the Black Seas",
+		"gameCode": "empress-of-the-black-seas",
+		"gameImage": "empress-of-the-black-seas.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/empress-of-the-black-seas', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 534
+			}
+		],
+		"provider": 0,
+		"name": "Samba Fiesta",
+		"gameCode": "samba-fiesta",
+		"gameImage": "samba-fiesta.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/samba-fiesta', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 553
+			}
+		],
+		"provider": 0,
+		"name": "Gold Seekers",
+		"gameCode": "gold-seekers",
+		"gameImage": "gold-seekers.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/gold-seekers', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 568
+			}
+		],
+		"provider": 0,
+		"name": "Super Phoenix ",
+		"gameCode": "super-phoenix",
+		"gameImage": "super-phoenix.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/super-phoenix', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 587
+			}
+		],
+		"provider": 0,
+		"name": "Taco Truck Delight",
+		"gameCode": "taco-truck-delight",
+		"gameImage": "taco-truck-delight.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/taco-truck-delight', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 602
+			}
+		],
+		"provider": 0,
+		"name": "Legendary El Toro ",
+		"gameCode": "el-toro",
+		"gameImage": "el-toro.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/el-toro', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 5
+			},
+			{
+				"name": "Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 621
+			}
+		],
+		"provider": 0,
+		"name": "Spring Harvest",
+		"gameCode": "spring-harvest",
+		"gameImage": "spring-harvest.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/spring-harvest', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 6
+			},
+			{
+				"name": "Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 635
+			}
+		],
+		"provider": 0,
+		"name": "Mahjong Fortune",
+		"gameCode": "mahjong-fortune",
+		"gameImage": "mahjong-fortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/mahjong-fortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 7
+			},
+			{
+				"name": "Slots",
+				"seqNo": 38
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 653
+			}
+		],
+		"provider": 0,
+		"name": "Wild West Saloon",
+		"gameCode": "playboy-mansion",
+		"gameImage": "playboy-mansion.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/playboy-mansion', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 9
+			},
+			{
+				"name": "Slots",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 667
+			}
+		],
+		"provider": 0,
+		"name": "Mysteries of Pandora",
+		"gameCode": "pandora",
+		"gameImage": "pandora.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/pandora', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 13
+			},
+			{
+				"name": "Slots",
+				"seqNo": 40
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 686
+			}
+		],
+		"provider": 0,
+		"name": "Wrath of Zeus",
+		"gameCode": "wrath-of-zeus",
+		"gameImage": "wrath-of-zeus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/wrath-of-zeus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 14
+			},
+			{
+				"name": "Slots",
+				"seqNo": 41
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 700
+			}
+		],
+		"provider": 0,
+		"name": "Sexy Christmas Sirens",
+		"gameCode": "sexy-christmas",
+		"gameImage": "sexy-christmas.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/sexy-christmas', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 15
+			},
+			{
+				"name": "Slots",
+				"seqNo": 42
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 713
+			}
+		],
+		"provider": 0,
+		"name": "Kawaii Neko",
+		"gameCode": "kawaii-neko",
+		"gameImage": "kawaii-neko.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/kawaii-neko', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 16
+			},
+			{
+				"name": "Slots",
+				"seqNo": 43
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 729
+			}
+		],
+		"provider": 0,
+		"name": "Longevity dragon(Fulong)",
+		"gameCode": "fulong",
+		"gameImage": "fulong.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/fulong', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 17
+			},
+			{
+				"name": "Slots",
+				"seqNo": 44
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 743
+			}
+		],
+		"provider": 0,
+		"name": "Queen of Aztec",
+		"gameCode": "queen-aztec",
+		"gameImage": "queen-aztec.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/queen-aztec', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 19
+			},
+			{
+				"name": "Slots",
+				"seqNo": 45
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 760
+			}
+		],
+		"provider": 0,
+		"name": "Surgary bonanza ",
+		"gameCode": "sugary-bonanza",
+		"gameImage": "sugary-bonanza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/sugary-bonanza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 46
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 775
+			}
+		],
+		"provider": 0,
+		"name": "Mochi Mochi",
+		"gameCode": "mochi-mochi",
+		"gameImage": "mochi-mochi.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/mochi-mochi', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 47
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 792
+			}
+		],
+		"provider": 0,
+		"name": "Gates Of Kunlun",
+		"gameCode": "gates-kunlun",
+		"gameImage": "gates-kunlun.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/gates-kunlun', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 48
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 806
+			}
+		],
+		"provider": 0,
+		"name": "Sakura Neko",
+		"gameCode": "sakura-neko",
+		"gameImage": "sakura-neko.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/sakura-neko', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 49
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 824
+			}
+		],
+		"provider": 0,
+		"name": "God of Fortune",
+		"gameCode": "god-of-fortune",
+		"gameImage": "god-of-fortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/god-of-fortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 50
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 836
+			}
+		],
+		"provider": 0,
+		"name": "Persian Gems",
+		"gameCode": "persian-gems",
+		"gameImage": "persian-gems.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/persian-gems', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 51
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 852
+			}
+		],
+		"provider": 0,
+		"name": "Aphrodite - Goddess of Love",
+		"gameCode": "aphrodite",
+		"gameImage": "aphrodite.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/aphrodite', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 52
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 867
+			}
+		],
+		"provider": 0,
+		"name": "SanGuo - The Brotherhood",
+		"gameCode": "sanguo",
+		"gameImage": "sanguo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/sanguo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 53
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 883
+			}
+		],
+		"provider": 0,
+		"name": "Bikini Babes",
+		"gameCode": "bikini-babes",
+		"gameImage": "bikini-babes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/bikini-babes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 54
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 897
+			}
+		],
+		"provider": 0,
+		"name": "Chasing Leprechaun Coins",
+		"gameCode": "chasing-leprechaun-coins",
+		"gameImage": "chasing-leprechaun-coins.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/chasing-leprechaun-coins', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 55
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 912
+			}
+		],
+		"provider": 0,
+		"name": "Temple of Gods",
+		"gameCode": "temple-of-gods",
+		"gameImage": "temple-of-gods.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/temple-of-gods', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 56
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 925
+			}
+		],
+		"provider": 0,
+		"name": "Stallion Princess",
+		"gameCode": "stallion-gold",
+		"gameImage": "stallion-gold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/stallion-gold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 57
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 941
+			}
+		],
+		"provider": 0,
+		"name": "Amazing Circus",
+		"gameCode": "amazing-circus",
+		"gameImage": "amazing-circus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/NAGAGAMES/Desktop/amazing-circus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

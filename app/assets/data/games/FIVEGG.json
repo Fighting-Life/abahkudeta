@@ -1,0 +1,779 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 5
+			}
+		],
+		"provider": 0,
+		"name": "FORTUNE TRIO",
+		"gameCode": "S5G-H5-99956",
+		"gameImage": "S5G-H5-99956.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99956', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 43
+			}
+		],
+		"provider": 0,
+		"name": "THRONE OF POSEIDON",
+		"gameCode": "S5G-H5-99953",
+		"gameImage": "S5G-H5-99953.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99953', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 53
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN ISLAND",
+		"gameCode": "KYS-H5-99980",
+		"gameImage": "KYS-H5-99980.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99980', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 91
+			}
+		],
+		"provider": 0,
+		"name": "Color Bingo",
+		"gameCode": "S5G-H5-99957",
+		"gameImage": "S5G-H5-99957.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99957', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 100
+			}
+		],
+		"provider": 0,
+		"name": "NEKO TITAN",
+		"gameCode": "S5G-H5-99959",
+		"gameImage": "S5G-H5-99959.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99959', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 128
+			}
+		],
+		"provider": 0,
+		"name": "SUGAR HIGH5",
+		"gameCode": "S5G-H5-99958",
+		"gameImage": "S5G-H5-99958.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99958', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 135
+			}
+		],
+		"provider": 0,
+		"name": "MAHJONG WAYS 3+",
+		"gameCode": "KYS-H5-99996",
+		"gameImage": "KYS-H5-99996.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99996', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 164
+			}
+		],
+		"provider": 0,
+		"name": "MAHJONG WAYS 3",
+		"gameCode": "KYS-H5-99997",
+		"gameImage": "KYS-H5-99997.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99997', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 172
+			}
+		],
+		"provider": 0,
+		"name": "MEGA ACE",
+		"gameCode": "S5G-H5-99943",
+		"gameImage": "S5G-H5-99943.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99943', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 197
+			}
+		],
+		"provider": 0,
+		"name": "Candy Gala",
+		"gameCode": "KYS-H5-99988",
+		"gameImage": "KYS-H5-99988.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99988', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 206
+			}
+		],
+		"provider": 0,
+		"name": "HAMMER OF VULCAN",
+		"gameCode": "KYS-H5-99981",
+		"gameImage": "KYS-H5-99981.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99981', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 231
+			}
+		],
+		"provider": 0,
+		"name": "GEMS MINER",
+		"gameCode": "KYS-H5-99982",
+		"gameImage": "KYS-H5-99982.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99982', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 238
+			}
+		],
+		"provider": 0,
+		"name": "KING'S REALM",
+		"gameCode": "KYS-H5-99983",
+		"gameImage": "KYS-H5-99983.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99983', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 263
+			}
+		],
+		"provider": 0,
+		"name": "GIVE ME FIRE",
+		"gameCode": "KYS-H5-99984",
+		"gameImage": "KYS-H5-99984.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99984', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 271
+			}
+		],
+		"provider": 0,
+		"name": "LUCKY NEKO",
+		"gameCode": "KYS-H5-99985",
+		"gameImage": "KYS-H5-99985.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99985', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 300
+			}
+		],
+		"provider": 0,
+		"name": "OPERA PANDA",
+		"gameCode": "KYS-H5-99986",
+		"gameImage": "KYS-H5-99986.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99986', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 308
+			}
+		],
+		"provider": 0,
+		"name": "TREASURES OF EGYPT",
+		"gameCode": "KYS-H5-99987",
+		"gameImage": "KYS-H5-99987.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99987', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 339
+			}
+		],
+		"provider": 0,
+		"name": "SUPREME ACE",
+		"gameCode": "KYS-H5-99989",
+		"gameImage": "KYS-H5-99989.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99989', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 347
+			}
+		],
+		"provider": 0,
+		"name": "MONEY TREE",
+		"gameCode": "KYS-H5-99990",
+		"gameImage": "KYS-H5-99990.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99990', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 372
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN LEGEND",
+		"gameCode": "KYS-H5-99991",
+		"gameImage": "KYS-H5-99991.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99991', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 380
+			}
+		],
+		"provider": 0,
+		"name": "MASTER OF GOLD MINER 2",
+		"gameCode": "KYS-H5-99992",
+		"gameImage": "KYS-H5-99992.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99992', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 407
+			}
+		],
+		"provider": 0,
+		"name": "MASTER OF GOLD MINER",
+		"gameCode": "KYS-H5-99993",
+		"gameImage": "KYS-H5-99993.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99993', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 415
+			}
+		],
+		"provider": 0,
+		"name": "GOD OF FORTUNE 2",
+		"gameCode": "KYS-H5-99994",
+		"gameImage": "KYS-H5-99994.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99994', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 439
+			}
+		],
+		"provider": 0,
+		"name": "GOD OF FORTUNE",
+		"gameCode": "KYS-H5-99995",
+		"gameImage": "KYS-H5-99995.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99995', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 449
+			}
+		],
+		"provider": 0,
+		"name": "LUCKY TIGER",
+		"gameCode": "KYS-H5-99998",
+		"gameImage": "KYS-H5-99998.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99998', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 474
+			}
+		],
+		"provider": 0,
+		"name": "777",
+		"gameCode": "KYS-H5-99999",
+		"gameImage": "KYS-H5-99999.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/KYS-H5-99999', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 481
+			}
+		],
+		"provider": 0,
+		"name": "DJ SEAL",
+		"gameCode": "S5G-H5-99960",
+		"gameImage": "S5G-H5-99960.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99960', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 507
+			}
+		],
+		"provider": 0,
+		"name": "THE BIG BLUE",
+		"gameCode": "S5G-H5-99961",
+		"gameImage": "S5G-H5-99961.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99961', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 514
+			}
+		],
+		"provider": 0,
+		"name": "KUNG FU LEOPARD",
+		"gameCode": "S5G-H5-99962",
+		"gameImage": "S5G-H5-99962.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99962', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 539
+			}
+		],
+		"provider": 0,
+		"name": "GRIMOIRE",
+		"gameCode": "S5G-H5-99963",
+		"gameImage": "S5G-H5-99963.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99963', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 548
+			}
+		],
+		"provider": 0,
+		"name": "G KONG",
+		"gameCode": "S5G-H5-99964",
+		"gameImage": "S5G-H5-99964.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99964', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 573
+			}
+		],
+		"provider": 0,
+		"name": "BATTLE OF ALLIANCE",
+		"gameCode": "S5G-H5-99965",
+		"gameImage": "S5G-H5-99965.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99965', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 581
+			}
+		],
+		"provider": 0,
+		"name": "PICHU PICHU",
+		"gameCode": "S5G-H5-99966",
+		"gameImage": "S5G-H5-99966.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99966', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 607
+			}
+		],
+		"provider": 0,
+		"name": "CRYPTO VERSE",
+		"gameCode": "S5G-H5-99967",
+		"gameImage": "S5G-H5-99967.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99967', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 608
+			}
+		],
+		"provider": 0,
+		"name": "WILD BOUNTY",
+		"gameCode": "S5G-H5-99947",
+		"gameImage": "S5G-H5-99947.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99947', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 616
+			}
+		],
+		"provider": 0,
+		"name": "THRILLER TOWN",
+		"gameCode": "S5G-H5-99968",
+		"gameImage": "S5G-H5-99968.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99968', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 640
+			}
+		],
+		"provider": 0,
+		"name": "TAUROS GO",
+		"gameCode": "S5G-H5-99969",
+		"gameImage": "S5G-H5-99969.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FIVEGG/Desktop/S5G-H5-99969', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

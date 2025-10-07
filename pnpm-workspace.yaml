@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - '@morev/vue-transitions'
+  - '@parcel/watcher'
+  - esbuild
+  - sharp
+  - unrs-resolver

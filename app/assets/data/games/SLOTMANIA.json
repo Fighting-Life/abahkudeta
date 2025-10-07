@@ -1,0 +1,2354 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 19
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN TRAIN 2",
+		"gameCode": "SLOTMANIA_3008005",
+		"gameImage": "SLOTMANIA_3008005.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3008005', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 99
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 21
+			}
+		],
+		"provider": 0,
+		"name": "RAGE T-REX",
+		"gameCode": "SLOTMANIA_3008004",
+		"gameImage": "SLOTMANIA_3008004.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3008004', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 88
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 70
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN DRAGON EGG",
+		"gameCode": "SLOTMANIA_350000017",
+		"gameImage": "SLOTMANIA_350000017.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000017', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 76
+			}
+		],
+		"provider": 0,
+		"name": "Gems Bonanza",
+		"gameCode": "Slotmania_350000029",
+		"gameImage": "Slotmania_350000029.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_350000029', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 77
+			}
+		],
+		"provider": 0,
+		"name": "Phoenix Link - Collection",
+		"gameCode": "slotmania_350000035",
+		"gameImage": "slotmania_350000035.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_350000035', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 78
+			}
+		],
+		"provider": 0,
+		"name": "Feeding Time",
+		"gameCode": "slotmania_350000036",
+		"gameImage": "slotmania_350000036.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_350000036', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 72
+			}
+		],
+		"provider": 0,
+		"name": "Clucky Cash",
+		"gameCode": "slotmania_330000049",
+		"gameImage": "slotmania_330000049.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000049', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 73
+			}
+		],
+		"provider": 0,
+		"name": "Triple Spin Xtreme",
+		"gameCode": "slotmania_330000050",
+		"gameImage": "slotmania_330000050.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000050', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 74
+			}
+		],
+		"provider": 0,
+		"name": "Wild Wolf Xtreme",
+		"gameCode": "Slotmania_330000051",
+		"gameImage": "Slotmania_330000051.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_330000051', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 75
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Mahjong",
+		"gameCode": "Slotmania_310000036",
+		"gameImage": "Slotmania_310000036.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_310000036', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 114
+			}
+		],
+		"provider": 0,
+		"name": "MAHJONG WINS",
+		"gameCode": "SLOTMANIA_350000018",
+		"gameImage": "SLOTMANIA_350000018.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000018', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 115
+			}
+		],
+		"provider": 0,
+		"name": "Skeleton Thief",
+		"gameCode": "slotmania_310000033",
+		"gameImage": "slotmania_310000033.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_310000033', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 151
+			}
+		],
+		"provider": 0,
+		"name": "BIG BAD WOLF",
+		"gameCode": "SLOTMANIA_350000016",
+		"gameImage": "SLOTMANIA_350000016.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000016', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 111
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 153
+			}
+		],
+		"provider": 0,
+		"name": "FIVE BLESSINGS ARRIVE",
+		"gameCode": "SLOTMANIA_330000025",
+		"gameImage": "SLOTMANIA_330000025.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000025', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 183
+			}
+		],
+		"provider": 0,
+		"name": "Wealth Of Aztec",
+		"gameCode": "slotmania_310000035",
+		"gameImage": "slotmania_310000035.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_310000035', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 186
+			}
+		],
+		"provider": 0,
+		"name": "Fuyu Phoenix",
+		"gameCode": "Slotmania_310000029",
+		"gameImage": "Slotmania_310000029.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_310000029', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 218
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Gold Pots",
+		"gameCode": "Slotmania_350000028",
+		"gameImage": "Slotmania_350000028.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_350000028', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 219
+			}
+		],
+		"provider": 0,
+		"name": "Dancing Golden Drums",
+		"gameCode": "Slotmania_330000046",
+		"gameImage": "Slotmania_330000046.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_330000046', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 249
+			}
+		],
+		"provider": 0,
+		"name": "Bao Zhu Fortune",
+		"gameCode": "Slotmania_330000047",
+		"gameImage": "Slotmania_330000047.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_330000047', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 250
+			}
+		],
+		"provider": 0,
+		"name": "Ore Rush: Cart Collector",
+		"gameCode": "Slotmania_330000048",
+		"gameImage": "Slotmania_330000048.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_330000048', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 283
+			}
+		],
+		"provider": 0,
+		"name": "Buffalo Triple Legend",
+		"gameCode": "Slotmania_350000031",
+		"gameImage": "Slotmania_350000031.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_350000031', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 284
+			}
+		],
+		"provider": 0,
+		"name": "King Kong Treasure",
+		"gameCode": "Slotmania_350000032",
+		"gameImage": "Slotmania_350000032.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_350000032', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 326
+			}
+		],
+		"provider": 0,
+		"name": "Triple Super Gods",
+		"gameCode": "Slotmania_350000034",
+		"gameImage": "Slotmania_350000034.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_350000034', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 328
+			}
+		],
+		"provider": 0,
+		"name": "Buffalo Triple Fury",
+		"gameCode": "slotmania_330000044",
+		"gameImage": "slotmania_330000044.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000044', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 358
+			}
+		],
+		"provider": 0,
+		"name": "Crazy Chicken",
+		"gameCode": "slotmania_350000033",
+		"gameImage": "slotmania_350000033.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_350000033', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 360
+			}
+		],
+		"provider": 0,
+		"name": "Chef Panda",
+		"gameCode": "slotmania_350000025",
+		"gameImage": "slotmania_350000025.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_350000025', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 391
+			}
+		],
+		"provider": 0,
+		"name": "Express Riches",
+		"gameCode": "slotmania_350000023",
+		"gameImage": "slotmania_350000023.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_350000023', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 394
+			}
+		],
+		"provider": 0,
+		"name": "Legend Of The Ring",
+		"gameCode": "Slotmania_350000030",
+		"gameImage": "Slotmania_350000030.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/Slotmania_350000030', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 426
+			}
+		],
+		"provider": 0,
+		"name": "Mummy’s Treasure Quest",
+		"gameCode": "slotmania_330000042",
+		"gameImage": "slotmania_330000042.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000042', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 428
+			}
+		],
+		"provider": 0,
+		"name": "Dragon's Blaze Link",
+		"gameCode": "slotmania_330000041",
+		"gameImage": "slotmania_330000041.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000041', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 460
+			}
+		],
+		"provider": 0,
+		"name": "The Hallowin Bats",
+		"gameCode": "slotmania_330000039",
+		"gameImage": "slotmania_330000039.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000039', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 463
+			}
+		],
+		"provider": 0,
+		"name": "Treasure Train Deluxe",
+		"gameCode": "slotmania_330000034",
+		"gameImage": "slotmania_330000034.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000034', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 493
+			}
+		],
+		"provider": 0,
+		"name": "Gold Rush",
+		"gameCode": "slotmania_330000031",
+		"gameImage": "slotmania_330000031.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/slotmania_330000031', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 496
+			}
+		],
+		"provider": 0,
+		"name": "MAHJONG BONUS",
+		"gameCode": "SLOTMANIA_310000025",
+		"gameImage": "SLOTMANIA_310000025.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000025', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 525
+			}
+		],
+		"provider": 0,
+		"name": "3 COIN FORTUNE",
+		"gameCode": "SLOTMANIA_310000031",
+		"gameImage": "SLOTMANIA_310000031.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000031', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 527
+			}
+		],
+		"provider": 0,
+		"name": "Starlight Princess 2000",
+		"gameCode": "SLOTMANIA_310000032",
+		"gameImage": "SLOTMANIA_310000032.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000032', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 559
+			}
+		],
+		"provider": 0,
+		"name": "SUPER HEROINE",
+		"gameCode": "SLOTMANIA_330000018",
+		"gameImage": "SLOTMANIA_330000018.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000018', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 561
+			}
+		],
+		"provider": 0,
+		"name": "Bingo Meow",
+		"gameCode": "SLOTMANIA_350000019",
+		"gameImage": "SLOTMANIA_350000019.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000019', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 594
+			}
+		],
+		"provider": 0,
+		"name": "AZTEC GLORY",
+		"gameCode": "SLOTMANIA_350000020",
+		"gameImage": "SLOTMANIA_350000020.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000020', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 595
+			}
+		],
+		"provider": 0,
+		"name": "FORTUNE SHEEPY",
+		"gameCode": "SLOTMANIA_350000021",
+		"gameImage": "SLOTMANIA_350000021.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000021', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 628
+			}
+		],
+		"provider": 0,
+		"name": "CANDY CRAZE",
+		"gameCode": "SLOTMANIA_350000022",
+		"gameImage": "SLOTMANIA_350000022.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000022', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 38
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 629
+			}
+		],
+		"provider": 0,
+		"name": "ACE MASTER",
+		"gameCode": "SLOTMANIA_350000024",
+		"gameImage": "SLOTMANIA_350000024.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000024', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 40
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 660
+			}
+		],
+		"provider": 0,
+		"name": "GOLD AROWANA",
+		"gameCode": "SLOTMANIA_3008006",
+		"gameImage": "SLOTMANIA_3008006.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3008006', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 41
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 661
+			}
+		],
+		"provider": 0,
+		"name": "THE HOTTEST CHILI",
+		"gameCode": "SLOTMANIA_310000006",
+		"gameImage": "SLOTMANIA_310000006.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000006', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 42
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 691
+			}
+		],
+		"provider": 0,
+		"name": "BIG MONEY FRENZY",
+		"gameCode": "SLOTMANIA_310000007",
+		"gameImage": "SLOTMANIA_310000007.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000007', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 43
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 692
+			}
+		],
+		"provider": 0,
+		"name": "PIGGIES IN SPACE",
+		"gameCode": "SLOTMANIA_310000008",
+		"gameImage": "SLOTMANIA_310000008.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000008', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 44
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 721
+			}
+		],
+		"provider": 0,
+		"name": "WICKED BELLE",
+		"gameCode": "SLOTMANIA_310000010",
+		"gameImage": "SLOTMANIA_310000010.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000010', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 45
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 722
+			}
+		],
+		"provider": 0,
+		"name": "OIL TYCOON",
+		"gameCode": "SLOTMANIA_310000012",
+		"gameImage": "SLOTMANIA_310000012.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000012', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 46
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 750
+			}
+		],
+		"provider": 0,
+		"name": "BELLE AND ADAM",
+		"gameCode": "SLOTMANIA_310000013",
+		"gameImage": "SLOTMANIA_310000013.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000013', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 47
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 753
+			}
+		],
+		"provider": 0,
+		"name": "JUNGLE KINGDOMS",
+		"gameCode": "SLOTMANIA_310000014",
+		"gameImage": "SLOTMANIA_310000014.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000014', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 48
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 782
+			}
+		],
+		"provider": 0,
+		"name": "AMERICAN TIGER",
+		"gameCode": "SLOTMANIA_310000019",
+		"gameImage": "SLOTMANIA_310000019.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000019', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 49
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 785
+			}
+		],
+		"provider": 0,
+		"name": "HOT FLAVOR CHILI",
+		"gameCode": "SLOTMANIA_310000021",
+		"gameImage": "SLOTMANIA_310000021.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000021', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 50
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 813
+			}
+		],
+		"provider": 0,
+		"name": "LAVA BINGO",
+		"gameCode": "SLOTMANIA_310000022",
+		"gameImage": "SLOTMANIA_310000022.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000022', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 51
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 816
+			}
+		],
+		"provider": 0,
+		"name": "AZTLAN GEMS2",
+		"gameCode": "SLOTMANIA_310000026",
+		"gameImage": "SLOTMANIA_310000026.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000026', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 52
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 843
+			}
+		],
+		"provider": 0,
+		"name": "LIBERTY HEROINER",
+		"gameCode": "SLOTMANIA_330000001",
+		"gameImage": "SLOTMANIA_330000001.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000001', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 53
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 846
+			}
+		],
+		"provider": 0,
+		"name": "ZEUS POWER",
+		"gameCode": "SLOTMANIA_330000003",
+		"gameImage": "SLOTMANIA_330000003.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000003', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 54
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 874
+			}
+		],
+		"provider": 0,
+		"name": "HAMMER OF THUNDER",
+		"gameCode": "SLOTMANIA_330000004",
+		"gameImage": "SLOTMANIA_330000004.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000004', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 55
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 877
+			}
+		],
+		"provider": 0,
+		"name": "WICKED FORTUNE",
+		"gameCode": "SLOTMANIA_330000005",
+		"gameImage": "SLOTMANIA_330000005.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000005', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 56
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 903
+			}
+		],
+		"provider": 0,
+		"name": "THE GREAT FIREFIGHTER",
+		"gameCode": "SLOTMANIA_330000006",
+		"gameImage": "SLOTMANIA_330000006.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000006', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 57
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 905
+			}
+		],
+		"provider": 0,
+		"name": "THE PENGUINS",
+		"gameCode": "SLOTMANIA_330000008",
+		"gameImage": "SLOTMANIA_330000008.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000008', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 58
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 932
+			}
+		],
+		"provider": 0,
+		"name": "THE FLAME CITY",
+		"gameCode": "SLOTMANIA_330000009",
+		"gameImage": "SLOTMANIA_330000009.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000009', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 59
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 934
+			}
+		],
+		"provider": 0,
+		"name": "PENGUIN QUEST",
+		"gameCode": "SLOTMANIA_330000010",
+		"gameImage": "SLOTMANIA_330000010.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000010', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 60
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 961
+			}
+		],
+		"provider": 0,
+		"name": "INFECTED ZONE",
+		"gameCode": "SLOTMANIA_330000012",
+		"gameImage": "SLOTMANIA_330000012.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000012', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 61
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 963
+			}
+		],
+		"provider": 0,
+		"name": "RHINO LEGEND",
+		"gameCode": "SLOTMANIA_330000013",
+		"gameImage": "SLOTMANIA_330000013.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000013', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 62
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 987
+			}
+		],
+		"provider": 0,
+		"name": "BUILDER'S FRENZY",
+		"gameCode": "SLOTMANIA_330000014",
+		"gameImage": "SLOTMANIA_330000014.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000014', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 63
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 990
+			}
+		],
+		"provider": 0,
+		"name": "MASTER CHEF FRENZY",
+		"gameCode": "SLOTMANIA_330000016",
+		"gameImage": "SLOTMANIA_330000016.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000016', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 64
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1014
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN TRAIN DELUXE",
+		"gameCode": "SLOTMANIA_330000017",
+		"gameImage": "SLOTMANIA_330000017.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000017', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 65
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1017
+			}
+		],
+		"provider": 0,
+		"name": "JUNGLE ROAR",
+		"gameCode": "SLOTMANIA_330000019",
+		"gameImage": "SLOTMANIA_330000019.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000019', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 66
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1041
+			}
+		],
+		"provider": 0,
+		"name": "Huffin'and Puffin'Jackpot",
+		"gameCode": "SLOTMANIA_330000020",
+		"gameImage": "SLOTMANIA_330000020.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000020', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 67
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1042
+			}
+		],
+		"provider": 0,
+		"name": "ANGELVSDEVIL SEA DUEL",
+		"gameCode": "SLOTMANIA_330000023",
+		"gameImage": "SLOTMANIA_330000023.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000023', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 68
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1069
+			}
+		],
+		"provider": 0,
+		"name": "THE PUPPIES IN EGYPT",
+		"gameCode": "SLOTMANIA_330000024",
+		"gameImage": "SLOTMANIA_330000024.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000024', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 69
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1070
+			}
+		],
+		"provider": 0,
+		"name": "Pompeil Blaze",
+		"gameCode": "SLOTMANIA_330000027",
+		"gameImage": "SLOTMANIA_330000027.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000027', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 70
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1095
+			}
+		],
+		"provider": 0,
+		"name": "SNAPPY CARNIVAL",
+		"gameCode": "SLOTMANIA_330000029",
+		"gameImage": "SLOTMANIA_330000029.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000029', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 71
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1096
+			}
+		],
+		"provider": 0,
+		"name": "PIGGIES WEALTHY ANGELIC",
+		"gameCode": "SLOTMANIA_330000030",
+		"gameImage": "SLOTMANIA_330000030.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000030', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 72
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1122
+			}
+		],
+		"provider": 0,
+		"name": "MAHJONG FORTUNE",
+		"gameCode": "SLOTMANIA_330000033",
+		"gameImage": "SLOTMANIA_330000033.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000033', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 73
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1124
+			}
+		],
+		"provider": 0,
+		"name": "DEVIL'S BLAZE",
+		"gameCode": "SLOTMANIA_350000001",
+		"gameImage": "SLOTMANIA_350000001.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000001', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 74
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1149
+			}
+		],
+		"provider": 0,
+		"name": "GONG XI FA CAI",
+		"gameCode": "SLOTMANIA_350000002",
+		"gameImage": "SLOTMANIA_350000002.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000002', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 75
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1150
+			}
+		],
+		"provider": 0,
+		"name": "LUCKY BUDDHA",
+		"gameCode": "SLOTMANIA_350000003",
+		"gameImage": "SLOTMANIA_350000003.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000003', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 76
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1175
+			}
+		],
+		"provider": 0,
+		"name": "RICH PIGGIES",
+		"gameCode": "SLOTMANIA_350000004",
+		"gameImage": "SLOTMANIA_350000004.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000004', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 77
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1177
+			}
+		],
+		"provider": 0,
+		"name": "Chunky Charms",
+		"gameCode": "SLOTMANIA_350000005",
+		"gameImage": "SLOTMANIA_350000005.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000005', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 78
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1201
+			}
+		],
+		"provider": 0,
+		"name": "FUWA FA FA",
+		"gameCode": "SLOTMANIA_350000006",
+		"gameImage": "SLOTMANIA_350000006.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000006', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 79
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1202
+			}
+		],
+		"provider": 0,
+		"name": "VEGAS CASH LINK",
+		"gameCode": "SLOTMANIA_350000007",
+		"gameImage": "SLOTMANIA_350000007.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000007', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 80
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1226
+			}
+		],
+		"provider": 0,
+		"name": "CHOO CHOO RICHES",
+		"gameCode": "SLOTMANIA_350000008",
+		"gameImage": "SLOTMANIA_350000008.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000008', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 81
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1227
+			}
+		],
+		"provider": 0,
+		"name": "DONGDONG DRUM",
+		"gameCode": "SLOTMANIA_350000009",
+		"gameImage": "SLOTMANIA_350000009.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000009', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 82
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1250
+			}
+		],
+		"provider": 0,
+		"name": "MUMMY'S CURSE",
+		"gameCode": "SLOTMANIA_350000010",
+		"gameImage": "SLOTMANIA_350000010.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000010', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 83
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1252
+			}
+		],
+		"provider": 0,
+		"name": "TAICHI DRAGON",
+		"gameCode": "SLOTMANIA_350000011",
+		"gameImage": "SLOTMANIA_350000011.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000011', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 84
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1275
+			}
+		],
+		"provider": 0,
+		"name": "TIKI LINK HOLIDAY",
+		"gameCode": "SLOTMANIA_350000012",
+		"gameImage": "SLOTMANIA_350000012.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000012', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 85
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1276
+			}
+		],
+		"provider": 0,
+		"name": "RAPID FIRE BLAST",
+		"gameCode": "SLOTMANIA_350000013",
+		"gameImage": "SLOTMANIA_350000013.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000013', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 86
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1296
+			}
+		],
+		"provider": 0,
+		"name": "CHILI CHILI FIRE",
+		"gameCode": "SLOTMANIA_350000014",
+		"gameImage": "SLOTMANIA_350000014.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000014', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 87
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1299
+			}
+		],
+		"provider": 0,
+		"name": "RICH PIGGIES WORLD",
+		"gameCode": "SLOTMANIA_350000015",
+		"gameImage": "SLOTMANIA_350000015.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_350000015', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 89
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1318
+			}
+		],
+		"provider": 0,
+		"name": "Aztlan Gems",
+		"gameCode": "SLOTMANIA_3000503",
+		"gameImage": "SLOTMANIA_3000503.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000503', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 90
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1320
+			}
+		],
+		"provider": 0,
+		"name": "WILD CRAZY WEST",
+		"gameCode": "SLOTMANIA_3000504",
+		"gameImage": "SLOTMANIA_3000504.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000504', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 91
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1342
+			}
+		],
+		"provider": 0,
+		"name": "Sweet Fever",
+		"gameCode": "SLOTMANIA_3000505",
+		"gameImage": "SLOTMANIA_3000505.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000505', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 92
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1345
+			}
+		],
+		"provider": 0,
+		"name": "POWER OF GATOTKACA",
+		"gameCode": "SLOTMANIA_3000506",
+		"gameImage": "SLOTMANIA_3000506.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000506', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 93
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1365
+			}
+		],
+		"provider": 0,
+		"name": "Valiant of Athena",
+		"gameCode": "SLOTMANIA_3000507",
+		"gameImage": "SLOTMANIA_3000507.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000507', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 94
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1368
+			}
+		],
+		"provider": 0,
+		"name": "Pyramid treasure",
+		"gameCode": "SLOTMANIA_3000508",
+		"gameImage": "SLOTMANIA_3000508.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000508', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 95
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1387
+			}
+		],
+		"provider": 0,
+		"name": "TREASURE OF AZTEC",
+		"gameCode": "SLOTMANIA_3000509",
+		"gameImage": "SLOTMANIA_3000509.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000509', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 96
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1390
+			}
+		],
+		"provider": 0,
+		"name": "RAMPART RHINO",
+		"gameCode": "SLOTMANIA_3000511",
+		"gameImage": "SLOTMANIA_3000511.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3000511', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 97
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1410
+			}
+		],
+		"provider": 0,
+		"name": "LORD OF THE GODS",
+		"gameCode": "SLOTMANIA_3008001",
+		"gameImage": "SLOTMANIA_3008001.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3008001', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 98
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1412
+			}
+		],
+		"provider": 0,
+		"name": "Cocktail City",
+		"gameCode": "SLOTMANIA_3008002",
+		"gameImage": "SLOTMANIA_3008002.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_3008002', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 100
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1435
+			}
+		],
+		"provider": 0,
+		"name": "FORTUNE GOD BLESSING",
+		"gameCode": "SLOTMANIA_310000009",
+		"gameImage": "SLOTMANIA_310000009.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000009', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 101
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1436
+			}
+		],
+		"provider": 0,
+		"name": "THE HOTTEST CHRISTMAS",
+		"gameCode": "SLOTMANIA_310000016",
+		"gameImage": "SLOTMANIA_310000016.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000016', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 102
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1458
+			}
+		],
+		"provider": 0,
+		"name": "CLOVER HEART",
+		"gameCode": "SLOTMANIA_310000017",
+		"gameImage": "SLOTMANIA_310000017.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000017', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 103
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1459
+			}
+		],
+		"provider": 0,
+		"name": "STARLIGHT PRINCESS 3000",
+		"gameCode": "SLOTMANIA_310000018",
+		"gameImage": "SLOTMANIA_310000018.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000018', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 104
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1481
+			}
+		],
+		"provider": 0,
+		"name": "COSMIC PIGGIES",
+		"gameCode": "SLOTMANIA_310000020",
+		"gameImage": "SLOTMANIA_310000020.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000020', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 105
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1482
+			}
+		],
+		"provider": 0,
+		"name": "ZEUS FORCE",
+		"gameCode": "SLOTMANIA_310000024",
+		"gameImage": "SLOTMANIA_310000024.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000024', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 106
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1504
+			}
+		],
+		"provider": 0,
+		"name": "AZTLAN GEMS3",
+		"gameCode": "SLOTMANIA_310000027",
+		"gameImage": "SLOTMANIA_310000027.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_310000027', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 107
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1505
+			}
+		],
+		"provider": 0,
+		"name": "BUFFALO LEGEND",
+		"gameCode": "SLOTMANIA_330000002",
+		"gameImage": "SLOTMANIA_330000002.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000002', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 108
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1525
+			}
+		],
+		"provider": 0,
+		"name": "Super Gold Arowana",
+		"gameCode": "SLOTMANIA_330000015",
+		"gameImage": "SLOTMANIA_330000015.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000015', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 109
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1526
+			}
+		],
+		"provider": 0,
+		"name": "Thor's Hammer",
+		"gameCode": "SLOTMANIA_330000021",
+		"gameImage": "SLOTMANIA_330000021.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000021', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 110
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1548
+			}
+		],
+		"provider": 0,
+		"name": "BOWLS OF FORTUNE",
+		"gameCode": "SLOTMANIA_330000022",
+		"gameImage": "SLOTMANIA_330000022.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000022', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 112
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1549
+			}
+		],
+		"provider": 0,
+		"name": "WICKED RICHES",
+		"gameCode": "SLOTMANIA_330000026",
+		"gameImage": "SLOTMANIA_330000026.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/SLOTMANIA/Desktop/SLOTMANIA_330000026', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

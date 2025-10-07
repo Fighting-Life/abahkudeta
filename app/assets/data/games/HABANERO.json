@@ -1,0 +1,4062 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Top 20",
+				"seqNo": 16
+			},
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": -1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3755
+			}
+		],
+		"provider": 0,
+		"name": "Mystic Shaman",
+		"gameCode": "SGMysticShaman",
+		"gameImage": "SGMysticShaman.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMysticShaman', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3071
+			}
+		],
+		"provider": 0,
+		"name": "Hot Hot Nexus",
+		"gameCode": "SGHotHotNexus",
+		"gameImage": "SGHotHotNexus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHotHotNexus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2811
+			}
+		],
+		"provider": 0,
+		"name": "Nexus Koi Gate",
+		"gameCode": "SGNexusKoiGate",
+		"gameImage": "SGNexusKoiGate.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNexusKoiGate', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3566
+			}
+		],
+		"provider": 0,
+		"name": "Mystic Fortune Nexus",
+		"gameCode": "SGMysticFortuneDeluxeNexus",
+		"gameImage": "SGMysticFortuneDeluxeNexus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMysticFortuneDeluxeNexus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3435
+			}
+		],
+		"provider": 0,
+		"name": "Nexus Wealth Inn",
+		"gameCode": "SGNexusWealthInn",
+		"gameImage": "SGNexusWealthInn.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNexusWealthInn', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 40
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4216
+			}
+		],
+		"provider": 0,
+		"name": "Nexus Knockout Football Rush",
+		"gameCode": "SGKnockoutFootballRushNexus",
+		"gameImage": "SGKnockoutFootballRushNexus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGKnockoutFootballRushNexus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3894
+			}
+		],
+		"provider": 0,
+		"name": "Shamrock Quest",
+		"gameCode": "SGShamrockQuest",
+		"gameImage": "SGShamrockQuest.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGShamrockQuest', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4002
+			}
+		],
+		"provider": 0,
+		"name": "Hyper Hues",
+		"gameCode": "SGHyperHues",
+		"gameImage": "SGHyperHues.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHyperHues', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3986
+			}
+		],
+		"provider": 0,
+		"name": "Japanese Mask",
+		"gameCode": "SGJapaneseMask",
+		"gameImage": "SGJapaneseMask.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJapaneseMask', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3853
+			}
+		],
+		"provider": 0,
+		"name": "Carnival Cove",
+		"gameCode": "SGCarnivalCove",
+		"gameImage": "SGCarnivalCove.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCarnivalCove', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 41
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4236
+			}
+		],
+		"provider": 0,
+		"name": "Baba Yaga",
+		"gameCode": "SGBabaYaga",
+		"gameImage": "SGBabaYaga.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBabaYaga', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 4
+			},
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3062
+			}
+		],
+		"provider": 0,
+		"name": "Koi Gate",
+		"gameCode": "SGTheKoiGate",
+		"gameImage": "SGTheKoiGate.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTheKoiGate', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2952
+			}
+		],
+		"provider": 0,
+		"name": "Hot Hot Fruit",
+		"gameCode": "SGHotHotFruit",
+		"gameImage": "SGHotHotFruit.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHotHotFruit', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3483
+			}
+		],
+		"provider": 0,
+		"name": "Mystic Fortune Deluxe",
+		"gameCode": "SGMysticFortuneDeluxe",
+		"gameImage": "SGMysticFortuneDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMysticFortuneDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 10
+			},
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3543
+			}
+		],
+		"provider": 0,
+		"name": "Wealth Inn",
+		"gameCode": "SGWealthInn",
+		"gameImage": "SGWealthInn.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWealthInn', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2833
+			}
+		],
+		"provider": 0,
+		"name": "Laughing Buddha",
+		"gameCode": "SGLaughingBuddha",
+		"gameImage": "SGLaughingBuddha.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLaughingBuddha', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 19
+			},
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3822
+			}
+		],
+		"provider": 0,
+		"name": "Legendary Beasts",
+		"gameCode": "SGLegendaryBeasts",
+		"gameImage": "SGLegendaryBeasts.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLegendaryBeasts', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 9
+			},
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3486
+			}
+		],
+		"provider": 0,
+		"name": "5 Lucky Lions",
+		"gameCode": "SG5LuckyLions",
+		"gameImage": "SG5LuckyLions.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SG5LuckyLions', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3996
+			}
+		],
+		"provider": 0,
+		"name": "Mummy Hunter",
+		"gameCode": "SGMummyHunter",
+		"gameImage": "SGMummyHunter.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMummyHunter', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3854
+			}
+		],
+		"provider": 0,
+		"name": "Safari Rumble",
+		"gameCode": "SGSafariRumble",
+		"gameImage": "SGSafariRumble.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSafariRumble', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3835
+			}
+		],
+		"provider": 0,
+		"name": "Indiana Wolf",
+		"gameCode": "SGIndianaWolf",
+		"gameImage": "SGIndianaWolf.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGIndianaWolf', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 20
+			},
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3833
+			}
+		],
+		"provider": 0,
+		"name": "Wild Trucks",
+		"gameCode": "SGWildTrucks",
+		"gameImage": "SGWildTrucks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWildTrucks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 15
+			},
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3744
+			}
+		],
+		"provider": 0,
+		"name": "Lantern Luck",
+		"gameCode": "SGLanternLuck",
+		"gameImage": "SGLanternLuck.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLanternLuck', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4138
+			}
+		],
+		"provider": 0,
+		"name": "Gladiator Royal",
+		"gameCode": "SGGladiatorRoyal",
+		"gameImage": "SGGladiatorRoyal.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGladiatorRoyal', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3939
+			}
+		],
+		"provider": 0,
+		"name": "Mystic Rings",
+		"gameCode": "SGMysticRings",
+		"gameImage": "SGMysticRings.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMysticRings', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4112
+			}
+		],
+		"provider": 0,
+		"name": "Daruma Impact",
+		"gameCode": "SGDarumaImpact",
+		"gameImage": "SGDarumaImpact.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDarumaImpact', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 66
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4444
+			}
+		],
+		"provider": 0,
+		"name": "Love And Riches: Eldorado",
+		"gameCode": "SGLoveAndRichesEldorado",
+		"gameImage": "SGLoveAndRichesEldorado.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLoveAndRichesEldorado', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4069
+			}
+		],
+		"provider": 0,
+		"name": "MX Mania",
+		"gameCode": "SGMXMania",
+		"gameImage": "SGMXMania.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMXMania', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 50
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4294
+			}
+		],
+		"provider": 0,
+		"name": "Super Fruit Blast",
+		"gameCode": "SGSuperFruitBlast",
+		"gameImage": "SGSuperFruitBlast.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSuperFruitBlast', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 11
+			},
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3564
+			}
+		],
+		"provider": 0,
+		"name": "Fa Cai Shen",
+		"gameCode": "SGFaCaiShen",
+		"gameImage": "SGFaCaiShen.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFaCaiShen', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3849
+			}
+		],
+		"provider": 0,
+		"name": "Poseidon",
+		"gameCode": "SGPoseidon",
+		"gameImage": "SGPoseidon.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPoseidon', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4015
+			}
+		],
+		"provider": 0,
+		"name": "Jump! 2",
+		"gameCode": "SGJump2",
+		"gameImage": "SGJump2.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJump2', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4130
+			}
+		],
+		"provider": 0,
+		"name": "Haunted Harbor",
+		"gameCode": "SGHauntedHarbor",
+		"gameImage": "SGHauntedHarbor.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHauntedHarbor', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4129
+			}
+		],
+		"provider": 0,
+		"name": "Glory Of Rome",
+		"gameCode": "SGGloryOfRome",
+		"gameImage": "SGGloryOfRome.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGloryOfRome', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3883
+			}
+		],
+		"provider": 0,
+		"name": "Koi Koi Treasure",
+		"gameCode": "SGKoiKoiTreasure",
+		"gameImage": "SGKoiKoiTreasure.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGKoiKoiTreasure', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4549
+			}
+		],
+		"provider": 0,
+		"name": "Christmas Gift Rush",
+		"gameCode": "SGChristmasGiftRush",
+		"gameImage": "SGChristmasGiftRush.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGChristmasGiftRush', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4047
+			}
+		],
+		"provider": 0,
+		"name": "Naughty Santa",
+		"gameCode": "SGNaughtySanta",
+		"gameImage": "SGNaughtySanta.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNaughtySanta', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4092
+			}
+		],
+		"provider": 0,
+		"name": "Happiest Christmas Tree",
+		"gameCode": "SGHappiestChristmasTree",
+		"gameImage": "SGHappiestChristmasTree.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHappiestChristmasTree', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4751
+			}
+		],
+		"provider": 0,
+		"name": "Santa's Inn",
+		"gameCode": "SGSantasInn",
+		"gameImage": "SGSantasInn.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSantasInn', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 14
+			},
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3605
+			}
+		],
+		"provider": 0,
+		"name": "Santa's Village",
+		"gameCode": "SGSantasVillage",
+		"gameImage": "SGSantasVillage.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSantasVillage', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3954
+			}
+		],
+		"provider": 0,
+		"name": "Waltz Beauty",
+		"gameCode": "SGWaltzBeauty",
+		"gameImage": "SGWaltzBeauty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWaltzBeauty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4227
+			}
+		],
+		"provider": 0,
+		"name": "Moo Moo Cow",
+		"gameCode": "SGMooMooCow",
+		"gameImage": "SGMooMooCow.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMooMooCow', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 6
+			},
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3372
+			}
+		],
+		"provider": 0,
+		"name": "Atomic Kittens",
+		"gameCode": "SGAtomicKittens",
+		"gameImage": "SGAtomicKittens.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGAtomicKittens', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3964
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Fortune Cat",
+		"gameCode": "SGLuckyFortuneCat",
+		"gameImage": "SGLuckyFortuneCat.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLuckyFortuneCat', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 94
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4711
+			}
+		],
+		"provider": 0,
+		"name": "Scruffy Scallywags",
+		"gameCode": "SGScruffyScallywags",
+		"gameImage": "SGScruffyScallywags.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGScruffyScallywags', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 76
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4539
+			}
+		],
+		"provider": 0,
+		"name": "Treasure Diver",
+		"gameCode": "SGTreasureDiver",
+		"gameImage": "SGTreasureDiver.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTreasureDiver', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3843
+			}
+		],
+		"provider": 0,
+		"name": "Oceans Call",
+		"gameCode": "SGOceansCall",
+		"gameImage": "SGOceansCall.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGOceansCall', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 113
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4906
+			}
+		],
+		"provider": 0,
+		"name": "The Big Deal",
+		"gameCode": "SGTheBigDeal",
+		"gameImage": "SGTheBigDeal.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTheBigDeal', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 75
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4526
+			}
+		],
+		"provider": 0,
+		"name": "Little Green Money",
+		"gameCode": "SGLittleGreenMoney",
+		"gameImage": "SGLittleGreenMoney.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLittleGreenMoney', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 80
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4599
+			}
+		],
+		"provider": 0,
+		"name": "The Dragon Castle",
+		"gameCode": "SGTheDragonCastle",
+		"gameImage": "SGTheDragonCastle.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTheDragonCastle', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 100
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4797
+			}
+		],
+		"provider": 0,
+		"name": "Arctic Wonders",
+		"gameCode": "SGArcticWonders",
+		"gameImage": "SGArcticWonders.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGArcticWonders', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 86
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4622
+			}
+		],
+		"provider": 0,
+		"name": "Fire Rooster",
+		"gameCode": "SGFireRooster",
+		"gameImage": "SGFireRooster.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFireRooster', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3977
+			}
+		],
+		"provider": 0,
+		"name": "Bird Of Thunder",
+		"gameCode": "SGBirdOfThunder",
+		"gameImage": "SGBirdOfThunder.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBirdOfThunder', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4134
+			}
+		],
+		"provider": 0,
+		"name": "Shaolin Fortunes",
+		"gameCode": "SGShaolinFortunes243",
+		"gameImage": "SGShaolinFortunes243.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGShaolinFortunes243', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 120
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4940
+			}
+		],
+		"provider": 0,
+		"name": "Ways Of Fortune",
+		"gameCode": "SGWaysOfFortune",
+		"gameImage": "SGWaysOfFortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWaysOfFortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 53
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4357
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Dogs",
+		"gameCode": "SGFortuneDogs",
+		"gameImage": "SGFortuneDogs.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFortuneDogs', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 91
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4667
+			}
+		],
+		"provider": 0,
+		"name": "Frontier Fortunes",
+		"gameCode": "SGFrontierFortunes",
+		"gameImage": "SGFrontierFortunes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFrontierFortunes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 130
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6714
+			}
+		],
+		"provider": 0,
+		"name": "Arctic Hunt",
+		"gameCode": "SGArcticHunt",
+		"gameImage": "SGArcticHunt.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGArcticHunt', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 78
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4553
+			}
+		],
+		"provider": 0,
+		"name": "Valentine Monchy",
+		"gameCode": "SGValentineMonchy",
+		"gameImage": "SGValentineMonchy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGValentineMonchy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4434
+			}
+		],
+		"provider": 0,
+		"name": "Meow Janken",
+		"gameCode": "SGMeowJanken",
+		"gameImage": "SGMeowJanken.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMeowJanken', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 46
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4275
+			}
+		],
+		"provider": 0,
+		"name": "Indian Cash Catcher",
+		"gameCode": "SGIndianCashCatcher",
+		"gameImage": "SGIndianCashCatcher.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGIndianCashCatcher', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4016
+			}
+		],
+		"provider": 0,
+		"name": "Legend Of Nezha",
+		"gameCode": "SGLegendOfNezha",
+		"gameImage": "SGLegendOfNezha.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLegendOfNezha', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 129
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6713
+			}
+		],
+		"provider": 0,
+		"name": "All For One",
+		"gameCode": "SGAllForOne",
+		"gameImage": "SGAllForOne.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGAllForOne', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 64
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4436
+			}
+		],
+		"provider": 0,
+		"name": "Scopa",
+		"gameCode": "SGScopa",
+		"gameImage": "SGScopa.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGScopa', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3580
+			}
+		],
+		"provider": 0,
+		"name": "Pumpkin Patch",
+		"gameCode": "SGPumpkinPatch",
+		"gameImage": "SGPumpkinPatch.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPumpkinPatch', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 48
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4290
+			}
+		],
+		"provider": 0,
+		"name": "Wild Flow",
+		"gameCode": "SGWildFlow",
+		"gameImage": "SGWildFlow.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWildFlow', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 55
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4368
+			}
+		],
+		"provider": 0,
+		"name": "Flying High",
+		"gameCode": "SGFlyingHigh",
+		"gameImage": "SGFlyingHigh.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFlyingHigh', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4264
+			}
+		],
+		"provider": 0,
+		"name": "Mighty Medusa",
+		"gameCode": "SGMightyMedusa",
+		"gameImage": "SGMightyMedusa.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMightyMedusa', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 135
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6719
+			}
+		],
+		"provider": 0,
+		"name": "CashReef",
+		"gameCode": "SGCashReef",
+		"gameImage": "SGCashReef.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCashReef', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 101
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4802
+			}
+		],
+		"provider": 0,
+		"name": "Queen Of Queens 2",
+		"gameCode": "SGQueenOfQueens1024",
+		"gameImage": "SGQueenOfQueens1024.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGQueenOfQueens1024', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3926
+			}
+		],
+		"provider": 0,
+		"name": "Tooty Fruity Fruits",
+		"gameCode": "SGTootyFruityFruits",
+		"gameImage": "SGTootyFruityFruits.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTootyFruityFruits', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4186
+			}
+		],
+		"provider": 0,
+		"name": "Hot Hot Summer",
+		"gameCode": "SGHotHotSummer",
+		"gameImage": "SGHotHotSummer.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHotHotSummer', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 72
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4508
+			}
+		],
+		"provider": 0,
+		"name": "Golden Unicorn",
+		"gameCode": "SGGoldenUnicorn",
+		"gameImage": "SGGoldenUnicorn.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGoldenUnicorn', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4057
+			}
+		],
+		"provider": 0,
+		"name": "Taberna De Los Muertos Ultra",
+		"gameCode": "SGTabernaDeLosMuertosUltra",
+		"gameImage": "SGTabernaDeLosMuertosUltra.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTabernaDeLosMuertosUltra', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 58
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4394
+			}
+		],
+		"provider": 0,
+		"name": "Tower Of Pizza",
+		"gameCode": "SGTowerOfPizza",
+		"gameImage": "SGTowerOfPizza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTowerOfPizza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4163
+			}
+		],
+		"provider": 0,
+		"name": "Jump!",
+		"gameCode": "SGJump",
+		"gameImage": "SGJump.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJump', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 139
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6723
+			}
+		],
+		"provider": 0,
+		"name": "Grape Escape",
+		"gameCode": "SGGrapeEscape",
+		"gameImage": "SGGrapeEscape.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGrapeEscape', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4383
+			}
+		],
+		"provider": 0,
+		"name": "Slime Party",
+		"gameCode": "SGSlimeParty",
+		"gameImage": "SGSlimeParty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSlimeParty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 121
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4944
+			}
+		],
+		"provider": 0,
+		"name": "12 Zodiacs",
+		"gameCode": "SG12Zodiacs",
+		"gameImage": "SG12Zodiacs.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SG12Zodiacs', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4200
+			}
+		],
+		"provider": 0,
+		"name": "Taberna De Los Muertos",
+		"gameCode": "SGTabernaDeLosMuertos",
+		"gameImage": "SGTabernaDeLosMuertos.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTabernaDeLosMuertos', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 62
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4414
+			}
+		],
+		"provider": 0,
+		"name": "Nuwa",
+		"gameCode": "SGNuwa",
+		"gameImage": "SGNuwa.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNuwa', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 83
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4614
+			}
+		],
+		"provider": 0,
+		"name": "Ruffled Up",
+		"gameCode": "SGRuffledUp",
+		"gameImage": "SGRuffledUp.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGRuffledUp', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3918
+			}
+		],
+		"provider": 0,
+		"name": "Siren's Spell",
+		"gameCode": "SGSirensSpell",
+		"gameImage": "SGSirensSpell.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSirensSpell', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 137
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6721
+			}
+		],
+		"provider": 0,
+		"name": "Disco Funk",
+		"gameCode": "SGDiscoFunk",
+		"gameImage": "SGDiscoFunk.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDiscoFunk', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4187
+			}
+		],
+		"provider": 0,
+		"name": "Prost!",
+		"gameCode": "SGProst",
+		"gameImage": "SGProst.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGProst', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4754
+			}
+		],
+		"provider": 0,
+		"name": "Orbs Of Atlantis",
+		"gameCode": "SGOrbsOfAtlantis",
+		"gameImage": "SGOrbsOfAtlantis.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGOrbsOfAtlantis', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 90
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4662
+			}
+		],
+		"provider": 0,
+		"name": "Cashosaurus",
+		"gameCode": "SGCashosaurus",
+		"gameImage": "SGCashosaurus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCashosaurus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 65
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4441
+			}
+		],
+		"provider": 0,
+		"name": "Azlangold",
+		"gameCode": "SGAzlandsGold",
+		"gameImage": "SGAzlandsGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGAzlandsGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3925
+			}
+		],
+		"provider": 0,
+		"name": "Soju Bomb",
+		"gameCode": "SGSojuBomb",
+		"gameImage": "SGSojuBomb.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSojuBomb', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4355
+			}
+		],
+		"provider": 0,
+		"name": "Fruity Halloween",
+		"gameCode": "SGFruityHalloween",
+		"gameImage": "SGFruityHalloween.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFruityHalloween', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 88
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4635
+			}
+		],
+		"provider": 0,
+		"name": "King Tuts Tomb",
+		"gameCode": "SGKingTutsTomb",
+		"gameImage": "SGKingTutsTomb.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGKingTutsTomb', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 69
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4481
+			}
+		],
+		"provider": 0,
+		"name": "London Hunter",
+		"gameCode": "SGLondonHunter",
+		"gameImage": "SGLondonHunter.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLondonHunter', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 95
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4723
+			}
+		],
+		"provider": 0,
+		"name": "Gold Rush",
+		"gameCode": "SGGoldRush",
+		"gameImage": "SGGoldRush.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGoldRush', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 151
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6736
+			}
+		],
+		"provider": 0,
+		"name": "Totem Towers",
+		"gameCode": "SGTotemTowers",
+		"gameImage": "SGTotemTowers.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTotemTowers', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3841
+			}
+		],
+		"provider": 0,
+		"name": "Bomb Runner",
+		"gameCode": "SGBombRunner",
+		"gameImage": "SGBombRunner.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBombRunner', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 144
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6728
+			}
+		],
+		"provider": 0,
+		"name": "Pamper Me",
+		"gameCode": "SGPamperMe",
+		"gameImage": "SGPamperMe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPamperMe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4842
+			}
+		],
+		"provider": 0,
+		"name": "Fruity Mayan",
+		"gameCode": "SGFruityMayan",
+		"gameImage": "SGFruityMayan.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFruityMayan', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 117
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4924
+			}
+		],
+		"provider": 0,
+		"name": "Arcane Elements",
+		"gameCode": "SGArcaneElements",
+		"gameImage": "SGArcaneElements.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGArcaneElements', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 89
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4638
+			}
+		],
+		"provider": 0,
+		"name": "Before Time Runs Out",
+		"gameCode": "SGBeforeTimeRunsOut",
+		"gameImage": "SGBeforeTimeRunsOut.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBeforeTimeRunsOut', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 124
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4966
+			}
+		],
+		"provider": 0,
+		"name": "Knockout Football Rush",
+		"gameCode": "SGKnockoutFootballRush",
+		"gameImage": "SGKnockoutFootballRush.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGKnockoutFootballRush', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3897
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Durian",
+		"gameCode": "SGLuckyDurian",
+		"gameImage": "SGLuckyDurian.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLuckyDurian', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4100
+			}
+		],
+		"provider": 0,
+		"name": "The Big Deal Deluxe",
+		"gameCode": "SGTheBigDealDeluxe",
+		"gameImage": "SGTheBigDealDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTheBigDealDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 126
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4971
+			}
+		],
+		"provider": 0,
+		"name": "Shaolin Fortunes 100",
+		"gameCode": "SGShaolinFortunes100",
+		"gameImage": "SGShaolinFortunes100.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGShaolinFortunes100', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 73
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4512
+			}
+		],
+		"provider": 0,
+		"name": "Calaveras Explosivas",
+		"gameCode": "SGCalaverasExplosivas",
+		"gameImage": "SGCalaverasExplosivas.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCalaverasExplosivas', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 111
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4892
+			}
+		],
+		"provider": 0,
+		"name": "Colossal Gems",
+		"gameCode": "SGColossalGems",
+		"gameImage": "SGColossalGems.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGColossalGems', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4344
+			}
+		],
+		"provider": 0,
+		"name": "Vampire's Fate",
+		"gameCode": "SGVampiresFate",
+		"gameImage": "SGVampiresFate.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGVampiresFate', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 67
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4450
+			}
+		],
+		"provider": 0,
+		"name": "Pirates Plunder",
+		"gameCode": "SGPiratesPlunder",
+		"gameImage": "SGPiratesPlunder.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPiratesPlunder', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 107
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4863
+			}
+		],
+		"provider": 0,
+		"name": "Mummy Money",
+		"gameCode": "SGMummyMoney",
+		"gameImage": "SGMummyMoney.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMummyMoney', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 85
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4619
+			}
+		],
+		"provider": 0,
+		"name": "Knockout Football",
+		"gameCode": "SGKnockoutFootball",
+		"gameImage": "SGKnockoutFootball.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGKnockoutFootball', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 59
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4398
+			}
+		],
+		"provider": 0,
+		"name": "Dragons Throne",
+		"gameCode": "SGDragonsThrone",
+		"gameImage": "SGDragonsThrone.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDragonsThrone', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 51
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4312
+			}
+		],
+		"provider": 0,
+		"name": "Dragon Tiger Gate",
+		"gameCode": "SGDragonTigerGate",
+		"gameImage": "SGDragonTigerGate.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDragonTigerGate', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 87
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4624
+			}
+		],
+		"provider": 0,
+		"name": "Zeus",
+		"gameCode": "SGZeus",
+		"gameImage": "SGZeus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGZeus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 112
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4896
+			}
+		],
+		"provider": 0,
+		"name": "Kane's Inferno",
+		"gameCode": "SGKanesInferno",
+		"gameImage": "SGKanesInferno.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGKanesInferno', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 44
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4261
+			}
+		],
+		"provider": 0,
+		"name": "Zeus 2",
+		"gameCode": "SGZeus2",
+		"gameImage": "SGZeus2.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGZeus2', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 52
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4343
+			}
+		],
+		"provider": 0,
+		"name": "Bombs Away",
+		"gameCode": "SGBombsAway",
+		"gameImage": "SGBombsAway.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBombsAway', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 106
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4855
+			}
+		],
+		"provider": 0,
+		"name": "Egyptian Dreams",
+		"gameCode": "SGEgyptianDreams",
+		"gameImage": "SGEgyptianDreams.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGEgyptianDreams', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 47
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4276
+			}
+		],
+		"provider": 0,
+		"name": "Mystic Fortune",
+		"gameCode": "SGMysticFortune",
+		"gameImage": "SGMysticFortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMysticFortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 99
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4788
+			}
+		],
+		"provider": 0,
+		"name": "Presto",
+		"gameCode": "SGPresto",
+		"gameImage": "SGPresto.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPresto', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 143
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6727
+			}
+		],
+		"provider": 0,
+		"name": "Mr Bling",
+		"gameCode": "SGMrBling",
+		"gameImage": "SGMrBling.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMrBling', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4499
+			}
+		],
+		"provider": 0,
+		"name": "Return To The Feature",
+		"gameCode": "SGReturnToTheFeature",
+		"gameImage": "SGReturnToTheFeature.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGReturnToTheFeature', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 140
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6724
+			}
+		],
+		"provider": 0,
+		"name": "JellyFish Flow",
+		"gameCode": "SGJellyFishFlow",
+		"gameImage": "SGJellyFishFlow.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJellyFishFlow', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 60
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4401
+			}
+		],
+		"provider": 0,
+		"name": "Disco Beats",
+		"gameCode": "SGDiscoBeats",
+		"gameImage": "SGDiscoBeats.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDiscoBeats', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 131
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6715
+			}
+		],
+		"provider": 0,
+		"name": "Bikini Island",
+		"gameCode": "SGBikiniIsland",
+		"gameImage": "SGBikiniIsland.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBikiniIsland', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 77
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4548
+			}
+		],
+		"provider": 0,
+		"name": "Pool Shark",
+		"gameCode": "SGPoolShark",
+		"gameImage": "SGPoolShark.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPoolShark', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3863
+			}
+		],
+		"provider": 0,
+		"name": "Tuk Tuk Thailand",
+		"gameCode": "SGTukTukThailand",
+		"gameImage": "SGTukTukThailand.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTukTukThailand', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 138
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6722
+			}
+		],
+		"provider": 0,
+		"name": "Double O Dollars",
+		"gameCode": "SGDoubleODollars",
+		"gameImage": "SGDoubleODollars.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDoubleODollars', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 102
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4806
+			}
+		],
+		"provider": 0,
+		"name": "Skys The Limit",
+		"gameCode": "SGSkysTheLimit",
+		"gameImage": "SGSkysTheLimit.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSkysTheLimit', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 68
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4478
+			}
+		],
+		"provider": 0,
+		"name": "Shoguns Land",
+		"gameCode": "SGShogunsLand",
+		"gameImage": "SGShogunsLand.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGShogunsLand', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 18
+			},
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3807
+			}
+		],
+		"provider": 0,
+		"name": "Nine Tails",
+		"gameCode": "SGNineTails",
+		"gameImage": "SGNineTails.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNineTails', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 49
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4293
+			}
+		],
+		"provider": 0,
+		"name": "Wizards Want War!",
+		"gameCode": "SGWizardsWantWar",
+		"gameImage": "SGWizardsWantWar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWizardsWantWar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 103
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4817
+			}
+		],
+		"provider": 0,
+		"name": "Space Goonz",
+		"gameCode": "SGSpaceGoonz",
+		"gameImage": "SGSpaceGoonz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSpaceGoonz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 81
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4604
+			}
+		],
+		"provider": 0,
+		"name": "Queen Of Queens",
+		"gameCode": "SGQueenOfQueens243",
+		"gameImage": "SGQueenOfQueens243.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGQueenOfQueens243', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 127
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4976
+			}
+		],
+		"provider": 0,
+		"name": "Roman Empire",
+		"gameCode": "SGRomanEmpire",
+		"gameImage": "SGRomanEmpire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGRomanEmpire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 38
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4199
+			}
+		],
+		"provider": 0,
+		"name": "Hey Sushi",
+		"gameCode": "SGHeySushi",
+		"gameImage": "SGHeySushi.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHeySushi', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 114
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4909
+			}
+		],
+		"provider": 0,
+		"name": "Fly",
+		"gameCode": "SGFly",
+		"gameImage": "SGFly.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFly', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 5001
+			}
+		],
+		"provider": 0,
+		"name": "Bikini Island Deluxe",
+		"gameCode": "SGBikiniIslandDeluxe",
+		"gameImage": "SGBikiniIslandDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBikiniIslandDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 145
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6729
+			}
+		],
+		"provider": 0,
+		"name": "Pucker Up Prince",
+		"gameCode": "SGPuckerUpPrince",
+		"gameImage": "SGPuckerUpPrince.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPuckerUpPrince', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 133
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6717
+			}
+		],
+		"provider": 0,
+		"name": "Buggy Bonus",
+		"gameCode": "SGBuggyBonus",
+		"gameImage": "SGBuggyBonus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBuggyBonus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 141
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6725
+			}
+		],
+		"provider": 0,
+		"name": "Jungle Rumble",
+		"gameCode": "SGJungleRumble",
+		"gameImage": "SGJungleRumble.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJungleRumble', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 57
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4390
+			}
+		],
+		"provider": 0,
+		"name": "Panda Panda",
+		"gameCode": "SGPandaPanda",
+		"gameImage": "SGPandaPanda.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGPandaPanda', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 96
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4724
+			}
+		],
+		"provider": 0,
+		"name": "Wicked Witch",
+		"gameCode": "SGWickedWitch",
+		"gameImage": "SGWickedWitch.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWickedWitch', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 142
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6726
+			}
+		],
+		"provider": 0,
+		"name": "Loony Blox",
+		"gameCode": "SGLoonyBlox",
+		"gameImage": "SGLoonyBlox.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLoonyBlox', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 43
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4240
+			}
+		],
+		"provider": 0,
+		"name": "Mount Mazuma",
+		"gameCode": "SGMountMazuma",
+		"gameImage": "SGMountMazuma.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMountMazuma', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 54
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4361
+			}
+		],
+		"provider": 0,
+		"name": "SOS",
+		"gameCode": "SGSOS",
+		"gameImage": "SGSOS.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSOS', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 108
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4866
+			}
+		],
+		"provider": 0,
+		"name": "Happy Ape",
+		"gameCode": "SGHappyApe",
+		"gameImage": "SGHappyApe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHappyApe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 109
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4871
+			}
+		],
+		"provider": 0,
+		"name": "Weird Science",
+		"gameCode": "SGWeirdScience",
+		"gameImage": "SGWeirdScience.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWeirdScience', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4309
+			}
+		],
+		"provider": 0,
+		"name": "Zeus Deluxe",
+		"gameCode": "SGZeusDeluxe",
+		"gameImage": "SGZeusDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGZeusDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4531
+			}
+		],
+		"provider": 0,
+		"name": "Crystopia",
+		"gameCode": "SGCrystopia",
+		"gameImage": "SGCrystopia.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCrystopia', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 132
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6716
+			}
+		],
+		"provider": 0,
+		"name": "Blackbeards Bounty",
+		"gameCode": "SGBlackbeardsBounty",
+		"gameImage": "SGBlackbeardsBounty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBlackbeardsBounty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 56
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4388
+			}
+		],
+		"provider": 0,
+		"name": "Candy Tower",
+		"gameCode": "SGCandyTower",
+		"gameImage": "SGCandyTower.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCandyTower', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 150
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6734
+			}
+		],
+		"provider": 0,
+		"name": "Super Strike",
+		"gameCode": "SGSuperStrike",
+		"gameImage": "SGSuperStrike.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSuperStrike', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 98
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4766
+			}
+		],
+		"provider": 0,
+		"name": "Gangsters",
+		"gameCode": "SGGangsters",
+		"gameImage": "SGGangsters.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGangsters', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 63
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4424
+			}
+		],
+		"provider": 0,
+		"name": "Naughty Wukong",
+		"gameCode": "SGNaughtyWukong",
+		"gameImage": "SGNaughtyWukong.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNaughtyWukong', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 153
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6738
+			}
+		],
+		"provider": 0,
+		"name": "Treasure Tomb",
+		"gameCode": "SGTreasureTomb",
+		"gameImage": "SGTreasureTomb.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTreasureTomb', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 70
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4484
+			}
+		],
+		"provider": 0,
+		"name": "Barnstormer Bucks",
+		"gameCode": "SGBarnstormerBucks",
+		"gameImage": "SGBarnstormerBucks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGBarnstormerBucks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4036
+			}
+		],
+		"provider": 0,
+		"name": "Hot Hot Halloween",
+		"gameCode": "SGHotHotHalloween",
+		"gameImage": "SGHotHotHalloween.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHotHotHalloween', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 110
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4877
+			}
+		],
+		"provider": 0,
+		"name": "Fenghuang",
+		"gameCode": "SGFenghuang",
+		"gameImage": "SGFenghuang.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFenghuang', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 128
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6712
+			}
+		],
+		"provider": 0,
+		"name": "5 Mariachis",
+		"gameCode": "SG5Mariachis",
+		"gameImage": "SG5Mariachis.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SG5Mariachis', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 116
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4912
+			}
+		],
+		"provider": 0,
+		"name": "The Dead Escape",
+		"gameCode": "SGTheDeadEscape",
+		"gameImage": "SGTheDeadEscape.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTheDeadEscape', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4189
+			}
+		],
+		"provider": 0,
+		"name": "Rainbowmania",
+		"gameCode": "SGRainbowmania",
+		"gameImage": "SGRainbowmania.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGRainbowmania', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 148
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6732
+			}
+		],
+		"provider": 0,
+		"name": "Sir Blingalot",
+		"gameCode": "SGSirBlingalot",
+		"gameImage": "SGSirBlingalot.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSirBlingalot', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3873
+			}
+		],
+		"provider": 0,
+		"name": "Four Divine Beasts",
+		"gameCode": "SGFourDivineBeasts",
+		"gameImage": "SGFourDivineBeasts.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFourDivineBeasts', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Game",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 17
+			},
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3761
+			}
+		],
+		"provider": 0,
+		"name": "Golden Unicorn Deluxe",
+		"gameCode": "SGGoldenUnicornDeluxe",
+		"gameImage": "SGGoldenUnicornDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGoldenUnicornDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 42
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4239
+			}
+		],
+		"provider": 0,
+		"name": "Taiko Beats",
+		"gameCode": "SGTaikoBeats",
+		"gameImage": "SGTaikoBeats.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTaikoBeats', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 134
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6718
+			}
+		],
+		"provider": 0,
+		"name": "Cake Valley",
+		"gameCode": "SGCakeValley",
+		"gameImage": "SGCakeValley.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCakeValley', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 136
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6720
+			}
+		],
+		"provider": 0,
+		"name": "Coyote Crash",
+		"gameCode": "SGCoyoteCrash",
+		"gameImage": "SGCoyoteCrash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCoyoteCrash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 104
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4823
+			}
+		],
+		"provider": 0,
+		"name": "Ride Em Cowboy",
+		"gameCode": "SGRideEmCowboy",
+		"gameImage": "SGRideEmCowboy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGRideEmCowboy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 105
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4844
+			}
+		],
+		"provider": 0,
+		"name": "JellyFish Flow Ultra",
+		"gameCode": "SGJellyFishFlowUltra",
+		"gameImage": "SGJellyFishFlowUltra.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJellyFishFlowUltra', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 122
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4946
+			}
+		],
+		"provider": 0,
+		"name": "Jugglenaut",
+		"gameCode": "SGJugglenaut",
+		"gameImage": "SGJugglenaut.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGJugglenaut', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Bonus Buy Game",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4302
+			}
+		],
+		"provider": 0,
+		"name": "Witches Tome",
+		"gameCode": "SGWitchesTome",
+		"gameImage": "SGWitchesTome.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGWitchesTome', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3953
+			}
+		],
+		"provider": 0,
+		"name": "Fa Cai Shen Deluxe",
+		"gameCode": "SGFaCaiShenDeluxe",
+		"gameImage": "SGFaCaiShenDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGFaCaiShenDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 115
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4910
+			}
+		],
+		"provider": 0,
+		"name": "Marvelous Furlongs",
+		"gameCode": "SGMarvelousFurlongs",
+		"gameImage": "SGMarvelousFurlongs.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMarvelousFurlongs', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 92
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4679
+			}
+		],
+		"provider": 0,
+		"name": "Glam Rock",
+		"gameCode": "SGGlamRock",
+		"gameImage": "SGGlamRock.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGlamRock', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 125
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4970
+			}
+		],
+		"provider": 0,
+		"name": "Dr Feelgood",
+		"gameCode": "SGDrFeelgood",
+		"gameImage": "SGDrFeelgood.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDrFeelgood', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 147
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6731
+			}
+		],
+		"provider": 0,
+		"name": "Rolling Roger",
+		"gameCode": "SGRollingRoger",
+		"gameImage": "SGRollingRoger.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGRollingRoger', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 79
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4567
+			}
+		],
+		"provider": 0,
+		"name": "Golden Taj Mahal",
+		"gameCode": "SGGoldenTajMahal",
+		"gameImage": "SGGoldenTajMahal.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGoldenTajMahal', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 152
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6737
+			}
+		],
+		"provider": 0,
+		"name": "Totem Warrior",
+		"gameCode": "SGTotemWarrior",
+		"gameImage": "SGTotemWarrior.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTotemWarrior', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 146
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6730
+			}
+		],
+		"provider": 0,
+		"name": "Rodeo Drive",
+		"gameCode": "SGRodeoDrive",
+		"gameImage": "SGRodeoDrive.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGRodeoDrive', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 149
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6733
+			}
+		],
+		"provider": 0,
+		"name": "Space Fortune",
+		"gameCode": "SGSpaceFortune",
+		"gameImage": "SGSpaceFortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSpaceFortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4273
+			}
+		],
+		"provider": 0,
+		"name": "Egyptian Dreams Deluxe",
+		"gameCode": "SGEgyptianDreamsDeluxe",
+		"gameImage": "SGEgyptianDreamsDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGEgyptianDreamsDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 93
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4701
+			}
+		],
+		"provider": 0,
+		"name": "Sparta",
+		"gameCode": "SGSparta",
+		"gameImage": "SGSparta.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSparta', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 118
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4925
+			}
+		],
+		"provider": 0,
+		"name": "Galactic Cash",
+		"gameCode": "SGGalacticCash",
+		"gameImage": "SGGalacticCash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGGalacticCash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 123
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4959
+			}
+		],
+		"provider": 0,
+		"name": "Haunted House",
+		"gameCode": "SGHauntedHouse",
+		"gameImage": "SGHauntedHouse.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHauntedHouse', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 61
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4404
+			}
+		],
+		"provider": 0,
+		"name": "New Years Bash",
+		"gameCode": "SGNewYearsBash",
+		"gameImage": "SGNewYearsBash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNewYearsBash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 97
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4762
+			}
+		],
+		"provider": 0,
+		"name": "Monster Mash Cash",
+		"gameCode": "SGMonsterMashCash",
+		"gameImage": "SGMonsterMashCash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMonsterMashCash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3963
+			}
+		],
+		"provider": 0,
+		"name": "Techno Tumble",
+		"gameCode": "SGTechnoTumble",
+		"gameImage": "SGTechnoTumble.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGTechnoTumble', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 119
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4926
+			}
+		],
+		"provider": 0,
+		"name": "Magic Oak",
+		"gameCode": "SGMagicOak",
+		"gameImage": "SGMagicOak.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGMagicOak', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 71
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4491
+			}
+		],
+		"provider": 0,
+		"name": "Super Twister",
+		"gameCode": "SGSuperTwister",
+		"gameImage": "SGSuperTwister.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGSuperTwister', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 74
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4519
+			}
+		],
+		"provider": 0,
+		"name": "Vikings Plunder",
+		"gameCode": "SGVikingsPlunder",
+		"gameImage": "SGVikingsPlunder.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGVikingsPlunder', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 84
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4616
+			}
+		],
+		"provider": 0,
+		"name": "Dragons Realm",
+		"gameCode": "SGDragonsRealm",
+		"gameImage": "SGDragonsRealm.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGDragonsRealm', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 45
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4265
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Lucky",
+		"gameCode": "SGLuckyLucky",
+		"gameImage": "SGLuckyLucky.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGLuckyLucky', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 82
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4607
+			}
+		],
+		"provider": 0,
+		"name": "Carnival Cash",
+		"gameCode": "SGCarnivalCash",
+		"gameImage": "SGCarnivalCash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGCarnivalCash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

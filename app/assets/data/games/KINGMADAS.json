@@ -1,0 +1,413 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 9
+			}
+		],
+		"provider": 0,
+		"name": "Cupid Archery",
+		"gameCode": "Cupid_Archery",
+		"gameImage": "Cupid_Archery.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Cupid_Archery', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 10
+			}
+		],
+		"provider": 0,
+		"name": "Hippo Splash",
+		"gameCode": "hippo_Splash",
+		"gameImage": "hippo_Splash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/hippo_Splash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 11
+			}
+		],
+		"provider": 0,
+		"name": "Rome Gladiator",
+		"gameCode": "Rome_Gladiator",
+		"gameImage": "Rome_Gladiator.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Rome_Gladiator', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 30
+			}
+		],
+		"provider": 0,
+		"name": "Rooster Blitz",
+		"gameCode": "Rooster_Blitz",
+		"gameImage": "Rooster_Blitz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Rooster_Blitz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 39
+			}
+		],
+		"provider": 0,
+		"name": "Warriors Temple",
+		"gameCode": "Warriors_Temple",
+		"gameImage": "Warriors_Temple.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Warriors_Temple', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 31
+			}
+		],
+		"provider": 0,
+		"name": "Horus Glory",
+		"gameCode": "Horus_Glory",
+		"gameImage": "Horus_Glory.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Horus_Glory', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 32
+			}
+		],
+		"provider": 0,
+		"name": "Leppy's Loot",
+		"gameCode": "Leppys_Loot",
+		"gameImage": "Leppys_Loot.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Leppys_Loot', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 33
+			}
+		],
+		"provider": 0,
+		"name": "London Mystery",
+		"gameCode": "London_Mystery",
+		"gameImage": "London_Mystery.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/London_Mystery', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 34
+			}
+		],
+		"provider": 0,
+		"name": "Merlin's Saga",
+		"gameCode": "Merlins_Saga",
+		"gameImage": "Merlins_Saga.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Merlins_Saga', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 35
+			}
+		],
+		"provider": 0,
+		"name": "Piggy Heist",
+		"gameCode": "Piggy_Heist",
+		"gameImage": "Piggy_Heist.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Piggy_Heist', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 36
+			}
+		],
+		"provider": 0,
+		"name": "Gold Mine",
+		"gameCode": "Gold_Mine",
+		"gameImage": "Gold_Mine.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Gold_Mine', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 37
+			}
+		],
+		"provider": 0,
+		"name": "Gold Rush Bonanza",
+		"gameCode": "Gold_Rush_Bonanza",
+		"gameImage": "Gold_Rush_Bonanza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Gold_Rush_Bonanza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 38
+			}
+		],
+		"provider": 0,
+		"name": "Almighty Greek",
+		"gameCode": "Almighty_Greek",
+		"gameImage": "Almighty_Greek.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Almighty_Greek', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 57
+			}
+		],
+		"provider": 0,
+		"name": "Cleopatra's Treasure",
+		"gameCode": "Cleopatras_Treasure",
+		"gameImage": "Cleopatras_Treasure.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Cleopatras_Treasure', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 58
+			}
+		],
+		"provider": 0,
+		"name": "Gems of Valhalla",
+		"gameCode": "Gems_of_Valhalla",
+		"gameImage": "Gems_of_Valhalla.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Gems_of_Valhalla', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 59
+			}
+		],
+		"provider": 0,
+		"name": "Sugar Blast",
+		"gameCode": "Sugar_Blast",
+		"gameImage": "Sugar_Blast.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Sugar_Blast', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 60
+			}
+		],
+		"provider": 0,
+		"name": "Sugar Blast Frenzy",
+		"gameCode": "Sugar_Blast_Frenzy",
+		"gameImage": "Sugar_Blast_Frenzy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Sugar_Blast_Frenzy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 293
+			}
+		],
+		"provider": 0,
+		"name": "Dear Senpai",
+		"gameCode": "Dear_Senpai",
+		"gameImage": "Dear_Senpai.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Dear_Senpai', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 294
+			}
+		],
+		"provider": 0,
+		"name": "Salsa Fury",
+		"gameCode": "Salsa_Fury",
+		"gameImage": "Salsa_Fury.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/KINGMIDAS/Desktop/Salsa_Fury', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

@@ -1,0 +1,260 @@
+[
+	{
+		"id": 1,
+		"name": "Pragmatic Play",
+		"logo": "/images/partners/game-code-7.webp",
+		"url": "/slots/pragmatic"
+	},
+	{
+		"id": 2,
+		"name": "PG Soft",
+		"logo": "/images/partners/game-code-9.webp",
+		"url": "/slots/pgsoft"
+	},
+	{
+		"id": 3,
+		"name": "Slot88",
+		"logo": "/images/partners/game-code-40.webp",
+		"url": "/slots/slot88"
+	},
+	{
+		"id": 4,
+		"name": "Hacksaw Gaming",
+		"logo": "/images/partners/game-code-98.webp",
+		"url": "/slots/hacksaw"
+	},
+	{
+		"id": 5,
+		"name": "Fat Panda",
+		"logo": "/images/partners/game-code-112.webp",
+		"url": "/slots/fat-panda"
+	},
+	{
+		"id": 6,
+		"name": "Nolimit City",
+		"logo": "/images/partners/game-code-92.webp",
+		"url": "/slots/no-limit-city"
+	},
+	{
+		"id": 7,
+		"name": "JILI",
+		"url": "/slots/jili",
+		"logo": "/images/partners/game-code-70.webp"
+	},
+	{
+		"id": 8,
+		"name": "Habanero",
+		"url": "/slots/habanero",
+		"logo": "/images/partners/game-code-16.webp"
+	},
+	{
+		"id": 9,
+		"name": "Microgaming",
+		"url": "/slots/microgaming",
+		"logo": "/images/partners/game-code-17.webp"
+	},
+	{
+		"id": 10,
+		"name": "5G Games",
+		"url": "/slots/fivegg",
+		"logo": "/images/partners/game-code-114.webp"
+	},
+	{
+		"id": 11,
+		"name": "Playtech",
+		"url": "/slots/playtech",
+		"logo": "/images/partners/game-code-2.webp"
+	},
+	{
+		"id": 12,
+		"name": "Spade Gaming",
+		"url": "/slots/spade-gaming",
+		"logo": "/images/partners/game-code-29.webp"
+	},
+	{
+		"id": 13,
+		"name": "King Midas",
+		"url": "/slots/king-midas",
+		"logo": "/images/partners/game-code-116.webp"
+	},
+	{
+		"id": 14,
+		"name": "Fast Spin",
+		"url": "/slots/fast-spin",
+		"logo": "/images/partners/game-code-110.webp"
+	},
+	{
+		"id": 15,
+		"name": "V Plus",
+		"url": "/slots/vplus",
+		"logo": "/images/partners/game-code-115.webp"
+	},
+	{
+		"id": 16,
+		"name": "Joker",
+		"url": "/slots/joker",
+		"logo": "/images/partners/game-code-6.webp"
+	},
+	{
+		"id": 17,
+		"name": "FA Chai",
+		"url": "/slots/fachai",
+		"logo": "/images/partners/game-code-72.webp"
+	},
+	{
+		"id": 18,
+		"name": "Advant Play",
+		"url": "/slots/advantplay",
+		"logo": "/images/partners/game-code-54.webp"
+	},
+	{
+		"id": 19,
+		"name": "Smartsoft Gaming",
+		"url": "/slots/smartsoft",
+		"logo": "/images/partners/game-code-108.webp"
+	},
+	{
+		"id": 20,
+		"name": "Naga Games",
+		"url": "/slots/naga-games",
+		"logo": "/images/partners/game-code-87.webp"
+	},
+	{
+		"id": 21,
+		"name": "JDB",
+		"url": "/slots/jdb",
+		"logo": "/images/partners/game-code-51.webp"
+	},
+	{
+		"id": 22,
+		"name": "Play Star",
+		"url": "/slots/playstar",
+		"logo": "/images/partners/game-code-65.webp"
+	},
+	{
+		"id": 23,
+		"name": "SpinX",
+		"url": "/slots/spinix",
+		"logo": "/images/partners/game-code-91.webp"
+	},
+	{
+		"id": 24,
+		"name": "Crowd Play",
+		"url": "/slots/crowd-play",
+		"logo": "/images/partners/game-code-73.webp"
+	},
+	{
+		"id": 25,
+		"name": "Ion Slot",
+		"url": "/slots/ion-slot",
+		"logo": "/images/partners/game-code-50.webp"
+	},
+	{
+		"id": 26,
+		"name": "Bigpot Gaming",
+		"url": "/slots/bigpot",
+		"logo": "/images/partners/game-code-75.webp"
+	},
+	{
+		"id": 27,
+		"name": "KA Gaming",
+		"url": "/slots/vpower",
+		"logo": "/images/partners/game-code-77.webp"
+	},
+	{
+		"id": 28,
+		"name": "Askmebet",
+		"url": "/slots/amb-slot",
+		"logo": "/images/partners/game-code-61.webp"
+	},
+	{
+		"id": 29,
+		"name": "WorldMatch",
+		"url": "/slots/worldmatch",
+		"logo": "/images/partners/game-code-89.webp"
+	},
+	{
+		"id": 30,
+		"name": "Octoplay",
+		"url": "/slots/octoplay",
+		"logo": "/images/partners/game-code-109.webp"
+	},
+	{
+		"id": 31,
+		"name": "Mario Club",
+		"url": "/slots/mario-club",
+		"logo": "/images/partners/game-code-80.webp"
+	},
+	{
+		"id": 32,
+		"name": "Dragoon Soft",
+		"url": "/slots/dragoonsoft",
+		"logo": "/images/partners/game-code-81.webp"
+	},
+	{
+		"id": 33,
+		"name": "FG Games",
+		"url": "/slots/fun-gaming",
+		"logo": "/images/partners/game-code-79.webp"
+	},
+	{
+		"id": 34,
+		"name": "Funky Games",
+		"url": "/slots/funky-games",
+		"logo": "/images/partners/game-code-35.webp"
+	},
+	{
+		"id": 35,
+		"name": "Live22",
+		"url": "/slots/live22",
+		"logo": "/images/partners/game-code-45.webp"
+	},
+	{
+		"id": 36,
+		"name": "CQ9",
+		"url": "/slots/cq9",
+		"logo": "/images/partners/game-code-13.webp"
+	},
+	{
+		"id": 37,
+		"name": "Onlyplay",
+		"url": "/slots/only-play",
+		"logo": "/images/partners/game-code-97.webp"
+	},
+	{
+		"id": 38,
+		"name": "NetEnt",
+		"url": "/slots/netent",
+		"logo": "/images/partners/game-code-94.webp"
+	},
+	{
+		"id": 39,
+		"name": "BigTime Gaming",
+		"url": "/slots/big-time-gaming",
+		"logo": "/images/partners/game-code-95.webp"
+	},
+	{
+		"id": 40,
+		"name": "Red Tiger",
+		"url": "/slots/red-tiger",
+		"logo": "/images/partners/game-code-93.webp"
+	},
+	{
+		"id": 41,
+		"name": "Skywind Group",
+		"url": "/slots/skywind",
+		"logo": "/images/partners/game-code-90.webp"
+	},
+	{
+		"id": 42,
+		"name": "Yggdrasil",
+		"url": "/slots/yggdrasil",
+		"logo": "/images/partners/game-code-42.webp"
+	},
+	{
+		"id": 43,
+		"name": "Play'n GO",
+		"url": "/slots/playngo",
+		"logo": "/images/partners/game-code-18.webp"
+	}
+]

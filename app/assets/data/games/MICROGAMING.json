@@ -1,0 +1,8152 @@
+[
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 4
+			},
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 22
+			},
+			{
+				"name": "MEGAWays",
+				"seqNo": -1
+			},
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": -1
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 184
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 12
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins Nexus",
+		"gameCode": "SMG_luckyTwinsNexus",
+		"gameImage": "SMG_luckyTwinsNexus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsNexus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 5
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 23
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 52
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 29
+			}
+		],
+		"provider": 0,
+		"name": "Nexus Almighty Zeus",
+		"gameCode": "SMG_nexusAlmightyZeus",
+		"gameImage": "SMG_nexusAlmightyZeus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_nexusAlmightyZeus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 62
+			}
+		],
+		"provider": 0,
+		"name": "Nexus Mahjong Jackpots",
+		"gameCode": "SMG_nexusMahjongJackpots",
+		"gameImage": "SMG_nexusMahjongJackpots.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_nexusMahjongJackpots', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 46
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 86
+			}
+		],
+		"provider": 0,
+		"name": "Pong Pong Mahjong Jackpots",
+		"gameCode": "SMG_pongPongMahjongJackpots",
+		"gameImage": "SMG_pongPongMahjongJackpots.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_pongPongMahjongJackpots', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 6
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 28
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 81
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 105
+			}
+		],
+		"provider": 0,
+		"name": "Candy Rush Wilds",
+		"gameCode": "SMG_candyRushWilds",
+		"gameImage": "SMG_candyRushWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_candyRushWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 3
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 30
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 265
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 124
+			}
+		],
+		"provider": 0,
+		"name": "Pong Pong Mahjong",
+		"gameCode": "SMG_pongPongMahjong",
+		"gameImage": "SMG_pongPongMahjong.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_pongPongMahjong', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 18
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 170
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 139
+			}
+		],
+		"provider": 0,
+		"name": "Break Away Deluxe",
+		"gameCode": "SMG_breakAwayDeluxe",
+		"gameImage": "SMG_breakAwayDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakAwayDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 160
+			}
+		],
+		"provider": 0,
+		"name": "Treasure Stacks Wilds",
+		"gameCode": "SMG_treasureStacksWilds",
+		"gameImage": "SMG_treasureStacksWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_treasureStacksWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 179
+			}
+		],
+		"provider": 0,
+		"name": "African Wilds",
+		"gameCode": "SMG_africanWilds",
+		"gameImage": "SMG_africanWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_africanWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 11
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 54
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 190
+			}
+		],
+		"provider": 0,
+		"name": "Aztec Triple Riches Power Combo",
+		"gameCode": "SMG_aztecTripleRichesPowerCombo",
+		"gameImage": "SMG_aztecTripleRichesPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_aztecTripleRichesPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 213
+			}
+		],
+		"provider": 0,
+		"name": "Bass Catch SUPER UP",
+		"gameCode": "SMG_bassCatchSuperUp",
+		"gameImage": "SMG_bassCatchSuperUp.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bassCatchSuperUp', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 224
+			}
+		],
+		"provider": 0,
+		"name": "Bears Make Bank! Power Combo",
+		"gameCode": "SMG_bearsMakeBankPowerCombo",
+		"gameImage": "SMG_bearsMakeBankPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bearsMakeBankPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 245
+			}
+		],
+		"provider": 0,
+		"name": "Chicken Night Fever",
+		"gameCode": "SMG_chickenNightFever",
+		"gameImage": "SMG_chickenNightFever.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_chickenNightFever', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 255
+			}
+		],
+		"provider": 0,
+		"name": "Joker Ice Frenzy Epic Strike",
+		"gameCode": "SMG_jokerIceFrenzyEpicStrike",
+		"gameImage": "SMG_jokerIceFrenzyEpicStrike.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jokerIceFrenzyEpicStrike', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 278
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins Wilds Jackpots",
+		"gameCode": "SMG_luckyTwinsWildsJackpots",
+		"gameImage": "SMG_luckyTwinsWildsJackpots.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsWildsJackpots', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 12
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 289
+			}
+		],
+		"provider": 0,
+		"name": "Blazing Volcanoe",
+		"gameCode": "SMG_3BlazingVolcanoesPowerCombo",
+		"gameImage": "SMG_3BlazingVolcanoesPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_3BlazingVolcanoesPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 319
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 315
+			}
+		],
+		"provider": 0,
+		"name": "Amazon Kingdom",
+		"gameCode": "SMG_amazonKingdom",
+		"gameImage": "SMG_amazonKingdom.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_amazonKingdom', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 131
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 332
+			}
+		],
+		"provider": 0,
+		"name": "Brainwashed",
+		"gameCode": "P2_brainwashed",
+		"gameImage": "P2_brainwashed.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/P2_brainwashed', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 130
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 354
+			}
+		],
+		"provider": 0,
+		"name": "12 Skulls of the Dead",
+		"gameCode": "SMG_12SkullsOfTheDead",
+		"gameImage": "SMG_12SkullsOfTheDead.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_12SkullsOfTheDead', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 129
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 365
+			}
+		],
+		"provider": 0,
+		"name": "Joker Loko's Multiplier Trail",
+		"gameCode": "SMG_jokerLokosMultiplierTrail",
+		"gameImage": "SMG_jokerLokosMultiplierTrail.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jokerLokosMultiplierTrail', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 20
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 7
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 362
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 387
+			}
+		],
+		"provider": 0,
+		"name": "Dragon's Loot Link&Win 4Tune",
+		"gameCode": "SMG_dragonsLoot",
+		"gameImage": "SMG_dragonsLoot.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonsLoot', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 10
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 339
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 401
+			}
+		],
+		"provider": 0,
+		"name": "Wildfire Wins",
+		"gameCode": "SMG_wildfireWins",
+		"gameImage": "SMG_wildfireWins.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wildfireWins', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 7
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 32
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 346
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 422
+			}
+		],
+		"provider": 0,
+		"name": "Almighty Zeus Empire",
+		"gameCode": "SMG_almightyZeusEmpire",
+		"gameImage": "SMG_almightyZeusEmpire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_almightyZeusEmpire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 432
+			}
+		],
+		"provider": 0,
+		"name": "Fire & Diamond Joker",
+		"gameCode": "SMG_fireAndDiamondJoker",
+		"gameImage": "SMG_fireAndDiamondJoker.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fireAndDiamondJoker', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 456
+			}
+		],
+		"provider": 0,
+		"name": "African Quest",
+		"gameCode": "SMG_africanQuest",
+		"gameImage": "SMG_africanQuest.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_africanQuest', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 467
+			}
+		],
+		"provider": 0,
+		"name": "Prosperity Blessing",
+		"gameCode": "SMG_prosperityBlessing",
+		"gameImage": "SMG_prosperityBlessing.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_prosperityBlessing', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 15
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 45
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 489
+			}
+		],
+		"provider": 0,
+		"name": "Gates of Asgard Power Combo",
+		"gameCode": "SMG_gatesOfAsgardPowerCombo",
+		"gameImage": "SMG_gatesOfAsgardPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_gatesOfAsgardPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 13
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 54
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 186
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 500
+			}
+		],
+		"provider": 0,
+		"name": "Basketball Star Wilds",
+		"gameCode": "SMG_basketballStarWilds",
+		"gameImage": "SMG_basketballStarWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_basketballStarWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 19
+			},
+			{
+				"name": "MEGAWays",
+				"seqNo": 10
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 327
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 521
+			}
+		],
+		"provider": 0,
+		"name": "Ancient Fortunes : Poseidon Megaways™",
+		"gameCode": "SMG_ancientFortunesPoseidonMegaways",
+		"gameImage": "SMG_ancientFortunesPoseidonMegaways.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ancientFortunesPoseidonMegaways', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 532
+			}
+		],
+		"provider": 0,
+		"name": "Devil’s Finger",
+		"gameCode": "P2_devilsfinger",
+		"gameImage": "P2_devilsfinger.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/P2_devilsfinger', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 555
+			}
+		],
+		"provider": 0,
+		"name": "Moonlight Romance - The Awakening",
+		"gameCode": "SMG_moonlightRomanceTheAwakening",
+		"gameImage": "SMG_moonlightRomanceTheAwakening.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_moonlightRomanceTheAwakening', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 566
+			}
+		],
+		"provider": 0,
+		"name": "Sugar Mania 8000",
+		"gameCode": "SMG_sugarMania8000",
+		"gameImage": "SMG_sugarMania8000.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sugarMania8000', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 9
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 1
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 310
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 589
+			}
+		],
+		"provider": 0,
+		"name": "Almighty Zeus Wilds™",
+		"gameCode": "SMG_almightyZeusWilds",
+		"gameImage": "SMG_almightyZeusWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_almightyZeusWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 600
+			}
+		],
+		"provider": 0,
+		"name": "Money on Reels",
+		"gameCode": "SMG_moneyOnReels",
+		"gameImage": "SMG_moneyOnReels.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_moneyOnReels', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 623
+			}
+		],
+		"provider": 0,
+		"name": "Break Away Gold",
+		"gameCode": "SMG_breakAwayGold",
+		"gameImage": "SMG_breakAwayGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakAwayGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 127
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 633
+			}
+		],
+		"provider": 0,
+		"name": "Adventure Palace",
+		"gameCode": "SMG_adventurePalace",
+		"gameImage": "SMG_adventurePalace.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_adventurePalace', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 655
+			}
+		],
+		"provider": 0,
+		"name": "Dragon's Rhythm",
+		"gameCode": "SMG_dragonsRhythmLinkAndWin",
+		"gameImage": "SMG_dragonsRhythmLinkAndWin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonsRhythmLinkAndWin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 668
+			}
+		],
+		"provider": 0,
+		"name": "Yami Warriors",
+		"gameCode": "SMG_yamiWarriors",
+		"gameImage": "SMG_yamiWarriors.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_yamiWarriors', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 685
+			}
+		],
+		"provider": 0,
+		"name": "Mummy Lock Riches",
+		"gameCode": "SMG_mummyLockRiches",
+		"gameImage": "SMG_mummyLockRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mummyLockRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 17
+			},
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 25
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 345
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 697
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins Power Clusters",
+		"gameCode": "SMG_luckyTwinsPowerClusters",
+		"gameImage": "SMG_luckyTwinsPowerClusters.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsPowerClusters', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 716
+			}
+		],
+		"provider": 0,
+		"name": "Bronco Big Bounty",
+		"gameCode": "SMG_broncoBigBounty",
+		"gameImage": "SMG_broncoBigBounty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_broncoBigBounty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 726
+			}
+		],
+		"provider": 0,
+		"name": "Star Stash Wild 7's",
+		"gameCode": "SMG_starStashWild7S",
+		"gameImage": "SMG_starStashWild7S.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_starStashWild7S', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 757
+			}
+		],
+		"provider": 0,
+		"name": "Joker Burst Frenzy",
+		"gameCode": "SMG_jokerBurstFrenzy",
+		"gameImage": "SMG_jokerBurstFrenzy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jokerBurstFrenzy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 105
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 778
+			}
+		],
+		"provider": 0,
+		"name": "Candy Rush Wilds 2",
+		"gameCode": "SMG_candyRushWilds2",
+		"gameImage": "SMG_candyRushWilds2.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_candyRushWilds2', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 16
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 40
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 789
+			}
+		],
+		"provider": 0,
+		"name": "Money Dragon",
+		"gameCode": "SMG_moneyDragon",
+		"gameImage": "SMG_moneyDragon.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_moneyDragon', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 8
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 809
+			}
+		],
+		"provider": 0,
+		"name": "Bountiful Birds",
+		"gameCode": "SMG_bountifulBirds",
+		"gameImage": "SMG_bountifulBirds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bountifulBirds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 821
+			}
+		],
+		"provider": 0,
+		"name": "Bonny's Treasures",
+		"gameCode": "SMG_bonnysTreasures",
+		"gameImage": "SMG_bonnysTreasures.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bonnysTreasures', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 14
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 839
+			}
+		],
+		"provider": 0,
+		"name": "Sweet Jar Combo",
+		"gameCode": "SMG_sweetJarCombo",
+		"gameImage": "SMG_sweetJarCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sweetJarCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 11
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 64
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 850
+			}
+		],
+		"provider": 0,
+		"name": "Queen of Cairo",
+		"gameCode": "SMG_queenOfCairo",
+		"gameImage": "SMG_queenOfCairo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_queenOfCairo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 38
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 870
+			}
+		],
+		"provider": 0,
+		"name": "Reign of Fire",
+		"gameCode": "SMG_reignOfFire",
+		"gameImage": "SMG_reignOfFire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_reignOfFire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 881
+			}
+		],
+		"provider": 0,
+		"name": "Almighty Poseidon Empire",
+		"gameCode": "SMG_almightyPoseidonEmpire",
+		"gameImage": "SMG_almightyPoseidonEmpire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_almightyPoseidonEmpire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 899
+			}
+		],
+		"provider": 0,
+		"name": "3rd Base",
+		"gameCode": "SMG_3rdBase",
+		"gameImage": "SMG_3rdBase.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_3rdBase', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 910
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Rumble Power Surge",
+		"gameCode": "SMG_luckyRumblePowerSurge",
+		"gameImage": "SMG_luckyRumblePowerSurge.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyRumblePowerSurge', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 53
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 157
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 927
+			}
+		],
+		"provider": 0,
+		"name": "Massive Gold",
+		"gameCode": "SMG_massiveGold",
+		"gameImage": "SMG_massiveGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_massiveGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 47
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 939
+			}
+		],
+		"provider": 0,
+		"name": "Cash Blitz",
+		"gameCode": "SMG_cashBlitz",
+		"gameImage": "SMG_cashBlitz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_cashBlitz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 52
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 252
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 957
+			}
+		],
+		"provider": 0,
+		"name": "10000 Wishes",
+		"gameCode": "SMG_10000Wishes",
+		"gameImage": "SMG_10000Wishes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_10000Wishes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 258
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 967
+			}
+		],
+		"provider": 0,
+		"name": "Ancient Fortunes: Zeus",
+		"gameCode": "SMG_ancientFortunesZeus",
+		"gameImage": "SMG_ancientFortunesZeus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ancientFortunesZeus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 51
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 218
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 983
+			}
+		],
+		"provider": 0,
+		"name": "Gold Blitz",
+		"gameCode": "SMG_goldBlitz",
+		"gameImage": "SMG_goldBlitz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldBlitz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 994
+			}
+		],
+		"provider": 0,
+		"name": "Carnaval Fiesta",
+		"gameCode": "SMG_CarnavalFiesta",
+		"gameImage": "SMG_CarnavalFiesta.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_CarnavalFiesta', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1009
+			}
+		],
+		"provider": 0,
+		"name": "Kung Pao Panda",
+		"gameCode": "SMG_kungPaoPanda",
+		"gameImage": "SMG_kungPaoPanda.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kungPaoPanda', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1021
+			}
+		],
+		"provider": 0,
+		"name": "Ice Pop Party",
+		"gameCode": "SMG_icePopParty",
+		"gameImage": "SMG_icePopParty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_icePopParty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1037
+			}
+		],
+		"provider": 0,
+		"name": "Splash of Riches",
+		"gameCode": "SMG_splashOfRiches",
+		"gameImage": "SMG_splashOfRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_splashOfRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 125
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1048
+			}
+		],
+		"provider": 0,
+		"name": "Treasure Stacks",
+		"gameCode": "SMG_treasureStacks",
+		"gameImage": "SMG_treasureStacks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_treasureStacks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 177
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1075
+			}
+		],
+		"provider": 0,
+		"name": "Almighty Athena Empire",
+		"gameCode": "SMG_almightyAthenaEmpire",
+		"gameImage": "SMG_almightyAthenaEmpire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_almightyAthenaEmpire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 1091
+			}
+		],
+		"provider": 0,
+		"name": "Mammoth Triple Riches",
+		"gameCode": "SMG_mammothTripleRiches",
+		"gameImage": "SMG_mammothTripleRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mammothTripleRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 112
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1101
+			}
+		],
+		"provider": 0,
+		"name": "Mighty Panda",
+		"gameCode": "SMG_mightyPanda",
+		"gameImage": "SMG_mightyPanda.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mightyPanda', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 41
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1118
+			}
+		],
+		"provider": 0,
+		"name": "3 Angels Power Combo",
+		"gameCode": "SMG_3AngelsPowerCombo",
+		"gameImage": "SMG_3AngelsPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_3AngelsPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 34
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 164
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1129
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins Wilds",
+		"gameCode": "SMG_luckyTwinsWilds",
+		"gameImage": "SMG_luckyTwinsWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1144
+			}
+		],
+		"provider": 0,
+		"name": "Royal Thunder Riders",
+		"gameCode": "SMG_royalThunderRiders",
+		"gameImage": "SMG_royalThunderRiders.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_royalThunderRiders', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 41
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 48
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1155
+			}
+		],
+		"provider": 0,
+		"name": "Aurora Wilds",
+		"gameCode": "SMG_auroraWilds",
+		"gameImage": "SMG_auroraWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_auroraWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 42
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1171
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins & 9 Lions",
+		"gameCode": "SMG_luckyTwinsAnd9Lions",
+		"gameImage": "SMG_luckyTwinsAnd9Lions.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsAnd9Lions', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 43
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1182
+			}
+		],
+		"provider": 0,
+		"name": "Almighty Dionysus Empire",
+		"gameCode": "SMG_almightyDionysusEmpire",
+		"gameImage": "SMG_almightyDionysusEmpire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_almightyDionysusEmpire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 49
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1197
+			}
+		],
+		"provider": 0,
+		"name": "Bust The Bank",
+		"gameCode": "SMG_bustTheBank",
+		"gameImage": "SMG_bustTheBank.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bustTheBank', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 50
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1207
+			}
+		],
+		"provider": 0,
+		"name": "The Heat Is On",
+		"gameCode": "SMG_theHeatIsOn",
+		"gameImage": "SMG_theHeatIsOn.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_theHeatIsOn', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 36
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 51
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1221
+			}
+		],
+		"provider": 0,
+		"name": "Masters of Olympus",
+		"gameCode": "SMG_mastersOfOlympus",
+		"gameImage": "SMG_mastersOfOlympus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mastersOfOlympus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 53
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1231
+			}
+		],
+		"provider": 0,
+		"name": "Gold Infinity",
+		"gameCode": "SMG_goldInfinity",
+		"gameImage": "SMG_goldInfinity.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldInfinity', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1246
+			}
+		],
+		"provider": 0,
+		"name": "Hatching Gold! Rooster's Riches",
+		"gameCode": "SMG_hatchingGoldRoostersRiches",
+		"gameImage": "SMG_hatchingGoldRoostersRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_hatchingGoldRoostersRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 55
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1257
+			}
+		],
+		"provider": 0,
+		"name": "Titans of the Sun - Theia",
+		"gameCode": "SMG_titansOfTheSunTheia",
+		"gameImage": "SMG_titansOfTheSunTheia.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_titansOfTheSunTheia', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 21
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 56
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1271
+			}
+		],
+		"provider": 0,
+		"name": "Emerald Gold",
+		"gameCode": "SMG_emeraldGold",
+		"gameImage": "SMG_emeraldGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_emeraldGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 285
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1282
+			}
+		],
+		"provider": 0,
+		"name": "Wildfire Wins Extreme",
+		"gameCode": "SMG_wildfireWinsExtreme",
+		"gameImage": "SMG_wildfireWinsExtreme.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wildfireWinsExtreme', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 57
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1292
+			}
+		],
+		"provider": 0,
+		"name": "Reel Talent ",
+		"gameCode": "SMG_ReelTalent",
+		"gameImage": "SMG_ReelTalent.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ReelTalent', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 58
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1303
+			}
+		],
+		"provider": 0,
+		"name": "Book of Oz - Lock 'N Spin",
+		"gameCode": "SMG_bookOfOzLockNSpin",
+		"gameImage": "SMG_bookOfOzLockNSpin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bookOfOzLockNSpin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 59
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1314
+			}
+		],
+		"provider": 0,
+		"name": "Mayan Princess",
+		"gameCode": "SMG_mayanPrincess",
+		"gameImage": "SMG_mayanPrincess.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mayanPrincess', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 6
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 60
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1325
+			}
+		],
+		"provider": 0,
+		"name": "Gallo Gold Bruno's™ Megaways™",
+		"gameCode": "SMG_galloGoldMegaways",
+		"gameImage": "SMG_galloGoldMegaways.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_galloGoldMegaways', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 50
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 61
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1338
+			}
+		],
+		"provider": 0,
+		"name": "Kodiak Kingdom",
+		"gameCode": "SMG_kodiakKingdom",
+		"gameImage": "SMG_kodiakKingdom.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kodiakKingdom', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 63
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1349
+			}
+		],
+		"provider": 0,
+		"name": "Reel Thunder",
+		"gameCode": "SMG_reelThunder",
+		"gameImage": "SMG_reelThunder.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_reelThunder', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 50
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 65
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1361
+			}
+		],
+		"provider": 0,
+		"name": "Wild Catch (New)",
+		"gameCode": "SMG_wildCatchNew",
+		"gameImage": "SMG_wildCatchNew.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wildCatchNew', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 8
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 66
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1374
+			}
+		],
+		"provider": 0,
+		"name": "Blazing Mammoth",
+		"gameCode": "SMG_blazingMammoth",
+		"gameImage": "SMG_blazingMammoth.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_blazingMammoth', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 67
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1381
+			}
+		],
+		"provider": 0,
+		"name": "777 Royal Wheel",
+		"gameCode": "SMG_777RoyalWheel",
+		"gameImage": "SMG_777RoyalWheel.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_777RoyalWheel', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 68
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1396
+			}
+		],
+		"provider": 0,
+		"name": "Karaoke Party",
+		"gameCode": "SMG_karaokeParty",
+		"gameImage": "SMG_karaokeParty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_karaokeParty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 69
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1404
+			}
+		],
+		"provider": 0,
+		"name": "Avalon",
+		"gameCode": "SMG_avalon",
+		"gameImage": "SMG_avalon.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_avalon', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 70
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1419
+			}
+		],
+		"provider": 0,
+		"name": "Emperor of the Sea Deluxe",
+		"gameCode": "SMG_emperorOfTheSeaDeluxe",
+		"gameImage": "SMG_emperorOfTheSeaDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_emperorOfTheSeaDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 35
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 71
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1428
+			}
+		],
+		"provider": 0,
+		"name": "Sugar Craze Bonanza",
+		"gameCode": "SMG_sugarCrazeBonanza",
+		"gameImage": "SMG_sugarCrazeBonanza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sugarCrazeBonanza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 11
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 72
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1443
+			}
+		],
+		"provider": 0,
+		"name": "Kings of Crystals",
+		"gameCode": "SMG_kingsOfCrystals",
+		"gameImage": "SMG_kingsOfCrystals.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kingsOfCrystals', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 73
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1451
+			}
+		],
+		"provider": 0,
+		"name": "King Tusk",
+		"gameCode": "SMG_kingTusk",
+		"gameImage": "SMG_kingTusk.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kingTusk', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 74
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1465
+			}
+		],
+		"provider": 0,
+		"name": "Wicked Tales: Dark Red",
+		"gameCode": "SMG_wickedTalesDarkRed",
+		"gameImage": "SMG_wickedTalesDarkRed.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wickedTalesDarkRed', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 75
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1477
+			}
+		],
+		"provider": 0,
+		"name": "Lion's Pride",
+		"gameCode": "SMG_lionsPride",
+		"gameImage": "SMG_lionsPride.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_lionsPride', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 76
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1487
+			}
+		],
+		"provider": 0,
+		"name": "The Rat Pack",
+		"gameCode": "SMG_theRatPack",
+		"gameImage": "SMG_theRatPack.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_theRatPack', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 77
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1499
+			}
+		],
+		"provider": 0,
+		"name": "Bubble Beez",
+		"gameCode": "SMG_bubbleBeez",
+		"gameImage": "SMG_bubbleBeez.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bubbleBeez', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 78
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1510
+			}
+		],
+		"provider": 0,
+		"name": "Cash of Kingdoms",
+		"gameCode": "SMG_cashOfKingdoms",
+		"gameImage": "SMG_cashOfKingdoms.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_cashOfKingdoms', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 80
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1520
+			}
+		],
+		"provider": 0,
+		"name": "Football Star Deluxe",
+		"gameCode": "SMG_footballStarDeluxe",
+		"gameImage": "SMG_footballStarDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_footballStarDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 38
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 82
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1532
+			}
+		],
+		"provider": 0,
+		"name": "9 Enchanted Beans",
+		"gameCode": "SMG_9EnchantedBeans",
+		"gameImage": "SMG_9EnchantedBeans.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_9EnchantedBeans', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 83
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1543
+			}
+		],
+		"provider": 0,
+		"name": "Golden Stallion",
+		"gameCode": "SMG_goldenStallion",
+		"gameImage": "SMG_goldenStallion.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldenStallion', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 84
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1554
+			}
+		],
+		"provider": 0,
+		"name": "Ark of Ra",
+		"gameCode": "SMG_arkOfRa",
+		"gameImage": "SMG_arkOfRa.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_arkOfRa', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 85
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1563
+			}
+		],
+		"provider": 0,
+		"name": "Scrooge",
+		"gameCode": "SMG_scrooge",
+		"gameImage": "SMG_scrooge.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_scrooge', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 86
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1572
+			}
+		],
+		"provider": 0,
+		"name": "Legacy of Oz",
+		"gameCode": "SMG_legacyOfOz",
+		"gameImage": "SMG_legacyOfOz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_legacyOfOz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 45
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 88
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1582
+			}
+		],
+		"provider": 0,
+		"name": "108 Heroes Water Margin",
+		"gameCode": "SMG_108HeroesWaterMargin",
+		"gameImage": "SMG_108HeroesWaterMargin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_108HeroesWaterMargin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 25
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 89
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1591
+			}
+		],
+		"provider": 0,
+		"name": "Granny Vs Zombies",
+		"gameCode": "SMG_grannyVsZombies",
+		"gameImage": "SMG_grannyVsZombies.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_grannyVsZombies', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 90
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1600
+			}
+		],
+		"provider": 0,
+		"name": "Dragonz",
+		"gameCode": "SMG_dragonz",
+		"gameImage": "SMG_dragonz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 91
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1609
+			}
+		],
+		"provider": 0,
+		"name": "Summertime",
+		"gameCode": "SMG_summertime",
+		"gameImage": "SMG_summertime.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_summertime', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 92
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1618
+			}
+		],
+		"provider": 0,
+		"name": "Rugby Star Deluxe",
+		"gameCode": "SMG_rugbyStarDeluxe",
+		"gameImage": "SMG_rugbyStarDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_rugbyStarDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 2
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 93
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1627
+			}
+		],
+		"provider": 0,
+		"name": "9 Pots of Gold Megaways",
+		"gameCode": "SMG_9PotsOfGoldMegaways",
+		"gameImage": "SMG_9PotsOfGoldMegaways.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_9PotsOfGoldMegaways', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 30
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 94
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1634
+			}
+		],
+		"provider": 0,
+		"name": "Fiona's Christmas Fortune",
+		"gameCode": "SMG_fionasChristmasFortune",
+		"gameImage": "SMG_fionasChristmasFortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fionasChristmasFortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 95
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1643
+			}
+		],
+		"provider": 0,
+		"name": "Big Top",
+		"gameCode": "SMG_bigTop",
+		"gameImage": "SMG_bigTop.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bigTop', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 21
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 96
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1651
+			}
+		],
+		"provider": 0,
+		"name": "Gods & Pyramids Power Combo",
+		"gameCode": "SMG_godsPyramidsPowerCombo",
+		"gameImage": "SMG_godsPyramidsPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_godsPyramidsPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 9
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 97
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1660
+			}
+		],
+		"provider": 0,
+		"name": "Shamrock Holmes Megaways™",
+		"gameCode": "SMG_shamrockHolmes",
+		"gameImage": "SMG_shamrockHolmes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_shamrockHolmes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 98
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1668
+			}
+		],
+		"provider": 0,
+		"name": "The Grand Journey",
+		"gameCode": "SMG_theGrandJourney",
+		"gameImage": "SMG_theGrandJourney.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_theGrandJourney', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 99
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1677
+			}
+		],
+		"provider": 0,
+		"name": "Liquid Gold",
+		"gameCode": "SMG_liquidGold",
+		"gameImage": "SMG_liquidGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_liquidGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 100
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1682
+			}
+		],
+		"provider": 0,
+		"name": "Mega Money Multiplier",
+		"gameCode": "SMG_megaMoneyMultiplier",
+		"gameImage": "SMG_megaMoneyMultiplier.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_megaMoneyMultiplier', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 101
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1691
+			}
+		],
+		"provider": 0,
+		"name": "Stash of the Titans",
+		"gameCode": "SMG_stashOfTheTitans",
+		"gameImage": "SMG_stashOfTheTitans.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_stashOfTheTitans', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 102
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1697
+			}
+		],
+		"provider": 0,
+		"name": "Bar Bar Black Sheep - 5 Reel",
+		"gameCode": "SMG_barBarBlackSheep5Reel",
+		"gameImage": "SMG_barBarBlackSheep5Reel.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_barBarBlackSheep5Reel', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 39
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 103
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1706
+			}
+		],
+		"provider": 0,
+		"name": "Adventures Of Doubloon Island™",
+		"gameCode": "SMG_adventuresOfDoubloonIsland",
+		"gameImage": "SMG_adventuresOfDoubloonIsland.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_adventuresOfDoubloonIsland', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 28
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 104
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1713
+			}
+		],
+		"provider": 0,
+		"name": "Trojan Kingdom",
+		"gameCode": "SMG_trojanKingdom",
+		"gameImage": "SMG_trojanKingdom.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_trojanKingdom', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 44
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 106
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1721
+			}
+		],
+		"provider": 0,
+		"name": "Lara Croft - Temples and Tombs",
+		"gameCode": "SMG_laraCroftTemplesAndTombs",
+		"gameImage": "SMG_laraCroftTemplesAndTombs.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_laraCroftTemplesAndTombs', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 107
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1726
+			}
+		],
+		"provider": 0,
+		"name": "Wild Orient",
+		"gameCode": "SMG_wildOrient",
+		"gameImage": "SMG_wildOrient.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wildOrient', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 108
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1733
+			}
+		],
+		"provider": 0,
+		"name": "Relic Seekers",
+		"gameCode": "SMG_relicSeekers",
+		"gameImage": "SMG_relicSeekers.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_relicSeekers', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 6
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 109
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1740
+			}
+		],
+		"provider": 0,
+		"name": "Gold Blitz Extreme",
+		"gameCode": "SMG_goldBlitzExtreme",
+		"gameImage": "SMG_goldBlitzExtreme.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldBlitzExtreme', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 48
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 110
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1747
+			}
+		],
+		"provider": 0,
+		"name": "Kitsune Adventure",
+		"gameCode": "SMG_kitsuneAdventure",
+		"gameImage": "SMG_kitsuneAdventure.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kitsuneAdventure', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 111
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1750
+			}
+		],
+		"provider": 0,
+		"name": "Sterling Silver",
+		"gameCode": "SMG_sterlingSilver",
+		"gameImage": "SMG_sterlingSilver.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sterlingSilver', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 47
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 113
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1757
+			}
+		],
+		"provider": 0,
+		"name": "Playboy™ Gold Jackpots",
+		"gameCode": "SMG_playboyGoldJackpots",
+		"gameImage": "SMG_playboyGoldJackpots.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_playboyGoldJackpots', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 114
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1762
+			}
+		],
+		"provider": 0,
+		"name": "Starlight Kiss",
+		"gameCode": "SMG_starlightKiss",
+		"gameImage": "SMG_starlightKiss.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_starlightKiss', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 115
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1770
+			}
+		],
+		"provider": 0,
+		"name": "Beach Babes",
+		"gameCode": "SMG_beachBabes",
+		"gameImage": "SMG_beachBabes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_beachBabes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 37
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 116
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1773
+			}
+		],
+		"provider": 0,
+		"name": "Chilli Pepe Hot Stacks",
+		"gameCode": "SMG_chilliPepeHotStacks",
+		"gameImage": "SMG_chilliPepeHotStacks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_chilliPepeHotStacks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 13
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 117
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1780
+			}
+		],
+		"provider": 0,
+		"name": "Tiger's Ice",
+		"gameCode": "SMG_tigersIce",
+		"gameImage": "SMG_tigersIce.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tigersIce', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 5
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 118
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1786
+			}
+		],
+		"provider": 0,
+		"name": "9 Masks of Fire",
+		"gameCode": "SMG_9masksOfFire",
+		"gameImage": "SMG_9masksOfFire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_9masksOfFire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 119
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1791
+			}
+		],
+		"provider": 0,
+		"name": "Cricket Star",
+		"gameCode": "SMG_cricketStar",
+		"gameImage": "SMG_cricketStar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_cricketStar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 15
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 120
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1796
+			}
+		],
+		"provider": 0,
+		"name": "Bolt X UP™",
+		"gameCode": "SMG_boltXUP",
+		"gameImage": "SMG_boltXUP.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_boltXUP', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 121
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1801
+			}
+		],
+		"provider": 0,
+		"name": "Spring Break",
+		"gameCode": "SMG_springBreak",
+		"gameImage": "SMG_springBreak.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_springBreak', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 122
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1807
+			}
+		],
+		"provider": 0,
+		"name": "Reel Gems",
+		"gameCode": "SMG_reelGems",
+		"gameImage": "SMG_reelGems.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_reelGems', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 123
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1812
+			}
+		],
+		"provider": 0,
+		"name": "SunTide",
+		"gameCode": "SMG_sunTide",
+		"gameImage": "SMG_sunTide.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sunTide', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 20
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 124
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1819
+			}
+		],
+		"provider": 0,
+		"name": "Book of King Arthur",
+		"gameCode": "SMG_bookOfKingArthur",
+		"gameImage": "SMG_bookOfKingArthur.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bookOfKingArthur', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 126
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1824
+			}
+		],
+		"provider": 0,
+		"name": "Mystic Dreams",
+		"gameCode": "SMG_mysticDreams",
+		"gameImage": "SMG_mysticDreams.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mysticDreams', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 144
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1830
+			}
+		],
+		"provider": 0,
+		"name": "Andvari The Golden Fish",
+		"gameCode": "SMG_andvariTheGoldenFish",
+		"gameImage": "SMG_andvariTheGoldenFish.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_andvariTheGoldenFish', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 145
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1835
+			}
+		],
+		"provider": 0,
+		"name": "Diamond Diva Oink Bonanza",
+		"gameCode": "SMG_diamondDivaOinkBonanza",
+		"gameImage": "SMG_diamondDivaOinkBonanza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_diamondDivaOinkBonanza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1840
+			}
+		],
+		"provider": 0,
+		"name": "Diamond Inferno",
+		"gameCode": "SMG_diamondInferno",
+		"gameImage": "SMG_diamondInferno.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_diamondInferno', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 146
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1846
+			}
+		],
+		"provider": 0,
+		"name": "Mr. Pigg E. Bank",
+		"gameCode": "SMG_mrPiggEBank",
+		"gameImage": "SMG_mrPiggEBank.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mrPiggEBank', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 32
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 132
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1850
+			}
+		],
+		"provider": 0,
+		"name": "Starlite Fruits™",
+		"gameCode": "SMG_starliteFruits",
+		"gameImage": "SMG_starliteFruits.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_starliteFruits', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 133
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1856
+			}
+		],
+		"provider": 0,
+		"name": "15 Tridents™",
+		"gameCode": "SMG_15Tridents",
+		"gameImage": "SMG_15Tridents.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_15Tridents', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 134
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1860
+			}
+		],
+		"provider": 0,
+		"name": "Dragon Dance",
+		"gameCode": "SMG_dragonDance",
+		"gameImage": "SMG_dragonDance.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonDance', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 135
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1865
+			}
+		],
+		"provider": 0,
+		"name": "Thunderstruck",
+		"gameCode": "SMG_thunderstruck",
+		"gameImage": "SMG_thunderstruck.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_thunderstruck', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 136
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1870
+			}
+		],
+		"provider": 0,
+		"name": "777 Super Big BuildUp™ Deluxe™",
+		"gameCode": "SMG_777superBigBuildUpDeluxe",
+		"gameImage": "SMG_777superBigBuildUpDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_777superBigBuildUpDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 137
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1875
+			}
+		],
+		"provider": 0,
+		"name": "Mermaids Millions",
+		"gameCode": "SMG_mermaidsMillions",
+		"gameImage": "SMG_mermaidsMillions.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mermaidsMillions', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 37
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 138
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1879
+			}
+		],
+		"provider": 0,
+		"name": "Jurassic Park Gold",
+		"gameCode": "SMG_jurassicParkGold",
+		"gameImage": "SMG_jurassicParkGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jurassicParkGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 139
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1885
+			}
+		],
+		"provider": 0,
+		"name": "Aquanauts™",
+		"gameCode": "SMG_aquanauts",
+		"gameImage": "SMG_aquanauts.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_aquanauts', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 140
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1888
+			}
+		],
+		"provider": 0,
+		"name": "Badminton Hero",
+		"gameCode": "SMG_badmintonHero",
+		"gameImage": "SMG_badmintonHero.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_badmintonHero', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 143
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1894
+			}
+		],
+		"provider": 0,
+		"name": "Bush Telegraph",
+		"gameCode": "SMG_bushTelegraph",
+		"gameImage": "SMG_bushTelegraph.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bushTelegraph', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 19
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 147
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1898
+			}
+		],
+		"provider": 0,
+		"name": "Squealin' Riches",
+		"gameCode": "SMG_squealinRiches",
+		"gameImage": "SMG_squealinRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_squealinRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 35
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 148
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1902
+			}
+		],
+		"provider": 0,
+		"name": "Dungeons and Diamonds™",
+		"gameCode": "SMG_dungeonsAndDiamonds",
+		"gameImage": "SMG_dungeonsAndDiamonds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dungeonsAndDiamonds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 18
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 149
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1908
+			}
+		],
+		"provider": 0,
+		"name": "Thunderstruck Wild Lightning",
+		"gameCode": "SMG_thunderstruckWildLightning",
+		"gameImage": "SMG_thunderstruckWildLightning.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_thunderstruckWildLightning', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 150
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1911
+			}
+		],
+		"provider": 0,
+		"name": "Jungle Jim - El Dorado",
+		"gameCode": "SMG_jungleJimElDorado",
+		"gameImage": "SMG_jungleJimElDorado.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jungleJimElDorado', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 18
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 151
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1916
+			}
+		],
+		"provider": 0,
+		"name": "Storm to Riches",
+		"gameCode": "SMG_stormToRiches",
+		"gameImage": "SMG_stormToRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_stormToRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 34
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 152
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1921
+			}
+		],
+		"provider": 0,
+		"name": "25000 Talons",
+		"gameCode": "SMG_25000Talons",
+		"gameImage": "SMG_25000Talons.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_25000Talons', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 153
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1926
+			}
+		],
+		"provider": 0,
+		"name": "Alchemy Fortunes",
+		"gameCode": "SMG_alchemyFortunes",
+		"gameImage": "SMG_alchemyFortunes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_alchemyFortunes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 154
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1929
+			}
+		],
+		"provider": 0,
+		"name": "Book of Mrs Claus",
+		"gameCode": "SMG_bookOfMrsClaus",
+		"gameImage": "SMG_bookOfMrsClaus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bookOfMrsClaus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 155
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1935
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins",
+		"gameCode": "SMG_luckyTwins",
+		"gameImage": "SMG_luckyTwins.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwins', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 156
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1938
+			}
+		],
+		"provider": 0,
+		"name": "Ping Pong Star",
+		"gameCode": "SMG_pingPongStar",
+		"gameImage": "SMG_pingPongStar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_pingPongStar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 158
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1946
+			}
+		],
+		"provider": 0,
+		"name": "Kings of Cash",
+		"gameCode": "SMG_kingsOfCash",
+		"gameImage": "SMG_kingsOfCash.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kingsOfCash', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 14
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 159
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1950
+			}
+		],
+		"provider": 0,
+		"name": "Divine Riches Helios",
+		"gameCode": "SMG_divineRichesHelios",
+		"gameImage": "SMG_divineRichesHelios.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_divineRichesHelios', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 160
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1956
+			}
+		],
+		"provider": 0,
+		"name": "Tally Ho",
+		"gameCode": "SMG_tallyHo",
+		"gameImage": "SMG_tallyHo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tallyHo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 39
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 161
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1959
+			}
+		],
+		"provider": 0,
+		"name": "Legendary Treasures",
+		"gameCode": "SMG_legendaryTreasures",
+		"gameImage": "SMG_legendaryTreasures.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_legendaryTreasures', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 162
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1965
+			}
+		],
+		"provider": 0,
+		"name": "Mining Pots of Gold",
+		"gameCode": "SMG_miningPotsOfGold",
+		"gameImage": "SMG_miningPotsOfGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_miningPotsOfGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 163
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1968
+			}
+		],
+		"provider": 0,
+		"name": "Break da Bank",
+		"gameCode": "SMG_breakDaBank",
+		"gameImage": "SMG_breakDaBank.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakDaBank', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 8
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 165
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1974
+			}
+		],
+		"provider": 0,
+		"name": "Tiki Tiki Boom",
+		"gameCode": "SMG_tikiTikiBoom",
+		"gameImage": "SMG_tikiTikiBoom.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tikiTikiBoom', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 166
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1978
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Girl",
+		"gameCode": "SMG_fortuneGirl",
+		"gameImage": "SMG_fortuneGirl.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fortuneGirl', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 167
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1985
+			}
+		],
+		"provider": 0,
+		"name": "Life of Riches",
+		"gameCode": "SMG_lifeOfRiches",
+		"gameImage": "SMG_lifeOfRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_lifeOfRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 168
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1988
+			}
+		],
+		"provider": 0,
+		"name": "3 Laughing Lions Power Combo",
+		"gameCode": "SMG_3LaughingLionsPowerCombo",
+		"gameImage": "SMG_3LaughingLionsPowerCombo.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_3LaughingLionsPowerCombo', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 47
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 169
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1994
+			}
+		],
+		"provider": 0,
+		"name": "Robin Hood’s Heroes",
+		"gameCode": "SMG_robinHoodsHeroes",
+		"gameImage": "SMG_robinHoodsHeroes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_robinHoodsHeroes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 48
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 171
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1997
+			}
+		],
+		"provider": 0,
+		"name": "Serengeti Gold",
+		"gameCode": "SMG_serengetiGold",
+		"gameImage": "SMG_serengetiGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_serengetiGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 172
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2002
+			}
+		],
+		"provider": 0,
+		"name": "Tiger's Eye",
+		"gameCode": "SMG_tigersEye",
+		"gameImage": "SMG_tigersEye.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tigersEye', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 173
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2005
+			}
+		],
+		"provider": 0,
+		"name": "Secret Admirer",
+		"gameCode": "SMG_secretAdmirer",
+		"gameImage": "SMG_secretAdmirer.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_secretAdmirer', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 12
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 175
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2011
+			}
+		],
+		"provider": 0,
+		"name": "Fire Forge",
+		"gameCode": "SMG_fireForge",
+		"gameImage": "SMG_fireForge.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fireForge', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 176
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2014
+			}
+		],
+		"provider": 0,
+		"name": "Queen of Crystal Rays™",
+		"gameCode": "SMG_queenOfTheCrystalRays",
+		"gameImage": "SMG_queenOfTheCrystalRays.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_queenOfTheCrystalRays', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 178
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2021
+			}
+		],
+		"provider": 0,
+		"name": "Magic of Sahara",
+		"gameCode": "SMG_magicOfSahara",
+		"gameImage": "SMG_magicOfSahara.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_magicOfSahara', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 46
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 179
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2024
+			}
+		],
+		"provider": 0,
+		"name": "Playboy Fortunes ™",
+		"gameCode": "SMG_playboyFortunes",
+		"gameImage": "SMG_playboyFortunes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_playboyFortunes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 180
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2029
+			}
+		],
+		"provider": 0,
+		"name": "Age of Discovery",
+		"gameCode": "SMG_ageOfDiscovery",
+		"gameImage": "SMG_ageOfDiscovery.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ageOfDiscovery', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 181
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2032
+			}
+		],
+		"provider": 0,
+		"name": "Cash Crazy",
+		"gameCode": "SMG_cashCrazy",
+		"gameImage": "SMG_cashCrazy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_cashCrazy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 182
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2039
+			}
+		],
+		"provider": 0,
+		"name": "Fish Party",
+		"gameCode": "SMG_fishParty",
+		"gameImage": "SMG_fishParty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fishParty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 2
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 183
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2042
+			}
+		],
+		"provider": 0,
+		"name": "Champions of Olympus",
+		"gameCode": "SMG_championsOfOlympus",
+		"gameImage": "SMG_championsOfOlympus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_championsOfOlympus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 185
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2050
+			}
+		],
+		"provider": 0,
+		"name": "Shanghai Beauty",
+		"gameCode": "SMG_shanghaiBeauty",
+		"gameImage": "SMG_shanghaiBeauty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_shanghaiBeauty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 187
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2053
+			}
+		],
+		"provider": 0,
+		"name": "Odin’s Riches",
+		"gameCode": "SMG_odinsRiches",
+		"gameImage": "SMG_odinsRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_odinsRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 188
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2058
+			}
+		],
+		"provider": 0,
+		"name": "Ladies Nite",
+		"gameCode": "SMG_ladiesNite",
+		"gameImage": "SMG_ladiesNite.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ladiesNite', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 189
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2062
+			}
+		],
+		"provider": 0,
+		"name": "Huangdi - The Yellow Emperor",
+		"gameCode": "SMG_huangdiTheYellowEmperor",
+		"gameImage": "SMG_huangdiTheYellowEmperor.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_huangdiTheYellowEmperor', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 190
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2067
+			}
+		],
+		"provider": 0,
+		"name": "Treasure Palace",
+		"gameCode": "SMG_treasurePalace",
+		"gameImage": "SMG_treasurePalace.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_treasurePalace', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 191
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2070
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Zodiac",
+		"gameCode": "SMG_luckyZodiac",
+		"gameImage": "SMG_luckyZodiac.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyZodiac', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 192
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2076
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Clucks",
+		"gameCode": "SMG_luckyClucks",
+		"gameImage": "SMG_luckyClucks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyClucks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 195
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2079
+			}
+		],
+		"provider": 0,
+		"name": "Shogun of Time",
+		"gameCode": "SMG_shogunofTime",
+		"gameImage": "SMG_shogunofTime.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_shogunofTime', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 198
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2085
+			}
+		],
+		"provider": 0,
+		"name": "Arctic Wolf Triple Riches",
+		"gameCode": "SMG_arcticWolfTripleRiches",
+		"gameImage": "SMG_arcticWolfTripleRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_arcticWolfTripleRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2088
+			}
+		],
+		"provider": 0,
+		"name": "Genie’s Magic Wishes",
+		"gameCode": "SMG_geniesMagicWishes",
+		"gameImage": "SMG_geniesMagicWishes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_geniesMagicWishes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 200
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2094
+			}
+		],
+		"provider": 0,
+		"name": "Go! Fishing: Reelin' Fortunes",
+		"gameCode": "SMG_goFishingReelinFortunes",
+		"gameImage": "SMG_goFishingReelinFortunes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goFishingReelinFortunes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 201
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2097
+			}
+		],
+		"provider": 0,
+		"name": "Pizza Fiesta",
+		"gameCode": "SMG_pizzaFiesta",
+		"gameImage": "SMG_pizzaFiesta.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_pizzaFiesta', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2104
+			}
+		],
+		"provider": 0,
+		"name": "Heavenly Elephant Fortune",
+		"gameCode": "SMG_heavenlyElephantFortune",
+		"gameImage": "SMG_heavenlyElephantFortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_heavenlyElephantFortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 202
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2107
+			}
+		],
+		"provider": 0,
+		"name": "Monkey’s Treasure Quest",
+		"gameCode": "SMG_monkeysTreasureQuest",
+		"gameImage": "SMG_monkeysTreasureQuest.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_monkeysTreasureQuest', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 196
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2112
+			}
+		],
+		"provider": 0,
+		"name": "Lucha Legends",
+		"gameCode": "SMG_luchaLegends",
+		"gameImage": "SMG_luchaLegends.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luchaLegends', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 19
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 197
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2116
+			}
+		],
+		"provider": 0,
+		"name": "WWE Legends",
+		"gameCode": "SMG_wweLegendsLinkWin",
+		"gameImage": "SMG_wweLegendsLinkWin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wweLegendsLinkWin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 199
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2122
+			}
+		],
+		"provider": 0,
+		"name": "Cool Buck - 5 Reel",
+		"gameCode": "SMG_coolBuck5Reel",
+		"gameImage": "SMG_coolBuck5Reel.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_coolBuck5Reel', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 27
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 203
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2125
+			}
+		],
+		"provider": 0,
+		"name": "Dragon's Keep",
+		"gameCode": "SMG_dragonsKeep",
+		"gameImage": "SMG_dragonsKeep.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonsKeep', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 204
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2132
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Leprechaun Clusters",
+		"gameCode": "SMG_luckyLeprechaunClusters",
+		"gameImage": "SMG_luckyLeprechaunClusters.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyLeprechaunClusters', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 205
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2135
+			}
+		],
+		"provider": 0,
+		"name": "Deck the Halls",
+		"gameCode": "SMG_deckTheHalls",
+		"gameImage": "SMG_deckTheHalls.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_deckTheHalls', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 52
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 206
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2140
+			}
+		],
+		"provider": 0,
+		"name": "Cat Clans",
+		"gameCode": "SMG_catClans",
+		"gameImage": "SMG_catClans.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_catClans', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 24
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 208
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2144
+			}
+		],
+		"provider": 0,
+		"name": "Playboy Wilds",
+		"gameCode": "SMG_playboyWilds",
+		"gameImage": "SMG_playboyWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_playboyWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 209
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2149
+			}
+		],
+		"provider": 0,
+		"name": "A Dark Matter",
+		"gameCode": "SMG_aDarkMatter",
+		"gameImage": "SMG_aDarkMatter.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_aDarkMatter', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 4
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 210
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2153
+			}
+		],
+		"provider": 0,
+		"name": "Fire and Roses Jolly Joker",
+		"gameCode": "SMG_fireAndRosesJollyJoker",
+		"gameImage": "SMG_fireAndRosesJollyJoker.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fireAndRosesJollyJoker', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 43
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 211
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2159
+			}
+		],
+		"provider": 0,
+		"name": "Ingots of Cai Shen",
+		"gameCode": "SMG_ingotsOfCaiShen",
+		"gameImage": "SMG_ingotsOfCaiShen.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ingotsOfCaiShen', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 212
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2163
+			}
+		],
+		"provider": 0,
+		"name": "Break Da Bank Again Respin",
+		"gameCode": "SMG_breakDaBankAgainRespin",
+		"gameImage": "SMG_breakDaBankAgainRespin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakDaBankAgainRespin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 213
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2169
+			}
+		],
+		"provider": 0,
+		"name": "SunQuest",
+		"gameCode": "SMG_sunQuest",
+		"gameImage": "SMG_sunQuest.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sunQuest', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 214
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2172
+			}
+		],
+		"provider": 0,
+		"name": "Wild Scarabs",
+		"gameCode": "SMG_wildScarabs",
+		"gameImage": "SMG_wildScarabs.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wildScarabs', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 215
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2178
+			}
+		],
+		"provider": 0,
+		"name": "Immortal Romance",
+		"gameCode": "SMG_immortalRomance",
+		"gameImage": "SMG_immortalRomance.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_immortalRomance', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 45
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 216
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2182
+			}
+		],
+		"provider": 0,
+		"name": "Long Mu Fortunes",
+		"gameCode": "SMG_longMuFortunes",
+		"gameImage": "SMG_longMuFortunes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_longMuFortunes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 5
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 217
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2185
+			}
+		],
+		"provider": 0,
+		"name": "Asgardian Fire",
+		"gameCode": "SMG_asgardianFire",
+		"gameImage": "SMG_asgardianFire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_asgardianFire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 219
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2191
+			}
+		],
+		"provider": 0,
+		"name": "Jade Shuriken",
+		"gameCode": "SMG_jadeShuriken",
+		"gameImage": "SMG_jadeShuriken.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jadeShuriken', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 220
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2195
+			}
+		],
+		"provider": 0,
+		"name": "Dolphin Coast",
+		"gameCode": "SMG_dolphinCoast",
+		"gameImage": "SMG_dolphinCoast.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dolphinCoast', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 221
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2201
+			}
+		],
+		"provider": 0,
+		"name": "Playboy",
+		"gameCode": "SMG_playboy",
+		"gameImage": "SMG_playboy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_playboy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 222
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2204
+			}
+		],
+		"provider": 0,
+		"name": "Happy Holidays",
+		"gameCode": "SMG_HappyHolidays",
+		"gameImage": "SMG_HappyHolidays.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_HappyHolidays', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 223
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2211
+			}
+		],
+		"provider": 0,
+		"name": "Untamed - Giant Panda",
+		"gameCode": "SMG_untamedGiantPanda",
+		"gameImage": "SMG_untamedGiantPanda.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_untamedGiantPanda', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 224
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2214
+			}
+		],
+		"provider": 0,
+		"name": "Jungle Jim and the Lost Sphinx ",
+		"gameCode": "SMG_jungleJimAndTheLostSphinx",
+		"gameImage": "SMG_jungleJimAndTheLostSphinx.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_jungleJimAndTheLostSphinx', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 16
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 225
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2220
+			}
+		],
+		"provider": 0,
+		"name": "Bison Moon",
+		"gameCode": "SMG_bisonMoon",
+		"gameImage": "SMG_bisonMoon.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bisonMoon', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 46
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 226
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2223
+			}
+		],
+		"provider": 0,
+		"name": "Magic Jokers",
+		"gameCode": "SMG_magicJokers",
+		"gameImage": "SMG_magicJokers.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_magicJokers', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 227
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2229
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Little Gods",
+		"gameCode": "SMG_luckyLittleGods",
+		"gameImage": "SMG_luckyLittleGods.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyLittleGods', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 53
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 228
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2233
+			}
+		],
+		"provider": 0,
+		"name": "Silverback: Multiplier Mountain",
+		"gameCode": "SMG_silverbackMultiplierMountain",
+		"gameImage": "SMG_silverbackMultiplierMountain.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_silverbackMultiplierMountain', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 229
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2239
+			}
+		],
+		"provider": 0,
+		"name": "777 Mega Deluxe",
+		"gameCode": "SMG_777MegaDeluxe",
+		"gameImage": "SMG_777MegaDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_777MegaDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 230
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2243
+			}
+		],
+		"provider": 0,
+		"name": "Chronicles of Olympus II - Zeus",
+		"gameCode": "SMG_chroniclesOfOlympusIIZeus",
+		"gameImage": "SMG_chroniclesOfOlympusIIZeus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_chroniclesOfOlympusIIZeus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 231
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2248
+			}
+		],
+		"provider": 0,
+		"name": "Dragons Breath",
+		"gameCode": "SMG_dragonsBreath",
+		"gameImage": "SMG_dragonsBreath.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonsBreath', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 232
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2249
+			}
+		],
+		"provider": 0,
+		"name": "Treasures of Lion City",
+		"gameCode": "SMG_treasuresOfLionCity",
+		"gameImage": "SMG_treasuresOfLionCity.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_treasuresOfLionCity', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 234
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2254
+			}
+		],
+		"provider": 0,
+		"name": "5 Star Knockout",
+		"gameCode": "SMG_5StarKnockout",
+		"gameImage": "SMG_5StarKnockout.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_5StarKnockout', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 3
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 236
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2256
+			}
+		],
+		"provider": 0,
+		"name": "Masters of Valhalla",
+		"gameCode": "SMG_mastersOfValhalla",
+		"gameImage": "SMG_mastersOfValhalla.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_mastersOfValhalla', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 237
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2260
+			}
+		],
+		"provider": 0,
+		"name": "Riviera Riches",
+		"gameCode": "SMG_rivieraRiches",
+		"gameImage": "SMG_rivieraRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_rivieraRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2264
+			}
+		],
+		"provider": 0,
+		"name": "Basketball Star on Fire",
+		"gameCode": "SMG_basketballStaronFire",
+		"gameImage": "SMG_basketballStaronFire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_basketballStaronFire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 239
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2268
+			}
+		],
+		"provider": 0,
+		"name": "Tippy Tavern",
+		"gameCode": "SMG_tippyTavern",
+		"gameImage": "SMG_tippyTavern.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tippyTavern', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 20
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 240
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2273
+			}
+		],
+		"provider": 0,
+		"name": "Agent Jane Blonde Max Volume",
+		"gameCode": "SMG_agentJaneBlondeMaxVolume",
+		"gameImage": "SMG_agentJaneBlondeMaxVolume.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_agentJaneBlondeMaxVolume', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 241
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2276
+			}
+		],
+		"provider": 0,
+		"name": "Gopher Gold",
+		"gameCode": "SMG_gopherGold",
+		"gameImage": "SMG_gopherGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_gopherGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 242
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2279
+			}
+		],
+		"provider": 0,
+		"name": "Western Gold",
+		"gameCode": "SMG_westernGold",
+		"gameImage": "SMG_westernGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_westernGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 243
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2283
+			}
+		],
+		"provider": 0,
+		"name": "Thunderstruck II",
+		"gameCode": "SMG_thunderstruck2",
+		"gameImage": "SMG_thunderstruck2.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_thunderstruck2', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 244
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2286
+			}
+		],
+		"provider": 0,
+		"name": "Romanov Riches",
+		"gameCode": "SMG_romanovRiches",
+		"gameImage": "SMG_romanovRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_romanovRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 245
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2289
+			}
+		],
+		"provider": 0,
+		"name": "Eagle's Wings",
+		"gameCode": "SMG_eaglesWings",
+		"gameImage": "SMG_eaglesWings.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_eaglesWings', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 9
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 247
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2294
+			}
+		],
+		"provider": 0,
+		"name": "Crazy Rich Tigers",
+		"gameCode": "SMG_crazyRichTigers",
+		"gameImage": "SMG_crazyRichTigers.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_crazyRichTigers', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 248
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2297
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Koi",
+		"gameCode": "SMG_luckyKoi",
+		"gameImage": "SMG_luckyKoi.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyKoi', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 249
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2300
+			}
+		],
+		"provider": 0,
+		"name": "What A Hoot",
+		"gameCode": "SMG_whatAHoot",
+		"gameImage": "SMG_whatAHoot.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_whatAHoot', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 5
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 250
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2304
+			}
+		],
+		"provider": 0,
+		"name": "Break Da Bank Again™ MEGAWAYS™",
+		"gameCode": "SMG_breakDaBankAgainMegaways",
+		"gameImage": "SMG_breakDaBankAgainMegaways.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakDaBankAgainMegaways', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 251
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2307
+			}
+		],
+		"provider": 0,
+		"name": "Girls With Guns - Jungle Heat",
+		"gameCode": "SMG_girlsWithGunsJungleHeat",
+		"gameImage": "SMG_girlsWithGunsJungleHeat.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_girlsWithGunsJungleHeat', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 253
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2310
+			}
+		],
+		"provider": 0,
+		"name": "Wacky Panda",
+		"gameCode": "SMG_wackyPanda",
+		"gameImage": "SMG_wackyPanda.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wackyPanda', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 17
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 254
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2315
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins Jackpot",
+		"gameCode": "SMG_luckyTwinsJackpot",
+		"gameImage": "SMG_luckyTwinsJackpot.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsJackpot', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 255
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2318
+			}
+		],
+		"provider": 0,
+		"name": "Shark Platinum",
+		"gameCode": "SMG_sharkPlatinum",
+		"gameImage": "SMG_sharkPlatinum.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sharkPlatinum', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 256
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2323
+			}
+		],
+		"provider": 0,
+		"name": "Cashapillar",
+		"gameCode": "SMG_cashapillar",
+		"gameImage": "SMG_cashapillar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_cashapillar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 257
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2326
+			}
+		],
+		"provider": 0,
+		"name": "Gems & Dragons",
+		"gameCode": "SMG_gemsAndDragons",
+		"gameImage": "SMG_gemsAndDragons.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_gemsAndDragons', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 15
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 259
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2331
+			}
+		],
+		"provider": 0,
+		"name": "Africa X UP™",
+		"gameCode": "SMG_africaXUP",
+		"gameImage": "SMG_africaXUP.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_africaXUP', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 8
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 260
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2334
+			}
+		],
+		"provider": 0,
+		"name": "Forgotten Island Megaways™",
+		"gameCode": "SMG_forgottenIsland",
+		"gameImage": "SMG_forgottenIsland.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_forgottenIsland', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 261
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2338
+			}
+		],
+		"provider": 0,
+		"name": "The Twisted Circus",
+		"gameCode": "SMG_theTwistedCircus",
+		"gameImage": "SMG_theTwistedCircus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_theTwistedCircus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 262
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2342
+			}
+		],
+		"provider": 0,
+		"name": "Break da Bank Again",
+		"gameCode": "SMG_breakDaBankAgain",
+		"gameImage": "SMG_breakDaBankAgain.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakDaBankAgain', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 27
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 263
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2345
+			}
+		],
+		"provider": 0,
+		"name": "Chests of Gold : Power Combo",
+		"gameCode": "SMG_chestsOfGold",
+		"gameImage": "SMG_chestsOfGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_chestsOfGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 264
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2350
+			}
+		],
+		"provider": 0,
+		"name": "AbraCatDabra",
+		"gameCode": "SMG_abraCatDabra",
+		"gameImage": "SMG_abraCatDabra.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_abraCatDabra', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 266
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2351
+			}
+		],
+		"provider": 0,
+		"name": "5 Reel Drive",
+		"gameCode": "SMG_5ReelDrive",
+		"gameImage": "SMG_5ReelDrive.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_5ReelDrive', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 40
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 267
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2358
+			}
+		],
+		"provider": 0,
+		"name": "Assassin Moon",
+		"gameCode": "SMG_assassinMoon",
+		"gameImage": "SMG_assassinMoon.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_assassinMoon', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 16
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 268
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2359
+			}
+		],
+		"provider": 0,
+		"name": "Fishin' Pots Of Gold",
+		"gameCode": "SMG_fishinPotsOfGold",
+		"gameImage": "SMG_fishinPotsOfGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fishinPotsOfGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 26
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 269
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2365
+			}
+		],
+		"provider": 0,
+		"name": "Happy Lucky Cats",
+		"gameCode": "SMG_happyLuckyCats",
+		"gameImage": "SMG_happyLuckyCats.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_happyLuckyCats', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 26
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 270
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2366
+			}
+		],
+		"provider": 0,
+		"name": "Spin Spin Sugar",
+		"gameCode": "SMG_spinSpinSugar",
+		"gameImage": "SMG_spinSpinSugar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_spinSpinSugar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 10
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 271
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2372
+			}
+		],
+		"provider": 0,
+		"name": "Chronicles of Olympus X Up™",
+		"gameCode": "SMG_chroniclesOfOlympusXUP",
+		"gameImage": "SMG_chroniclesOfOlympusXUP.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_chroniclesOfOlympusXUP', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 273
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2373
+			}
+		],
+		"provider": 0,
+		"name": "Sienna Steele",
+		"gameCode": "SMG_siennaSteele",
+		"gameImage": "SMG_siennaSteele.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_siennaSteele', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 4
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 274
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2378
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Little Dragons",
+		"gameCode": "SMG_luckyLittleDragons",
+		"gameImage": "SMG_luckyLittleDragons.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyLittleDragons', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 44
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2380
+			}
+		],
+		"provider": 0,
+		"name": "Frankenstein",
+		"gameCode": "SMG_frankenstein",
+		"gameImage": "SMG_frankenstein.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_frankenstein', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 275
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2385
+			}
+		],
+		"provider": 0,
+		"name": "Wanted Outlaws",
+		"gameCode": "SMG_wantedOutlaws",
+		"gameImage": "SMG_wantedOutlaws.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wantedOutlaws', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 276
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2387
+			}
+		],
+		"provider": 0,
+		"name": "Banana Odyssey",
+		"gameCode": "SMG_bananaOdyssey",
+		"gameImage": "SMG_bananaOdyssey.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bananaOdyssey', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 277
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2392
+			}
+		],
+		"provider": 0,
+		"name": "Golden Era",
+		"gameCode": "SMG_goldenEra",
+		"gameImage": "SMG_goldenEra.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldenEra', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 278
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2395
+			}
+		],
+		"provider": 0,
+		"name": "High Society",
+		"gameCode": "SMG_highSociety",
+		"gameImage": "SMG_highSociety.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_highSociety', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 10
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 279
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2400
+			}
+		],
+		"provider": 0,
+		"name": "9 Masks of Fire™ HyperSpins™",
+		"gameCode": "SMG_9masksOfFireHyperSpins",
+		"gameImage": "SMG_9masksOfFireHyperSpins.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_9masksOfFireHyperSpins', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 280
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2401
+			}
+		],
+		"provider": 0,
+		"name": "Sure Win",
+		"gameCode": "SMG_sureWin",
+		"gameImage": "SMG_sureWin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sureWin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 42
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 281
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2406
+			}
+		],
+		"provider": 0,
+		"name": "Hyper Gold™",
+		"gameCode": "SMG_hyperGold",
+		"gameImage": "SMG_hyperGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_hyperGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 49
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 282
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2409
+			}
+		],
+		"provider": 0,
+		"name": "Oni Hunter Night Sakura",
+		"gameCode": "SMG_oniHunterNightSakura",
+		"gameImage": "SMG_oniHunterNightSakura.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_oniHunterNightSakura', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 283
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2412
+			}
+		],
+		"provider": 0,
+		"name": "StarDust",
+		"gameCode": "SMG_stardust",
+		"gameImage": "SMG_stardust.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_stardust', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 284
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2417
+			}
+		],
+		"provider": 0,
+		"name": "Bikini Party",
+		"gameCode": "SMG_bikiniParty",
+		"gameImage": "SMG_bikiniParty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bikiniParty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 286
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2420
+			}
+		],
+		"provider": 0,
+		"name": "Emperor of the Sea",
+		"gameCode": "SMG_emperorOfTheSea",
+		"gameImage": "SMG_emperorOfTheSea.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_emperorOfTheSea', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 287
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2426
+			}
+		],
+		"provider": 0,
+		"name": "ActionOps: Snow and Sable",
+		"gameCode": "SMG_actionOpsSnowAndSable",
+		"gameImage": "SMG_actionOpsSnowAndSable.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_actionOpsSnowAndSable', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 288
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2429
+			}
+		],
+		"provider": 0,
+		"name": "Bars & Stripes",
+		"gameCode": "SMG_BarsAndStripes",
+		"gameImage": "SMG_BarsAndStripes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_BarsAndStripes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 12
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 289
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2433
+			}
+		],
+		"provider": 0,
+		"name": "Fishin' Bigger Pots Of Gold™",
+		"gameCode": "SMG_fishinBiggerPots",
+		"gameImage": "SMG_fishinBiggerPots.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fishinBiggerPots', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 29
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 290
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2436
+			}
+		],
+		"provider": 0,
+		"name": "Doki Doki Fireworks",
+		"gameCode": "SMG_dokiDokiFireworks",
+		"gameImage": "SMG_dokiDokiFireworks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dokiDokiFireworks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 291
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2441
+			}
+		],
+		"provider": 0,
+		"name": "Beautiful Bones",
+		"gameCode": "SMG_beautifulBones",
+		"gameImage": "SMG_beautifulBones.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_beautifulBones', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 292
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2444
+			}
+		],
+		"provider": 0,
+		"name": "Pistoleras",
+		"gameCode": "SMG_pistoleras",
+		"gameImage": "SMG_pistoleras.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_pistoleras', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 41
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 293
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2447
+			}
+		],
+		"provider": 0,
+		"name": "Gem Fire Frenzy",
+		"gameCode": "SMG_gemFireFrenzy",
+		"gameImage": "SMG_gemFireFrenzy.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_gemFireFrenzy', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 294
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2450
+			}
+		],
+		"provider": 0,
+		"name": "Boat of Fortune",
+		"gameCode": "SMG_boatofFortune",
+		"gameImage": "SMG_boatofFortune.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_boatofFortune', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2455
+			}
+		],
+		"provider": 0,
+		"name": "Queen of Alexandria™",
+		"gameCode": "SMG_queenofAlexandria",
+		"gameImage": "SMG_queenofAlexandria.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_queenofAlexandria', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 296
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2458
+			}
+		],
+		"provider": 0,
+		"name": "Playboy Gold",
+		"gameCode": "SMG_playboyGold",
+		"gameImage": "SMG_playboyGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_playboyGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 297
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2461
+			}
+		],
+		"provider": 0,
+		"name": "Carnaval",
+		"gameCode": "SMG_carnaval",
+		"gameImage": "SMG_carnaval.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_carnaval', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 298
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2464
+			}
+		],
+		"provider": 0,
+		"name": "Book Of Oz",
+		"gameCode": "SMG_bookOfOz",
+		"gameImage": "SMG_bookOfOz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bookOfOz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 33
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 299
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2469
+			}
+		],
+		"provider": 0,
+		"name": "Circus Jugglers Jackpots",
+		"gameCode": "SMG_circusJugglersJackpots",
+		"gameImage": "SMG_circusJugglersJackpots.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_circusJugglersJackpots', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 13
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 301
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2472
+			}
+		],
+		"provider": 0,
+		"name": "Carnaval Jackpot",
+		"gameCode": "SMG_carnavalJackpot",
+		"gameImage": "SMG_carnavalJackpot.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_carnavalJackpot', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 302
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2477
+			}
+		],
+		"provider": 0,
+		"name": "Rome : Fight for Gold",
+		"gameCode": "SMG_romeFightForGold",
+		"gameImage": "SMG_romeFightForGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_romeFightForGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 1
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 303
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2480
+			}
+		],
+		"provider": 0,
+		"name": "Wolf Blaze Megaways",
+		"gameCode": "SMG_wolfBlazeMegaways",
+		"gameImage": "SMG_wolfBlazeMegaways.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wolfBlazeMegaways', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 36
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 304
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2483
+			}
+		],
+		"provider": 0,
+		"name": "Aztec Falls",
+		"gameCode": "SMG_aztecFalls",
+		"gameImage": "SMG_aztecFalls.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_aztecFalls', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 305
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2487
+			}
+		],
+		"provider": 0,
+		"name": "Forbidden Throne",
+		"gameCode": "SMG_forbiddenThrone",
+		"gameImage": "SMG_forbiddenThrone.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_forbiddenThrone', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 306
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2490
+			}
+		],
+		"provider": 0,
+		"name": "Asian Beauty",
+		"gameCode": "SMG_asianBeauty",
+		"gameImage": "SMG_asianBeauty.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_asianBeauty', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 307
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2493
+			}
+		],
+		"provider": 0,
+		"name": "Basketball Star",
+		"gameCode": "SMG_basketballStar",
+		"gameImage": "SMG_basketballStar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_basketballStar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 38
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 308
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2498
+			}
+		],
+		"provider": 0,
+		"name": "9 Pots of Gold",
+		"gameCode": "SMG_9potsOfGold",
+		"gameImage": "SMG_9potsOfGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_9potsOfGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 14
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 309
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2501
+			}
+		],
+		"provider": 0,
+		"name": "Thunderstruck® Stormchaser",
+		"gameCode": "SMG_thunderstruckStormchaser",
+		"gameImage": "SMG_thunderstruckStormchaser.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_thunderstruckStormchaser', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 311
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2504
+			}
+		],
+		"provider": 0,
+		"name": "Hades Lost Treasures",
+		"gameCode": "SMG_hadesLostTreasures",
+		"gameImage": "SMG_hadesLostTreasures.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_hadesLostTreasures', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 3
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 312
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2508
+			}
+		],
+		"provider": 0,
+		"name": "Break Away Max",
+		"gameCode": "SMG_breakAwayMax",
+		"gameImage": "SMG_breakAwayMax.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakAwayMax', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 33
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 313
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2511
+			}
+		],
+		"provider": 0,
+		"name": "Doki Doki Parfait",
+		"gameCode": "SMG_dokiDokiParfait",
+		"gameImage": "SMG_dokiDokiParfait.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dokiDokiParfait', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 314
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2514
+			}
+		],
+		"provider": 0,
+		"name": "Wild Wild Romance",
+		"gameCode": "SMG_wildWildRomance",
+		"gameImage": "SMG_wildWildRomance.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_wildWildRomance', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 315
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2518
+			}
+		],
+		"provider": 0,
+		"name": "Silver Fang",
+		"gameCode": "SMG_silverFang",
+		"gameImage": "SMG_silverFang.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_silverFang', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 317
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2521
+			}
+		],
+		"provider": 0,
+		"name": "Fortunium",
+		"gameCode": "SMG_fortunium",
+		"gameImage": "SMG_fortunium.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fortunium', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 318
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2527
+			}
+		],
+		"provider": 0,
+		"name": "Rugby Star",
+		"gameCode": "SMG_rugbyStar",
+		"gameImage": "SMG_rugbyStar.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_rugbyStar', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 320
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2531
+			}
+		],
+		"provider": 0,
+		"name": "Bookie of Odds",
+		"gameCode": "SMG_bookieOfOdds",
+		"gameImage": "SMG_bookieOfOdds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bookieOfOdds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 42
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 321
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2535
+			}
+		],
+		"provider": 0,
+		"name": "Anvil & Ore",
+		"gameCode": "SMG_anvilAndOre",
+		"gameImage": "SMG_anvilAndOre.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_anvilAndOre', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 322
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2539
+			}
+		],
+		"provider": 0,
+		"name": "Cool Wolf",
+		"gameCode": "SMG_coolWolf",
+		"gameImage": "SMG_coolWolf.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_coolWolf', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 4
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 323
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2542
+			}
+		],
+		"provider": 0,
+		"name": "Cash 'N Riches Megaways™",
+		"gameCode": "SMG_cashNRichesMegaways",
+		"gameImage": "SMG_cashNRichesMegaways.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_cashNRichesMegaways', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 324
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2545
+			}
+		],
+		"provider": 0,
+		"name": "Centre Court",
+		"gameCode": "SMG_centreCourt",
+		"gameImage": "SMG_centreCourt.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_centreCourt', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 326
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2549
+			}
+		],
+		"provider": 0,
+		"name": "Alaskan Fishing",
+		"gameCode": "SMG_alaskanFishing",
+		"gameImage": "SMG_alaskanFishing.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_alaskanFishing', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 328
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2552
+			}
+		],
+		"provider": 0,
+		"name": "108 Heroes",
+		"gameCode": "SMG_108Heroes",
+		"gameImage": "SMG_108Heroes.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_108Heroes', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 329
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2557
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Leprechaun",
+		"gameCode": "SMG_luckyLeprechaun",
+		"gameImage": "SMG_luckyLeprechaun.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyLeprechaun', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "MEGAWays",
+		"categories": [
+			{
+				"name": "MEGAWays",
+				"seqNo": 7
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 330
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2562
+			}
+		],
+		"provider": 0,
+		"name": "4 Diamond Blues Megaways™",
+		"gameCode": "SMG_4DiamondBlues",
+		"gameImage": "SMG_4DiamondBlues.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_4DiamondBlues', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 331
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2565
+			}
+		],
+		"provider": 0,
+		"name": "Kathmandu",
+		"gameCode": "SMG_kathmandu",
+		"gameImage": "SMG_kathmandu.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_kathmandu', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 332
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2568
+			}
+		],
+		"provider": 0,
+		"name": "Our Days",
+		"gameCode": "SMG_ourDaysA",
+		"gameImage": "SMG_ourDaysA.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_ourDaysA', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 333
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2573
+			}
+		],
+		"provider": 0,
+		"name": "Rhyming Reels - Georgie Porgie",
+		"gameCode": "SMG_rhymingReelsGeorgiePorgie",
+		"gameImage": "SMG_rhymingReelsGeorgiePorgie.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_rhymingReelsGeorgiePorgie', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 334
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2576
+			}
+		],
+		"provider": 0,
+		"name": "Boogie Monsters",
+		"gameCode": "SMG_boogieMonsters",
+		"gameImage": "SMG_boogieMonsters.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_boogieMonsters', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 335
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2579
+			}
+		],
+		"provider": 0,
+		"name": "777 Surge™",
+		"gameCode": "SMG_777Surge",
+		"gameImage": "SMG_777Surge.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_777Surge', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 336
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2583
+			}
+		],
+		"provider": 0,
+		"name": "The Eternal Widow",
+		"gameCode": "SMG_theEternalWidow",
+		"gameImage": "SMG_theEternalWidow.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_theEternalWidow', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 338
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2587
+			}
+		],
+		"provider": 0,
+		"name": "Reel Gems Deluxe",
+		"gameCode": "SMG_reelGemsDeluxe",
+		"gameImage": "SMG_reelGemsDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_reelGemsDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 49
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 340
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2590
+			}
+		],
+		"provider": 0,
+		"name": "Tiki Reward",
+		"gameCode": "SMG_tikiReward",
+		"gameImage": "SMG_tikiReward.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tikiReward', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 51
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 341
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2594
+			}
+		],
+		"provider": 0,
+		"name": "Big Boom Riches",
+		"gameCode": "SMG_bigBoomRiches",
+		"gameImage": "SMG_bigBoomRiches.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bigBoomRiches', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 342
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2597
+			}
+		],
+		"provider": 0,
+		"name": "Halloweenies",
+		"gameCode": "SMG_halloweenies",
+		"gameImage": "SMG_halloweenies.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_halloweenies', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 3
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 343
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2602
+			}
+		],
+		"provider": 0,
+		"name": "Break Away Ultra",
+		"gameCode": "SMG_breakAwayUltra",
+		"gameImage": "SMG_breakAwayUltra.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakAwayUltra', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 17
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 344
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2605
+			}
+		],
+		"provider": 0,
+		"name": "Monkey Bonanza",
+		"gameCode": "SMG_monkeyBonanza",
+		"gameImage": "SMG_monkeyBonanza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_monkeyBonanza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 347
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2607
+			}
+		],
+		"provider": 0,
+		"name": "Pure Platinum",
+		"gameCode": "SMG_purePlatinum",
+		"gameImage": "SMG_purePlatinum.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_purePlatinum', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 348
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2612
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Pike Gold",
+		"gameCode": "SMG_fortunePikeGold",
+		"gameImage": "SMG_fortunePikeGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fortunePikeGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 29
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 349
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2616
+			}
+		],
+		"provider": 0,
+		"name": "Fishin' Christmas Pots of Gold",
+		"gameCode": "SMG_fishinChristmasPotsOfGold",
+		"gameImage": "SMG_fishinChristmasPotsOfGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fishinChristmasPotsOfGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 31
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 350
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2620
+			}
+		],
+		"provider": 0,
+		"name": "Sonic Links",
+		"gameCode": "SMG_sonicLinks",
+		"gameImage": "SMG_sonicLinks.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_sonicLinks', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 23
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 351
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2624
+			}
+		],
+		"provider": 0,
+		"name": "Andvari : The Magic Ring",
+		"gameCode": "SMG_andvariTheMagicRing",
+		"gameImage": "SMG_andvariTheMagicRing.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_andvariTheMagicRing', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 352
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2628
+			}
+		],
+		"provider": 0,
+		"name": "Dragon Shard",
+		"gameCode": "SMG_dragonShard",
+		"gameImage": "SMG_dragonShard.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dragonShard', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 40
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 353
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2631
+			}
+		],
+		"provider": 0,
+		"name": "Queens of Ra",
+		"gameCode": "SMG_queensOfRa",
+		"gameImage": "SMG_queensOfRa.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_queensOfRa', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 354
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2634
+			}
+		],
+		"provider": 0,
+		"name": "Win Sum Dim Sum",
+		"gameCode": "SMG_winSumDimSum",
+		"gameImage": "SMG_winSumDimSum.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_winSumDimSum', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 31
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 355
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2640
+			}
+		],
+		"provider": 0,
+		"name": "Mask of Amun",
+		"gameCode": "SMG_maskOfAmun",
+		"gameImage": "SMG_maskOfAmun.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_maskOfAmun', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 1
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 356
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2643
+			}
+		],
+		"provider": 0,
+		"name": "Fishin' Pots of Gold™ Gold Blitz™",
+		"gameCode": "SMG_fishinPotsOfGoldGoldBlitz",
+		"gameImage": "SMG_fishinPotsOfGoldGoldBlitz.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fishinPotsOfGoldGoldBlitz', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 357
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2646
+			}
+		],
+		"provider": 0,
+		"name": "Basketball Star Deluxe",
+		"gameCode": "SMG_basketballStarDeluxe",
+		"gameImage": "SMG_basketballStarDeluxe.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_basketballStarDeluxe', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 358
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2649
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Rush",
+		"gameCode": "SMG_fortuneRush",
+		"gameImage": "SMG_fortuneRush.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fortuneRush', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 359
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2654
+			}
+		],
+		"provider": 0,
+		"name": "Book of Wolves",
+		"gameCode": "SMG_bookOfWolves",
+		"gameImage": "SMG_bookOfWolves.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_bookOfWolves', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 360
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2657
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Firecracker",
+		"gameCode": "SMG_luckyfirecracker",
+		"gameImage": "SMG_luckyfirecracker.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyfirecracker', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 361
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2661
+			}
+		],
+		"provider": 0,
+		"name": "Rhyming Reels - Hearts & Tarts",
+		"gameCode": "SMG_rhymingReelsHeartsAndTarts",
+		"gameImage": "SMG_rhymingReelsHeartsAndTarts.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_rhymingReelsHeartsAndTarts', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 43
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 363
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2664
+			}
+		],
+		"provider": 0,
+		"name": "Unusual Suspects",
+		"gameCode": "SMG_unusualSuspects",
+		"gameImage": "SMG_unusualSuspects.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_unusualSuspects', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 364
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2669
+			}
+		],
+		"provider": 0,
+		"name": "Reel Strike",
+		"gameCode": "SMG_reelStrike",
+		"gameImage": "SMG_reelStrike.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_reelStrike', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 365
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2672
+			}
+		],
+		"provider": 0,
+		"name": "Burning Desire",
+		"gameCode": "SMG_burningDesire",
+		"gameImage": "SMG_burningDesire.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_burningDesire', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 366
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2675
+			}
+		],
+		"provider": 0,
+		"name": "Titans of the Sun - Hyperion",
+		"gameCode": "SMG_titansOfTheSunHyperion",
+		"gameImage": "SMG_titansOfTheSunHyperion.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_titansOfTheSunHyperion', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 367
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2680
+			}
+		],
+		"provider": 0,
+		"name": "Golden Princess",
+		"gameCode": "SMG_goldenPrincess",
+		"gameImage": "SMG_goldenPrincess.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldenPrincess', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 24
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 368
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2683
+			}
+		],
+		"provider": 0,
+		"name": "Fish 'Em Up",
+		"gameCode": "SMG_fishEmUp",
+		"gameImage": "SMG_fishEmUp.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fishEmUp', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 6
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 369
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2687
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Twins Link & Win™",
+		"gameCode": "SMG_luckyTwinsLinkAndWin",
+		"gameImage": "SMG_luckyTwinsLinkAndWin.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsLinkAndWin', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 370
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2690
+			}
+		],
+		"provider": 0,
+		"name": "Crazy Bob Bonanza",
+		"gameCode": "SMG_crazyBobBonanza",
+		"gameImage": "SMG_crazyBobBonanza.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_crazyBobBonanza', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 371
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2693
+			}
+		],
+		"provider": 0,
+		"name": "Oni Hunter Plus",
+		"gameCode": "SMG_oniHunterPlus",
+		"gameImage": "SMG_oniHunterPlus.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_oniHunterPlus', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 7
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 372
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2697
+			}
+		],
+		"provider": 0,
+		"name": "Fire and Roses : Joker",
+		"gameCode": "SMG_fireAndRosesJoker",
+		"gameImage": "SMG_fireAndRosesJoker.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_fireAndRosesJoker', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 373
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2701
+			}
+		],
+		"provider": 0,
+		"name": "Neptunes Riches - Ocean of Wilds",
+		"gameCode": "SMG_neptunesRichesOceanOfWilds",
+		"gameImage": "SMG_neptunesRichesOceanOfWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_neptunesRichesOceanOfWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 11
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 374
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2705
+			}
+		],
+		"provider": 0,
+		"name": "Break Away Lucky Wilds",
+		"gameCode": "SMG_breakAwayLuckyWilds",
+		"gameImage": "SMG_breakAwayLuckyWilds.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_breakAwayLuckyWilds', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 375
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2708
+			}
+		],
+		"provider": 0,
+		"name": "Loaded",
+		"gameCode": "SMG_loaded",
+		"gameImage": "SMG_loaded.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_loaded', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 376
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2712
+			}
+		],
+		"provider": 0,
+		"name": "Tasty Street",
+		"gameCode": "SMG_tastyStreet",
+		"gameImage": "SMG_tastyStreet.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_tastyStreet', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Bonus Buy Feature",
+		"categories": [
+			{
+				"name": "Bonus Buy Feature",
+				"seqNo": 44
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 377
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2715
+			}
+		],
+		"provider": 0,
+		"name": "Amazon - Lost Gold",
+		"gameCode": "SMG_amazonLostGold",
+		"gameImage": "SMG_amazonLostGold.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_amazonLostGold', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Fixed Jackpot",
+		"categories": [
+			{
+				"name": "Fixed Jackpot",
+				"seqNo": 22
+			},
+			{
+				"name": "Video Slots",
+				"seqNo": 378
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2719
+			}
+		],
+		"provider": 0,
+		"name": "Dog Days",
+		"gameCode": "SMG_dogDays",
+		"gameImage": "SMG_dogDays.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_dogDays', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Video Slots",
+		"categories": [
+			{
+				"name": "Video Slots",
+				"seqNo": 379
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2722
+			}
+		],
+		"provider": 0,
+		"name": "Golden Dragons",
+		"gameCode": "SMG_goldenDragons",
+		"gameImage": "SMG_goldenDragons.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_goldenDragons', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

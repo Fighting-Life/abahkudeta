@@ -1,0 +1,618 @@
+[
+	{
+		"name": "Hot Games",
+		"slug": "hot-games",
+		"icon": "/images/categories/hot-games.svg",
+		"color": "#FF6B01",
+		"sortOrder": 1,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Slots",
+		"slug": "slots",
+		"icon": "/images/categories/slots.svg",
+		"color": "#FF6B01",
+		"sortOrder": 2,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Live Casino",
+		"slug": "casino",
+		"icon": "/images/categories/casino.svg",
+		"color": "#FF6B01",
+		"sortOrder": 3,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Race",
+		"slug": "race",
+		"icon": "/images/categories/race.svg",
+		"color": "#FF6B01",
+		"sortOrder": 4,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Togel",
+		"slug": "others",
+		"icon": "/images/categories/others.svg",
+		"color": "#FF6B01",
+		"sortOrder": 5,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Olahraga",
+		"slug": "sport",
+		"icon": "/images/categories/sports.svg",
+		"color": "#FF6B01",
+		"sortOrder": 6,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			}
+		]
+	},
+	{
+		"name": "Cash Game",
+		"slug": "cash-game",
+		"icon": "/images/categories/crash-game.svg",
+		"color": "#FF6B01",
+		"sortOrder": 7,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Arcade",
+		"slug": "arcade",
+		"icon": "/images/categories/arcade.svg",
+		"color": "#FF6B01",
+		"sortOrder": 8,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Poker",
+		"slug": "poker",
+		"icon": "/images/categories/poker.svg",
+		"color": "#FF6B01",
+		"sortOrder": 9,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "E-Sports",
+		"slug": "e-sports",
+		"icon": "/images/categories/e-sports.svg",
+		"color": "#FF6B01",
+		"sortOrder": 10,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Sabung Ayam",
+		"slug": "cockfight",
+		"icon": "/images/categories/cockfight.svg",
+		"color": "#FF6B01",
+		"sortOrder": 11,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	},
+	{
+		"name": "Promosi",
+		"slug": "promotion",
+		"icon": "/images/categories/promotion.webp",
+		"color": "#FF6B01",
+		"sortOrder": 12,
+		"visible": true,
+		"sub": [
+			{
+				"name": "Pragmatic Play",
+				"slug": "pragmatic",
+				"icon": "/images/sub-categories/game-code-7.webp"
+			},
+			{
+				"name": "Nex4D",
+				"slug": "next4d",
+				"icon": "/images/sub-categories/game-code-48.webp"
+			},
+			{
+				"name": "JILI",
+				"slug": "jili",
+				"icon": "/images/sub-categories/game-code-70.webp"
+			},
+			{
+				"name": "Habanero",
+				"slug": "habanero",
+				"icon": "/images/sub-categories/game-code-16.webp"
+			},
+			{
+				"name": "Microgaming",
+				"slug": "microgaming",
+				"icon": "/images/sub-categories/game-code-17.webp"
+			},
+			{
+				"name": "PG SOFT",
+				"slug": "pg-soft",
+				"icon": "/images/sub-categories/game-code-9.webp"
+			},
+			{
+				"name": "No Limit City",
+				"slug": "no-limit-city",
+				"icon": "/images/sub-categories/game-code-92.webp"
+			},
+			{
+				"name": "Hacksaw",
+				"slug": "hacksaw",
+				"icon": "/images/sub-categories/game-code-98.webp"
+			},
+			{
+				"name": "Playstart",
+				"slug": "playstart",
+				"icon": "/images/sub-categories/game-code-65.webp"
+			}
+		]
+	}
+]

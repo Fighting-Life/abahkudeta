@@ -1,0 +1,1073 @@
+[
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 5603
+			}
+		],
+		"provider": 0,
+		"name": "Sugar Bang Bang 2",
+		"gameCode": "FACAHI_22071",
+		"gameImage": "FACAHI_22071.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACAHI_22071', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 6
+			},
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3255
+			}
+		],
+		"provider": 0,
+		"name": "Chinese New Year Moreways",
+		"gameCode": "FACHAI_22064",
+		"gameImage": "FACHAI_22064.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22064', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 4
+			},
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3116
+			}
+		],
+		"provider": 0,
+		"name": "Queen of Inca",
+		"gameCode": "FACHAI_22063",
+		"gameImage": "FACHAI_22063.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22063', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 5
+			},
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3131
+			}
+		],
+		"provider": 0,
+		"name": "PHOENIX FEVER",
+		"gameCode": "FACHAI_22072",
+		"gameImage": "FACHAI_22072.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22072', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 9
+			},
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3393
+			}
+		],
+		"provider": 0,
+		"name": "LUCKY FORTUNES",
+		"gameCode": "FACHAI_22040",
+		"gameImage": "FACHAI_22040.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22040', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1980
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN GENIE",
+		"gameCode": "FACHAI_22047",
+		"gameImage": "FACHAI_22047.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22047', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3813
+			}
+		],
+		"provider": 0,
+		"name": "CHINESE NEW YEAR",
+		"gameCode": "FACHAI_22020",
+		"gameImage": "FACHAI_22020.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22020', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 3
+			},
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2886
+			}
+		],
+		"provider": 0,
+		"name": "JUNGLE BANG BANG",
+		"gameCode": "FACHAI_22084",
+		"gameImage": "FACHAI_22084.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22084', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 7
+			},
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3299
+			}
+		],
+		"provider": 0,
+		"name": "SUGAR BANG BANG",
+		"gameCode": "FACHAI_22043",
+		"gameImage": "FACHAI_22043.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22043', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 17
+			},
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3719
+			}
+		],
+		"provider": 0,
+		"name": "LEGEND OF INCA",
+		"gameCode": "FACHAI_22053",
+		"gameImage": "FACHAI_22053.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22053', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 2194
+			}
+		],
+		"provider": 0,
+		"name": "Poker Win",
+		"gameCode": "FACHAI_22060",
+		"gameImage": "FACHAI_22060.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22060', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 15
+			},
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3610
+			}
+		],
+		"provider": 0,
+		"name": "SUPER ELEMENTS",
+		"gameCode": "FACHAI_22055",
+		"gameImage": "FACHAI_22055.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22055', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 13
+			},
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3559
+			}
+		],
+		"provider": 0,
+		"name": "TREASURES OF ODIN",
+		"gameCode": "FACHAI_22067",
+		"gameImage": "FACHAI_22067.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22067', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3801
+			}
+		],
+		"provider": 0,
+		"name": "CHINESE NEW YEAR 2",
+		"gameCode": "FACHAI_22041",
+		"gameImage": "FACHAI_22041.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22041', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 18
+			},
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3740
+			}
+		],
+		"provider": 0,
+		"name": "ZEUS",
+		"gameCode": "FACHAI_22049",
+		"gameImage": "FACHAI_22049.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22049', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3881
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Goddess",
+		"gameCode": "FACHAI_22057",
+		"gameImage": "FACHAI_22057.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22057', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4147
+			}
+		],
+		"provider": 0,
+		"name": "NIGHT MARKET",
+		"gameCode": "FACHAI_22018",
+		"gameImage": "FACHAI_22018.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22018', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 11
+			},
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3472
+			}
+		],
+		"provider": 0,
+		"name": "WIN WIN NEKO",
+		"gameCode": "FACHAI_22050",
+		"gameImage": "FACHAI_22050.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22050', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3890
+			}
+		],
+		"provider": 0,
+		"name": "Lucky Fortune 3x3",
+		"gameCode": "FACHAI_22061",
+		"gameImage": "FACHAI_22061.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22061', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3817
+			}
+		],
+		"provider": 0,
+		"name": "SWORD OF KING",
+		"gameCode": "FACHAI_22075",
+		"gameImage": "FACHAI_22075.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22075', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 8
+			},
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3356
+			}
+		],
+		"provider": 0,
+		"name": "BUFFALO WAYS",
+		"gameCode": "FACHAI_22069",
+		"gameImage": "FACHAI_22069.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22069', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3948
+			}
+		],
+		"provider": 0,
+		"name": "COWBOYS",
+		"gameCode": "FACHAI_22029",
+		"gameImage": "FACHAI_22029.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22029', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 14
+			},
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3599
+			}
+		],
+		"provider": 0,
+		"name": "Roma Gladiatrix",
+		"gameCode": "FACHAI_22066",
+		"gameImage": "FACHAI_22066.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22066', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4099
+			}
+		],
+		"provider": 0,
+		"name": "TREASURE CRUISE",
+		"gameCode": "FACHAI_22028",
+		"gameImage": "FACHAI_22028.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22028', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4128
+			}
+		],
+		"provider": 0,
+		"name": "CRAZY BUFFALO",
+		"gameCode": "FACHAI_22048",
+		"gameImage": "FACHAI_22048.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22048', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 12
+			},
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3547
+			}
+		],
+		"provider": 0,
+		"name": "EGYPT BONANZA",
+		"gameCode": "FACHAI_22056",
+		"gameImage": "FACHAI_22056.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22056', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3842
+			}
+		],
+		"provider": 0,
+		"name": "TREASURE RAIDERS",
+		"gameCode": "FACHAI_22042",
+		"gameImage": "FACHAI_22042.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22042', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3875
+			}
+		],
+		"provider": 0,
+		"name": "RICH ＭAN",
+		"gameCode": "FACHAI_22036",
+		"gameImage": "FACHAI_22036.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22036', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 16
+			},
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3716
+			}
+		],
+		"provider": 0,
+		"name": "CHILIHUAHUA",
+		"gameCode": "FACHAI_22059",
+		"gameImage": "FACHAI_22059.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22059', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3860
+			}
+		],
+		"provider": 0,
+		"name": "Boxing Riches",
+		"gameCode": "FACHAI_22065",
+		"gameImage": "FACHAI_22065.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22065', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4472
+			}
+		],
+		"provider": 0,
+		"name": "GOLDEN PANTHER",
+		"gameCode": "FACHAI_22016",
+		"gameImage": "FACHAI_22016.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22016', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4537
+			}
+		],
+		"provider": 0,
+		"name": "THREE LITTLE PIGS",
+		"gameCode": "FACHAI_22017",
+		"gameImage": "FACHAI_22017.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22017', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4605
+			}
+		],
+		"provider": 0,
+		"name": "PANDA DRAGON BOAT",
+		"gameCode": "FACHAI_22019",
+		"gameImage": "FACHAI_22019.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22019', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4152
+			}
+		],
+		"provider": 0,
+		"name": "PONG PONG HU",
+		"gameCode": "FACHAI_22021",
+		"gameImage": "FACHAI_22021.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22021', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4536
+			}
+		],
+		"provider": 0,
+		"name": "FORTUNE KOI",
+		"gameCode": "FACHAI_22022",
+		"gameImage": "FACHAI_22022.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22022', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4279
+			}
+		],
+		"provider": 0,
+		"name": "DA LE MEN",
+		"gameCode": "FACHAI_22023",
+		"gameImage": "FACHAI_22023.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22023', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4174
+			}
+		],
+		"provider": 0,
+		"name": "ANIMAL RACING",
+		"gameCode": "FACHAI_22024",
+		"gameImage": "FACHAI_22024.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22024', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3991
+			}
+		],
+		"provider": 0,
+		"name": "HOT POT PARTY",
+		"gameCode": "FACHAI_22026",
+		"gameImage": "FACHAI_22026.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22026', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4195
+			}
+		],
+		"provider": 0,
+		"name": "HAPPY DUO BAO",
+		"gameCode": "FACHAI_22027",
+		"gameImage": "FACHAI_22027.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22027', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4243
+			}
+		],
+		"provider": 0,
+		"name": "LUXURY GOLDEN PANTHER",
+		"gameCode": "FACHAI_22030",
+		"gameImage": "FACHAI_22030.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22030', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4377
+			}
+		],
+		"provider": 0,
+		"name": "WAR OF THE UNIVERSE",
+		"gameCode": "FACHAI_22031",
+		"gameImage": "FACHAI_22031.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22031', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 4268
+			}
+		],
+		"provider": 0,
+		"name": "MAGIC BEANS",
+		"gameCode": "FACHAI_22032",
+		"gameImage": "FACHAI_22032.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22032', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3790
+			}
+		],
+		"provider": 0,
+		"name": "GOLD RUSH",
+		"gameCode": "FACHAI_22034",
+		"gameImage": "FACHAI_22034.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22034', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3940
+			}
+		],
+		"provider": 0,
+		"name": "GRAND BLUE",
+		"gameCode": "FACHAI_22037",
+		"gameImage": "FACHAI_22037.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22037', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "DEFAULT",
+		"categories": [
+			{
+				"name": "DEFAULT",
+				"seqNo": 3917
+			}
+		],
+		"provider": 0,
+		"name": "GLORY OF ROME",
+		"gameCode": "FACHAI_22038",
+		"gameImage": "FACHAI_22038.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22038', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4066
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Sheep",
+		"gameCode": "FACHAI_22062",
+		"gameImage": "FACHAI_22062.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22062', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3906
+			}
+		],
+		"provider": 0,
+		"name": "MERGE MAGIC",
+		"gameCode": "FACHAI_22045",
+		"gameImage": "FACHAI_22045.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22045', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3905
+			}
+		],
+		"provider": 0,
+		"name": "Fortune Money Boom",
+		"gameCode": "FACHAI_22058",
+		"gameImage": "FACHAI_22058.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22058', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4418
+			}
+		],
+		"provider": 0,
+		"name": "ROBIN HOOD",
+		"gameCode": "FACHAI_22039",
+		"gameImage": "FACHAI_22039.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22039', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 3951
+			}
+		],
+		"provider": 0,
+		"name": "NIGHT MARKET 2",
+		"gameCode": "FACHAI_22054",
+		"gameImage": "FACHAI_22054.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22054', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 4127
+			}
+		],
+		"provider": 0,
+		"name": "FORTUNE EGG",
+		"gameCode": "FACHAI_22051",
+		"gameImage": "FACHAI_22051.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACHAI_22051', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

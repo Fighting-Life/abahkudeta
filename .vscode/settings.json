@@ -1,0 +1,21 @@
+{
+	"cSpell.enabled": false,
+	"css.customData": [
+		".vscode/tailwind.json"
+	],
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+	"svelte.plugin.svelte.compilerWarnings": {
+		"css-unused-selector": "ignore",
+	},
+	"css.lint.unknownAtRules": "ignore"
+}

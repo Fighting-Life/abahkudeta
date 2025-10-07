@@ -1,0 +1,131 @@
+/* Fade In Down */
+.fade-in-down {
+	opacity: 0;
+	transform: translateY(30px);
+	transition:
+		opacity 0.6s ease-out,
+		transform 0.6s ease-out;
+}
+
+.fade-in-down.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Fade In Up */
+.fade-in-up {
+	opacity: 0;
+	transform: translateY(-30px);
+	transition:
+		opacity 0.6s ease-out,
+		transform 0.6s ease-out;
+}
+
+.fade-in-up.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Fade In Left */
+.fade-in-left {
+	opacity: 0;
+	transform: translateX(-30px);
+	transition:
+		opacity 0.6s ease-out,
+		transform 0.6s ease-out;
+}
+
+.fade-in-left.is-visible {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* Fade In Right */
+.fade-in-right {
+	opacity: 0;
+	transform: translateX(30px);
+	transition:
+		opacity 0.6s ease-out,
+		transform 0.6s ease-out;
+}
+
+.fade-in-right.is-visible {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* Zoom In */
+.zoom-in {
+	opacity: 0;
+	transform: scale(0.9);
+	transition:
+		opacity 0.6s ease-out,
+		transform 0.6s ease-out;
+}
+
+.zoom-in.is-visible {
+	opacity: 1;
+	transform: scale(1);
+}
+
+/* Staggered Animations */
+.fade-in-stagger > * {
+	opacity: 0;
+	transform: translateY(20px);
+	transition:
+		opacity 0.6s ease-out,
+		transform 0.6s ease-out;
+}
+
+.fade-in-stagger.is-visible > *:nth-child(1) {
+	transition-delay: 0.1s;
+}
+.fade-in-stagger.is-visible > *:nth-child(2) {
+	transition-delay: 0.2s;
+}
+.fade-in-stagger.is-visible > *:nth-child(3) {
+	transition-delay: 0.3s;
+}
+.fade-in-stagger.is-visible > *:nth-child(4) {
+	transition-delay: 0.4s;
+}
+.fade-in-stagger.is-visible > *:nth-child(5) {
+	transition-delay: 0.5s;
+}
+
+.fade-in-stagger.is-visible > * {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Delay Classes */
+.delay-100 {
+	transition-delay: 0.1s !important;
+}
+.delay-200 {
+	transition-delay: 0.2s !important;
+}
+.delay-300 {
+	transition-delay: 0.3s !important;
+}
+.delay-400 {
+	transition-delay: 0.4s !important;
+}
+.delay-500 {
+	transition-delay: 0.5s !important;
+}
+.delay-600 {
+	transition-delay: 0.6s !important;
+}
+.delay-700 {
+	transition-delay: 0.7s !important;
+}
+.delay-800 {
+	transition-delay: 0.8s !important;
+}
+.delay-900 {
+	transition-delay: 0.9s !important;
+}
+.delay-1000 {
+	transition-delay: 1s !important;
+}

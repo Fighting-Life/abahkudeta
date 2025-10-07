@@ -1,0 +1,2997 @@
+[
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Top 20",
+				"seqNo": -1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 3
+			},
+			{
+				"name": "New",
+				"seqNo": 15
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 6
+			}
+		],
+		"provider": 0,
+		"name": "LE ZEUS",
+		"gameCode": "HACKSAW_1830",
+		"gameImage": "HACKSAW_1830.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1830', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 2
+			},
+			{
+				"name": "New",
+				"seqNo": 19
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 42
+			}
+		],
+		"provider": 0,
+		"name": "MIAMI MAYHEM",
+		"gameCode": "HACKSAW_1824",
+		"gameImage": "HACKSAW_1824.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1824', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 1
+			},
+			{
+				"name": "New",
+				"seqNo": 1
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 54
+			}
+		],
+		"provider": 0,
+		"name": "TIGER LEGENDS",
+		"gameCode": "HACKSAW_1744",
+		"gameImage": "HACKSAW_1744.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1744', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 90
+			}
+		],
+		"provider": 0,
+		"name": "LE KING",
+		"gameCode": "HACKSAW_1787",
+		"gameImage": "HACKSAW_1787.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1787', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 15
+			},
+			{
+				"name": "New",
+				"seqNo": 3
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 101
+			}
+		],
+		"provider": 0,
+		"name": "MARLIN MASTERS: THE BIG HAUL",
+		"gameCode": "HACKSAW_1811",
+		"gameImage": "HACKSAW_1811.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1811', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 6
+			},
+			{
+				"name": "New",
+				"seqNo": 5
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 127
+			}
+		],
+		"provider": 0,
+		"name": "Aiko and the Wind Spirit",
+		"gameCode": "HACKSAW_1756",
+		"gameImage": "HACKSAW_1756.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1756', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 136
+			}
+		],
+		"provider": 0,
+		"name": "Booze Bash",
+		"gameCode": "HACKSAW_1783",
+		"gameImage": "HACKSAW_1783.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1783', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 1
+			},
+			{
+				"name": "Slots",
+				"seqNo": 112
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 163
+			}
+		],
+		"provider": 0,
+		"name": "SixSixSix",
+		"gameCode": "HACKSAW_1534",
+		"gameImage": "HACKSAW_1534.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1534', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 173
+			}
+		],
+		"provider": 0,
+		"name": "Invictus",
+		"gameCode": "HACKSAW_1791",
+		"gameImage": "HACKSAW_1791.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1791', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 2
+			},
+			{
+				"name": "Slots",
+				"seqNo": 45
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 196
+			}
+		],
+		"provider": 0,
+		"name": "Ze Zeus",
+		"gameCode": "HACKSAW_1508",
+		"gameImage": "HACKSAW_1508.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1508', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 11
+			},
+			{
+				"name": "New",
+				"seqNo": 10
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 207
+			}
+		],
+		"provider": 0,
+		"name": "Eye of Medusa",
+		"gameCode": "HACKSAW_1740",
+		"gameImage": "HACKSAW_1740.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1740', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 13
+			},
+			{
+				"name": "New",
+				"seqNo": 11
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 230
+			}
+		],
+		"provider": 0,
+		"name": "The Luxe",
+		"gameCode": "Hacksaw_1897",
+		"gameImage": "Hacksaw_1897.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/Hacksaw_1897', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 19
+			},
+			{
+				"name": "New",
+				"seqNo": 9
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 239
+			}
+		],
+		"provider": 0,
+		"name": "Danny Dollar",
+		"gameCode": "HACKSAW_1685",
+		"gameImage": "HACKSAW_1685.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1685', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 4
+			},
+			{
+				"name": "New",
+				"seqNo": 2
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 262
+			}
+		],
+		"provider": 0,
+		"name": "BULLETS AND BOUNTY",
+		"gameCode": "HACKSAW_1799",
+		"gameImage": "HACKSAW_1799.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1799', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 5
+			},
+			{
+				"name": "New",
+				"seqNo": 4
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 272
+			}
+		],
+		"provider": 0,
+		"name": "RAINBOW PRINCESS",
+		"gameCode": "HACKSAW_1817",
+		"gameImage": "HACKSAW_1817.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1817', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 299
+			}
+		],
+		"provider": 0,
+		"name": "Spinman",
+		"gameCode": "HACKSAW_1748",
+		"gameImage": "HACKSAW_1748.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1748', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 16
+			},
+			{
+				"name": "New",
+				"seqNo": 16
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 297
+			}
+		],
+		"provider": 0,
+		"name": "CHAOS CREW 3",
+		"gameCode": "HACKSAW_1867",
+		"gameImage": "HACKSAW_1867.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1867', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 17
+			},
+			{
+				"name": "New",
+				"seqNo": 17
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 298
+			}
+		],
+		"provider": 0,
+		"name": "STORMBORN",
+		"gameCode": "HACKSAW_1875",
+		"gameImage": "HACKSAW_1875.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1875', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 18
+			},
+			{
+				"name": "New",
+				"seqNo": 12
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 309
+			}
+		],
+		"provider": 0,
+		"name": "Ultimate Slot of America",
+		"gameCode": "HACKSAW_1760",
+		"gameImage": "HACKSAW_1760.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1760', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 22
+			},
+			{
+				"name": "New",
+				"seqNo": 21
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 338
+			}
+		],
+		"provider": 0,
+		"name": "Reign of Rome",
+		"gameCode": "HACKSAW_1728",
+		"gameImage": "HACKSAW_1728.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1728', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 3
+			},
+			{
+				"name": "Slots",
+				"seqNo": 132
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 348
+			}
+		],
+		"provider": 0,
+		"name": "Le Bandit",
+		"gameCode": "HACKSAW_1309",
+		"gameImage": "HACKSAW_1309.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1309', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 24
+			},
+			{
+				"name": "New",
+				"seqNo": 18
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 371
+			}
+		],
+		"provider": 0,
+		"name": "Rad Maxx",
+		"gameCode": "HACKSAW_1732",
+		"gameImage": "HACKSAW_1732.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1732', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 4
+			},
+			{
+				"name": "Slots",
+				"seqNo": 107
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 381
+			}
+		],
+		"provider": 0,
+		"name": "Wanted Dead or a Wild",
+		"gameCode": "HACKSAW_1067",
+		"gameImage": "HACKSAW_1067.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1067', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 32
+			},
+			{
+				"name": "New",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 406
+			}
+		],
+		"provider": 0,
+		"name": "Phoenix",
+		"gameCode": "HACKSAW_1675",
+		"gameImage": "HACKSAW_1675.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1675', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 5
+			},
+			{
+				"name": "Slots",
+				"seqNo": 104
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 416
+			}
+		],
+		"provider": 0,
+		"name": "Cash Crew",
+		"gameCode": "HACKSAW_1456",
+		"gameImage": "HACKSAW_1456.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1456', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 25
+			},
+			{
+				"name": "New",
+				"seqNo": 8
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 438
+			}
+		],
+		"provider": 0,
+		"name": "Hounds Of Hell",
+		"gameCode": "HACKSAW_1666",
+		"gameImage": "HACKSAW_1666.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1666', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 6
+			},
+			{
+				"name": "Slots",
+				"seqNo": 40
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 450
+			}
+		],
+		"provider": 0,
+		"name": "Divine Drop",
+		"gameCode": "HACKSAW_1490",
+		"gameImage": "HACKSAW_1490.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1490', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 7
+			},
+			{
+				"name": "Slots",
+				"seqNo": 44
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 473
+			}
+		],
+		"provider": 0,
+		"name": "RIP City",
+		"gameCode": "HACKSAW_1233",
+		"gameImage": "HACKSAW_1233.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1233', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 33
+			},
+			{
+				"name": "New",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 483
+			}
+		],
+		"provider": 0,
+		"name": "Strength Of Hercules",
+		"gameCode": "HACKSAW_1697",
+		"gameImage": "HACKSAW_1697.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1697', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 8
+			},
+			{
+				"name": "Slots",
+				"seqNo": 83
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 506
+			}
+		],
+		"provider": 0,
+		"name": "Hand of Anubis",
+		"gameCode": "HACKSAW_1164",
+		"gameImage": "HACKSAW_1164.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1164', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 515
+			}
+		],
+		"provider": 0,
+		"name": "Life and Death",
+		"gameCode": "HACKSAW_1460",
+		"gameImage": "HACKSAW_1460.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1460', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 7
+			},
+			{
+				"name": "New",
+				"seqNo": 6
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 538
+			}
+		],
+		"provider": 0,
+		"name": "Fred's Food Truck",
+		"gameCode": "HACKSAW_1229",
+		"gameImage": "HACKSAW_1229.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1229', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 9
+			},
+			{
+				"name": "Slots",
+				"seqNo": 73
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 549
+			}
+		],
+		"provider": 0,
+		"name": "Keep 'em",
+		"gameCode": "HACKSAW_1494",
+		"gameImage": "HACKSAW_1494.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1494', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 10
+			},
+			{
+				"name": "Slots",
+				"seqNo": 130
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 572
+			}
+		],
+		"provider": 0,
+		"name": "Beam Boys",
+		"gameCode": "HACKSAW_1426",
+		"gameImage": "HACKSAW_1426.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1426', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 11
+			},
+			{
+				"name": "Slots",
+				"seqNo": 123
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 583
+			}
+		],
+		"provider": 0,
+		"name": "2 Wild 2 Die",
+		"gameCode": "HACKSAW_1400",
+		"gameImage": "HACKSAW_1400.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1400', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 12
+			},
+			{
+				"name": "Slots",
+				"seqNo": 108
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 606
+			}
+		],
+		"provider": 0,
+		"name": "Fist Of Destruction",
+		"gameCode": "HACKSAW_1408",
+		"gameImage": "HACKSAW_1408.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1408', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 13
+			},
+			{
+				"name": "Slots",
+				"seqNo": 49
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 617
+			}
+		],
+		"provider": 0,
+		"name": "Dork Unit",
+		"gameCode": "HACKSAW_1172",
+		"gameImage": "HACKSAW_1172.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1172', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 14
+			},
+			{
+				"name": "New",
+				"seqNo": 7
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 639
+			}
+		],
+		"provider": 0,
+		"name": "Pray for Three",
+		"gameCode": "HACKSAW_1736",
+		"gameImage": "HACKSAW_1736.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1736', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 14
+			},
+			{
+				"name": "Slots",
+				"seqNo": 96
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 648
+			}
+		],
+		"provider": 0,
+		"name": "Chaos Crew 2",
+		"gameCode": "HACKSAW_1352",
+		"gameImage": "HACKSAW_1352.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1352', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 20
+			},
+			{
+				"name": "New",
+				"seqNo": 20
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 672
+			}
+		],
+		"provider": 0,
+		"name": "Fighter Pit",
+		"gameCode": "HACKSAW_1715",
+		"gameImage": "HACKSAW_1715.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1715', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 15
+			},
+			{
+				"name": "Slots",
+				"seqNo": 101
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 679
+			}
+		],
+		"provider": 0,
+		"name": "Stormforged",
+		"gameCode": "HACKSAW_1243",
+		"gameImage": "HACKSAW_1243.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1243', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 16
+			},
+			{
+				"name": "Slots",
+				"seqNo": 71
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 703
+			}
+		],
+		"provider": 0,
+		"name": "Rusty & Curly",
+		"gameCode": "HACKSAW_1404",
+		"gameImage": "HACKSAW_1404.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1404', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 21
+			},
+			{
+				"name": "New",
+				"seqNo": 13
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 710
+			}
+		],
+		"provider": 0,
+		"name": "Wishbringer",
+		"gameCode": "HACKSAW_1711",
+		"gameImage": "HACKSAW_1711.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1711', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 17
+			},
+			{
+				"name": "Slots",
+				"seqNo": 50
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 732
+			}
+		],
+		"provider": 0,
+		"name": "Slayers Inc",
+		"gameCode": "HACKSAW_1482",
+		"gameImage": "HACKSAW_1482.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1482', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 23
+			},
+			{
+				"name": "New",
+				"seqNo": 14
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 740
+			}
+		],
+		"provider": 0,
+		"name": "Dorks of The Deep",
+		"gameCode": "HACKSAW_1430",
+		"gameImage": "HACKSAW_1430.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1430', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 18
+			},
+			{
+				"name": "Slots",
+				"seqNo": 117
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 763
+			}
+		],
+		"provider": 0,
+		"name": "Rotten",
+		"gameCode": "HACKSAW_1209",
+		"gameImage": "HACKSAW_1209.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1209', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 31
+			},
+			{
+				"name": "New",
+				"seqNo": 22
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 771
+			}
+		],
+		"provider": 0,
+		"name": "FRKN Bananas",
+		"gameCode": "HACKSAW_1693",
+		"gameImage": "HACKSAW_1693.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1693', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 26
+			},
+			{
+				"name": "New",
+				"seqNo": 23
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 795
+			}
+		],
+		"provider": 0,
+		"name": "Marlin Master",
+		"gameCode": "HACKSAW_1681",
+		"gameImage": "HACKSAW_1681.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1681', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 19
+			},
+			{
+				"name": "Slots",
+				"seqNo": 110
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 802
+			}
+		],
+		"provider": 0,
+		"name": "Benny The Beer",
+		"gameCode": "HACKSAW_1356",
+		"gameImage": "HACKSAW_1356.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1356', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Top 20",
+		"categories": [
+			{
+				"name": "Top 20",
+				"seqNo": 20
+			},
+			{
+				"name": "Slots",
+				"seqNo": 54
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 827
+			}
+		],
+		"provider": 0,
+		"name": "Xmas Drop",
+		"gameCode": "HACKSAW_1396",
+		"gameImage": "HACKSAW_1396.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1396', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 78
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 833
+			}
+		],
+		"provider": 0,
+		"name": "Bloodthirst",
+		"gameCode": "HACKSAW_1251",
+		"gameImage": "HACKSAW_1251.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1251', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 89
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 856
+			}
+		],
+		"provider": 0,
+		"name": "Densho",
+		"gameCode": "HACKSAW_1348",
+		"gameImage": "HACKSAW_1348.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1348', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 100
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 864
+			}
+		],
+		"provider": 0,
+		"name": "Undead Fortune",
+		"gameCode": "HACKSAW_1193",
+		"gameImage": "HACKSAW_1193.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1193', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 111
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 887
+			}
+		],
+		"provider": 0,
+		"name": "Gladiator Legends",
+		"gameCode": "HACKSAW_1160",
+		"gameImage": "HACKSAW_1160.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1160', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 122
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 893
+			}
+		],
+		"provider": 0,
+		"name": "Toshi Video Club",
+		"gameCode": "HACKSAW_1087",
+		"gameImage": "HACKSAW_1087.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1087', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 916
+			}
+		],
+		"provider": 0,
+		"name": "OmNom",
+		"gameCode": "HACKSAW_1043",
+		"gameImage": "HACKSAW_1043.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1043', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 38
+			},
+			{
+				"name": "New",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 921
+			}
+		],
+		"provider": 0,
+		"name": "Get The Cheese",
+		"gameCode": "HACKSAW_1580",
+		"gameImage": "HACKSAW_1580.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1580', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 945
+			}
+		],
+		"provider": 0,
+		"name": "Aztec Twist",
+		"gameCode": "HACKSAW_1066",
+		"gameImage": "HACKSAW_1066.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1066', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 41
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 952
+			}
+		],
+		"provider": 0,
+		"name": "Fruit Duel",
+		"gameCode": "HACKSAW_1197",
+		"gameImage": "HACKSAW_1197.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1197', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 42
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 972
+			}
+		],
+		"provider": 0,
+		"name": "Hop'n'Pop",
+		"gameCode": "HACKSAW_1091",
+		"gameImage": "HACKSAW_1091.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1091', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 43
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 977
+			}
+		],
+		"provider": 0,
+		"name": "Chaos Crew",
+		"gameCode": "HACKSAW_1059",
+		"gameImage": "HACKSAW_1059.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1059', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 46
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 999
+			}
+		],
+		"provider": 0,
+		"name": "Cubes 2",
+		"gameCode": "HACKSAW_1069",
+		"gameImage": "HACKSAW_1069.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1069', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 51
+			},
+			{
+				"name": "New",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1004
+			}
+		],
+		"provider": 0,
+		"name": "Tai The Toad",
+		"gameCode": "HACKSAW_1478",
+		"gameImage": "HACKSAW_1478.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1478', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 52
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1026
+			}
+		],
+		"provider": 0,
+		"name": "The Respinners",
+		"gameCode": "HACKSAW_1058",
+		"gameImage": "HACKSAW_1058.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1058', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 28
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1032
+			}
+		],
+		"provider": 0,
+		"name": "Klowns",
+		"gameCode": "HACKSAW_1438",
+		"gameImage": "HACKSAW_1438.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1438', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 53
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1053
+			}
+		],
+		"provider": 0,
+		"name": "Vending Machine",
+		"gameCode": "HACKSAW_1340",
+		"gameImage": "HACKSAW_1340.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1340', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 55
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1059
+			}
+		],
+		"provider": 0,
+		"name": "Mystery Motel",
+		"gameCode": "HACKSAW_1071",
+		"gameImage": "HACKSAW_1071.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1071', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 56
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1080
+			}
+		],
+		"provider": 0,
+		"name": "Mayan Stackways",
+		"gameCode": "HACKSAW_1275",
+		"gameImage": "HACKSAW_1275.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1275', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 57
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1086
+			}
+		],
+		"provider": 0,
+		"name": "Harvest Wilds",
+		"gameCode": "HACKSAW_1140",
+		"gameImage": "HACKSAW_1140.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1140', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 58
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1106
+			}
+		],
+		"provider": 0,
+		"name": "Immortal Desire",
+		"gameCode": "HACKSAW_1364",
+		"gameImage": "HACKSAW_1364.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1364', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 59
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1112
+			}
+		],
+		"provider": 0,
+		"name": "Orb of Destiny",
+		"gameCode": "HACKSAW_1474",
+		"gameImage": "HACKSAW_1474.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1474', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 60
+			},
+			{
+				"name": "New",
+				"seqNo": 33
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1134
+			}
+		],
+		"provider": 0,
+		"name": "Speed Crash",
+		"gameCode": "HACKSAW_1634",
+		"gameImage": "HACKSAW_1634.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1634', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 61
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1139
+			}
+		],
+		"provider": 0,
+		"name": "Stack'em",
+		"gameCode": "HACKSAW_1084",
+		"gameImage": "HACKSAW_1084.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1084', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 62
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1160
+			}
+		],
+		"provider": 0,
+		"name": "Keep 'em Cool",
+		"gameCode": "HACKSAW_1259",
+		"gameImage": "HACKSAW_1259.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1259', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 63
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1166
+			}
+		],
+		"provider": 0,
+		"name": "Magic Piggy",
+		"gameCode": "HACKSAW_1247",
+		"gameImage": "HACKSAW_1247.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1247', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 64
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1187
+			}
+		],
+		"provider": 0,
+		"name": "Pug Life",
+		"gameCode": "HACKSAW_1217",
+		"gameImage": "HACKSAW_1217.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1217', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 65
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1192
+			}
+		],
+		"provider": 0,
+		"name": "Eye of the Panda",
+		"gameCode": "HACKSAW_1344",
+		"gameImage": "HACKSAW_1344.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1344', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 66
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1212
+			}
+		],
+		"provider": 0,
+		"name": "Beast Below",
+		"gameCode": "HACKSAW_1279",
+		"gameImage": "HACKSAW_1279.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1279', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 67
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1216
+			}
+		],
+		"provider": 0,
+		"name": "Temple of Torment",
+		"gameCode": "HACKSAW_1237",
+		"gameImage": "HACKSAW_1237.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1237', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 69
+			},
+			{
+				"name": "New",
+				"seqNo": 31
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1236
+			}
+		],
+		"provider": 0,
+		"name": "Le Pharaoh",
+		"gameCode": "HACKSAW_1562",
+		"gameImage": "HACKSAW_1562.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1562', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 70
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1241
+			}
+		],
+		"provider": 0,
+		"name": "Let It Snow",
+		"gameCode": "HACKSAW_1070",
+		"gameImage": "HACKSAW_1070.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1070', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 72
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1262
+			}
+		],
+		"provider": 0,
+		"name": "Fear the Dark",
+		"gameCode": "HACKSAW_1271",
+		"gameImage": "HACKSAW_1271.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1271', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 74
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1265
+			}
+		],
+		"provider": 0,
+		"name": "Cash Compass",
+		"gameCode": "HACKSAW_1055",
+		"gameImage": "HACKSAW_1055.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1055', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 75
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1285
+			}
+		],
+		"provider": 0,
+		"name": "Miami Multiplier",
+		"gameCode": "HACKSAW_1049",
+		"gameImage": "HACKSAW_1049.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1049', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 76
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1286
+			}
+		],
+		"provider": 0,
+		"name": "Double Rainbow",
+		"gameCode": "HACKSAW_1144",
+		"gameImage": "HACKSAW_1144.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1144', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 77
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1308
+			}
+		],
+		"provider": 0,
+		"name": "Warrior Ways",
+		"gameCode": "HACKSAW_1131",
+		"gameImage": "HACKSAW_1131.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1131', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 79
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1309
+			}
+		],
+		"provider": 0,
+		"name": "Cursed Seas",
+		"gameCode": "HACKSAW_1263",
+		"gameImage": "HACKSAW_1263.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1263', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 80
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1330
+			}
+		],
+		"provider": 0,
+		"name": "King Carrot",
+		"gameCode": "HACKSAW_1127",
+		"gameImage": "HACKSAW_1127.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1127', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 81
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1332
+			}
+		],
+		"provider": 0,
+		"name": "Break Bones",
+		"gameCode": "HACKSAW_1205",
+		"gameImage": "HACKSAW_1205.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1205', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 82
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1354
+			}
+		],
+		"provider": 0,
+		"name": "Forest Fortune",
+		"gameCode": "HACKSAW_1185",
+		"gameImage": "HACKSAW_1185.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1185', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 84
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1355
+			}
+		],
+		"provider": 0,
+		"name": "Ronin Stackways",
+		"gameCode": "HACKSAW_1267",
+		"gameImage": "HACKSAW_1267.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1267', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 85
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1377
+			}
+		],
+		"provider": 0,
+		"name": "Buffalo Stack'n'Sync",
+		"gameCode": "HACKSAW_1176",
+		"gameImage": "HACKSAW_1176.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1176', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 86
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1378
+			}
+		],
+		"provider": 0,
+		"name": "Dark Summoning",
+		"gameCode": "HACKSAW_1392",
+		"gameImage": "HACKSAW_1392.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1392', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 87
+			},
+			{
+				"name": "New",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1399
+			}
+		],
+		"provider": 0,
+		"name": "Cloud Princess",
+		"gameCode": "HACKSAW_1602",
+		"gameImage": "HACKSAW_1602.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1602', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 27
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1401
+			}
+		],
+		"provider": 0,
+		"name": "Shaolin Master",
+		"gameCode": "HACKSAW_1554",
+		"gameImage": "HACKSAW_1554.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1554', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 88
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1422
+			}
+		],
+		"provider": 0,
+		"name": "Book of Time",
+		"gameCode": "HACKSAW_1213",
+		"gameImage": "HACKSAW_1213.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1213', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 90
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1425
+			}
+		],
+		"provider": 0,
+		"name": "Drop'em",
+		"gameCode": "HACKSAW_1314",
+		"gameImage": "HACKSAW_1314.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1314', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 91
+			},
+			{
+				"name": "New",
+				"seqNo": 39
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1446
+			}
+		],
+		"provider": 0,
+		"name": "Jelly Slice",
+		"gameCode": "HACKSAW_1452",
+		"gameImage": "HACKSAW_1452.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1452', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 92
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1447
+			}
+		],
+		"provider": 0,
+		"name": "Stick'em",
+		"gameCode": "HACKSAW_1042",
+		"gameImage": "HACKSAW_1042.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1042', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 93
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1469
+			}
+		],
+		"provider": 0,
+		"name": "Feel The Beat",
+		"gameCode": "HACKSAW_1372",
+		"gameImage": "HACKSAW_1372.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1372', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 68
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1470
+			}
+		],
+		"provider": 0,
+		"name": "Snow Slingers",
+		"gameCode": "HACKSAW_1558",
+		"gameImage": "HACKSAW_1558.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1558', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 94
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1492
+			}
+		],
+		"provider": 0,
+		"name": "Rocket Reels",
+		"gameCode": "HACKSAW_1102",
+		"gameImage": "HACKSAW_1102.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1102', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 95
+			},
+			{
+				"name": "New",
+				"seqNo": 37
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1493
+			}
+		],
+		"provider": 0,
+		"name": "Twisted Lab",
+		"gameCode": "HACKSAW_1514",
+		"gameImage": "HACKSAW_1514.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1514', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 97
+			},
+			{
+				"name": "New",
+				"seqNo": 24
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1515
+			}
+		],
+		"provider": 0,
+		"name": "Dragon’s Domain",
+		"gameCode": "HACKSAW_1360",
+		"gameImage": "HACKSAW_1360.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1360', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 98
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1516
+			}
+		],
+		"provider": 0,
+		"name": "Xpander",
+		"gameCode": "HACKSAW_1093",
+		"gameImage": "HACKSAW_1093.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1093', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 99
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1537
+			}
+		],
+		"provider": 0,
+		"name": "Time Spinners",
+		"gameCode": "HACKSAW_1181",
+		"gameImage": "HACKSAW_1181.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1181', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 30
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1538
+			}
+		],
+		"provider": 0,
+		"name": "Fire My Laser",
+		"gameCode": "HACKSAW_1640",
+		"gameImage": "HACKSAW_1640.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1640', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 102
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1558
+			}
+		],
+		"provider": 0,
+		"name": "Mighty Masks",
+		"gameCode": "HACKSAW_1305",
+		"gameImage": "HACKSAW_1305.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1305', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 103
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1559
+			}
+		],
+		"provider": 0,
+		"name": "Outlasw Inc",
+		"gameCode": "HACKSAW_1083",
+		"gameImage": "HACKSAW_1083.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1083', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 47
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1576
+			}
+		],
+		"provider": 0,
+		"name": "Donut Division",
+		"gameCode": "HACKSAW_1608",
+		"gameImage": "HACKSAW_1608.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1608', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 105
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1578
+			}
+		],
+		"provider": 0,
+		"name": "Joker Bombs",
+		"gameCode": "HACKSAW_1117",
+		"gameImage": "HACKSAW_1117.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1117', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 106
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1595
+			}
+		],
+		"provider": 0,
+		"name": "BOUNCY BOMBS",
+		"gameCode": "HACKSAW_1422",
+		"gameImage": "HACKSAW_1422.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1422', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 109
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1597
+			}
+		],
+		"provider": 0,
+		"name": "Born Wild",
+		"gameCode": "HACKSAW_1189",
+		"gameImage": "HACKSAW_1189.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1189', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 29
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1612
+			}
+		],
+		"provider": 0,
+		"name": "Le Viking",
+		"gameCode": "HACKSAW_1689",
+		"gameImage": "HACKSAW_1689.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1689', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 113
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1615
+			}
+		],
+		"provider": 0,
+		"name": "Tasty Treats",
+		"gameCode": "HACKSAW_1096",
+		"gameImage": "HACKSAW_1096.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1096', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 114
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1630
+			}
+		],
+		"provider": 0,
+		"name": "Cash Quest",
+		"gameCode": "HACKSAW_1099",
+		"gameImage": "HACKSAW_1099.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1099', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 115
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1631
+			}
+		],
+		"provider": 0,
+		"name": "Alpha Eagle",
+		"gameCode": "HACKSAW_1201",
+		"gameImage": "HACKSAW_1201.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1201', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 116
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1646
+			}
+		],
+		"provider": 0,
+		"name": "The Bowery Boys",
+		"gameCode": "HACKSAW_1135",
+		"gameImage": "HACKSAW_1135.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1135', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 118
+			},
+			{
+				"name": "New",
+				"seqNo": 35
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1648
+			}
+		],
+		"provider": 0,
+		"name": "Limbo",
+		"gameCode": "HACKSAW_1626",
+		"gameImage": "HACKSAW_1626.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1626', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 119
+			},
+			{
+				"name": "New",
+				"seqNo": 26
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1664
+			}
+		],
+		"provider": 0,
+		"name": "Rise of Ymir",
+		"gameCode": "Hacksaw_1616",
+		"gameImage": "Hacksaw_1616.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/Hacksaw_1616', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 120
+			},
+			{
+				"name": "New",
+				"seqNo": 32
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1665
+			}
+		],
+		"provider": 0,
+		"name": "Evil Eyes",
+		"gameCode": "HACKSAW_1570",
+		"gameImage": "HACKSAW_1570.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1570', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 121
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1679
+			}
+		],
+		"provider": 0,
+		"name": "Frank's Farm",
+		"gameCode": "HACKSAW_1225",
+		"gameImage": "HACKSAW_1225.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1225', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 124
+			},
+			{
+				"name": "New",
+				"seqNo": 34
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1680
+			}
+		],
+		"provider": 0,
+		"name": "DONNY DOUGH",
+		"gameCode": "HACKSAW_1530",
+		"gameImage": "HACKSAW_1530.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1530', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 125
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1693
+			}
+		],
+		"provider": 0,
+		"name": "Frutz",
+		"gameCode": "HACKSAW_1081",
+		"gameImage": "HACKSAW_1081.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1081', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 126
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1695
+			}
+		],
+		"provider": 0,
+		"name": "Gronk's Gems",
+		"gameCode": "HACKSAW_1221",
+		"gameImage": "HACKSAW_1221.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1221', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 127
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1708
+			}
+		],
+		"provider": 0,
+		"name": "Cubes",
+		"gameCode": "HACKSAW_1048",
+		"gameImage": "HACKSAW_1048.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1048', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 128
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1711
+			}
+		],
+		"provider": 0,
+		"name": "Dawn of Kings",
+		"gameCode": "HACKSAW_1442",
+		"gameImage": "HACKSAW_1442.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1442', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "New",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 129
+			},
+			{
+				"name": "New",
+				"seqNo": 25
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1723
+			}
+		],
+		"provider": 0,
+		"name": "Wings of Horus",
+		"gameCode": "HACKSAW_1612",
+		"gameImage": "HACKSAW_1612.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1612', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 131
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1724
+			}
+		],
+		"provider": 0,
+		"name": "ITERO",
+		"gameCode": "HACKSAW_1168",
+		"gameImage": "HACKSAW_1168.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1168', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 36
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1735
+			}
+		],
+		"provider": 0,
+		"name": "Duel at Dawn",
+		"gameCode": "HACKSAW_1620",
+		"gameImage": "HACKSAW_1620.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1620', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	},
+	{
+		"category": "Slots",
+		"categories": [
+			{
+				"name": "Slots",
+				"seqNo": 37
+			},
+			{
+				"name": "New",
+				"seqNo": 38
+			},
+			{
+				"name": "DEFAULT",
+				"seqNo": 1737
+			}
+		],
+		"provider": 0,
+		"name": "Cursed Crypt",
+		"gameCode": "HACKSAW_1434",
+		"gameImage": "HACKSAW_1434.jpg?v=20250528",
+		"link": "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1434', 'Slots')",
+		"isFavourite": false,
+		"rtpValue": null,
+		"rtpChanged": null
+	}
+]

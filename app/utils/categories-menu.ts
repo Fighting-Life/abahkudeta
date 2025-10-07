@@ -1627,16 +1627,16 @@ export const CrashProvidersCategory: Partner[] = [
 		logo: "/images/categories/crash-game/game-code-41.webp",
 		logo_colored: "/images/categories/crash-game/game-code-41.webp",
 		category: "crash-game",
-		slug: "pragmatic",
-		url: "/crash-game/pragmatic",
+		slug: "pplivecasino",
+		url: "/crash-game/pplivecasino",
 	},
 	{
 		name: "Aviator",
 		logo: "/images/categories/crash-game/game-code-82.webp",
 		logo_colored: "/images/categories/crash-game/game-code-82.webp",
 		category: "crash-game",
-		slug: "aviator",
-		url: "/crash-game/aviator",
+		slug: "spribe",
+		url: "/crash-game/spribe",
 	},
 	{
 		name: "Microgaming",
@@ -1683,7 +1683,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo: "/images/categories/crash-game/game-code-29.webp",
 		logo_colored: "/images/categories/crash-game/game-code-29.webp",
 		category: "crash-game",
-		slug: "pade-gaming",
+		slug: "spade-gaming",
 		url: "/crash-game/pade-gaming",
 	},
 	{
@@ -1715,8 +1715,8 @@ export const CrashProvidersCategory: Partner[] = [
 		logo: "/images/categories/crash-game/game-code-35.webp",
 		logo_colored: "/images/categories/crash-game/game-code-35.webp",
 		category: "crash-game",
-		slug: "funky-games",
-		url: "/crash-game/funky-games",
+		slug: "sbo-funky-game",
+		url: "/crash-game/sbo-funky-game",
 	},
 ];
 export const ArcadeProvidersCategory: Partner[] = [

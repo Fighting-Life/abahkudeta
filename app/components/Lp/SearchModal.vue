@@ -14,7 +14,7 @@ const modelValue = useVModel(props, "open", emits, {
 	passive: true,
 });
 
-const { allGames, baseImgUrl, categoryName, resetFilters } = useGames();
+const { allGames, baseImgUrl, categoryName, resetFilters } = useSlotGames();
 
 // Local state for search
 const searchInput = ref("");

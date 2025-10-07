@@ -2,9 +2,6 @@
 import { cn } from "~/lib/utils";
 
 interface Props {
-	categorySlug?: string;
-	filteredType?: string;
-	searchTerm?: string;
 	selectedProvider?: Partner;
 	initialLimit?: number;
 	loadMoreIncrement?: number;
@@ -15,7 +12,8 @@ const props = withDefaults(defineProps<Props>(), {
 	loadMoreIncrement: 12,
 	useFilter: false,
 });
-const { gameByCategorySlug, baseImgUrl, filterGames } = useSlotGames();
+const { crashGameByCategorySlug, baseImgUrl, filterCrashGames } =
+	useCrashGames();
 const { launchGame } = useGameLauncher();
 
 const isMounted = ref(false);
@@ -27,14 +25,12 @@ const isLoadingMore = ref(false);
 // Get filtered games
 const allCategoryGames = computed(() => {
 	if (props.useFilter) {
-		return filterGames({
-			filter: props.filteredType as FilterType,
+		return filterCrashGames({
 			provider: props.selectedProvider,
-			searchTerm: props.searchTerm,
 			limit: 9999,
 		});
 	} else {
-		return gameByCategorySlug.value(props.categorySlug || "pp", 9999);
+		return crashGameByCategorySlug.value("pplivecasino", 9999);
 	}
 });
 
@@ -113,12 +109,7 @@ const handleGameClick = (game: Game) => {
 };
 
 watch(
-	() => [
-		props.categorySlug,
-		props.filteredType,
-		props.selectedProvider,
-		props.searchTerm,
-	],
+	() => [props.selectedProvider],
 	() => {
 		displayLimit.value = props.initialLimit;
 		badgeCache.value.clear();
@@ -146,7 +137,6 @@ watch(
 			v-if="!isMounted"
 			class="flex flex-col items-center justify-center gap-4 py-6"
 		>
-			<Progress v-model="progress" class="w-full" />
 			<div class="flex items-center gap-2">
 				<Icon
 					name="svg-spinners:ring-resize"

@@ -5,7 +5,6 @@ const props = defineProps<{
 
 const emit = defineEmits<{
 	(e: "selectProvider", provider?: Partner): void;
-	(e: "filterChange", filter: string): void;
 }>();
 
 const carouselRef = ref<HTMLElement | null>(null);

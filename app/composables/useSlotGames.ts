@@ -8,6 +8,7 @@ export type FilterType =
 	| "Megaways"
 	| "Jackpot Play Games"
 	| "Video Slots";
+
 interface FilterOptions {
 	searchTerm?: string;
 	gameTypes?: GameType[];
@@ -21,8 +22,7 @@ interface FilterOptions {
 	limit?: number;
 }
 
-export const useGames = () => {
-	// Cache untuk optimasi
+export const useSlotGames = () => {
 	const searchCache = new Map<string, Game[]>();
 
 	const allGames = ref<Game[]>([
@@ -69,6 +69,18 @@ export const useGames = () => {
 		...FunGamingGames,
 		...FunkyGames,
 		...Live22Games,
+		...PPCasinoGames,
+		...AviatorGames,
+		...CrashSmartsoft,
+		...CrashMicroGaming,
+		...CrashSpinixGames,
+		...GeminiGames,
+		...AdvantPlayMiniGames,
+		...CrashSpadeGaming,
+		...CrashOnlyPlayGames,
+		...CrashJokerGames,
+		...CrashDragoonsoftGames,
+		...CrashFunkyGames,
 	]);
 
 	const searchTerm = ref<string | undefined>(undefined);
@@ -81,13 +93,11 @@ export const useGames = () => {
 	const sortBy = ref<"name" | "provider" | "category" | "favourites">("name");
 	const sortOrder = ref<"asc" | "desc">("asc");
 
-	// Optimized search with caching
 	const searchGames = (terms?: string, limit?: number): Game[] => {
 		if (!terms || !terms.trim()) {
 			return limit ? allGames.value.slice(0, limit) : allGames.value;
 		}
 
-		// Check cache first
 		const cacheKey = `${terms.toLowerCase()}-${limit || "all"}`;
 		if (searchCache.has(cacheKey)) {
 			return searchCache.get(cacheKey)!;
@@ -96,7 +106,6 @@ export const useGames = () => {
 		const searchTerm = terms.toLowerCase().trim();
 		const searchTerms = searchTerm.split(" ").filter((t) => t.length > 0);
 
-		// Optimized filtering with early exit
 		const results: Game[] = [];
 		const targetLength = limit || allGames.value.length;
 
@@ -107,7 +116,6 @@ export const useGames = () => {
 		) {
 			const game = allGames.value[i] as Game;
 
-			// Quick checks for common matches (name, gameCode)
 			const gameName = game?.name.toLowerCase();
 			const gameCode = game?.gameCode.toLowerCase();
 
@@ -116,13 +124,11 @@ export const useGames = () => {
 				continue;
 			}
 
-			// Category check
 			if (game?.category.toLowerCase().includes(searchTerm)) {
 				results.push(game);
 				continue;
 			}
 
-			// Multi-word search (more expensive, do last)
 			if (searchTerms.length > 1) {
 				const searchableText = `${gameName} ${gameCode} ${game?.category}`;
 				if (searchTerms.every((term) => searchableText.includes(term))) {
@@ -131,10 +137,8 @@ export const useGames = () => {
 			}
 		}
 
-		// Cache result
 		searchCache.set(cacheKey, results);
 
-		// Limit cache size
 		if (searchCache.size > 50) {
 			const firstKey = searchCache.keys().next().value as string;
 			searchCache.delete(firstKey);
@@ -143,17 +147,14 @@ export const useGames = () => {
 		return results;
 	};
 
-	// Optimized filter with memoization
 	const filterGames = (options?: FilterOptions): Game[] => {
 		let filteredGames = [...allGames.value];
 
-		// Search term filter (use optimized search)
 		if (options?.searchTerm || searchTerm.value) {
 			const term = options?.searchTerm || searchTerm.value;
-			return searchGames(term, options?.limit); // Limit to 100 for performance
+			return searchGames(term, options?.limit);
 		}
 
-		// Game types filter
 		if (options?.gameTypes?.length || selectedGameTypes.value.length > 0) {
 			const types = options?.gameTypes || selectedGameTypes.value;
 			filteredGames = filteredGames.filter((game) => {
@@ -165,17 +166,15 @@ export const useGames = () => {
 			});
 		}
 
-		// Category filter
 		if (options?.category || selectedCategory.value) {
 			const category = options?.category || selectedCategory.value;
 			filteredGames = filteredGames.filter(
 				(game) =>
 					game.category === category ||
-					game.categories.some((cat) => cat.name === category),
+					game.categories?.some((cat) => cat.name === category),
 			);
 		}
 
-		// Provider filter
 		if (options?.provider !== undefined || selectedProvider.value !== null) {
 			const provider =
 				options?.provider !== undefined
@@ -189,7 +188,9 @@ export const useGames = () => {
 						? "pgs"
 						: provider?.slug.toLowerCase() === "funky-games"
 							? "sbofunkygame"
-							: provider?.slug.toLowerCase();
+							: provider?.slug.toLowerCase() === "vplus"
+								? "slotmania"
+								: provider?.slug.toLowerCase();
 
 			filteredGames = filteredGames
 				.filter(
@@ -215,31 +216,29 @@ export const useGames = () => {
 
 			filteredGames = filteredGames
 				.filter((game) =>
-					game.categories.some((val) =>
+					game.categories?.some((val) =>
 						val.name.toLowerCase().includes(filter?.toLowerCase() ?? ""),
 					),
 				)
 				.slice(0, options?.limit);
 		}
 
-		// Favourites filter
 		if (options?.favouritesOnly || favouritesOnly.value) {
 			filteredGames = filteredGames.filter((game) => game.isFavourite);
 		}
 
-		// Default limit when no filters
 		if (
 			!options &&
 			!searchTerm.value &&
 			selectedGameTypes.value.length === 0 &&
 			!selectedCategory.value &&
 			!selectedProvider.value &&
-			!favouritesOnly.value
+			!favouritesOnly.value &&
+			!selectedFilter.value
 		) {
 			filteredGames = filteredGames.slice(0, 12);
 		}
 
-		// Sorting (only if needed)
 		const currentSortBy = options?.sortBy || sortBy.value;
 		const currentSortOrder = options?.sortOrder || sortOrder.value;
 
@@ -288,7 +287,7 @@ export const useGames = () => {
 		favouritesOnly.value = false;
 		sortBy.value = "name";
 		sortOrder.value = "asc";
-		searchCache.clear(); // Clear cache on reset
+		searchCache.clear();
 	};
 
 	const formatGameTypeName = (gameType: GameType): string => {
@@ -308,9 +307,9 @@ export const useGames = () => {
 			FatPandaGames: "Fat Panda",
 			FiveGgGames: "Five GG",
 			HabaneroGames: "Habanero",
-			HacksawGames: "Hacksaw Gaming",
+			HacksawGames: "Hacksaw",
 			JiliGames: "JILI",
-			JokerGames: "Joker Gaming",
+			JokerGames: "Joker",
 			KingMadasGames: "King Madas",
 			MicroGamingGames: "Microgaming",
 			NagaGames: "Naga Games",
@@ -342,19 +341,30 @@ export const useGames = () => {
 			MarioClubGames: "Mario Club",
 			DragoonsoftGames: "Dragoonsoft",
 			FunGamingGames: "Fun Gaming",
-			FunkyGames: "FUnky Games",
+			FunkyGames: "Funky Games",
 			Live22Games: "Live22",
+			PPCasinoGames: "PP Casino",
+			AviatorGames: "Aviator",
+			CrashMicroGaming: "Microgaming",
+			CrashSmartsoft: "Smartsoft",
+			CrashSpinixGames: "Spinix",
+			GeminiGames: "Gemini",
+			AdvantPlayMiniGames: "AdvantPlay Mini Game",
+			CrashSpadeGaming: "Spade Gaming",
+			CrashOnlyPlayGames: "Only Play",
+			CrashJokerGames: "Joker",
+			CrashDragoonsoftGames: "Dragoonsoft",
+			CrashFunkyGames: "Funky Games",
 		};
 
 		return nameMap[gameType] || formatGameTypeName(gameType);
 	};
 
-	// Memoized computed properties
 	const uniqueCategories = computed(() => {
 		const categories = new Set<string>();
 		allGames.value.forEach((game) => {
 			categories.add(game.category);
-			game.categories.forEach((cat) => categories.add(cat.name));
+			game.categories?.forEach((cat) => categories.add(cat.name));
 		});
 		return Array.from(categories).sort();
 	});
@@ -418,6 +428,10 @@ export const useGames = () => {
 				FUNGAMING: "FunGamingGames",
 				SBOFUNKYGAME: "FunkyGames",
 				LIVE22: "Live22Games",
+				PPLIVECASINO: "PPCasinoGames",
+				SPRIBE: "AviatorGames",
+				GEMINI: "GeminiGames",
+				ADVANTPLAYMINIGAME: "AdvantPlayMiniGames",
 			};
 
 			return formatGameTypeName(nameMap[name] || "PrgamaticGames");

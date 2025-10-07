@@ -63,6 +63,9 @@ declare global {
 		image: string;
 		link: string;
 		alt?: string;
+		category?: string;
+		slug?: string;
+		is_external: boolean;
 	}
 	interface MarqueeItem {
 		text: string;
@@ -71,10 +74,12 @@ declare global {
 	}
 	interface Game {
 		category: string;
-		categories: {
-			name: string;
-			seqNo: number;
-		}[];
+		categories:
+			| {
+					name: string;
+					seqNo: number;
+			  }[]
+			| null;
 		provider: number;
 		name: string;
 		gameCode: string;
@@ -127,7 +132,19 @@ declare global {
 		| "DragoonsoftGames"
 		| "FunGamingGames"
 		| "FunkyGames"
-		| "Live22Games";
+		| "Live22Games"
+		| "PPCasinoGames"
+		| "AviatorGames"
+		| "CrashSmartsoft"
+		| "CrashMicroGaming"
+		| "CrashSpinixGames"
+		| "GeminiGames"
+		| "AdvantPlayMiniGames"
+		| "CrashSpadeGaming"
+		| "CrashOnlyPlayGames"
+		| "CrashJokerGames"
+		| "CrashDragoonsoftGames"
+		| "CrashFunkyGames";
 
 	type ShorcutGame =
 		| "PP"
@@ -172,7 +189,11 @@ declare global {
 		| "DRAGOONSOFT"
 		| "FUNGAMING"
 		| "SBOFUNKYGAME"
-		| "LIVE22";
+		| "LIVE22"
+		| "PPLIVECASINO"
+		| "SPRIBE"
+		| "GEMINI"
+		| "ADVANTPLAYMINIGAME";
 
 	interface TrendingGame {
 		id: string;

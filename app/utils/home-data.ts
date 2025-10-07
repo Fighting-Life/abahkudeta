@@ -24,38 +24,69 @@ export const defaultItems: MarqueeItem[] = [
 export const defaultCarouselItems: CarouselItem[] = [
 	{
 		image: "/images/carousels/banner-01.jpg",
-		link: "/",
+		link: "#",
 		alt: "Carousel slide 1",
+		is_external: false,
+	},
+	{
+		image: "/images/carousels/banner-09.jpeg",
+		link: "https://public.pg-demo.com/events/oct/zf039/?_gl=1%2aomxr0n%2a_ga%2aMjAxNjg2MjI0MS4xNzU5ODQ1MTUy%2a_ga_7F3F0R72T0%2aczE3NTk4NDUxNjkkbzEkZzEkdDE3NTk4NDc3NDUkajUxJGwwJGgw",
+		alt: "Carousel slide 1",
+		is_external: true,
+	},
+	{
+		image: "/images/carousels/banner-11.jpg",
+		link: "https://www.baoding68h.net/",
+		alt: "Carousel slide 1",
+		is_external: true,
 	},
 	{
 		image: "/images/carousels/banner-02.jpg",
-		link: "/",
+		link: "#",
 		alt: "Carousel slide 1",
+		is_external: false,
 	},
 	{
 		image: "/images/carousels/banner-03.png",
 		link: "/",
 		alt: "Carousel slide 1",
+		is_external: false,
 	},
 	{
 		image: "/images/carousels/banner-04.png",
 		link: "/",
 		alt: "Carousel slide 1",
+		is_external: false,
 	},
 	{
 		image: "/images/carousels/banner-05.jpg",
 		link: "/",
 		alt: "Carousel slide 1",
+		is_external: false,
 	},
 	{
 		image: "/images/carousels/banner-07.png",
 		link: "/",
 		alt: "Carousel slide 1",
+		is_external: false,
 	},
 	{
 		image: "/images/carousels/banner-08.jpg",
 		link: "/",
 		alt: "Carousel slide 1",
+		is_external: false,
+	},
+	{
+		image: "/images/carousels/banner-10.png",
+		link: "/slots/hacksaw",
+		alt: "Carousel slide 1",
+		is_external: false,
+	},
+	{
+		image: "/images/carousels/banner-10.png",
+		link: "/slots/habanero",
+		alt: "Carousel slide 1",
+		is_external: false,
 	},
 ];
 export const defaultInnerSlides: CarouselInnerSlide[] = [

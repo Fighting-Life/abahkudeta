@@ -17,13 +17,15 @@ const currentIndex = ref(0);
 const isAutoScrolling = ref(true);
 const autoScrollInterval = ref<number | null>(null);
 
-// Drag/Swipe state
+// Advanced drag state
 const isDragging = ref(false);
 const startX = ref(0);
 const currentX = ref(0);
 const dragOffset = ref(0);
-const dragStartIndex = ref(0);
-const clickStartTime = ref(0);
+const lastX = ref(0);
+const lastTime = ref(0);
+const velocity = ref(0);
+const isAnimating = ref(false);
 const hasMoved = ref(false);
 
 const filters: FilterType[] = [
@@ -38,8 +40,8 @@ const filters: FilterType[] = [
 	"Video Slots",
 ];
 
-const DRAG_THRESHOLD = 50; // Minimum drag distance to change slide
-const VELOCITY_THRESHOLD = 0.5; // Minimum velocity for swipe
+const DRAG_THRESHOLD = 50;
+const VELOCITY_THRESHOLD = 0.3;
 
 const visibleCount = 5;
 const visibleProviders = computed(() => {
@@ -71,19 +73,28 @@ const stopAutoScroll = () => {
 };
 
 const next = () => {
+	if (isAnimating.value) return;
+	isAnimating.value = true;
 	currentIndex.value = (currentIndex.value + 1) % props.providers.length;
+	setTimeout(() => {
+		isAnimating.value = false;
+	}, 300);
 };
 
 const prev = () => {
+	if (isAnimating.value) return;
+	isAnimating.value = true;
 	currentIndex.value =
 		currentIndex.value === 0
 			? props.providers.length - 1
 			: currentIndex.value - 1;
+	setTimeout(() => {
+		isAnimating.value = false;
+	}, 300);
 };
 
 const selectProvider = (provider?: Partner) => {
-	// Don't select if dragging
-	if (isDragging.value) return;
+	if (isDragging.value || Math.abs(dragOffset.value) > 5) return;
 
 	selectedProvider.value = provider;
 	emit("selectProvider", provider);
@@ -99,16 +110,27 @@ const onSearchChange = (e: Event) => {
 	emit("onSearch", (e.target as HTMLInputElement).value);
 };
 
-// Drag/Swipe handlers
+const calculateVelocity = (currentTime: number) => {
+	const timeDelta = currentTime - lastTime.value;
+	if (timeDelta === 0) return 0;
+
+	const distance = currentX.value - lastX.value;
+	return distance / timeDelta;
+};
+
 const handleDragStart = (e: MouseEvent | TouchEvent) => {
+	if (isAnimating.value) return;
+
 	isDragging.value = true;
 	stopAutoScroll();
 
 	const point = "touches" in e ? e.touches[0] : e;
 	startX.value = point?.clientX ?? 0;
 	currentX.value = point?.clientX ?? 0;
-	dragStartIndex.value = currentIndex.value;
+	lastX.value = point?.clientX ?? 0;
+	lastTime.value = Date.now();
 	dragOffset.value = 0;
+	velocity.value = 0;
 
 	if (carouselRef.value) {
 		carouselRef.value.style.cursor = "grabbing";
@@ -119,10 +141,16 @@ const handleDragMove = (e: MouseEvent | TouchEvent) => {
 	if (!isDragging.value) return;
 
 	const point = "touches" in e ? e.touches[0] : e;
+	const currentTime = Date.now();
+
 	currentX.value = point?.clientX ?? 0;
 	dragOffset.value = currentX.value - startX.value;
 
-	// Prevent default to avoid scrolling while dragging
+	velocity.value = calculateVelocity(currentTime);
+
+	lastX.value = currentX.value;
+	lastTime.value = currentTime;
+
 	if (Math.abs(dragOffset.value) > 10) {
 		e.preventDefault();
 	}
@@ -138,22 +166,25 @@ const handleDragEnd = () => {
 		carouselRef.value.style.cursor = "grab";
 	}
 
-	// Determine if slide should change
-	if (dragDistance > DRAG_THRESHOLD) {
-		if (dragDirection === "left") {
+	const absVelocity = Math.abs(velocity.value);
+
+	if (dragDistance > DRAG_THRESHOLD || absVelocity > VELOCITY_THRESHOLD) {
+		if (dragDirection === "left" || velocity.value < -VELOCITY_THRESHOLD) {
 			next();
-		} else {
+		} else if (
+			dragDirection === "right" ||
+			velocity.value > VELOCITY_THRESHOLD
+		) {
 			prev();
 		}
 	}
 
-	// Reset drag state with slight delay to prevent immediate provider selection
 	setTimeout(() => {
 		isDragging.value = false;
 		dragOffset.value = 0;
-	}, 100);
+		velocity.value = 0;
+	}, 50);
 
-	// Restart auto scroll
 	setTimeout(() => {
 		if (isAutoScrolling.value) {
 			startAutoScroll();
@@ -161,58 +192,37 @@ const handleDragEnd = () => {
 	}, 500);
 };
 
-// Touch handlers
-const handleTouchStart = (e: TouchEvent) => {
-	handleDragStart(e);
-};
-
-const handleTouchMove = (e: TouchEvent) => {
-	handleDragMove(e);
-};
-
-const handleTouchEnd = () => {
-	handleDragEnd();
-};
-
-// Mouse handlers
-const handleMouseDown = (e: MouseEvent) => {
-	handleDragStart(e);
-};
-
-const handleMouseMove = (e: MouseEvent) => {
-	handleDragMove(e);
-};
-
-const handleMouseUp = () => {
-	handleDragEnd();
-};
-
-const handleMouseLeave = () => {
-	if (isDragging.value) {
-		handleDragEnd();
-	}
-};
-
-// Prevent context menu on long press
 const handleContextMenu = (e: MouseEvent) => {
 	if (isDragging.value || Math.abs(dragOffset.value) > 10) {
 		e.preventDefault();
 	}
 };
 
-// Computed transform style
 const carouselTransform = computed(() => {
 	if (isDragging.value && dragOffset.value !== 0) {
-		// Apply drag offset as visual feedback
-		const offsetPercent =
-			(dragOffset.value / (carouselRef.value?.offsetWidth || 1)) * 20;
-		return `translateX(${offsetPercent}%)`;
+		const maxOffset = 80;
+		const clampedOffset = Math.max(
+			-maxOffset,
+			Math.min(maxOffset, dragOffset.value),
+		);
+		return `translateX(${clampedOffset}px)`;
 	}
 	return "translateX(0)";
 });
 
 const carouselTransition = computed(() => {
-	return isDragging.value ? "none" : "transform 0.3s ease-out";
+	if (isDragging.value) {
+		return "none";
+	}
+	return "transform 0.4s cubic-bezier(0.4, 0, 0.2, 1)";
+});
+
+const carouselOpacity = computed(() => {
+	if (isDragging.value && Math.abs(dragOffset.value) > 30) {
+		const opacity = 1 - Math.abs(dragOffset.value) / 200;
+		return Math.max(0.7, opacity);
+	}
+	return 1;
 });
 
 onMounted(() => {
@@ -224,13 +234,12 @@ onMounted(() => {
 		carouselRef.value.style.cursor = "grab";
 	}
 
-	// Add global mouse up listener
-	window.addEventListener("mouseup", handleMouseUp);
+	window.addEventListener("mouseup", handleDragEnd);
 });
 
 onUnmounted(() => {
 	stopAutoScroll();
-	window.removeEventListener("mouseup", handleMouseUp);
+	window.removeEventListener("mouseup", handleDragEnd);
 });
 </script>
 
@@ -245,6 +254,7 @@ onUnmounted(() => {
 			<!-- Prev Button -->
 			<button
 				class="carousel-btn carousel-btn-prev cursor-pointer"
+				:disabled="isAnimating"
 				@click="prev"
 			>
 				<svg
@@ -269,76 +279,108 @@ onUnmounted(() => {
 				:style="{
 					transform: carouselTransform,
 					transition: carouselTransition,
+					opacity: carouselOpacity,
 				}"
-				@mousedown="handleMouseDown"
-				@mousemove="handleMouseMove"
-				@mouseleave="handleMouseLeave"
-				@touchstart.passive="handleTouchStart"
-				@touchmove="handleTouchMove"
-				@touchend="handleTouchEnd"
+				@mousedown="handleDragStart"
+				@mousemove="handleDragMove"
+				@mouseleave="isDragging && handleDragEnd()"
+				@touchstart.passive="handleDragStart"
+				@touchmove="handleDragMove"
+				@touchend="handleDragEnd"
 				@contextmenu="handleContextMenu"
 			>
 				<!-- Desktop View: 5 items -->
 				<div class="hidden items-center justify-center gap-8 lg:flex lg:gap-12">
-					<div
-						v-for="provider in visibleProviders"
-						:key="provider?.slug"
-						class="provider-item group"
-						:class="{ 'pointer-events-none': isDragging }"
-						@click="selectProvider(provider)"
-					>
-						<div class="provider-logo-wrapper">
-							<nuxt-img
-								:src="provider?.logo_colored"
-								:alt="provider?.name"
-								class="provider-logo"
-								loading="lazy"
-								draggable="false"
-							/>
+					<TransitionGroup name="provider-slide">
+						<div
+							v-for="provider in visibleProviders"
+							:key="provider?.slug"
+							class="provider-item group"
+							:class="{
+								'pointer-events-none': isDragging || Math.abs(dragOffset) > 5,
+								'scale-95': isDragging && Math.abs(dragOffset) > 30,
+							}"
+							@click="selectProvider(provider)"
+						>
+							<div class="provider-logo-wrapper">
+								<nuxt-img
+									:src="provider?.logo_colored"
+									:alt="provider?.name"
+									class="provider-logo"
+									loading="lazy"
+									draggable="false"
+								/>
+							</div>
+							<p class="provider-name">{{ provider?.name }}</p>
 						</div>
-						<p class="provider-name">{{ provider?.name }}</p>
-					</div>
+					</TransitionGroup>
 				</div>
 
 				<!-- Mobile View: 3 items -->
 				<div class="flex items-center justify-center gap-6 lg:hidden">
-					<div
-						v-for="provider in visibleProviders.slice(0, 3)"
-						:key="provider?.slug"
-						class="provider-item group"
-						:class="{ 'pointer-events-none': isDragging }"
-						@click="selectProvider(provider)"
-					>
-						<div class="provider-logo-wrapper">
-							<nuxt-img
-								:src="provider?.logo_colored"
-								:alt="provider?.name"
-								class="provider-logo"
-								loading="lazy"
-								draggable="false"
-							/>
+					<TransitionGroup name="provider-slide">
+						<div
+							v-for="provider in visibleProviders.slice(0, 3)"
+							:key="provider?.slug"
+							class="provider-item group"
+							:class="{
+								'pointer-events-none': isDragging || Math.abs(dragOffset) > 5,
+								'scale-95': isDragging && Math.abs(dragOffset) > 30,
+							}"
+							@click="selectProvider(provider)"
+						>
+							<div class="provider-logo-wrapper">
+								<nuxt-img
+									:src="provider?.logo_colored"
+									:alt="provider?.name"
+									class="provider-logo"
+									loading="lazy"
+									draggable="false"
+								/>
+							</div>
+							<p class="provider-name">{{ provider?.name }}</p>
 						</div>
-						<p class="provider-name">{{ provider?.name }}</p>
-					</div>
+					</TransitionGroup>
 				</div>
 
 				<!-- Drag Indicator -->
-				<div
-					v-if="isDragging && Math.abs(dragOffset) > 30"
-					class="pointer-events-none absolute inset-0 z-50 flex items-center justify-center"
-				>
-					<div class="rounded-full bg-white/10 p-3 backdrop-blur-md">
-						<Icon
-							:name="dragOffset > 0 ? 'mdi:chevron-left' : 'mdi:chevron-right'"
-							class="text-3xl text-white"
-						/>
+				<Transition name="fade">
+					<div
+						v-if="isDragging && Math.abs(dragOffset) > 30"
+						class="pointer-events-none absolute inset-0 z-50 flex items-center justify-center"
+					>
+						<div
+							class="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 backdrop-blur-md"
+							:class="{
+								'animate-pulse': Math.abs(dragOffset) > DRAG_THRESHOLD,
+							}"
+						>
+							<Icon
+								:name="
+									dragOffset > 0 ? 'mdi:chevron-left' : 'mdi:chevron-right'
+								"
+								class="text-2xl text-white"
+							/>
+							<span class="text-xs font-medium text-white">
+								{{ dragOffset > 0 ? "Previous" : "Next" }}
+							</span>
+						</div>
 					</div>
+				</Transition>
+
+				<!-- Velocity Indicator (Debug - Optional) -->
+				<div
+					v-if="false && isDragging && Math.abs(velocity) > 0.1"
+					class="pointer-events-none absolute top-2 left-1/2 z-50 -translate-x-1/2 transform rounded-full bg-black/50 px-3 py-1 text-xs text-white backdrop-blur-sm"
+				>
+					Velocity: {{ velocity.toFixed(2) }}
 				</div>
 			</div>
 
 			<!-- Next Button -->
 			<button
 				class="carousel-btn carousel-btn-next cursor-pointer"
+				:disabled="isAnimating"
 				@click="next"
 			>
 				<svg
@@ -370,12 +412,15 @@ onUnmounted(() => {
 		</div>
 
 		<!-- Swipe Hint (Mobile) -->
-		<div
-			class="flex items-center justify-center gap-2 py-2 text-xs text-gray-400 lg:hidden"
-		>
-			<Icon name="mdi:gesture-swipe-horizontal" class="text-lg" />
-			<span>Geser untuk ganti provider</span>
-		</div>
+		<Transition name="fade">
+			<div
+				v-if="!isDragging"
+				class="flex items-center justify-center gap-2 py-2 text-xs text-gray-400 lg:hidden"
+			>
+				<Icon name="mdi:gesture-swipe-horizontal" class="text-lg" />
+				<span>Geser untuk ganti provider</span>
+			</div>
+		</Transition>
 
 		<!-- Filters -->
 		<div class="filters-section">
@@ -485,7 +530,7 @@ onUnmounted(() => {
 	@apply relative flex-1 overflow-hidden;
 	cursor: grab;
 	touch-action: pan-y;
-	will-change: transform;
+	will-change: transform, opacity;
 }
 
 .carousel-container:active {
@@ -496,12 +541,16 @@ onUnmounted(() => {
 	@apply z-10 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-gray-800/50 text-white backdrop-blur-sm transition-all duration-200 hover:bg-gray-700 lg:h-10 lg:w-10;
 }
 
-.carousel-btn:hover {
+.carousel-btn:hover:not(:disabled) {
 	@apply scale-110;
 }
 
-.carousel-btn:active {
+.carousel-btn:active:not(:disabled) {
 	@apply scale-95;
+}
+
+.carousel-btn:disabled {
+	@apply cursor-not-allowed opacity-50;
 }
 
 /* Provider Item */
@@ -513,6 +562,10 @@ onUnmounted(() => {
 
 .provider-item.pointer-events-none {
 	@apply pointer-events-none;
+}
+
+.provider-item.scale-95 {
+	@apply scale-95 opacity-80;
 }
 
 .provider-logo-wrapper {
@@ -571,5 +624,48 @@ onUnmounted(() => {
 	background-repeat: no-repeat;
 	background-size: 1.5em 1.5em;
 	padding-right: 2.5rem;
+}
+
+/* Transitions */
+.provider-slide-enter-active,
+.provider-slide-leave-active {
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.provider-slide-enter-from {
+	opacity: 0;
+	transform: translateX(-20px);
+}
+
+.provider-slide-leave-to {
+	opacity: 0;
+	transform: translateX(20px);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+	0%,
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0.8;
+		transform: scale(1.05);
+	}
+}
+
+.animate-pulse {
+	animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 </style>

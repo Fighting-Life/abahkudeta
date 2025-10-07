@@ -165,25 +165,20 @@ useHead({
 });
 
 const user = useSupabaseUser();
-const { searchTerm, selectedFilter, selectedProvider } = useGames();
+const { searchTerm, selectedFilter, selectedProvider } = useSlotGames();
+const { selectedCrashProvider } = useCrashGames();
 
 const categorParams = route.params.category as string;
 const category = computed(() =>
 	CategoriesTopMenu.find((val) => val.slug === categorParams),
 );
 
-const handleSelectProvider = (provider?: Partner) => {
-	selectedProvider.value = provider;
-};
 const handleFilterChange = (filter?: FilterType) => {
 	if (!filter || filter === "Semua permainan") {
 		selectedFilter.value = undefined;
 	} else {
 		selectedFilter.value = filter;
 	}
-};
-const handleSearch = (value?: string) => {
-	searchTerm.value = value;
 };
 </script>
 <template>
@@ -259,16 +254,17 @@ const handleSearch = (value?: string) => {
 					</NuxtLink>
 				</div>
 
-				<slot-provider-category
+				<AdvancedSlotProviderCategory
 					v-if="category?.slug === 'slots'"
 					:providers="SlotsProvidersCategory"
-					@select-provider="handleSelectProvider"
+					@select-provider="(val) => (selectedProvider = val)"
 					@filter-change="handleFilterChange"
-					@on-search="handleSearch"
+					@on-search="(val) => (searchTerm = val)"
 				/>
 				<crash-provider-category
 					v-if="category?.slug === 'crash-game'"
 					:providers="CrashProvidersCategory"
+					@select-provider="(val) => (selectedCrashProvider = val)"
 				/>
 				<arcade-provider-category
 					v-if="category?.slug === 'arcade'"
@@ -291,6 +287,13 @@ const handleSearch = (value?: string) => {
 					:selected-provider="selectedProvider"
 					:filtered-type="selectedFilter"
 					:search-term="searchTerm"
+					:initial-limit="12"
+					:load-more-increment="12"
+					:use-filter="true"
+				/>
+				<CrashGameCardHorizontal
+					v-if="category?.slug === 'crash-game'"
+					:selected-provider="selectedCrashProvider"
 					:initial-limit="12"
 					:load-more-increment="12"
 					:use-filter="true"

@@ -1,0 +1,3 @@
+ALTER TABLE public.profiles DROP COLUMN IF EXISTS balance;
+
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS balance TEXT NOT NULL DEFAULT '0';

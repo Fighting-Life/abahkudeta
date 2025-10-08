@@ -81,29 +81,31 @@ export const useAuthRegister = () => {
 export const useAuthLogin = () => {
 	const supabase = useSupabaseClient<Database>();
 
-	// Simple login - email or username
 	const login = async (identifier: string, password: string) => {
 		try {
 			let email = identifier;
 
 			// Check if identifier is email format
-			const isEmail = identifier.includes("@");
+			const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(identifier);
 
-			// If not email, assume it's username - get email from profiles
 			if (!isEmail) {
-				const { data: profiles } = await supabase
+				// Query profiles untuk ambil email berdasarkan username
+				const { data: profile, error: profileError } = await supabase
 					.from("profiles")
-					.select("username")
+					.select("email")
 					.eq("username", identifier)
 					.maybeSingle();
 
-				if (!profiles?.username) {
+				if (profileError) {
+					console.error("Profile error:", profileError);
+					throw new Error("Terjadi kesalahan saat mencari username");
+				}
+
+				if (!profile || !profile.email) {
 					throw new Error("Username tidak ditemukan");
 				}
 
-				// IMPORTANT: Karena di profiles.username kita simpan email (dari trigger)
-				// Maka username di profiles = email di auth.users
-				email = profiles.username;
+				email = profile.email;
 			}
 
 			// Login with email
@@ -113,21 +115,30 @@ export const useAuthLogin = () => {
 			});
 
 			if (error) {
-				// Handle specific errors
+				console.error("Auth error:", error);
+
 				if (error.message.includes("Invalid login credentials")) {
 					throw new Error("Email/Username atau password salah!");
 				} else if (error.message.includes("Email not confirmed")) {
 					throw new Error("Email belum diverifikasi. Silakan cek inbox Anda.");
+				} else if (error.message.includes("Database error")) {
+					throw new Error("Terjadi kesalahan sistem. Silakan coba lagi.");
 				}
+
 				throw error;
 			}
 
-			// Update last login
+			// Update last login (optional - remove if causing issues)
 			if (data.user) {
-				await supabase
-					.from("profiles")
-					.update({ last_sign_in_at: new Date().toISOString() })
-					.eq("id", data.user.id);
+				try {
+					await supabase
+						.from("profiles")
+						.update({ last_sign_in_at: new Date().toISOString() })
+						.eq("id", data.user.id);
+				} catch (updateError) {
+					// Silently fail - login still successful
+					console.warn("Could not update last_sign_in_at:", updateError);
+				}
 			}
 
 			return {

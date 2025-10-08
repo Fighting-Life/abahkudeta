@@ -162,6 +162,7 @@ export type Database = {
           bank_account_name: string
           bank_account_number: string
           bonus_claimed: boolean | null
+          email: string | null
           full_name: string | null
           id: string
           is_active: boolean | null
@@ -180,6 +181,7 @@ export type Database = {
           bank_account_name: string
           bank_account_number: string
           bonus_claimed?: boolean | null
+          email?: string | null
           full_name?: string | null
           id: string
           is_active?: boolean | null
@@ -198,6 +200,7 @@ export type Database = {
           bank_account_name?: string
           bank_account_number?: string
           bonus_claimed?: boolean | null
+          email?: string | null
           full_name?: string | null
           id?: string
           is_active?: boolean | null

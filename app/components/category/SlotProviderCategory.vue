@@ -17,15 +17,6 @@ const currentIndex = ref(0);
 const isAutoScrolling = ref(true);
 const autoScrollInterval = ref<number | null>(null);
 
-// Drag/Swipe state
-const isDragging = ref(false);
-const startX = ref(0);
-const currentX = ref(0);
-const dragOffset = ref(0);
-const dragStartIndex = ref(0);
-const clickStartTime = ref(0);
-const hasMoved = ref(false);
-
 const filters: FilterType[] = [
 	"Semua permainan",
 	"Top 20",
@@ -37,9 +28,6 @@ const filters: FilterType[] = [
 	"Jackpot Play Games",
 	"Video Slots",
 ];
-
-const DRAG_THRESHOLD = 50; // Minimum drag distance to change slide
-const VELOCITY_THRESHOLD = 0.5; // Minimum velocity for swipe
 
 const visibleCount = 5;
 const visibleProviders = computed(() => {
@@ -82,9 +70,6 @@ const prev = () => {
 };
 
 const selectProvider = (provider?: Partner) => {
-	// Don't select if dragging
-	if (isDragging.value) return;
-
 	selectedProvider.value = provider;
 	emit("selectProvider", provider);
 };
@@ -93,144 +78,19 @@ const selectFilter = (filter?: FilterType) => {
 	selectedFilter.value = filter;
 	emit("filterChange", filter);
 };
-
 const onSearchChange = (e: Event) => {
 	searchTerm.value = (e.target as HTMLInputElement).value;
 	emit("onSearch", (e.target as HTMLInputElement).value);
 };
 
-// Drag/Swipe handlers
-const handleDragStart = (e: MouseEvent | TouchEvent) => {
-	isDragging.value = true;
-	stopAutoScroll();
-
-	const point = "touches" in e ? e.touches[0] : e;
-	startX.value = point?.clientX ?? 0;
-	currentX.value = point?.clientX ?? 0;
-	dragStartIndex.value = currentIndex.value;
-	dragOffset.value = 0;
-
-	if (carouselRef.value) {
-		carouselRef.value.style.cursor = "grabbing";
-	}
-};
-
-const handleDragMove = (e: MouseEvent | TouchEvent) => {
-	if (!isDragging.value) return;
-
-	const point = "touches" in e ? e.touches[0] : e;
-	currentX.value = point?.clientX ?? 0;
-	dragOffset.value = currentX.value - startX.value;
-
-	// Prevent default to avoid scrolling while dragging
-	if (Math.abs(dragOffset.value) > 10) {
-		e.preventDefault();
-	}
-};
-
-const handleDragEnd = () => {
-	if (!isDragging.value) return;
-
-	const dragDistance = Math.abs(dragOffset.value);
-	const dragDirection = dragOffset.value > 0 ? "right" : "left";
-
-	if (carouselRef.value) {
-		carouselRef.value.style.cursor = "grab";
-	}
-
-	// Determine if slide should change
-	if (dragDistance > DRAG_THRESHOLD) {
-		if (dragDirection === "left") {
-			next();
-		} else {
-			prev();
-		}
-	}
-
-	// Reset drag state with slight delay to prevent immediate provider selection
-	setTimeout(() => {
-		isDragging.value = false;
-		dragOffset.value = 0;
-	}, 100);
-
-	// Restart auto scroll
-	setTimeout(() => {
-		if (isAutoScrolling.value) {
-			startAutoScroll();
-		}
-	}, 500);
-};
-
-// Touch handlers
-const handleTouchStart = (e: TouchEvent) => {
-	handleDragStart(e);
-};
-
-const handleTouchMove = (e: TouchEvent) => {
-	handleDragMove(e);
-};
-
-const handleTouchEnd = () => {
-	handleDragEnd();
-};
-
-// Mouse handlers
-const handleMouseDown = (e: MouseEvent) => {
-	handleDragStart(e);
-};
-
-const handleMouseMove = (e: MouseEvent) => {
-	handleDragMove(e);
-};
-
-const handleMouseUp = () => {
-	handleDragEnd();
-};
-
-const handleMouseLeave = () => {
-	if (isDragging.value) {
-		handleDragEnd();
-	}
-};
-
-// Prevent context menu on long press
-const handleContextMenu = (e: MouseEvent) => {
-	if (isDragging.value || Math.abs(dragOffset.value) > 10) {
-		e.preventDefault();
-	}
-};
-
-// Computed transform style
-const carouselTransform = computed(() => {
-	if (isDragging.value && dragOffset.value !== 0) {
-		// Apply drag offset as visual feedback
-		const offsetPercent =
-			(dragOffset.value / (carouselRef.value?.offsetWidth || 1)) * 20;
-		return `translateX(${offsetPercent}%)`;
-	}
-	return "translateX(0)";
-});
-
-const carouselTransition = computed(() => {
-	return isDragging.value ? "none" : "transform 0.3s ease-out";
-});
-
 onMounted(() => {
 	if (isAutoScrolling.value) {
 		startAutoScroll();
 	}
-
-	if (carouselRef.value) {
-		carouselRef.value.style.cursor = "grab";
-	}
-
-	// Add global mouse up listener
-	window.addEventListener("mouseup", handleMouseUp);
 });
 
 onUnmounted(() => {
 	stopAutoScroll();
-	window.removeEventListener("mouseup", handleMouseUp);
 });
 </script>
 
@@ -240,7 +100,7 @@ onUnmounted(() => {
 		<div
 			class="carousel-wrapper"
 			@mouseenter="stopAutoScroll"
-			@mouseleave="!isDragging && isAutoScrolling && startAutoScroll()"
+			@mouseleave="isAutoScrolling && startAutoScroll()"
 		>
 			<!-- Prev Button -->
 			<button
@@ -263,28 +123,13 @@ onUnmounted(() => {
 			</button>
 
 			<!-- Providers Container -->
-			<div
-				ref="carouselRef"
-				class="carousel-container select-none"
-				:style="{
-					transform: carouselTransform,
-					transition: carouselTransition,
-				}"
-				@mousedown="handleMouseDown"
-				@mousemove="handleMouseMove"
-				@mouseleave="handleMouseLeave"
-				@touchstart.passive="handleTouchStart"
-				@touchmove="handleTouchMove"
-				@touchend="handleTouchEnd"
-				@contextmenu="handleContextMenu"
-			>
+			<div ref="carouselRef" class="carousel-container">
 				<!-- Desktop View: 5 items -->
 				<div class="hidden items-center justify-center gap-8 lg:flex lg:gap-12">
 					<div
 						v-for="provider in visibleProviders"
 						:key="provider?.slug"
 						class="provider-item group"
-						:class="{ 'pointer-events-none': isDragging }"
 						@click="selectProvider(provider)"
 					>
 						<div class="provider-logo-wrapper">
@@ -293,7 +138,6 @@ onUnmounted(() => {
 								:alt="provider?.name"
 								class="provider-logo"
 								loading="lazy"
-								draggable="false"
 							/>
 						</div>
 						<p class="provider-name">{{ provider?.name }}</p>
@@ -306,7 +150,6 @@ onUnmounted(() => {
 						v-for="provider in visibleProviders.slice(0, 3)"
 						:key="provider?.slug"
 						class="provider-item group"
-						:class="{ 'pointer-events-none': isDragging }"
 						@click="selectProvider(provider)"
 					>
 						<div class="provider-logo-wrapper">
@@ -315,23 +158,9 @@ onUnmounted(() => {
 								:alt="provider?.name"
 								class="provider-logo"
 								loading="lazy"
-								draggable="false"
 							/>
 						</div>
 						<p class="provider-name">{{ provider?.name }}</p>
-					</div>
-				</div>
-
-				<!-- Drag Indicator -->
-				<div
-					v-if="isDragging && Math.abs(dragOffset) > 30"
-					class="pointer-events-none absolute inset-0 z-50 flex items-center justify-center"
-				>
-					<div class="rounded-full bg-white/10 p-3 backdrop-blur-md">
-						<Icon
-							:name="dragOffset > 0 ? 'mdi:chevron-left' : 'mdi:chevron-right'"
-							class="text-3xl text-white"
-						/>
 					</div>
 				</div>
 			</div>
@@ -367,14 +196,6 @@ onUnmounted(() => {
 					}"
 				></div>
 			</div>
-		</div>
-
-		<!-- Swipe Hint (Mobile) -->
-		<div
-			class="flex items-center justify-center gap-2 py-2 text-xs text-gray-400 lg:hidden"
-		>
-			<Icon name="mdi:gesture-swipe-horizontal" class="text-lg" />
-			<span>Geser untuk ganti provider</span>
 		</div>
 
 		<!-- Filters -->
@@ -428,6 +249,7 @@ onUnmounted(() => {
 					</SelectTrigger>
 					<SelectContent>
 						<SelectGroup>
+							<!-- <SelectLabel>Fruits</SelectLabel> -->
 							<SelectItem
 								v-for="filter in filters"
 								:key="filter"
@@ -471,7 +293,6 @@ onUnmounted(() => {
 
 <style scoped lang="css">
 @reference "tailwindcss";
-
 .provider-section {
 	@apply w-full space-y-4 rounded-lg bg-gray-900 p-4 lg:space-y-6 lg:p-6;
 }
@@ -482,18 +303,11 @@ onUnmounted(() => {
 }
 
 .carousel-container {
-	@apply relative flex-1 overflow-hidden;
-	cursor: grab;
-	touch-action: pan-y;
-	will-change: transform;
-}
-
-.carousel-container:active {
-	cursor: grabbing;
+	@apply flex-1 overflow-hidden;
 }
 
 .carousel-btn {
-	@apply z-10 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-gray-800/50 text-white backdrop-blur-sm transition-all duration-200 hover:bg-gray-700 lg:h-10 lg:w-10;
+	@apply z-10 flex h-8 w-8 items-center justify-center rounded-full bg-gray-800/50 text-white backdrop-blur-sm transition-all duration-200 hover:bg-gray-700 lg:h-10 lg:w-10;
 }
 
 .carousel-btn:hover {
@@ -507,12 +321,6 @@ onUnmounted(() => {
 /* Provider Item */
 .provider-item {
 	@apply flex cursor-pointer flex-col items-center gap-2 transition-all duration-300;
-	user-select: none;
-	-webkit-user-select: none;
-}
-
-.provider-item.pointer-events-none {
-	@apply pointer-events-none;
 }
 
 .provider-logo-wrapper {
@@ -521,11 +329,6 @@ onUnmounted(() => {
 
 .provider-logo {
 	@apply h-full w-full object-contain;
-	-webkit-user-drag: none;
-	-khtml-user-drag: none;
-	-moz-user-drag: none;
-	-o-user-drag: none;
-	user-drag: none;
 }
 
 .provider-name {

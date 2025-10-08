@@ -31,6 +31,7 @@ export default defineNuxtConfig({
 		"@nuxtjs/supabase",
 		"@nuxtjs/sitemap",
 		"nuxt-headlessui",
+		"nuxt-swiper",
 	],
 	css: ["~/assets/css/tailwind.css", "~/assets/css/animations.css"],
 	alias: {
@@ -296,6 +297,10 @@ export default defineNuxtConfig({
 			xxl: 1536,
 			"2xl": 1536,
 		},
+	},
+	swiper: {
+		enableComposables: true,
+		bundled: true,
 	},
 	runtimeConfig: {
 		AppName: process.env.NUXT_APP_NAME,

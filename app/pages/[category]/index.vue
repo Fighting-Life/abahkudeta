@@ -254,7 +254,7 @@ const handleFilterChange = (filter?: FilterType) => {
 					</NuxtLink>
 				</div>
 
-				<AdvancedSlotProviderCategory
+				<SlotProviderCategory
 					v-if="category?.slug === 'slots'"
 					:providers="SlotsProvidersCategory"
 					@select-provider="(val) => (selectedProvider = val)"

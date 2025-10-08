@@ -41,6 +41,18 @@ export const defaultCarouselItems: CarouselItem[] = [
 		is_external: true,
 	},
 	{
+		image: "/images/carousels/banner-13.jpeg",
+		link: "https://www.368connect.com/CMD_TIG_2025/?lang=vi-VN&_gl=1*1xckh4e*_ga*MjAxNjg2MjI0MS4xNzU5ODQ1MTUy*_ga_7F3F0R72T0*czE3NTk5MTgwODYkbzUkZzEkdDE3NTk5MTgwODYkajYwJGwwJGgw",
+		alt: "Carousel slide 1",
+		is_external: true,
+	},
+	{
+		image: "/images/carousels/banner-14.jpg",
+		link: "https://history.jlfafafa3.com/event/20250901_JL_SuperMahjong?_gl=1%2aly2msj%2a_ga%2aMjAxNjg2MjI0MS4xNzU5ODQ1MTUy%2a_ga_7F3F0R72T0%2aczE3NTk5MTgwODYkbzUkZzEkdDE3NTk5MTgwODYkajYwJGwwJGgw",
+		alt: "Carousel slide 1",
+		is_external: true,
+	},
+	{
 		image: "/images/carousels/banner-02.jpg",
 		link: "/",
 		alt: "Carousel slide 1",
@@ -79,12 +91,6 @@ export const defaultCarouselItems: CarouselItem[] = [
 	{
 		image: "/images/carousels/banner-10.png",
 		link: "/slots/hacksaw",
-		alt: "Carousel slide 1",
-		is_external: false,
-	},
-	{
-		image: "/images/carousels/banner-10.png",
-		link: "/slots/habanero",
 		alt: "Carousel slide 1",
 		is_external: false,
 	},

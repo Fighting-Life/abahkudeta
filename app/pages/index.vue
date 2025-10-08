@@ -160,7 +160,11 @@ useHead({
 
 <template>
 	<div class="w-full space-y-3">
-		<home-carousel />
+		<home-carousel
+			:items="defaultCarouselItems"
+			:slide-interval="2000"
+			:transition-duration="800"
+		/>
 		<marquee />
 		<jackpot-banner />
 		<grid-middle-home

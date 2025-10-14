@@ -13,9 +13,9 @@ const isOpen = useVModel(props, "open", emits, {
 });
 
 const MessageMenuItems = [
-	{ name: "Akun Saya", link: "/" },
-	{ name: "Ubah Kata Sandi", link: "/" },
-	{ name: "Banking", link: "/" },
+	{ name: "Akun Saya", link: "/account?q=main&t=summary" },
+	{ name: "Ubah Kata Sandi", link: "/account?q=main&t=password" },
+	{ name: "Banking", link: "/account?q=main&t=payment-account" },
 ];
 </script>
 

@@ -72,161 +72,206 @@ export type Database = {
         }
         Relationships: []
       }
-      game_categories: {
-        Row: {
-          created_at: string | null
-          game_id: string | null
-          id: string
-          name: string
-          seq_no: number
-          updated_at: string | null
-        }
-        Insert: {
-          created_at?: string | null
-          game_id?: string | null
-          id?: string
-          name: string
-          seq_no: number
-          updated_at?: string | null
-        }
-        Update: {
-          created_at?: string | null
-          game_id?: string | null
-          id?: string
-          name?: string
-          seq_no?: number
-          updated_at?: string | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "game_categories_game_id_fkey"
-            columns: ["game_id"]
-            isOneToOne: false
-            referencedRelation: "games"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      games: {
-        Row: {
-          category: string
-          created_at: string | null
-          game_code: string
-          game_image: string | null
-          game_link: string | null
-          id: string
-          is_active: boolean | null
-          is_favourite: boolean | null
-          name: string
-          provider: number
-          rtp_changed: boolean | null
-          rtp_value: number | null
-          updated_at: string | null
-        }
-        Insert: {
-          category: string
-          created_at?: string | null
-          game_code: string
-          game_image?: string | null
-          game_link?: string | null
-          id?: string
-          is_active?: boolean | null
-          is_favourite?: boolean | null
-          name: string
-          provider?: number
-          rtp_changed?: boolean | null
-          rtp_value?: number | null
-          updated_at?: string | null
-        }
-        Update: {
-          category?: string
-          created_at?: string | null
-          game_code?: string
-          game_image?: string | null
-          game_link?: string | null
-          id?: string
-          is_active?: boolean | null
-          is_favourite?: boolean | null
-          name?: string
-          provider?: number
-          rtp_changed?: boolean | null
-          rtp_value?: number | null
-          updated_at?: string | null
-        }
-        Relationships: []
-      }
       profiles: {
         Row: {
           avatar_url: string | null
           balance: string
-          bank_account_name: string
-          bank_account_number: string
-          bonus_claimed: boolean | null
+          bank_account_name: string | null
+          bank_account_number: string | null
+          bonus_claimed: boolean
+          created_at: string
           email: string | null
           full_name: string | null
           id: string
-          is_active: boolean | null
+          is_active: boolean
           last_sign_in_at: string | null
-          payment_type: string
+          payment_type: string | null
           phone: string | null
           referral_code: string | null
-          role: string
-          updated_at: string | null
-          username: string | null
+          role: Database["public"]["Enums"]["user_role"]
+          updated_at: string
+          username: string
           whatsapp: string | null
         }
         Insert: {
           avatar_url?: string | null
           balance?: string
-          bank_account_name: string
-          bank_account_number: string
-          bonus_claimed?: boolean | null
+          bank_account_name?: string | null
+          bank_account_number?: string | null
+          bonus_claimed?: boolean
+          created_at?: string
           email?: string | null
           full_name?: string | null
           id: string
-          is_active?: boolean | null
+          is_active?: boolean
           last_sign_in_at?: string | null
-          payment_type?: string
+          payment_type?: string | null
           phone?: string | null
           referral_code?: string | null
-          role?: string
-          updated_at?: string | null
-          username?: string | null
+          role?: Database["public"]["Enums"]["user_role"]
+          updated_at?: string
+          username: string
           whatsapp?: string | null
         }
         Update: {
           avatar_url?: string | null
           balance?: string
-          bank_account_name?: string
-          bank_account_number?: string
-          bonus_claimed?: boolean | null
+          bank_account_name?: string | null
+          bank_account_number?: string | null
+          bonus_claimed?: boolean
+          created_at?: string
           email?: string | null
           full_name?: string | null
           id?: string
-          is_active?: boolean | null
+          is_active?: boolean
           last_sign_in_at?: string | null
-          payment_type?: string
+          payment_type?: string | null
           phone?: string | null
           referral_code?: string | null
-          role?: string
-          updated_at?: string | null
-          username?: string | null
+          role?: Database["public"]["Enums"]["user_role"]
+          updated_at?: string
+          username?: string
           whatsapp?: string | null
+        }
+        Relationships: []
+      }
+      transactions: {
+        Row: {
+          admin_notes: string | null
+          amount: number
+          balance_after: number | null
+          balance_before: number | null
+          completed_at: string | null
+          created_at: string
+          id: string
+          notes: string | null
+          payment_account_name: string | null
+          payment_account_number: string | null
+          payment_method: Database["public"]["Enums"]["payment_method"]
+          payment_provider: string | null
+          processed_at: string | null
+          processed_by: string | null
+          proof_image_url: string | null
+          reference_number: string | null
+          status: Database["public"]["Enums"]["transaction_status"]
+          transaction_type: Database["public"]["Enums"]["transaction_type"]
+          updated_at: string
+          user_account_name: string
+          user_account_number: string
+          user_id: string
+        }
+        Insert: {
+          admin_notes?: string | null
+          amount: number
+          balance_after?: number | null
+          balance_before?: number | null
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          notes?: string | null
+          payment_account_name?: string | null
+          payment_account_number?: string | null
+          payment_method: Database["public"]["Enums"]["payment_method"]
+          payment_provider?: string | null
+          processed_at?: string | null
+          processed_by?: string | null
+          proof_image_url?: string | null
+          reference_number?: string | null
+          status?: Database["public"]["Enums"]["transaction_status"]
+          transaction_type: Database["public"]["Enums"]["transaction_type"]
+          updated_at?: string
+          user_account_name: string
+          user_account_number: string
+          user_id: string
+        }
+        Update: {
+          admin_notes?: string | null
+          amount?: number
+          balance_after?: number | null
+          balance_before?: number | null
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          notes?: string | null
+          payment_account_name?: string | null
+          payment_account_number?: string | null
+          payment_method?: Database["public"]["Enums"]["payment_method"]
+          payment_provider?: string | null
+          processed_at?: string | null
+          processed_by?: string | null
+          proof_image_url?: string | null
+          reference_number?: string | null
+          status?: Database["public"]["Enums"]["transaction_status"]
+          transaction_type?: Database["public"]["Enums"]["transaction_type"]
+          updated_at?: string
+          user_account_name?: string
+          user_account_number?: string
+          user_id?: string
         }
         Relationships: []
       }
     }
     Views: {
-      [_ in never]: never
+      transaction_history: {
+        Row: {
+          admin_notes: string | null
+          amount: number | null
+          balance_after: number | null
+          balance_before: number | null
+          completed_at: string | null
+          created_at: string | null
+          full_name: string | null
+          id: string | null
+          notes: string | null
+          payment_account_name: string | null
+          payment_account_number: string | null
+          payment_method: Database["public"]["Enums"]["payment_method"] | null
+          payment_provider: string | null
+          phone: string | null
+          processed_at: string | null
+          processed_by: string | null
+          processed_by_name: string | null
+          processed_by_username: string | null
+          proof_image_url: string | null
+          reference_number: string | null
+          status: Database["public"]["Enums"]["transaction_status"] | null
+          transaction_type:
+            | Database["public"]["Enums"]["transaction_type"]
+            | null
+          updated_at: string | null
+          user_account_name: string | null
+          user_account_number: string | null
+          user_id: string | null
+          username: string | null
+          whatsapp: string | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       can_claim_double_exp: {
         Args: { p_user_id: string }
         Returns: boolean
       }
+      generate_transaction_reference: {
+        Args: Record<PropertyKey, never>
+        Returns: string
+      }
+      get_user_transaction_stats: {
+        Args: { p_user_id: string }
+        Returns: Json
+      }
     }
     Enums: {
-      [_ in never]: never
+      payment_method: "bank_transfer" | "e_wallet" | "crypto" | "credit_card"
+      transaction_status:
+        | "pending"
+        | "processing"
+        | "completed"
+        | "cancelled"
+        | "rejected"
+      transaction_type: "deposit" | "withdraw"
+      user_role: "user" | "admin" | "superadmin"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -356,6 +401,17 @@ export const Constants = {
     Enums: {},
   },
   public: {
-    Enums: {},
+    Enums: {
+      payment_method: ["bank_transfer", "e_wallet", "crypto", "credit_card"],
+      transaction_status: [
+        "pending",
+        "processing",
+        "completed",
+        "cancelled",
+        "rejected",
+      ],
+      transaction_type: ["deposit", "withdraw"],
+      user_role: ["user", "admin", "superadmin"],
+    },
   },
 } as const

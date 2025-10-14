@@ -31,7 +31,7 @@ const navMenus: NavMenu[] = [
 	{
 		label: "Depo/WD",
 		icon: "solar:dollar-linear",
-		link: "/deposit",
+		link: "/account?q=finance&t=deposit",
 		type_link: "button",
 		auth: true,
 	},
@@ -45,7 +45,7 @@ const navMenus: NavMenu[] = [
 	{
 		label: "Akun Saya",
 		icon: "ph:user-bold",
-		link: "/account-summary",
+		link: "/account?q=main&t=summary",
 		type_link: "button",
 		auth: true,
 	},

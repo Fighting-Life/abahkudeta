@@ -10,7 +10,7 @@ const props = defineProps<{
 	open: boolean;
 }>();
 
-const { login } = useAuthLogin();
+const { login } = useAuth();
 const toast = useToast();
 
 const passwordInput = ref<"password" | "text">("password");
@@ -38,7 +38,7 @@ const submit = handleSubmit(async (values) => {
 	try {
 		await login(values.identifier, values.password);
 
-		toast.success("Login berhasil! Selamat datang kembali.");
+		// toast.success("Login berhasil! Selamat datang kembali.");
 
 		resetForm();
 		modelValue.value = false;

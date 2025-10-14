@@ -5,13 +5,13 @@ const emits = defineEmits<{
 	(s: "onsignout"): Promise<void>;
 }>();
 
-const { profileBase, refreshProfile } = useProfiles();
+const { $profileState, $refreshProfile } = useNuxtApp();
 </script>
 <template>
 	<div class="hidden justify-end space-y-4 lg:block">
 		<div class="flex items-center justify-center gap-5">
 			<NuxtLink
-				to="/account-summary"
+				to="/account?q=main&t=summary"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon
@@ -21,36 +21,29 @@ const { profileBase, refreshProfile } = useProfiles();
 				<div class="text-xs text-nowrap text-gray-100">Akun Saya</div>
 			</NuxtLink>
 			<NuxtLink
-				to="/deposit"
+				to="/account?q=finance&t=deposit"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon name="ic:round-add-card" class="text-2xl font-bold" />
 				<div class="text-xs text-nowrap text-gray-100">Deposit</div>
 			</NuxtLink>
 			<NuxtLink
-				to="/messages/inbox"
+				to="/account?q=messages&t=inbox"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon name="ic:baseline-mail" class="text-2xl font-bold" />
 				<div class="text-xs text-nowrap text-gray-100">Kotak Masuk</div>
 			</NuxtLink>
 			<NuxtLink
-				to="/messages/inbox"
+				to="/account?q=finance&t=withdrawal"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon name="ci:transfer" class="text-2xl font-bold" />
-				<div class="text-xs text-nowrap text-gray-100">Penukaran</div>
-			</NuxtLink>
-			<NuxtLink
-				to="/messages/inbox"
-				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
-			>
-				<icon name="ci:transfer" class="text-2xl font-bold" />
-				<div class="text-xs text-nowrap text-gray-100">Penukaran</div>
+				<div class="text-xs text-nowrap text-gray-100">Penarikan</div>
 			</NuxtLink>
 			<div class="relative">
 				<NuxtLink
-					to="/messages/announcement"
+					to="/account?q=messages&t=announcement"
 					class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 				>
 					<icon name="ic:baseline-notifications" class="text-2xl font-bold" />
@@ -72,17 +65,17 @@ const { profileBase, refreshProfile } = useProfiles();
 		</div>
 		<div class="flex items-center justify-center gap-5">
 			<NuxtLink
-				to="/loyalty/benefits"
+				to="/account?q=loyalty&t=benefits"
 				class="flex cursor-pointer items-center justify-center gap-1 text-white transition-all active:scale-95"
 			>
 				<img src="/images/badge/bronze.svg" class="h-8 w-8 object-fill" />
 				<div class="text-xs text-gray-100">
-					{{ profileBase?.username }}
+					{{ $profileState?.username }}
 				</div>
 			</NuxtLink>
-			<Saldo :profile="profileBase" @refresh="refreshProfile" />
+			<Saldo :profile="$profileState" @refresh="$refreshProfile" />
 			<NuxtLink
-				to="/loyalty/rewards"
+				to="/account?q=loyalty&t=rewards"
 				class="flex cursor-pointer items-center justify-center gap-2 text-white transition-all active:scale-95"
 			>
 				<div class="rounded-md bg-amber-500 px-2 text-xs font-bold">LP</div>

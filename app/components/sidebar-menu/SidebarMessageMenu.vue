@@ -13,9 +13,9 @@ const isOpen = useVModel(props, "open", emits, {
 });
 
 const MessageMenuItems = [
-	{ name: "Kotak Masuk", link: "/" },
-	{ name: "Pengumuman", link: "/" },
-	{ name: "Tiket Bantuan", link: "/" },
+	{ name: "Kotak Masuk", link: "/account?q=messages&t=inbox" },
+	{ name: "Pengumuman", link: "/account?q=messages&t=announcement" },
+	{ name: "Tiket Bantuan", link: "/account?q=messages&t=new" },
 ];
 </script>
 
@@ -71,7 +71,7 @@ const MessageMenuItems = [
 						class="rounded-md bg-black py-3 ps-9"
 					>
 						<NuxtLink
-							to="/"
+							:to="menu.link"
 							class="group inline-flex w-full cursor-pointer items-center justify-start gap-2 text-start text-sm font-semibold text-white capitalize active:scale-95"
 						>
 							<span

@@ -6,6 +6,8 @@ https://kudetabet98mejackpot.net/dispatch/game/PP/Desktop/vs20olympx
 
 https://github.com/Fighting-Life/abahkudeta
 
+https://www.sliderrevolution.com/resources/css-page-transitions/
+
 git init
 git add .
 git commit -m "Initial commit"

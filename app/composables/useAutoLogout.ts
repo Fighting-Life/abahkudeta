@@ -2,7 +2,6 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 	const supabase = useSupabaseClient<Database>();
 	const user = useSupabaseUser();
 	const router = useRouter();
-	const toast = useToast();
 	const { refreshProfile } = useProfiles();
 
 	let inactivityTimer: NodeJS.Timeout | null = null;
@@ -10,10 +9,10 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 	let countdownInterval: NodeJS.Timeout | null = null;
 
 	const showWarning = ref(false);
-	const countdown = ref(60); // 60 detik warning sebelum logout
-	const warningTime = 60 * 1000; // 1 menit sebelum logout, show warning
+	const countdown = ref(60); // 60 seconds warning before logout
+	const warningTime = 60 * 1000; // 1 minute before logout, show warning
 
-	// Reset timer saat ada aktivitas
+	// ==================== RESET TIMER ====================
 	const resetTimer = () => {
 		// Clear existing timers
 		if (inactivityTimer) clearTimeout(inactivityTimer);
@@ -23,10 +22,10 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 		showWarning.value = false;
 		countdown.value = 60;
 
-		// Hanya set timer jika user logged in
+		// Only set timer if user is logged in
 		if (!user.value) return;
 
-		// Set warning timer (1 menit sebelum logout)
+		// Set warning timer (1 minute before logout)
 		warningTimer = setTimeout(() => {
 			showWarning.value = true;
 			countdown.value = 60;
@@ -35,13 +34,9 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 			countdownInterval = setInterval(() => {
 				countdown.value--;
 				if (countdown.value <= 0) {
-					clearInterval(countdownInterval!);
+					if (countdownInterval) clearInterval(countdownInterval);
 				}
 			}, 1000);
-
-			// toast.warning(
-			// 	"Anda akan logout otomatis dalam 1 menit karena tidak ada aktivitas",
-			// );
 		}, inactivityTime - warningTime);
 
 		// Set logout timer
@@ -50,7 +45,7 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 		}, inactivityTime);
 	};
 
-	// Handle auto logout
+	// ==================== HANDLE AUTO LOGOUT ====================
 	const handleAutoLogout = async () => {
 		try {
 			// Clear all timers
@@ -62,20 +57,18 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 
 			// Logout from Supabase
 			await supabase.auth.signOut({ scope: "global" });
+
+			// Refresh profile (will set to null)
 			await refreshProfile();
+
 			// Redirect to home
 			await router.push("/");
-
-			// Show notification
-			// toast.info(
-			// 	"Anda telah logout otomatis karena tidak ada aktivitas selama 5 menit",
-			// );
 		} catch (error) {
 			console.error("Auto logout error:", error);
 		}
 	};
 
-	// Activity events to track
+	// ==================== ACTIVITY EVENTS ====================
 	const activityEvents = [
 		"mousedown",
 		"mousemove",
@@ -85,21 +78,21 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 		"click",
 	];
 
-	// Setup event listeners
+	// ==================== SETUP LISTENERS ====================
 	const setupListeners = () => {
 		activityEvents.forEach((event) => {
 			window.addEventListener(event, resetTimer, true);
 		});
 	};
 
-	// Remove event listeners
+	// ==================== REMOVE LISTENERS ====================
 	const removeListeners = () => {
 		activityEvents.forEach((event) => {
 			window.removeEventListener(event, resetTimer, true);
 		});
 	};
 
-	// Initialize
+	// ==================== INITIALIZE ====================
 	const init = () => {
 		if (!user.value) return;
 
@@ -107,7 +100,7 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 		resetTimer();
 	};
 
-	// Cleanup
+	// ==================== CLEANUP ====================
 	const cleanup = () => {
 		removeListeners();
 		if (inactivityTimer) clearTimeout(inactivityTimer);
@@ -115,19 +108,27 @@ export const useAutoLogout = (inactivityTime: number = 5 * 60 * 1000) => {
 		if (countdownInterval) clearInterval(countdownInterval);
 	};
 
-	// Cancel auto logout (user stays active)
+	// ==================== CANCEL AUTO LOGOUT ====================
 	const cancelAutoLogout = () => {
 		showWarning.value = false;
 		resetTimer();
-		// toast.success("Logout otomatis dibatalkan");
+	};
+
+	// ==================== FORCE LOGOUT ====================
+	const forceLogout = async () => {
+		await handleAutoLogout();
 	};
 
 	return {
+		// State
+		showWarning,
+		countdown,
+
+		// Methods
 		init,
 		cleanup,
 		resetTimer,
 		cancelAutoLogout,
-		showWarning,
-		countdown,
+		forceLogout,
 	};
 };

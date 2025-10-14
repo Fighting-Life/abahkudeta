@@ -1,22 +1,24 @@
 export const useProfiles = () => {
 	const supabase = useSupabaseClient<Database>();
-	const userBase = useSupabaseUser();
+	const user = useSupabaseUser();
 
+	// Global state for profile
 	const profileState = useState<Profile | null | undefined>(
 		"user-profile-global",
-		() => undefined, // undefined untuk initial state (belum di-fetch)
+		() => undefined,
 	);
 	const loadingState = useState<boolean>("user-profile-loading", () => false);
 	const errorState = useState<string | null>("user-profile-error", () => null);
+
 	const fetchProfile = async (forceRefresh: boolean = false) => {
-		const userId = userBase.value?.id;
+		const userId = user.value?.id;
 
 		if (!userId) {
 			profileState.value = null;
 			return null;
 		}
 
-		// Skip jika sudah loading dan bukan force refresh
+		// Skip if already loading and not force refresh
 		if (loadingState.value && !forceRefresh) {
 			return profileState.value;
 		}
@@ -31,9 +33,7 @@ export const useProfiles = () => {
 				.eq("id", userId)
 				.single();
 
-			if (error) {
-				throw error;
-			}
+			if (error) throw error;
 
 			profileState.value = data;
 			return data;
@@ -48,150 +48,198 @@ export const useProfiles = () => {
 	};
 
 	watch(
-		() => userBase.value?.id,
+		() => user.value?.id,
 		(newUserId, oldUserId) => {
 			if (newUserId && newUserId !== oldUserId) {
 				fetchProfile();
 			} else if (!newUserId) {
-				// Clear profile ketika user logout
 				profileState.value = null;
 			}
 		},
 		{ immediate: true },
 	);
 
-	// Refresh function untuk manual refresh
+	const profile = computed(() => profileState.value);
+	const loading = computed(() => loadingState.value);
+	const error = computed(() => errorState.value);
+	const isAuthenticated = computed(() => !!user.value && !!profileState.value);
+
 	const refreshProfile = async () => {
 		return await fetchProfile(true);
 	};
-
-	// Computed properties untuk easy access
-	const profileBase = computed(() => profileState.value);
-	const loading = computed(() => loadingState.value);
-	const error = computed(() => errorState.value);
-	const isAuthenticated = computed(
-		() => !!userBase.value && !!profileState.value,
-	);
-
-	// Create Profile
-	const createProfile = async (profile: ProfileInsert) => {
-		const { data, error } = await supabase
-			.from("profiles")
-			.insert(profile)
-			.select()
-			.single();
-
-		if (error) throw error;
-		return data;
-	};
-
-	// Upsert Profile (Insert or Update)
-	const upsertProfile = async (profile: ProfileInsert) => {
-		const { data, error } = await supabase
-			.from("profiles")
-			.upsert(profile, { onConflict: "id" })
-			.select()
-			.single();
-
-		if (error) throw error;
-		return data;
-	};
-
-	// Get Profile by ID
-	const getProfile = async (userId: string): Promise<Profile | null> => {
-		const { data, error } = await supabase
-			.from("profiles")
-			.select("*")
-			.eq("id", userId)
-			.single();
-
-		if (error) return null;
-		return data;
-	};
-
-	// Update Profile
-	const updateProfile = async (userId: string, updates: ProfileUpdate) => {
-		const { data, error } = await supabase
-			.from("profiles")
-			.update(updates)
-			.eq("id", userId)
-			.select()
-			.single();
-
-		if (error) throw error;
-		return data;
-	};
-
-	// Check Email Availability (untuk auth.users)
-	const checkEmail = async (email: string) => {
+	const createProfile = async (profileData: ProfileInsert) => {
 		try {
-			// Check di auth.users via RPC atau manual check
-			const { data: authData } = await supabase.auth.admin.listUsers();
-			const emailExists = authData?.users?.some((user) => user.email === email);
+			const { data, error } = await supabase
+				.from("profiles")
+				.insert(profileData)
+				.select()
+				.single();
 
-			// Jika tidak ada admin access, check di profiles
-			if (!authData) {
-				const { data, error } = await supabase
-					.from("profiles")
-					.select("username")
-					.eq("username", email)
-					.maybeSingle();
+			if (error) throw error;
 
-				return !data; // true jika available
+			// Update state if it's current user's profile
+			if (data.id === user.value?.id) {
+				profileState.value = data;
 			}
 
-			return !emailExists; // true jika available
-		} catch (error) {
-			// Fallback: check di profiles table
-			const { data } = await supabase
+			return data;
+		} catch (error: any) {
+			console.error("Create profile error:", error);
+			throw error;
+		}
+	};
+	const updateProfile = async (userId: string, updates: ProfileUpdate) => {
+		try {
+			const { data, error } = await supabase
+				.from("profiles")
+				.update(updates)
+				.eq("id", userId)
+				.select()
+				.single();
+
+			if (error) throw error;
+
+			// Update state if it's current user's profile
+			if (data.id === user.value?.id) {
+				profileState.value = data;
+			}
+
+			return data;
+		} catch (error: any) {
+			console.error("Update profile error:", error);
+			throw error;
+		}
+	};
+	const upsertProfile = async (profileData: ProfileInsert) => {
+		try {
+			const { data, error } = await supabase
+				.from("profiles")
+				.upsert(profileData, { onConflict: "id" })
+				.select()
+				.single();
+
+			if (error) throw error;
+
+			// Update state if it's current user's profile
+			if (data.id === user.value?.id) {
+				profileState.value = data;
+			}
+
+			return data;
+		} catch (error: any) {
+			console.error("Upsert profile error:", error);
+			throw error;
+		}
+	};
+	const getProfile = async (userId: string): Promise<Profile | null> => {
+		try {
+			const { data, error } = await supabase
+				.from("profiles")
+				.select("*")
+				.eq("id", userId)
+				.single();
+
+			if (error) throw error;
+			return data;
+		} catch (error: any) {
+			console.error("Get profile error:", error);
+			return null;
+		}
+	};
+	const checkUsername = async (username: string): Promise<boolean> => {
+		try {
+			const { data, error } = await supabase
 				.from("profiles")
 				.select("username")
-				.eq("username", email)
+				.eq("username", username)
 				.maybeSingle();
 
-			return !data; // true jika available
+			if (error && error.code !== "PGRST116") throw error;
+
+			return !data; // true if available
+		} catch (error: any) {
+			console.error("Check username error:", error);
+			return false;
+		}
+	};
+	const checkEmail = async (email: string): Promise<boolean> => {
+		try {
+			const { data, error } = await supabase
+				.from("profiles")
+				.select("email")
+				.eq("email", email)
+				.maybeSingle();
+
+			if (error && error.code !== "PGRST116") throw error;
+
+			return !data; // true if available
+		} catch (error: any) {
+			console.error("Check email error:", error);
+			return false;
+		}
+	};
+	const checkReferralCode = async (code: string): Promise<boolean> => {
+		try {
+			const { data, error } = await supabase
+				.from("profiles")
+				.select("referral_code")
+				.eq("referral_code", code)
+				.maybeSingle();
+
+			if (error && error.code !== "PGRST116") throw error;
+
+			return !!data; // true if valid
+		} catch (error: any) {
+			console.error("Check referral code error:", error);
+			return false;
+		}
+	};
+	const updateBalance = async (userId: string, newBalance: string) => {
+		try {
+			const { data, error } = await supabase
+				.from("profiles")
+				.update({ balance: newBalance })
+				.eq("id", userId)
+				.select()
+				.single();
+
+			if (error) throw error;
+
+			// Update state if it's current user
+			if (data.id === user.value?.id) {
+				profileState.value = data;
+			}
+
+			return data;
+		} catch (error: any) {
+			console.error("Update balance error:", error);
+			throw error;
 		}
 	};
 
-	// Check Username Availability
-	const checkUsername = async (username: string) => {
-		const { data, error } = await supabase
-			.from("profiles")
-			.select("username")
-			.eq("username", username)
-			.maybeSingle();
-
-		return !data; // true jika available
-	};
-
-	// Check Referral Code
-	const checkReferralCode = async (code: string) => {
-		const { data, error } = await supabase
-			.from("profiles")
-			.select("referral_code")
-			.eq("referral_code", code)
-			.maybeSingle();
-
-		return !!data; // true jika valid
-	};
-
 	return {
-		userBase,
-		profileBase,
-		loading,
-		error,
-		isAuthenticated,
+		// State
+		user,
+		profile,
 		profileState,
+		loading,
 		loadingState,
+		error,
 		errorState,
+		isAuthenticated,
+
+		// Methods
 		fetchProfile,
 		refreshProfile,
 		createProfile,
+		updateProfile,
 		upsertProfile,
 		getProfile,
-		updateProfile,
-		checkEmail, // ← NEW: check email availability
-		checkUsername, // ← check username availability
+		updateBalance,
+
+		// Validation
+		checkUsername,
+		checkEmail,
 		checkReferralCode,
 	};
 };

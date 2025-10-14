@@ -23,7 +23,8 @@ const props = defineProps<{
 const route = useRoute();
 const user = useSupabaseUser();
 const supabase = useSupabaseClient<Database>();
-const { profileBase, refreshProfile } = useProfiles();
+const { $profileState, $refreshProfile } = useNuxtApp();
+
 const sidebarContainer = ref<HTMLElement | null>(null);
 const overlayRef = ref<HTMLElement | null>(null);
 const expandMenuType = ref<ExpandMenuType>(undefined);
@@ -77,7 +78,7 @@ async function handleSignOut() {
 	await supabase.auth.signOut({
 		scope: "global",
 	});
-	await refreshProfile();
+	await $refreshProfile();
 	await navigateTo("/");
 }
 </script>
@@ -104,7 +105,7 @@ async function handleSignOut() {
 									<div
 										class="max-w-[60%] truncate text-sm font-bold text-[#e5d177] lowercase"
 									>
-										{{ profileBase?.username }}
+										{{ $profileState?.username }}
 									</div>
 									<div
 										class="flex items-center justify-center gap-1.5 sm:gap-2"
@@ -122,10 +123,10 @@ async function handleSignOut() {
 									<div
 										class="inline-flex w-full items-center justify-start rounded-md bg-black px-3 py-2 text-sm font-medium text-gray-100 sm:text-base"
 									>
-										{{ formatBalanceWithCurrency(profileBase?.balance) }}
+										{{ formatBalanceWithCurrency($profileState?.balance) }}
 									</div>
 									<NuxtLink
-										to="/loyalty/benefits"
+										to="/account?q=loyalty&t=benefits"
 										class="inline-flex w-full items-center justify-start gap-3 rounded-md bg-black px-3 py-2 text-sm font-medium text-gray-100 sm:gap-4"
 									>
 										<div
@@ -136,7 +137,7 @@ async function handleSignOut() {
 										<div class="text-sm text-amber-500 sm:text-base">0</div>
 									</NuxtLink>
 									<NuxtLink
-										to="/loyalty/rewards"
+										to="/account?q=loyalty&t=rewards"
 										class="inline-flex w-full items-center justify-start gap-3 rounded-md bg-black px-3 py-2 text-sm font-medium text-gray-100 sm:gap-4"
 									>
 										<div
@@ -224,7 +225,7 @@ async function handleSignOut() {
 								@click="handleMenuExpand('games')"
 							/>
 							<NuxtLink
-								to="/loyalty/rewards"
+								to="/account?q=loyalty&t=rewards"
 								class="group inline-flex w-full cursor-pointer items-center justify-start gap-2 rounded-md bg-black px-3 py-3 text-start text-sm font-semibold text-white capitalize active:scale-95"
 								:class="
 									route.name === 'loyalty-rewards' ? 'sidebar-active' : ''

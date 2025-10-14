@@ -85,9 +85,11 @@ function handleImageFallback(e: Event) {
 							<p class="text-sm text-gray-300 lg:text-base">
 								The page that encountered the error (Please provide the full
 								url)
-								<span class="mt-1 block text-xs break-all text-gray-500">{{
-									currentUrl
-								}}</span>
+								<client-only>
+									<span class="mt-1 block text-xs break-all text-gray-500">{{
+										currentUrl
+									}}</span>
+								</client-only>
 							</p>
 						</div>
 						<div class="flex items-start gap-3">

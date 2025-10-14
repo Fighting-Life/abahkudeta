@@ -13,12 +13,12 @@ const isOpen = useVModel(props, "open", emits, {
 });
 
 const CasirMenuItems = [
-	{ name: "Deposit", link: "/" },
-	{ name: "Tank", link: "/" },
-	{ name: "Bonus", link: "/" },
-	{ name: "Komisi", link: "/" },
-	{ name: "Cashback", link: "/" },
-	{ name: "Promo Gabungan", link: "/" },
+	{ name: "Deposit", link: "/account?q=finance&t=deposit" },
+	{ name: "Tarik", link: "/account?q=finance&t=withdrawal" },
+	{ name: "Bonus", link: "/account?q=finance&t=bonus" },
+	{ name: "Komisi", link: "/account?q=finance&t=commission" },
+	{ name: "Cashback", link: "/account?q=finance&t=cashback" },
+	{ name: "Promo Gabungan", link: "/account?q=finance&t=combine-promo" },
 ];
 </script>
 
@@ -74,7 +74,7 @@ const CasirMenuItems = [
 						class="rounded-md bg-black py-3 ps-9"
 					>
 						<NuxtLink
-							to="/"
+							:to="menu.link"
 							class="group inline-flex w-full cursor-pointer items-center justify-start gap-2 text-start text-sm font-semibold text-white capitalize active:scale-95"
 						>
 							<span

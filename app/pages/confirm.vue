@@ -11,8 +11,8 @@ const route = useRoute();
 
 definePageMeta({
 	layout: false,
-	name: "register",
-	path: "/register",
+	name: "confirm",
+	path: "/confirm",
 });
 useSeoMeta({
 	title: "KUDETABET98 Platform Hiburan Digital Terbaru di Indonesia",

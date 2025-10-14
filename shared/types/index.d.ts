@@ -15,6 +15,14 @@ declare global {
 	type Profile = Database["public"]["Tables"]["profiles"]["Row"];
 	type ProfileInsert = Database["public"]["Tables"]["profiles"]["Insert"];
 	type ProfileUpdate = Database["public"]["Tables"]["profiles"]["Update"];
+	// type GameCategory = Database["public"]["Tables"]["game_categories"]["Row"];
+	// type Game = Database["public"]["Tables"]["games"]["Row"];
+	// type DoubleExpClaim =
+	// 	Database["public"]["Tables"]["double_exp_claims"]["Row"];
+	type Transaction = Database["public"]["Tables"]["transactions"]["Row"];
+	type TransactionType = Database["public"]["Enums"]["transaction_type"];
+	type TransactionStatus = Database["public"]["Enums"]["transaction_status"];
+	type PaymentMethod = Database["public"]["Enums"]["payment_method"];
 
 	interface DialogProps {
 		open?: boolean;
@@ -248,6 +256,63 @@ declare global {
 		image: string;
 		detail_url?: string;
 		claim_url?: string;
+	}
+	interface PageMenuAccount {
+		name: string;
+		path_url: string;
+		main_query: string;
+		sub_query: string;
+		icon: string;
+	}
+	interface AccountTabMenu {
+		name: string;
+		path_url: string;
+		main_query: string;
+		sub_query: string;
+	}
+
+	interface TransactionHistory extends Transaction {
+		username?: string | null;
+		full_name?: string | null;
+		phone?: string | null;
+		whatsapp?: string | null;
+		processed_by_username?: string | null;
+		processed_by_name?: string | null;
+	}
+	interface TransactionStats {
+		total_deposits: number;
+		total_withdrawals: number;
+		pending_deposits: number;
+		pending_withdrawals: number;
+		total_transactions: number;
+		completed_transactions: number;
+	}
+	interface CreateTransactionInput {
+		transaction_type: TransactionType;
+		amount: number;
+		payment_method: PaymentMethod;
+		payment_provider?: string;
+		user_account_number: string;
+		user_account_name: string;
+		notes?: string;
+		proof_image_url?: string;
+	}
+	interface UpdateTransactionInput {
+		status?: TransactionStatus;
+		admin_notes?: string;
+		processed_by?: string;
+		proof_image_url?: string;
+		notes?: string;
+	}
+	interface TransactionFilters {
+		type?: TransactionType;
+		status?: TransactionStatus;
+		payment_method?: PaymentMethod;
+		date_from?: string;
+		date_to?: string;
+		min_amount?: number;
+		max_amount?: number;
+		search?: string; // Search by reference, name, account
 	}
 }
 export {};

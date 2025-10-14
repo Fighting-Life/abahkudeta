@@ -4,8 +4,12 @@ const route = useRoute();
 definePageMeta({
 	middleware: ["auth"],
 	layout: "default",
-	name: "messages-announcement",
-	path: "/messages/announcement",
+	name: "promotion-detail",
+	path: "/:promotion/:id",
+	validate: (route) => {
+		const idParams = route.params.slug as string;
+		return /^[a-z0-9-]+$/.test(idParams);
+	},
 });
 useSeoMeta({
 	title: "KUDETABET98 Platform Hiburan Digital Terbaru di Indonesia",

@@ -1,5 +1,6 @@
 export default defineNuxtPlugin(async (nuxtApp) => {
-	const { fetchProfile } = useProfiles();
+	const { fetchProfile, profileState, user, isAuthenticated, refreshProfile } =
+		useProfiles();
 
 	// Fetch profile saat app initialize
 	await fetchProfile();
@@ -13,4 +14,14 @@ export default defineNuxtPlugin(async (nuxtApp) => {
 		// 	await fetchProfile(true); // force refresh
 		// }
 	});
+	return {
+		provide: {
+			// state
+			user,
+			profileState,
+			isAuthenticated,
+			// method
+			refreshProfile,
+		},
+	};
 });

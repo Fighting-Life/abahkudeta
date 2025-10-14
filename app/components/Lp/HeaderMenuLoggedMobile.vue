@@ -7,12 +7,15 @@ const emits = defineEmits<{
 
 const route = useRoute();
 const router = useRouter();
-const { profileBase, refreshProfile } = useProfiles();
+const { $profileState, $refreshProfile } = useNuxtApp();
 const open = ref(false);
 const isRefreshing = ref(false);
 
 const isHiddenRoute = computed(() => {
-	const hiddenRoutes = ["/loyalty/rewards", "/loyalty/benefits"];
+	const hiddenRoutes = [
+		"/account?q=loyalty&t=rewards",
+		"/account?q=loyalty&t=benefits",
+	];
 	return hiddenRoutes.includes(route.path);
 });
 
@@ -21,7 +24,7 @@ async function refresh() {
 	isRefreshing.value = true;
 
 	try {
-		await refreshProfile();
+		await $refreshProfile();
 	} catch (error) {
 		console.error("Refresh failed:", error);
 	} finally {
@@ -61,7 +64,7 @@ async function refresh() {
 			<div class="flex items-center justify-center gap-3 sm:gap-5">
 				<div class="relative">
 					<NuxtLink
-						to="/messages/announcement"
+						to="/account?q=messages&t=announcement"
 						class="flex cursor-pointer items-center justify-center p-2 text-white transition-all active:scale-95"
 					>
 						<Icon
@@ -93,7 +96,7 @@ async function refresh() {
 			<div
 				class="line-clamp-1 max-w-[40%] text-xs font-bold text-white uppercase sm:max-w-[50%] sm:text-sm"
 			>
-				{{ profileBase?.username }}
+				{{ $profileState?.username }}
 			</div>
 
 			<!-- Balance & Refresh -->
@@ -107,7 +110,7 @@ async function refresh() {
 							<div
 								class="truncate text-[11px] font-bold text-gray-100 sm:text-xs"
 							>
-								{{ formatBalanceWithCurrency(profileBase?.balance) }}
+								{{ formatBalanceWithCurrency($profileState?.balance) }}
 							</div>
 							<Icon
 								name="material-symbols:arrow-drop-down-rounded"
@@ -130,7 +133,7 @@ async function refresh() {
 									SALDO KREDIT
 								</div>
 								<div class="text-sm font-semibold text-yellow-400 sm:text-base">
-									{{ formatBalanceWithCurrency(profileBase?.balance) }}
+									{{ formatBalanceWithCurrency($profileState?.balance) }}
 								</div>
 							</div>
 						</DropdownMenuLabel>
@@ -193,7 +196,7 @@ async function refresh() {
 		>
 			<!-- EXP Section -->
 			<NuxtLink
-				to="/loyalty/benefits"
+				to="/account?q=loyalty&t=benefits"
 				class="col-span-5 flex cursor-pointer flex-col gap-1 pr-2 text-[10px] font-bold text-white transition-all hover:text-yellow-400 active:scale-95 sm:text-xs"
 			>
 				<div class="flex items-center justify-start gap-1.5 sm:gap-2">
@@ -225,7 +228,7 @@ async function refresh() {
 
 			<!-- Loyalty Point Section -->
 			<NuxtLink
-				to="/loyalty/rewards"
+				to="/account?q=loyalty&t=rewards"
 				class="col-span-5 flex cursor-pointer flex-col gap-1 px-2 text-[10px] font-bold text-white transition-all hover:text-yellow-400 active:scale-95 sm:text-xs"
 			>
 				<div class="flex items-center justify-start gap-1.5 sm:gap-2">

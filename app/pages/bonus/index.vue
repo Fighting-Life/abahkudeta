@@ -2,10 +2,10 @@
 const route = useRoute();
 
 definePageMeta({
-	middleware: "auth",
+	middleware: ["auth"],
 	layout: "default",
-	name: "account-summary",
-	path: "/account-summary",
+	name: "bonus",
+	path: "/bonus",
 });
 useSeoMeta({
 	title: "KUDETABET98 Platform Hiburan Digital Terbaru di Indonesia",
@@ -161,4 +161,5 @@ useHead({
 <template>
 	<div></div>
 </template>
+
 <style scoped></style>

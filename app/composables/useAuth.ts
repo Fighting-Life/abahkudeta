@@ -1,6 +1,9 @@
-export const useAuthRegister = () => {
+export const useAuth = () => {
 	const supabase = useSupabaseClient<Database>();
-	const { upsertProfile } = useProfiles();
+	const user = useSupabaseUser();
+	const router = useRouter();
+	const toast = useToast();
+	const { refreshProfile } = useProfiles();
 
 	const register = async (values: {
 		email: string;
@@ -16,16 +19,16 @@ export const useAuthRegister = () => {
 		referral_code?: string;
 	}) => {
 		try {
-			// 1. Sign up user - gunakan EMAIL, bukan username!
+			// Sign up with email
 			const { data: authData, error: signUpError } = await supabase.auth.signUp(
 				{
-					email: values.email, // ← FIX: gunakan email field
+					email: values.email,
 					password: values.password,
 					options: {
 						data: {
-							name: values.name,
+							username: values.username,
 							full_name: values.name,
-							username: values.username, // simpan username di metadata
+							name: values.name,
 							phone: values.phone,
 							whatsapp: values.whatsapp,
 							payment_type: values.payment_type,
@@ -34,7 +37,7 @@ export const useAuthRegister = () => {
 							bank_account_name: values.bank_account_name,
 							referral_code: values.referral_code || null,
 						},
-						emailRedirectTo: `${window.location.origin}/confirm`,
+						emailRedirectTo: `${window.location.origin}/auth/confirm`,
 					},
 				},
 			);
@@ -42,27 +45,12 @@ export const useAuthRegister = () => {
 			if (signUpError) throw signUpError;
 			if (!authData.user) throw new Error("User creation failed");
 
-			// 2. Upsert profile (backup jika trigger gagal)
-			try {
-				await upsertProfile({
-					id: authData.user.id,
-					username: values.username, // username dari form
-					full_name: values.name,
-					phone: values.phone,
-					whatsapp: values.whatsapp,
-					payment_type: values.payment_type,
-					bank_account_number: values.bank_account_number,
-					bank_account_name: values.bank_account_name,
-					referral_code: values.referral_code || null,
-					balance: "0",
-					role: "user",
-					is_active: true,
-					bonus_claimed: false,
-				});
-			} catch (profileError) {
-				console.error("Profile upsert error:", profileError);
-				// Don't throw, trigger might have handled it
-			}
+			// Refresh profile to get the newly created profile
+			await refreshProfile();
+
+			toast.success(
+				"Registration successful! Please check your email to verify your account.",
+			);
 
 			return {
 				success: true,
@@ -70,17 +58,17 @@ export const useAuthRegister = () => {
 			};
 		} catch (error: any) {
 			console.error("Registration error:", error);
+
+			// Handle specific errors
+			if (error.message?.includes("User already registered")) {
+				throw new Error("Email sudah terdaftar");
+			} else if (error.message?.includes("Database error")) {
+				throw new Error("Terjadi kesalahan sistem. Silakan coba lagi.");
+			}
+
 			throw error;
 		}
 	};
-
-	return {
-		register,
-	};
-};
-export const useAuthLogin = () => {
-	const supabase = useSupabaseClient<Database>();
-
 	const login = async (identifier: string, password: string) => {
 		try {
 			let email = identifier;
@@ -89,7 +77,7 @@ export const useAuthLogin = () => {
 			const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(identifier);
 
 			if (!isEmail) {
-				// Query profiles untuk ambil email berdasarkan username
+				// Query profiles to get email from username
 				const { data: profile, error: profileError } = await supabase
 					.from("profiles")
 					.select("email")
@@ -128,7 +116,7 @@ export const useAuthLogin = () => {
 				throw error;
 			}
 
-			// Update last login (optional - remove if causing issues)
+			// Update last login
 			if (data.user) {
 				try {
 					await supabase
@@ -136,10 +124,14 @@ export const useAuthLogin = () => {
 						.update({ last_sign_in_at: new Date().toISOString() })
 						.eq("id", data.user.id);
 				} catch (updateError) {
-					// Silently fail - login still successful
 					console.warn("Could not update last_sign_in_at:", updateError);
 				}
 			}
+
+			// Refresh profile
+			await refreshProfile();
+
+			toast.success("Login berhasil!");
 
 			return {
 				success: true,
@@ -151,6 +143,67 @@ export const useAuthLogin = () => {
 			throw error;
 		}
 	};
+	const logout = async () => {
+		try {
+			const { error } = await supabase.auth.signOut();
+			if (error) throw error;
 
-	return { login };
+			// Refresh profile (will set to null)
+			await refreshProfile();
+
+			toast.success("Logout berhasil");
+
+			// Redirect to home
+			await router.push("/");
+		} catch (error: any) {
+			console.error("Logout error:", error);
+			toast.error("Gagal logout");
+			throw error;
+		}
+	};
+	const requestPasswordReset = async (email: string) => {
+		try {
+			const { error } = await supabase.auth.resetPasswordForEmail(email, {
+				redirectTo: `${window.location.origin}/auth/reset-password`,
+			});
+
+			if (error) throw error;
+
+			toast.success("Link reset password telah dikirim ke email Anda");
+
+			return { success: true };
+		} catch (error: any) {
+			console.error("Password reset error:", error);
+			throw error;
+		}
+	};
+
+	const updatePassword = async (newPassword: string) => {
+		try {
+			const { error } = await supabase.auth.updateUser({
+				password: newPassword,
+			});
+
+			if (error) throw error;
+
+			toast.success("Password berhasil diubah");
+
+			return { success: true };
+		} catch (error: any) {
+			console.error("Update password error:", error);
+			throw error;
+		}
+	};
+
+	const isAuthenticated = computed(() => !!user.value);
+
+	return {
+		user,
+		isAuthenticated,
+		register,
+		login,
+		logout,
+		requestPasswordReset,
+		updatePassword,
+	};
 };

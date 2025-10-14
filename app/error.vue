@@ -1,9 +1,6 @@
 <script lang="ts" setup>
 const error = useError();
 
-definePageMeta({
-	layout: false,
-});
 defineProps({
 	errors: Object,
 });
@@ -23,4 +20,5 @@ useSeoMeta({
 		home-url="/"
 		logo-url="/images/error/logo.png"
 	/>
+	<div></div>
 </template>

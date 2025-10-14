@@ -2,10 +2,10 @@
 const route = useRoute();
 
 definePageMeta({
-	middleware: ["auth"],
+	middleware: "auth",
 	layout: "default",
-	name: "loyalty-rewards",
-	path: "/loyalty/rewards",
+	name: "account",
+	path: "/account",
 });
 useSeoMeta({
 	title: "KUDETABET98 Platform Hiburan Digital Terbaru di Indonesia",
@@ -157,9 +157,91 @@ useHead({
 		},
 	],
 });
+
+const { $profileState, $refreshProfile } = useNuxtApp();
+
+const queryQName = computed(() => route.query.q as string);
+const queryTName = computed(() => route.query.t as string);
+
+const sidebarMenuItems: PageMenuAccount[] = [
+	{
+		name: "Akun Saya",
+		path_url: "/account?q=main&t=summary",
+		main_query: "main",
+		sub_query: "summary",
+		icon: "/images/menus/profile-active.webp",
+	},
+	{
+		name: "Deposit",
+		path_url: "/account?q=finance&t=deposit",
+		main_query: "finance",
+		sub_query: "deposit",
+		icon: "/images/menus/deposit-active.webp",
+	},
+	{
+		name: "Hadiah Loyalitas",
+		path_url: "/account?q=loyalty&t=rewards",
+		main_query: "loyalty",
+		sub_query: "rewards",
+		icon: "/images/menus/loyalty-reward-active.webp",
+	},
+	{
+		name: "Kotak Masuk",
+		path_url: "/account?q=messages&t=inbox",
+		main_query: "messages",
+		sub_query: "inbox",
+		icon: "/images/menus/inbox-active.webp",
+	},
+];
+const activeMenu = ref<string>(queryQName.value);
+const activeTab = ref<string>(queryTName.value);
+
+const handleMenuClick = (item: PageMenuAccount) => {
+	activeMenu.value = item.main_query;
+	// console.log("Menu clicked:", item.name);
+};
 </script>
+
 <template>
-	<div></div>
+	<div class="w-full space-y-3 pt-12 pb-5">
+		<div class="container mx-auto max-w-[1024px] space-y-4 rounded-lg">
+			<!-- Desktop Layout -->
+			<div class="flex gap-4">
+				<div class="grid w-full grid-cols-1 gap-10 lg:grid-cols-12">
+					<!-- Sidebar Component -->
+					<div class="col-span-1 lg:col-span-3">
+						<div class="hidden lg:block">
+							<AccountSidebar
+								:menu-items="sidebarMenuItems"
+								:active-menu="activeMenu"
+								@menu-click="handleMenuClick"
+							/>
+						</div>
+						<div class="block px-2 lg:hidden">
+							<AccountMobileMenu
+								:menu-items="sidebarMenuItems"
+								:active-menu="activeMenu"
+								@menu-click="handleMenuClick"
+							/>
+						</div>
+					</div>
+
+					<!-- Main Content -->
+					<div class="col-span-1 rounded-lg bg-gray-900 p-5 lg:col-span-9">
+						<div class="flex-1">
+							<!-- Account Information Section -->
+							<AccountInformationSection v-if="queryQName === 'main'" />
+
+							<!-- Account Deposit Section -->
+							<AccountDepositSection v-if="queryQName === 'finance'" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 
-<style scoped></style>
+<style scoped lang="css">
+@reference "tailwindcss";
+</style>

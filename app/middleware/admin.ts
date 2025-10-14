@@ -16,7 +16,7 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
 
 	// If error or not admin, redirect
 	if (error || profile?.role !== "admin") {
-		return navigateTo("/account-summary");
+		return navigateTo("/account?q=main&t=summary");
 	}
 
 	// If admin, allow access

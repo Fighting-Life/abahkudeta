@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const user = useSupabaseUser();
 const supabase = useSupabaseClient<Database>();
-const { refreshProfile } = useProfiles();
+const { $profileState, $refreshProfile } = useNuxtApp();
 
 const openSearch = ref(false);
 const openLogin = ref(false);
@@ -11,11 +11,10 @@ async function handleSignOut() {
 	await supabase.auth.signOut({
 		scope: "global",
 	});
-	await refreshProfile();
+	await $refreshProfile();
 	await navigateTo("/");
 }
 </script>
-s
 <template>
 	<div class="sticky top-0 right-0 left-0 z-50 min-w-screen bg-gray-950">
 		<div class="container mx-auto w-full lg:max-w-[1024px]">

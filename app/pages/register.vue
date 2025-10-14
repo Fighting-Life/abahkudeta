@@ -162,7 +162,7 @@ useHead({
 });
 
 const toast = useToast();
-const { register } = useAuthRegister();
+const { register } = useAuth();
 const { checkEmail, checkUsername, checkReferralCode } = useProfiles();
 
 const inputPassword = ref("password");

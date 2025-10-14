@@ -4,8 +4,8 @@ const route = useRoute();
 definePageMeta({
 	middleware: ["auth"],
 	layout: "default",
-	name: "messages-inbox",
-	path: "/messages/inbox",
+	name: "promotion",
+	path: "/promotion",
 });
 useSeoMeta({
 	title: "KUDETABET98 Platform Hiburan Digital Terbaru di Indonesia",

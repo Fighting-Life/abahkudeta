@@ -26,7 +26,6 @@ const { value: amount } = useField<number>("amount");
 const { value: notes } = useField<string>("notes");
 
 const submit = handleSubmit(async (values) => {
-	console.log(values);
 	if (!$profileState.value) {
 		toast.error("Anda harus login terlebih dahulu");
 		return;
@@ -41,6 +40,7 @@ const submit = handleSubmit(async (values) => {
 			user_account_name: $profileState.value?.full_name || "John Doe",
 			notes: values.notes,
 		});
+		openQrisDepositModal.value = true;
 		toast.success("Deposit berhasil diproses");
 	} catch (error) {
 		toast.error("Gagal memproses deposit, coba lagi");

@@ -11,6 +11,7 @@ https://www.sliderrevolution.com/resources/css-page-transitions/
 git init
 git add .
 git commit -m "Initial commit"
+git commit -m "Hoursly Update"
 git push -u origin master
 
 vercel login

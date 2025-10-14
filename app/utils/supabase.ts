@@ -253,8 +253,8 @@ export type Database = {
         Args: { p_user_id: string }
         Returns: boolean
       }
-      generate_transaction_reference: {
-        Args: Record<PropertyKey, never>
+      generate_transaction_ref: {
+        Args: { tx_type: Database["public"]["Enums"]["transaction_type"] }
         Returns: string
       }
       get_user_transaction_stats: {

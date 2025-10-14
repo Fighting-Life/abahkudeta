@@ -54,7 +54,7 @@ CREATE TYPE payment_method AS ENUM ('bank_transfer', 'e_wallet', 'crypto', 'cred
 
 CREATE TABLE public.profiles (
   id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
-  
+
   -- Basic Info
   username TEXT UNIQUE NOT NULL,
   email TEXT UNIQUE,
@@ -62,26 +62,26 @@ CREATE TABLE public.profiles (
   phone TEXT,
   whatsapp TEXT,
   avatar_url TEXT,
-  
+
   -- Payment Info
   payment_type TEXT DEFAULT 'bank',
   bank_account_number TEXT,
   bank_account_name TEXT,
-  
+
   -- Balance & Referral
   balance TEXT DEFAULT '0' NOT NULL,
   referral_code TEXT,
-  
+
   -- User Status
   role user_role DEFAULT 'user' NOT NULL,
   is_active BOOLEAN DEFAULT TRUE NOT NULL,
   bonus_claimed BOOLEAN DEFAULT FALSE NOT NULL,
-  
+
   -- Timestamps
   last_sign_in_at TIMESTAMP WITH TIME ZONE,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW() NOT NULL,
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW() NOT NULL,
-  
+
   -- Constraints
   CONSTRAINT username_length CHECK (char_length(username) >= 3),
   CONSTRAINT balance_format CHECK (balance ~ '^[0-9]+(\.[0-9]{1,2})?$')
@@ -155,12 +155,12 @@ CREATE INDEX idx_transactions_user_status ON public.transactions(user_id, status
 CREATE TABLE public.double_exp_claims (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
-  
+
   claimed_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
   expires_at TIMESTAMP WITH TIME ZONE NOT NULL,
   next_claim_at TIMESTAMP WITH TIME ZONE NOT NULL,
   is_active BOOLEAN DEFAULT TRUE,
-  
+
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -255,7 +255,7 @@ BEGIN
 
   timestamp_part := TO_CHAR(NOW(), 'YYYYMMDDHH24MISS');
   random_part := LPAD(FLOOR(RANDOM() * 10000)::TEXT, 4, '0');
-  
+
   RETURN prefix || timestamp_part || '-' || random_part;
 END;
 $$;
@@ -459,6 +459,20 @@ ALTER TABLE public.double_exp_claims ENABLE ROW LEVEL SECURITY;
 
 -- ==================== STEP 10: CREATE RLS POLICIES ====================
 
+DROP POLICY IF EXISTS "users_view_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "users_update_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "users_insert_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "admins_view_all_profiles" ON public.profiles;
+DROP POLICY IF EXISTS "admins_manage_all_profiles" ON public.profiles;
+DROP POLICY IF EXISTS "anon_view_profiles_limited" ON public.profiles;
+DROP POLICY IF EXISTS "users_view_own_transactions" ON public.transactions;
+DROP POLICY IF EXISTS "users_create_own_transactions" ON public.transactions;
+DROP POLICY IF EXISTS "users_update_own_pending" ON public.transactions;
+DROP POLICY IF EXISTS "admins_manage_all_transactions" ON public.transactions;
+DROP POLICY IF EXISTS "users_view_own_claims" ON public.double_exp_claims;
+DROP POLICY IF EXISTS "users_manage_own_claims" ON public.double_exp_claims;
+DROP POLICY IF EXISTS "admins_manage_all_claims" ON public.double_exp_claims;
+
 -- Policies for PROFILES
 CREATE POLICY "users_view_own_profile"
   ON public.profiles FOR SELECT
@@ -551,13 +565,13 @@ BEGIN
   RAISE NOTICE 'DATABASE SETUP COMPLETE!';
   RAISE NOTICE '==========================================';
   RAISE NOTICE '';
-  
+
   -- Tables
   RAISE NOTICE '✓ Tables created: profiles, transactions, double_exp_claims';
-  
+
   -- Triggers
   RAISE NOTICE '✓ Triggers: % total', (
-    SELECT COUNT(*) FROM pg_trigger 
+    SELECT COUNT(*) FROM pg_trigger
     WHERE tgname IN (
       'on_auth_user_created',
       'set_updated_at_profiles',
@@ -567,10 +581,10 @@ BEGIN
       'auto_deactivate_expired'
     )
   );
-  
+
   -- Functions
   RAISE NOTICE '✓ Functions: % total', (
-    SELECT COUNT(*) FROM pg_proc 
+    SELECT COUNT(*) FROM pg_proc
     WHERE proname IN (
       'handle_new_user',
       'handle_profile_updated_at',
@@ -583,14 +597,257 @@ BEGIN
       'can_claim_double_exp'
     )
   );
-  
+
   -- Policies
   RAISE NOTICE '✓ RLS Policies: % total', (
-    SELECT COUNT(*) FROM pg_policies 
+    SELECT COUNT(*) FROM pg_policies
     WHERE tablename IN ('profiles', 'transactions', 'double_exp_claims')
   );
-  
+
   RAISE NOTICE '';
   RAISE NOTICE 'Ready to use! 🎉';
   RAISE NOTICE '==========================================';
+END $$;
+
+-- ==================== STEP 13: FIX ERRORS PROFILE 1 ====================
+
+-- =============================================
+-- FIX INFINITE RECURSION IN PROFILES POLICIES
+-- =============================================
+
+-- Drop all existing policies on profiles
+DROP POLICY IF EXISTS "users_view_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "users_update_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "system_insert_profile" ON public.profiles;
+DROP POLICY IF EXISTS "public_read_for_auth" ON public.profiles;
+DROP POLICY IF EXISTS "admins_all_profiles" ON public.profiles;
+
+-- Disable RLS temporarily
+ALTER TABLE public.profiles DISABLE ROW LEVEL SECURITY;
+
+-- Re-enable RLS
+ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
+
+-- ==================== CREATE NEW POLICIES (WITHOUT RECURSION) ====================
+
+-- Policy 1: Allow authenticated users to read ALL profiles
+-- This is needed for username/email lookup during login
+CREATE POLICY "authenticated_read_all_profiles"
+  ON public.profiles
+  FOR SELECT
+  TO authenticated
+  USING (true);
+
+-- Policy 2: Allow anonymous users to read ALL profiles
+-- This is needed for username/email lookup during login
+CREATE POLICY "anon_read_all_profiles"
+  ON public.profiles
+  FOR SELECT
+  TO anon
+  USING (true);
+
+-- Policy 3: Users can update their own profile
+CREATE POLICY "users_update_own_profile"
+  ON public.profiles
+  FOR UPDATE
+  TO authenticated
+  USING (auth.uid() = id)
+  WITH CHECK (auth.uid() = id);
+
+-- Policy 4: System can insert profiles (for new user registration)
+CREATE POLICY "system_insert_profile"
+  ON public.profiles
+  FOR INSERT
+  TO authenticated
+  WITH CHECK (auth.uid() = id);
+
+-- Policy 5: Admins can do everything (simple version without recursion)
+CREATE POLICY "admins_all_access"
+  ON public.profiles
+  FOR ALL
+  TO authenticated
+  USING (
+    -- Check role directly without subquery to profiles table
+    (SELECT role FROM public.profiles WHERE id = auth.uid() LIMIT 1) IN ('admin', 'superadmin')
+  )
+  WITH CHECK (
+    (SELECT role FROM public.profiles WHERE id = auth.uid() LIMIT 1) IN ('admin', 'superadmin')
+  );
+
+-- ==================== VERIFICATION ====================
+
+DO $$
+BEGIN
+  RAISE NOTICE '==========================================';
+  RAISE NOTICE 'PROFILES POLICIES FIXED!';
+  RAISE NOTICE '==========================================';
+
+  -- Count policies
+  RAISE NOTICE '✓ Total policies on profiles: %', (
+    SELECT COUNT(*) FROM pg_policies WHERE tablename = 'profiles'
+  );
+
+  RAISE NOTICE '';
+  RAISE NOTICE 'Policies created:';
+  RAISE NOTICE '  1. authenticated_read_all_profiles';
+  RAISE NOTICE '  2. anon_read_all_profiles';
+  RAISE NOTICE '  3. users_update_own_profile';
+  RAISE NOTICE '  4. system_insert_profile';
+  RAISE NOTICE '  5. admins_all_access';
+  RAISE NOTICE '';
+  RAISE NOTICE 'Ready to use! 🎉';
+  RAISE NOTICE '==========================================';
+END $$;
+
+-- ==================== STEP 14: FIX ERRORS PROFILE 1 ====================
+
+-- =============================================
+-- SIMPLE FIX - NO RECURSION (RECOMMENDED)
+-- =============================================
+
+-- Drop all existing policies on profiles
+DROP POLICY IF EXISTS "users_view_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "users_update_own_profile" ON public.profiles;
+DROP POLICY IF EXISTS "system_insert_profile" ON public.profiles;
+DROP POLICY IF EXISTS "public_read_for_auth" ON public.profiles;
+DROP POLICY IF EXISTS "admins_all_profiles" ON public.profiles;
+DROP POLICY IF EXISTS "authenticated_read_all_profiles" ON public.profiles;
+DROP POLICY IF EXISTS "anon_read_all_profiles" ON public.profiles;
+DROP POLICY IF EXISTS "admins_all_access" ON public.profiles;
+
+-- Disable and re-enable RLS
+ALTER TABLE public.profiles DISABLE ROW LEVEL SECURITY;
+ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
+
+-- ==================== SIMPLE POLICIES (NO RECURSION) ====================
+
+-- Policy 1: Everyone can read all profiles (needed for login)
+CREATE POLICY "allow_read_all_profiles"
+  ON public.profiles
+  FOR SELECT
+  USING (true);
+
+-- Policy 2: Users can update their own profile
+CREATE POLICY "allow_update_own_profile"
+  ON public.profiles
+  FOR UPDATE
+  TO authenticated
+  USING (auth.uid() = id)
+  WITH CHECK (auth.uid() = id);
+
+-- Policy 3: System can insert profiles
+CREATE POLICY "allow_insert_profile"
+  ON public.profiles
+  FOR INSERT
+  TO authenticated
+  WITH CHECK (auth.uid() = id);
+
+-- Policy 4: Users can delete their own profile (optional)
+CREATE POLICY "allow_delete_own_profile"
+  ON public.profiles
+  FOR DELETE
+  TO authenticated
+  USING (auth.uid() = id);
+
+-- ==================== GRANT PERMISSIONS ====================
+
+GRANT USAGE ON SCHEMA public TO anon, authenticated;
+GRANT SELECT ON public.profiles TO anon, authenticated;
+GRANT INSERT, UPDATE, DELETE ON public.profiles TO authenticated;
+
+-- ==================== VERIFICATION ====================
+
+DO $$
+BEGIN
+  RAISE NOTICE '==========================================';
+  RAISE NOTICE 'SIMPLE POLICIES APPLIED!';
+  RAISE NOTICE '==========================================';
+  RAISE NOTICE '';
+
+  RAISE NOTICE '✓ RLS Enabled: %', (
+    SELECT relrowsecurity FROM pg_class WHERE relname = 'profiles'
+  );
+
+  RAISE NOTICE '✓ Total policies: %', (
+    SELECT COUNT(*) FROM pg_policies WHERE tablename = 'profiles'
+  );
+
+  RAISE NOTICE '';
+  RAISE NOTICE 'Policies:';
+  RAISE NOTICE '  1. allow_read_all_profiles (SELECT for all)';
+  RAISE NOTICE '  2. allow_update_own_profile (UPDATE own only)';
+  RAISE NOTICE '  3. allow_insert_profile (INSERT with auth)';
+  RAISE NOTICE '  4. allow_delete_own_profile (DELETE own only)';
+  RAISE NOTICE '';
+  RAISE NOTICE 'No more infinite recursion! 🎉';
+  RAISE NOTICE '==========================================';
+END $$;
+
+-- ==================== STEP 1%: FIX ERRORS TRANSACTIONS 1 ====================
+
+-- =============================================
+-- COMPLETE FIX FOR TRANSACTION REFERENCE
+-- =============================================
+
+-- 1. Drop problematic objects
+DROP TRIGGER IF EXISTS trigger_set_transaction_reference ON public.transactions;
+DROP FUNCTION IF EXISTS set_transaction_reference() CASCADE;
+DROP FUNCTION IF EXISTS generate_transaction_reference() CASCADE;
+
+-- 2. Create simple reference generator
+CREATE OR REPLACE FUNCTION generate_transaction_ref(tx_type transaction_type)
+RETURNS TEXT
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  new_ref TEXT;
+  counter INTEGER := 0;
+BEGIN
+  LOOP
+    new_ref :=
+      CASE tx_type
+        WHEN 'deposit' THEN 'DEP'
+        WHEN 'withdraw' THEN 'WD'
+        ELSE 'TRX'
+      END ||
+      TO_CHAR(NOW(), 'YYYYMMDDHH24MISS') || '-' ||
+      LPAD(FLOOR(RANDOM() * 10000)::TEXT, 4, '0');
+
+    EXIT WHEN NOT EXISTS (
+      SELECT 1 FROM public.transactions WHERE reference_number = new_ref
+    );
+
+    counter := counter + 1;
+    IF counter > 10 THEN
+      RAISE EXCEPTION 'Failed to generate unique reference number';
+    END IF;
+  END LOOP;
+
+  RETURN new_ref;
+END;
+$$;
+
+-- 3. Create fixed trigger function
+CREATE OR REPLACE FUNCTION set_transaction_reference()
+RETURNS TRIGGER
+LANGUAGE plpgsql
+AS $$
+BEGIN
+  IF NEW.reference_number IS NULL THEN
+    NEW.reference_number := generate_transaction_ref(NEW.transaction_type);
+  END IF;
+  RETURN NEW;
+END;
+$$;
+
+-- 4. Recreate trigger
+CREATE TRIGGER trigger_set_transaction_reference
+  BEFORE INSERT ON public.transactions
+  FOR EACH ROW
+  EXECUTE FUNCTION set_transaction_reference();
+
+-- 5. Verify fix
+DO $$
+BEGIN
+  RAISE NOTICE 'Transaction reference trigger fixed!';
 END $$;

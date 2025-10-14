@@ -10,6 +10,18 @@ export const useTransactions = () => {
 		}
 
 		try {
+			const generateReference = (type: string) => {
+				const prefix = type === "deposit" ? "DEP" : "WD";
+				const timestamp = new Date()
+					.toISOString()
+					.replace(/[-:T.Z]/g, "")
+					.slice(0, 14);
+				const random = Math.floor(Math.random() * 10000)
+					.toString()
+					.padStart(4, "0");
+				return `${prefix}${timestamp}-${random}`;
+			};
+
 			const { data, error } = await supabase
 				.from("transactions")
 				.insert({
@@ -23,20 +35,21 @@ export const useTransactions = () => {
 					notes: input.notes,
 					proof_image_url: input.proof_image_url,
 					status: "pending",
+					reference_number: generateReference(input.transaction_type), // manual fallback
 				})
 				.select()
 				.single();
 
 			if (error) throw error;
 
-			toast.success(
-				`${input.transaction_type === "deposit" ? "Deposit" : "Penarikan"} berhasil dibuat!`,
-			);
+			// toast.success(
+			// 	`${input.transaction_type === "deposit" ? "Deposit" : "Penarikan"} berhasil dibuat!`,
+			// );
 
 			return data as Transaction;
 		} catch (error: any) {
 			console.error("Create transaction error:", error);
-			toast.error(error.message || "Gagal membuat transaksi");
+			// toast.error(error.message || "Gagal membuat transaksi");
 			throw error;
 		}
 	};

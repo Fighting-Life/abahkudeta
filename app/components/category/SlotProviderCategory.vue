@@ -9,6 +9,7 @@ const emit = defineEmits<{
 	(e: "onSearch", value?: string): void;
 }>();
 
+const route = useRoute();
 const searchTerm = ref("");
 const selectedFilter = ref<FilterType | undefined>(undefined);
 const selectedProvider = ref<Partner | null | undefined>(undefined);
@@ -16,7 +17,6 @@ const carouselRef = ref<HTMLElement | null>(null);
 const currentIndex = ref(0);
 const isAutoScrolling = ref(true);
 const autoScrollInterval = ref<number | null>(null);
-
 const filters: FilterType[] = [
 	"Semua permainan",
 	"Top 20",
@@ -28,8 +28,9 @@ const filters: FilterType[] = [
 	"Jackpot Play Games",
 	"Video Slots",
 ];
-
 const visibleCount = 5;
+
+const querySlug = computed(() => route.query.p as string | undefined);
 const visibleProviders = computed(() => {
 	const start = currentIndex.value;
 	const providers = props.providers;
@@ -42,6 +43,19 @@ const visibleProviders = computed(() => {
 
 	return result;
 });
+
+watch(
+	querySlug,
+	(newSlug) => {
+		if (newSlug) {
+			selectedProvider.value = props.providers.find(
+				(provider) => provider.slug === newSlug,
+			);
+			emit("selectProvider", selectedProvider.value);
+		}
+	},
+	{ immediate: true },
+);
 
 const startAutoScroll = () => {
 	if (autoScrollInterval.value) return;
@@ -69,9 +83,15 @@ const prev = () => {
 			: currentIndex.value - 1;
 };
 
-const selectProvider = (provider?: Partner) => {
-	selectedProvider.value = provider;
-	emit("selectProvider", provider);
+const selectProvider = async (provider?: Partner) => {
+	await navigateTo({
+		name: "category-game",
+		query: {
+			p: provider?.slug,
+		},
+	});
+	// selectedProvider.value = provider;
+	// emit("selectProvider", provider);
 };
 
 const selectFilter = (filter?: FilterType) => {

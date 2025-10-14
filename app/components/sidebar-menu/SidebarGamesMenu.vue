@@ -65,7 +65,7 @@ const isOpen = useVModel(props, "open", emits, {
 						class="rounded-md bg-black py-3 ps-9"
 					>
 						<NuxtLink
-							to="/"
+							:to="`/${menu.slug}`"
 							class="group inline-flex w-full cursor-pointer items-center justify-start gap-2 text-start text-sm font-semibold text-white capitalize active:scale-95"
 						>
 							<span

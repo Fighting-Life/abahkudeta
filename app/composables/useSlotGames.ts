@@ -81,6 +81,29 @@ export const useSlotGames = () => {
 		...CrashJokerGames,
 		...CrashDragoonsoftGames,
 		...CrashFunkyGames,
+		...ArcadePPGames,
+		...ArcadeMigrogamingGames,
+		...ArcadeHackSawGames,
+		...AracdeKingMidasGames,
+		...ArcadeJiliGames,
+		...ArcadeGeminiGames,
+		...ArcadeAviatorGames,
+		...ArcadeFachaiGames,
+		...ArcadeSpinixGames,
+		...ArcadeJokerGames,
+		...ArcadeBtGamingGames,
+		...ArcadeAMBGames,
+		...ArcadeCrowdPlayGames,
+		...AraceVPowerGames,
+		...ArcadeWorldmatchGames,
+		...ArcadeMarioClubGames,
+		...ArcadeDragoonsoftGames,
+		...ArcadeCQ9Games,
+		...ArcadeFunGamingGames,
+		...ArcadeMMTangkasGames,
+		...ArcadeSkywindGames,
+		...ArcadeJDBGames,
+		...ArcadeFungkyGames,
 	]);
 
 	const searchTerm = ref<string | undefined>(undefined);
@@ -202,13 +225,24 @@ export const useSlotGames = () => {
 		}
 
 		if (options?.categorySlug !== undefined) {
-			// filteredGames = filteredGames
-			// 	.filter(
-			// 		(game) =>
-			// 			game.link.split("/")[3]?.toLocaleLowerCase() ===
-			// 			options?.categorySlug.toLowerCase(),
-			// 	)
-			// 	.slice(0, options?.limit);
+			const slug =
+				options?.categorySlug.toLowerCase() === "pragmatic"
+					? "pp"
+					: options?.categorySlug.toLowerCase() === "ion-slot"
+						? "pgs"
+						: options?.categorySlug.toLowerCase() === "funky-games"
+							? "sbofunkygame"
+							: options?.categorySlug.toLowerCase() === "vplus"
+								? "slotmania"
+								: options?.categorySlug;
+
+			filteredGames = filteredGames
+				.filter(
+					(game) =>
+						game.link.split("/")[3]?.toLowerCase() ===
+						slug?.replaceAll("-", "").toLowerCase(),
+				)
+				.slice(0, options?.limit);
 		}
 
 		if (options?.filter !== undefined || selectedFilter.value !== undefined) {
@@ -355,6 +389,29 @@ export const useSlotGames = () => {
 			CrashJokerGames: "Joker",
 			CrashDragoonsoftGames: "Dragoonsoft",
 			CrashFunkyGames: "Funky Games",
+			ArcadePPGames: "Pragmatic Play",
+			ArcadeMigrogamingGames: "Migro Gaming",
+			ArcadeHackSawGames: "Hacksaw",
+			AracdeKingMidasGames: "King Midas",
+			ArcadeJiliGames: "JILI",
+			ArcadeGeminiGames: "Gemini",
+			ArcadeAviatorGames: "Aviator",
+			ArcadeFachaiGames: "Fachai",
+			ArcadeSpinixGames: "Spinix",
+			ArcadeJokerGames: "Joker",
+			ArcadeBtGamingGames: "Bt Gaming",
+			ArcadeAMBGames: "AMB Slot",
+			ArcadeCrowdPlayGames: "Crowd Play",
+			AraceVPowerGames: "VPower",
+			ArcadeWorldmatchGames: "Worldmatch",
+			ArcadeMarioClubGames: "Mario Club",
+			ArcadeDragoonsoftGames: "Dragoonsoft",
+			ArcadeCQ9Games: "CQ9",
+			ArcadeFunGamingGames: "Fun Gaming",
+			ArcadeMMTangkasGames: "MM Tangkas",
+			ArcadeSkywindGames: "Skywind",
+			ArcadeJDBGames: "JDB",
+			ArcadeFungkyGames: "Funky Games",
 		};
 
 		return nameMap[gameType] || formatGameTypeName(gameType);
@@ -432,6 +489,8 @@ export const useSlotGames = () => {
 				SPRIBE: "AviatorGames",
 				GEMINI: "GeminiGames",
 				ADVANTPLAYMINIGAME: "AdvantPlayMiniGames",
+				G8TANGKAS: "ArcadeMMTangkasGames",
+				BTGAMING: "ArcadeBtGamingGames",
 			};
 
 			return formatGameTypeName(nameMap[name] || "PrgamaticGames");

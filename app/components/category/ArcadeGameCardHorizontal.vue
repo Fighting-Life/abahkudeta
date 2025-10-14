@@ -15,7 +15,8 @@ const props = withDefaults(defineProps<Props>(), {
 	loadMoreIncrement: 12,
 	useFilter: false,
 });
-const { gameByCategorySlug, baseImgUrl, filterGames } = useSlotGames();
+const { gameByArcadeCategorySlug, baseImgUrl, filterArcadeGames } =
+	useArcadeGames();
 const { launchGame } = useGameLauncher();
 
 const isMounted = ref(false);
@@ -27,14 +28,14 @@ const isLoadingMore = ref(false);
 // Get filtered games
 const allCategoryGames = computed(() => {
 	if (props.useFilter) {
-		return filterGames({
-			filter: props.filteredType as FilterType,
+		return filterArcadeGames({
+			filter: props.filteredType as ArcadeFilterType,
 			provider: props.selectedProvider,
 			searchTerm: props.searchTerm,
 			limit: 9999,
 		});
 	} else {
-		return gameByCategorySlug.value(props.categorySlug || "pp", 9999);
+		return gameByArcadeCategorySlug.value(props.categorySlug || "pp", 9999);
 	}
 });
 

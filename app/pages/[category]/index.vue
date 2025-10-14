@@ -165,7 +165,13 @@ useHead({
 });
 
 const user = useSupabaseUser();
-const { searchTerm, selectedFilter, selectedProvider } = useSlotGames();
+const {
+	searchTerm: slotSearchTerm,
+	selectedFilter: slotSelectedFilter,
+	selectedProvider: slotSelectedProvider,
+} = useSlotGames();
+const { searchArcadeTerm, selectedArcadeFilter, selectedArcadeProvider } =
+	useArcadeGames();
 const { selectedCrashProvider } = useCrashGames();
 
 const categorParams = route.params.category as string;
@@ -173,11 +179,18 @@ const category = computed(() =>
 	CategoriesTopMenu.find((val) => val.slug === categorParams),
 );
 
-const handleFilterChange = (filter?: FilterType) => {
+const handleSlotsFilterChange = (filter?: FilterType) => {
 	if (!filter || filter === "Semua permainan") {
-		selectedFilter.value = undefined;
+		slotSelectedFilter.value = undefined;
 	} else {
-		selectedFilter.value = filter;
+		slotSelectedFilter.value = filter;
+	}
+};
+const handleArcadeFilterChange = (filter?: ArcadeFilterType) => {
+	if (!filter || filter === "Semua permainan") {
+		selectedArcadeFilter.value = undefined;
+	} else {
+		selectedArcadeFilter.value = filter;
 	}
 };
 </script>
@@ -257,9 +270,9 @@ const handleFilterChange = (filter?: FilterType) => {
 				<SlotProviderCategory
 					v-if="category?.slug === 'slots'"
 					:providers="SlotsProvidersCategory"
-					@select-provider="(val) => (selectedProvider = val)"
-					@filter-change="handleFilterChange"
-					@on-search="(val) => (searchTerm = val)"
+					@select-provider="(val) => (slotSelectedProvider = val)"
+					@filter-change="handleSlotsFilterChange"
+					@on-search="(val) => (slotSearchTerm = val)"
 				/>
 				<crash-provider-category
 					v-if="category?.slug === 'crash-game'"
@@ -269,6 +282,9 @@ const handleFilterChange = (filter?: FilterType) => {
 				<arcade-provider-category
 					v-if="category?.slug === 'arcade'"
 					:providers="ArcadeProvidersCategory"
+					@select-provider="(val) => (selectedArcadeProvider = val)"
+					@filter-change="handleArcadeFilterChange"
+					@on-search="(val) => (searchArcadeTerm = val)"
 				/>
 				<PromotionCategory v-if="category?.slug === 'promotion'" />
 				<!-- Hot Games Section -->
@@ -284,9 +300,9 @@ const handleFilterChange = (filter?: FilterType) => {
 				/>
 				<SlotsGameCardHorizontal
 					v-if="category?.slug === 'slots'"
-					:selected-provider="selectedProvider"
-					:filtered-type="selectedFilter"
-					:search-term="searchTerm"
+					:selected-provider="slotSelectedProvider"
+					:filtered-type="slotSelectedFilter"
+					:search-term="slotSearchTerm"
 					:initial-limit="12"
 					:load-more-increment="12"
 					:use-filter="true"
@@ -294,6 +310,15 @@ const handleFilterChange = (filter?: FilterType) => {
 				<CrashGameCardHorizontal
 					v-if="category?.slug === 'crash-game'"
 					:selected-provider="selectedCrashProvider"
+					:initial-limit="12"
+					:load-more-increment="12"
+					:use-filter="true"
+				/>
+				<ArcadeGameCardHorizontal
+					v-if="category?.slug === 'arcade'"
+					:selected-provider="selectedArcadeProvider"
+					:filtered-type="selectedArcadeFilter"
+					:search-term="searchArcadeTerm"
 					:initial-limit="12"
 					:load-more-increment="12"
 					:use-filter="true"

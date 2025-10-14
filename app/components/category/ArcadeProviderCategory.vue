@@ -5,15 +5,27 @@ const props = defineProps<{
 
 const emit = defineEmits<{
 	(e: "selectProvider", provider?: Partner): void;
-	(e: "filterChange", filter: string): void;
+	(e: "filterChange", filter?: ArcadeFilterType): void;
+	(e: "onSearch", value?: string): void;
 }>();
 
+const route = useRoute();
+const searchTerm = ref("");
+const selectedFilter = ref<ArcadeFilterType | undefined>(undefined);
+const selectedProvider = ref<Partner | null | undefined>(undefined);
 const carouselRef = ref<HTMLElement | null>(null);
 const currentIndex = ref(0);
 const isAutoScrolling = ref(true);
 const autoScrollInterval = ref<number | null>(null);
-
+const filters: ArcadeFilterType[] = [
+	"Semua permainan",
+	"Fishing",
+	"Instant Win",
+	"Arcade",
+];
 const visibleCount = 5;
+
+const querySlug = computed(() => route.query.p as string | undefined);
 const visibleProviders = computed(() => {
 	const start = currentIndex.value;
 	const providers = props.providers;
@@ -26,6 +38,19 @@ const visibleProviders = computed(() => {
 
 	return result;
 });
+
+watch(
+	querySlug,
+	(newSlug) => {
+		if (newSlug) {
+			selectedProvider.value = props.providers.find(
+				(provider) => provider.slug === newSlug,
+			);
+			emit("selectProvider", selectedProvider.value);
+		}
+	},
+	{ immediate: true },
+);
 
 const startAutoScroll = () => {
 	if (autoScrollInterval.value) return;
@@ -53,10 +78,22 @@ const prev = () => {
 			: currentIndex.value - 1;
 };
 
-const selectProvider = (provider?: Partner) => {
-	emit("selectProvider", provider);
+const selectProvider = async (provider?: Partner) => {
+	await navigateTo({
+		name: "category-game",
+		query: {
+			p: provider?.slug,
+		},
+	});
 };
-
+const selectFilter = (filter?: ArcadeFilterType) => {
+	selectedFilter.value = filter;
+	emit("filterChange", filter);
+};
+const onSearchChange = (e: Event) => {
+	searchTerm.value = (e.target as HTMLInputElement).value;
+	emit("onSearch", (e.target as HTMLInputElement).value);
+};
 onMounted(() => {
 	if (isAutoScrolling.value) {
 		startAutoScroll();
@@ -67,7 +104,6 @@ onUnmounted(() => {
 	stopAutoScroll();
 });
 </script>
-
 <template>
 	<div class="provider-section">
 		<!-- Carousel -->
@@ -169,6 +205,97 @@ onUnmounted(() => {
 						width: `${((currentIndex + 1) / providers.length) * 100}%`,
 					}"
 				></div>
+			</div>
+		</div>
+
+		<!-- Filters -->
+		<div class="filters-section">
+			<!-- Desktop Filter -->
+			<div class="hidden flex-wrap items-center gap-4 lg:flex">
+				<button
+					v-for="filter in filters"
+					:key="filter"
+					class="filter-btn cursor-pointer"
+					:class="{ 'filter-btn-active': selectedFilter === filter }"
+					@click="selectFilter(filter)"
+				>
+					{{ filter }}
+				</button>
+			</div>
+
+			<!-- Mobile Filter & Search -->
+			<div class="flex w-full flex-col gap-3 lg:hidden">
+				<!-- Search Input -->
+				<div class="relative">
+					<input
+						v-model="searchTerm"
+						type="text"
+						placeholder="Cari Permainan"
+						class="search-input"
+						@input="onSearchChange"
+					/>
+					<svg
+						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-gray-400"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+						/>
+					</svg>
+				</div>
+
+				<!-- Mobile Dropdown Filter -->
+				<Select
+					v-model="selectedFilter"
+					@update:model-value="selectFilter(selectedFilter)"
+				>
+					<SelectTrigger class="filter-select bg-gray-900 text-gray-100">
+						<SelectValue placeholder="Pilih" />
+					</SelectTrigger>
+					<SelectContent>
+						<SelectGroup>
+							<!-- <SelectLabel>Fruits</SelectLabel> -->
+							<SelectItem
+								v-for="filter in filters"
+								:key="filter"
+								:value="filter"
+							>
+								{{ filter }}
+							</SelectItem>
+						</SelectGroup>
+					</SelectContent>
+				</Select>
+			</div>
+
+			<!-- Desktop Search (right side) -->
+			<div class="ml-auto hidden lg:flex">
+				<div class="relative">
+					<input
+						v-model="searchTerm"
+						type="text"
+						placeholder="Cari Permainan"
+						class="search-input"
+						@input="onSearchChange"
+					/>
+					<svg
+						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-gray-400"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+						/>
+					</svg>
+				</div>
 			</div>
 		</div>
 	</div>

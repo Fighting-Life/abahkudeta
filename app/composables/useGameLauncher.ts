@@ -1,7 +1,7 @@
 export const useGameLauncher = () => {
 	const baeGameUrl = "https://kudetabet98mejackpot.net";
 	const user = useSupabaseUser();
-	const { profileBase } = useProfiles();
+	const { $profileState } = useNuxtApp();
 	const { $event } = useNuxtApp();
 
 	const parseJavaScriptFunction = (jsFunction: string) => {
@@ -50,7 +50,7 @@ export const useGameLauncher = () => {
 			$event("alert-login", true);
 			return;
 		}
-		if (profileBase.value?.balance === "0") {
+		if ($profileState.value?.balance === "0") {
 			$event("alert-deposit", true);
 			return;
 		}

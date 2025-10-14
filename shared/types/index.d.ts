@@ -152,7 +152,30 @@ declare global {
 		| "CrashOnlyPlayGames"
 		| "CrashJokerGames"
 		| "CrashDragoonsoftGames"
-		| "CrashFunkyGames";
+		| "CrashFunkyGames"
+		| "ArcadePPGames"
+		| "ArcadeMigrogamingGames"
+		| "ArcadeHackSawGames"
+		| "AracdeKingMidasGames"
+		| "ArcadeJiliGames"
+		| "ArcadeGeminiGames"
+		| "ArcadeAviatorGames"
+		| "ArcadeFachaiGames"
+		| "ArcadeSpinixGames"
+		| "ArcadeJokerGames"
+		| "ArcadeBtGamingGames"
+		| "ArcadeAMBGames"
+		| "ArcadeCrowdPlayGames"
+		| "AraceVPowerGames"
+		| "ArcadeWorldmatchGames"
+		| "ArcadeMarioClubGames"
+		| "ArcadeDragoonsoftGames"
+		| "ArcadeCQ9Games"
+		| "ArcadeFunGamingGames"
+		| "ArcadeMMTangkasGames"
+		| "ArcadeSkywindGames"
+		| "ArcadeJDBGames"
+		| "ArcadeFungkyGames";
 
 	type ShorcutGame =
 		| "PP"
@@ -201,7 +224,9 @@ declare global {
 		| "PPLIVECASINO"
 		| "SPRIBE"
 		| "GEMINI"
-		| "ADVANTPLAYMINIGAME";
+		| "ADVANTPLAYMINIGAME"
+		| "G8TANGKAS"
+		| "BTGAMING";
 
 	interface TrendingGame {
 		id: string;

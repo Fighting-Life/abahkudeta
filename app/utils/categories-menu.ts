@@ -21,7 +21,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-7.webp",
 				cover: "/images/sub-categories/game-code-7-cover.webp",
-				link: "/slots/pragmatic",
+				link: "/slots?p=pragmatic",
 				alternative_link: "/slots/pragmatic",
 			},
 			{
@@ -39,7 +39,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-70.webp",
 				cover: "/images/sub-categories/game-code-70-cover.webp",
-				link: "/slots/jili",
+				link: "/slots?p=jili",
 				alternative_link: "/slots/jili",
 			},
 			{
@@ -48,7 +48,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-16.webp",
 				cover: "/images/sub-categories/game-code-16-cover.webp",
-				link: "/slots/habanero",
+				link: "/slots?p=habanero",
 				alternative_link: "/slots/habanero",
 			},
 			{
@@ -57,7 +57,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-17.webp",
 				cover: "/images/sub-categories/game-code-17-cover.webp",
-				link: "/slots/microgaming",
+				link: "/slots?p=microgaming",
 				alternative_link: "/slots/microgaming",
 			},
 			{
@@ -66,7 +66,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-9.webp",
 				cover: "/images/sub-categories/game-code-9-cover.webp",
-				link: "/slots/pg-soft",
+				link: "/slots?p=pg-soft",
 				alternative_link: "/slots/pg-soft",
 			},
 			{
@@ -75,7 +75,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-92.webp",
 				cover: "/images/sub-categories/game-code-92-cover.webp",
-				link: "/slots/jino-limit-cityli",
+				link: "/slots?p=no-limit-city",
 				alternative_link: "/slots/no-limit-city",
 			},
 			{
@@ -84,7 +84,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-98.webp",
 				cover: "/images/sub-categories/game-code-98-cover.webp",
-				link: "/slots/hacksaw",
+				link: "/slots?p=hacksaw",
 				alternative_link: "/slots/hacksaw",
 			},
 			{
@@ -93,7 +93,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-65.webp",
 				cover: "/images/sub-categories/game-code-65-cover.webp",
-				link: "/slots/playstart",
+				link: "/slots?p=playstart",
 				alternative_link: "/slots/playstart",
 			},
 		],
@@ -120,7 +120,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-7.webp",
 				cover: "/images/sub-categories/game-code-7.webp",
-				link: "/slots/pragmatic",
+				link: "/slots?p=pragmatic",
 				alternative_link: "/slots/pragmatic",
 			},
 			{
@@ -129,7 +129,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-9.webp",
 				cover: "/images/sub-categories/game-code-9.webp",
-				link: "/slots/pgsoft",
+				link: "/slots?p=pgsoft",
 				alternative_link: "/slots/pgsoft",
 			},
 			{
@@ -138,7 +138,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-40.webp",
 				cover: "/images/sub-categories/game-code-40.webp",
-				link: "/slots/slot88",
+				link: "/slots?p=slot88",
 				alternative_link: "/slots/slot88",
 			},
 			{
@@ -147,7 +147,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-98.webp",
 				cover: "/images/sub-categories/game-code-98.webp",
-				link: "/slots/hacksaw",
+				link: "/slots?p=hacksaw",
 				alternative_link: "/slots/hacksaw",
 			},
 			{
@@ -156,7 +156,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-112.webp",
 				cover: "/images/sub-categories/game-code-112.webp",
-				link: "/slots/fat-panda",
+				link: "/slots?p=fat-panda",
 				alternative_link: "/slots/fat-panda",
 			},
 			{
@@ -165,7 +165,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-92.webp",
 				cover: "/images/sub-categories/game-code-92.webp",
-				link: "/slots/no-limit-city",
+				link: "/slots?p=no-limit-city",
 				alternative_link: "/slots/no-limit-city",
 			},
 			{
@@ -174,7 +174,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-70.webp",
 				cover: "/images/sub-categories/game-code-70.webp",
-				link: "/slots/jili",
+				link: "/slots?p=jili",
 				alternative_link: "/slots/jili",
 			},
 			{
@@ -183,7 +183,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-16.webp",
 				cover: "/images/sub-categories/game-code-16.webp",
-				link: "/slots/habanero",
+				link: "/slots?p=habanero",
 				alternative_link: "/slots/habanero",
 			},
 			{
@@ -192,7 +192,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-17.webp",
 				cover: "/images/sub-categories/game-code-17.webp",
-				link: "/slots/microgaming",
+				link: "/slots?p=microgaming",
 				alternative_link: "/slots/microgaming",
 			},
 			{
@@ -201,7 +201,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-114.webp",
 				cover: "/images/sub-categories/game-code-114.webp",
-				link: "/slots/fivegg",
+				link: "/slots?p=fivegg",
 				alternative_link: "/slots/fivegg",
 			},
 			{
@@ -210,7 +210,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-2.webp",
 				cover: "/images/sub-categories/game-code-2.webp",
-				link: "/slots/playtech",
+				link: "/slots?p=playtech",
 				alternative_link: "/slots/playtech",
 			},
 			{
@@ -219,7 +219,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-29.webp",
 				cover: "/images/sub-categories/game-code-29.webp",
-				link: "/slots/spade-gaming",
+				link: "/slots?p=spade-gaming",
 				alternative_link: "/slots/spade-gaming",
 			},
 			{
@@ -228,7 +228,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-116.webp",
 				cover: "/images/sub-categories/game-code-116.webp",
-				link: "/slots/king-midas",
+				link: "/slots?p=king-midas",
 				alternative_link: "/slots/king-midas",
 			},
 			{
@@ -237,7 +237,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-110.webp",
 				cover: "/images/sub-categories/game-code-110.webp",
-				link: "/slots/fast-spin",
+				link: "/slots?p=fast-spin",
 				alternative_link: "/slots/fast-spin",
 			},
 			{
@@ -246,7 +246,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-115.webp",
 				cover: "/images/sub-categories/game-code-115.webp",
-				link: "/slots/vplus",
+				link: "/slots?p=vplus",
 				alternative_link: "/slots/vplus",
 			},
 			{
@@ -255,7 +255,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-6.webp",
 				cover: "/images/sub-categories/game-code-6.webp",
-				link: "/slots/joker",
+				link: "/slots?p=joker",
 				alternative_link: "/slots/joker",
 			},
 			{
@@ -264,7 +264,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-72.webp",
 				cover: "/images/sub-categories/game-code-72.webp",
-				link: "/slots/fachai",
+				link: "/slots?p=fachai",
 				alternative_link: "/slots/fachai",
 			},
 			{
@@ -273,7 +273,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-54.webp",
 				cover: "/images/sub-categories/game-code-54.webp",
-				link: "/slots/advantplay",
+				link: "/slots?p=advantplay",
 				alternative_link: "/slots/advantplay",
 			},
 			{
@@ -282,7 +282,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-108.webp",
 				cover: "/images/sub-categories/game-code-108.webp",
-				link: "/slots/smartsoft",
+				link: "/slots?p=smartsoft",
 				alternative_link: "/slots/smartsoft",
 			},
 			{
@@ -291,7 +291,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-87.webp",
 				cover: "/images/sub-categories/game-code-87.webp",
-				link: "/slots/naga-games",
+				link: "/slots?p=naga-games",
 				alternative_link: "/slots/naga-games",
 			},
 			{
@@ -300,7 +300,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-51.webp",
 				cover: "/images/sub-categories/game-code-51.webp",
-				link: "/slots/jdb",
+				link: "/slots?p=jdb",
 				alternative_link: "/slots/jdb",
 			},
 			{
@@ -309,7 +309,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-65.webp",
 				cover: "/images/sub-categories/game-code-65.webp",
-				link: "/slots/playstar",
+				link: "/slots?p=playstar",
 				alternative_link: "/slots/playstar",
 			},
 			{
@@ -318,7 +318,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-91.webp",
 				cover: "/images/sub-categories/game-code-91.webp",
-				link: "/slots/spinix",
+				link: "/slots?p=spinix",
 				alternative_link: "/slots/spinix",
 			},
 			{
@@ -327,7 +327,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-73.webp",
 				cover: "/images/sub-categories/game-code-73.webp",
-				link: "/slots/crowd-play",
+				link: "/slots?p=crowd-play",
 				alternative_link: "/slots/crowd-play",
 			},
 			{
@@ -336,7 +336,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-50.webp",
 				cover: "/images/sub-categories/game-code-50.webp",
-				link: "/slots/ion-slot",
+				link: "/slots?p=ion-slot",
 				alternative_link: "/slots/ion-slot",
 			},
 			{
@@ -345,7 +345,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-75.webp",
 				cover: "/images/sub-categories/game-code-75.webp",
-				link: "/slots/bigpot",
+				link: "/slots?p=bigpot",
 				alternative_link: "/slots/bigpot",
 			},
 			{
@@ -354,7 +354,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-77.webp",
 				cover: "/images/sub-categories/game-code-77.webp",
-				link: "/slots/vpower",
+				link: "/slots?p=vpower",
 				alternative_link: "/slots/vpower",
 			},
 			{
@@ -363,7 +363,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-61.webp",
 				cover: "/images/sub-categories/game-code-61.webp",
-				link: "/slots/amb-slot",
+				link: "/slots?p=amb-slot",
 				alternative_link: "/slots/amb-slot",
 			},
 			{
@@ -372,7 +372,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-109.webp",
 				cover: "/images/sub-categories/game-code-109.webp",
-				link: "/slots/octoplay",
+				link: "/slots?p=octoplay",
 				alternative_link: "/slots/octoplay",
 			},
 			{
@@ -381,7 +381,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-89.webp",
 				cover: "/images/sub-categories/game-code-89.webp",
-				link: "/slots/worldmatch",
+				link: "/slots?p=worldmatch",
 				alternative_link: "/slots/worldmatch",
 			},
 			{
@@ -390,7 +390,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-80.webp",
 				cover: "/images/sub-categories/game-code-80.webp",
-				link: "/slots/mario-club",
+				link: "/slots?p=mario-club",
 				alternative_link: "/slots/mario-club",
 			},
 			{
@@ -399,7 +399,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-81.webp",
 				cover: "/images/sub-categories/game-code-81.webp",
-				link: "/slots/dragoonsoft",
+				link: "/slots?p=dragoonsoft",
 				alternative_link: "/slots/dragoonsoft",
 			},
 			{
@@ -408,7 +408,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-79.webp",
 				cover: "/images/sub-categories/game-code-79.webp",
-				link: "/slots/fun-gaming",
+				link: "/slots?p=fun-gaming",
 				alternative_link: "/slots/fun-gaming",
 			},
 			{
@@ -417,7 +417,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-35.webp",
 				cover: "/images/sub-categories/game-code-35.webp",
-				link: "/slots/funky-games",
+				link: "/slots?p=funky-games",
 				alternative_link: "/slots/funky-games",
 			},
 			{
@@ -426,7 +426,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-45.webp",
 				cover: "/images/sub-categories/game-code-45.webp",
-				link: "/slots/live22",
+				link: "/slots?p=live22",
 				alternative_link: "/slots/live22",
 			},
 			{
@@ -435,7 +435,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-13.webp",
 				cover: "/images/sub-categories/game-code-13.webp",
-				link: "/slots/cq9",
+				link: "/slots?p=cq9",
 				alternative_link: "/slots/cq9",
 			},
 			{
@@ -444,7 +444,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-97.webp",
 				cover: "/images/sub-categories/game-code-97.webp",
-				link: "/slots/only-play",
+				link: "/slots?p=only-play",
 				alternative_link: "/slots/only-play",
 			},
 			{
@@ -453,7 +453,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-94.webp",
 				cover: "/images/sub-categories/game-code-94.webp",
-				link: "/slots/netent",
+				link: "/slots?p=netent",
 				alternative_link: "/slots/netent",
 			},
 			{
@@ -462,7 +462,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-95.webp",
 				cover: "/images/sub-categories/game-code-95.webp",
-				link: "/slots/big-time-gaming",
+				link: "/slots?p=big-time-gaming",
 				alternative_link: "/slots/big-time-gaming",
 			},
 			{
@@ -471,7 +471,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-93.webp",
 				cover: "/images/sub-categories/game-code-93.webp",
-				link: "/slots/red-tiger",
+				link: "/slots?p=red-tiger",
 				alternative_link: "/slots/red-tiger",
 			},
 			{
@@ -480,7 +480,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-90.webp",
 				cover: "/images/sub-categories/game-code-90.webp",
-				link: "/slots/skywind",
+				link: "/slots?p=skywind",
 				alternative_link: "/slots/skywind",
 			},
 			{
@@ -489,7 +489,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-42.webp",
 				cover: "/images/sub-categories/game-code-42.webp",
-				link: "/slots/yggdrasil",
+				link: "/slots?p=yggdrasil",
 				alternative_link: "/slots/yggdrasil",
 			},
 			{
@@ -498,7 +498,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "slots",
 				icon: "/images/sub-categories/game-code-18.webp",
 				cover: "/images/sub-categories/game-code-18.webp",
-				link: "/slots/playngo",
+				link: "/slots?p=playngo",
 				alternative_link: "/slots/playngo",
 			},
 		],
@@ -534,7 +534,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "casino",
 				icon: "/images/sub-categories/game-code-41.webp",
 				cover: "/images/categories/casino/game-code-41.webp",
-				link: "/casino/pragmatic",
+				link: "/casino?p=pragmatic",
 				alternative_link: "/casino/pragmatic",
 			},
 			{
@@ -552,7 +552,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "casino",
 				icon: "/images/sub-categories/game-code-38.webp",
 				cover: "/images/categories/casino/game-code-38.webp",
-				link: "/casino/evo-gaming",
+				link: "/casino?p=evo-gaming",
 				alternative_link: "/casino/evo-gaming",
 			},
 			{
@@ -678,7 +678,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "race",
 				icon: "/images/sub-categories/game-code-117.webp",
 				cover: "/images/categories/race/game-code-117.webp",
-				link: "/race/marblex",
+				link: "/race?p=marblex",
 				alternative_link: "/race/marblex",
 			},
 		],
@@ -840,8 +840,8 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-41.webp",
 				cover: "/images/categories/sport/game-code-41.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
-				alternative_link: "/crash-game/pragmatic",
+				link: "/crash-game?p=pragmatic",
+				alternative_link: "/crash-game?p=pragmatic",
 			},
 			{
 				name: "Aviator",
@@ -849,8 +849,8 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-82.webp",
 				cover: "/images/categories/sport/game-code-82.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
-				alternative_link: "/crash-game/aviator",
+				link: "/crash-game?p=aviator",
+				alternative_link: "/crash-game?p=aviator",
 			},
 			{
 				name: "Smartsoft",
@@ -858,7 +858,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-108.webp",
 				cover: "/images/categories/sport/game-code-55.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=smartsoft",
 				alternative_link: "/crash-game/smartsoft",
 			},
 			{
@@ -867,7 +867,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-17.webp",
 				cover: "/images/categories/sport/game-code-55.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=microgaming",
 				alternative_link: "/crash-game/microgaming",
 			},
 			{
@@ -876,7 +876,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-91.webp",
 				cover: "/images/categories/sport/game-code-55.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=spinix",
 				alternative_link: "/crash-game/spinix",
 			},
 			{
@@ -885,7 +885,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-107.webp",
 				cover: "/images/categories/sport/game-code-107.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=gemini",
 				alternative_link: "/crash-game/gemini",
 			},
 			{
@@ -894,7 +894,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-62.webp",
 				cover: "/images/categories/sport/game-code-62.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=advantplay-mini-game",
 				alternative_link: "/crash-game/advantplay-mini-game",
 			},
 			{
@@ -903,7 +903,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-29.webp",
 				cover: "/images/categories/sport/game-code-29.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=spade-gaming",
 				alternative_link: "/crash-game/spade-gaming",
 			},
 			{
@@ -912,7 +912,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-97.webp",
 				cover: "/images/categories/sport/game-code-97.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=only-play",
 				alternative_link: "/crash-game/only-play",
 			},
 			{
@@ -921,7 +921,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-6.webp",
 				cover: "/images/categories/sport/game-code-6.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=joker",
 				alternative_link: "/crash-game/joker",
 			},
 			{
@@ -930,7 +930,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-81.webp",
 				cover: "/images/categories/sport/game-code-81.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=dragoonsoft",
 				alternative_link: "/crash-game/dragoonsoft",
 			},
 			{
@@ -939,7 +939,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "crash-game",
 				icon: "/images/sub-categories/game-code-35.webp",
 				cover: "/images/categories/sport/game-code-35.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/crash-game?p=funky-games",
 				alternative_link: "/crash-game/funky-games",
 			},
 		],
@@ -966,7 +966,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-118.webp",
 				cover: "/images/categories/arcade/game-code-118.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=pragmatic",
 				alternative_link: "/arcade/pragmatic",
 			},
 			{
@@ -975,7 +975,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-119.webp",
 				cover: "/images/categories/arcade/game-code-119.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=microgaming",
 				alternative_link: "/arcade/microgaming",
 			},
 			{
@@ -984,7 +984,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-120.webp",
 				cover: "/images/categories/arcade/game-code-120.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=hacksaw",
 				alternative_link: "/arcade/hacksaw",
 			},
 			{
@@ -993,7 +993,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-121.webp",
 				cover: "/images/categories/arcade/game-code-121.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=king-midas",
 				alternative_link: "/arcade/king-midas",
 			},
 			{
@@ -1002,7 +1002,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-122.webp",
 				cover: "/images/categories/arcade/game-code-122.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=jili",
 				alternative_link: "/arcade/jili",
 			},
 			{
@@ -1011,7 +1011,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-123.webp",
 				cover: "/images/categories/arcade/game-code-123.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=gemini",
 				alternative_link: "/arcade/gemini",
 			},
 			{
@@ -1020,7 +1020,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-124.webp",
 				cover: "/images/categories/arcade/game-code-124.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=aviator",
 				alternative_link: "/arcade/aviator",
 			},
 			{
@@ -1029,7 +1029,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-125.webp",
 				cover: "/images/categories/arcade/game-code-125.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=fachai",
 				alternative_link: "/arcade/fachai",
 			},
 			{
@@ -1038,7 +1038,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-126.webp",
 				cover: "/images/categories/arcade/game-code-126.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=joker",
 				alternative_link: "/arcade/joker",
 			},
 			{
@@ -1047,7 +1047,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-127.webp",
 				cover: "/images/categories/arcade/game-code-127.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=amb-slot",
 				alternative_link: "/arcade/amb-slot",
 			},
 			{
@@ -1056,7 +1056,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-128.webp",
 				cover: "/images/categories/arcade/game-code-128.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=spinix",
 				alternative_link: "/arcade/spinix",
 			},
 			{
@@ -1065,7 +1065,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-129.webp",
 				cover: "/images/categories/arcade/game-code-129.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=crowd-play",
 				alternative_link: "/arcade/crowd-play",
 			},
 			{
@@ -1074,7 +1074,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-130.webp",
 				cover: "/images/categories/arcade/game-code-130.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=vpower",
 				alternative_link: "/arcade/vpower",
 			},
 			{
@@ -1083,7 +1083,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-131.webp",
 				cover: "/images/categories/arcade/game-code-131.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=worldmatch",
 				alternative_link: "/arcade/worldmatch",
 			},
 			{
@@ -1092,7 +1092,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-132.webp",
 				cover: "/images/categories/arcade/game-code-132.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=mario-club",
 				alternative_link: "/arcade/mario-club",
 			},
 			{
@@ -1101,7 +1101,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-133.webp",
 				cover: "/images/categories/arcade/game-code-133.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=dragoonsoft",
 				alternative_link: "/arcade/dragoonsoft",
 			},
 			{
@@ -1110,7 +1110,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-134.webp",
 				cover: "/images/categories/arcade/game-code-134.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=cq9",
 				alternative_link: "/arcade/cq9",
 			},
 			{
@@ -1119,7 +1119,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-135.webp",
 				cover: "/images/categories/arcade/game-code-135.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=fun-gaming",
 				alternative_link: "/arcade/fun-gaming",
 			},
 			{
@@ -1128,9 +1128,8 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-136.webp",
 				cover: "/images/categories/arcade/game-code-136.webp",
-				link: "javascript:openNewTab('/dispatch/game/G8TANGKAS/Desktop', 'Main')",
-				alternative_link:
-					"javascript:openNewTab('/dispatch/game/G8TANGKAS/Desktop', 'Main')",
+				link: "/arcade?p=jili",
+				alternative_link: "/arcade/jili",
 			},
 			{
 				name: "Skywind",
@@ -1138,7 +1137,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-137.webp",
 				cover: "/images/categories/arcade/game-code-137.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=skywind",
 				alternative_link: "/arcade/skywind",
 			},
 			{
@@ -1147,7 +1146,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-138.webp",
 				cover: "/images/categories/arcade/game-code-138.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=jdb",
 				alternative_link: "/arcade/jdb",
 			},
 			{
@@ -1156,7 +1155,7 @@ export const CategoriesTopMenu: CategoriesMenu[] = [
 				category: "arcade",
 				icon: "/images/sub-categories/game-code-139.webp",
 				cover: "/images/categories/arcade/game-code-139.webp",
-				link: "javascript:openNewTab('/dispatch/game/PPVIRTUALGAMES/Desktop', 'Main')",
+				link: "/arcade?p=funky-games",
 				alternative_link: "/arcade/funky-games",
 			},
 		],
@@ -1282,7 +1281,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-7-colored.webp",
 		category: "slots",
 		slug: "pragmatic",
-		url: "/slots/pragmatic",
+		url: "/slots?p=pragmatic",
 	},
 	{
 		name: "PG Soft",
@@ -1290,7 +1289,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-9-colored.webp",
 		category: "slots",
 		slug: "pgsoft",
-		url: "/slots/pgsoft",
+		url: "/slots?p=pgsoft",
 	},
 	{
 		name: "Slot88",
@@ -1298,7 +1297,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-40-colored.webp",
 		category: "slots",
 		slug: "slot88",
-		url: "/slots/slot88",
+		url: "/slots?p=slot88",
 	},
 	{
 		name: "Hacksaw Gaming",
@@ -1306,7 +1305,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-98-colored.webp",
 		category: "slots",
 		slug: "hacksaw",
-		url: "/slots/hacksaw",
+		url: "/slots?p=hacksaw",
 	},
 	{
 		name: "Fat Panda",
@@ -1314,7 +1313,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-112-colored.webp",
 		category: "slots",
 		slug: "fat-panda",
-		url: "/slots/fat-panda",
+		url: "/slots?p=fat-panda",
 	},
 	{
 		name: "Nolimit City",
@@ -1322,7 +1321,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-92-colored.webp",
 		category: "slots",
 		slug: "no-limit-city",
-		url: "/slots/no-limit-city",
+		url: "/slots?p=no-limit-city",
 	},
 	{
 		name: "JILI",
@@ -1330,7 +1329,7 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-70-colored.webp",
 		category: "slots",
 		slug: "jili",
-		url: "/slots/jili",
+		url: "/slots?p=jili",
 	},
 	{
 		name: "Habanero",
@@ -1338,19 +1337,19 @@ export const SlotsProvidersCategory: Partner[] = [
 		logo_colored: "/images/partners/game-code-16-colored.webp",
 		category: "slots",
 		slug: "habanero",
-		url: "/slots/habanero",
+		url: "/slots?p=habanero",
 	},
 	{
 		name: "Microgaming",
-		url: "/slots/microgaming",
 		logo: "/images/partners/game-code-17.webp",
 		logo_colored: "/images/partners/game-code-72-colored.webp",
 		category: "slots",
 		slug: "microgaming",
+		url: "/slots?p=microgaming",
 	},
 	{
 		name: "5G Games",
-		url: "/slots/fivegg",
+		url: "/slots?p=fivegg",
 		logo: "/images/partners/game-code-114.webp",
 		logo_colored: "/images/partners/game-code-114-colored.webp",
 		category: "slots",
@@ -1358,7 +1357,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Playtech",
-		url: "/slots/playtech",
+		url: "/slots?p=playtech",
 		logo: "/images/partners/game-code-2.webp",
 		logo_colored: "/images/partners/game-code-2-colored.webp",
 		category: "slots",
@@ -1366,7 +1365,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Spade Gaming",
-		url: "/slots/spade-gaming",
+		url: "/slots?p=spade-gaming",
 		logo: "/images/partners/game-code-29.webp",
 		logo_colored: "/images/partners/game-code-29-colored.webp",
 		category: "slots",
@@ -1374,7 +1373,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "King Midas",
-		url: "/slots/king-midas",
+		url: "/slots?p=king-midas",
 		logo: "/images/partners/game-code-116.webp",
 		logo_colored: "/images/partners/game-code-116-colored.webp",
 		category: "slots",
@@ -1382,7 +1381,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Fast Spin",
-		url: "/slots/fast-spin",
+		url: "/slots?p=fast-spin",
 		logo: "/images/partners/game-code-110.webp",
 		logo_colored: "/images/partners/game-code-110-colored.webp",
 		category: "slots",
@@ -1390,7 +1389,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "V Plus",
-		url: "/slots/vplus",
+		url: "/slots?vplus",
 		logo: "/images/partners/game-code-115.webp",
 		logo_colored: "/images/partners/game-code-115-colored.webp",
 		category: "slots",
@@ -1398,7 +1397,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Joker",
-		url: "/slots/joker",
+		url: "/slots?p=joker",
 		logo: "/images/partners/game-code-6.webp",
 		logo_colored: "/images/partners/game-code-6-colored.webp",
 		category: "slots",
@@ -1406,7 +1405,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "FA Chai",
-		url: "/slots/fachai",
+		url: "/slots?p=fachai",
 		logo: "/images/partners/game-code-72.webp",
 		logo_colored: "/images/partners/game-code-72-colored.webp",
 		category: "slots",
@@ -1414,7 +1413,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Advant Play",
-		url: "/slots/advantplay",
+		url: "/slots?p=advantplay",
 		logo: "/images/partners/game-code-54.webp",
 		logo_colored: "/images/partners/game-code-54-colored.webp",
 		category: "slots",
@@ -1422,7 +1421,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Smartsoft Gaming",
-		url: "/slots/smartsoft",
+		url: "/slots?p=smartsoft",
 		logo: "/images/partners/game-code-108.webp",
 		logo_colored: "/images/partners/game-code-108-colored.webp",
 		category: "slots",
@@ -1430,7 +1429,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Naga Games",
-		url: "/slots/naga-games",
+		url: "/slots?p=naga-games",
 		logo: "/images/partners/game-code-87.webp",
 		logo_colored: "/images/partners/game-code-87-colored.webp",
 		category: "slots",
@@ -1438,7 +1437,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "JDB",
-		url: "/slots/jdb",
+		url: "/slots?p=jdb",
 		logo: "/images/partners/game-code-51.webp",
 		logo_colored: "/images/partners/game-code-51-colored.webp",
 		category: "slots",
@@ -1446,7 +1445,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Play Star",
-		url: "/slots/playstar",
+		url: "/slots?p=playstar",
 		logo: "/images/partners/game-code-65.webp",
 		logo_colored: "/images/partners/game-code-65-colored.webp",
 		category: "slots",
@@ -1454,7 +1453,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "SpinX",
-		url: "/slots/spinix",
+		url: "/slots?p=spinix",
 		logo: "/images/partners/game-code-91.webp",
 		logo_colored: "/images/partners/game-code-91-colored.webp",
 		category: "slots",
@@ -1462,7 +1461,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Crowd Play",
-		url: "/slots/crowd-play",
+		url: "/slots?p=crowd-play",
 		logo: "/images/partners/game-code-73.webp",
 		logo_colored: "/images/partners/game-code-73-colored.webp",
 		category: "slots",
@@ -1470,7 +1469,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Ion Slot",
-		url: "/slots/ion-slot",
+		url: "/slots?p=ion-slot",
 		logo: "/images/partners/game-code-50.webp",
 		logo_colored: "/images/partners/game-code-50-colored.webp",
 		category: "slots",
@@ -1478,7 +1477,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Bigpot Gaming",
-		url: "/slots/bigpot",
+		url: "/slots?p=bigpot",
 		logo: "/images/partners/game-code-75.webp",
 		logo_colored: "/images/partners/game-code-75-colored.webp",
 		category: "slots",
@@ -1486,7 +1485,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "KA Gaming",
-		url: "/slots/vpower",
+		url: "/slots?vpower",
 		logo: "/images/partners/game-code-77.webp",
 		logo_colored: "/images/partners/game-code-77-colored.webp",
 		category: "slots",
@@ -1494,7 +1493,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Askmebet",
-		url: "/slots/amb-slot",
+		url: "/slots?p=amb-slot",
 		logo: "/images/partners/game-code-61.webp",
 		logo_colored: "/images/partners/game-code-61-colored.webp",
 		category: "slots",
@@ -1502,7 +1501,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "WorldMatch",
-		url: "/slots/worldmatch",
+		url: "/slots?p=worldmatch",
 		logo: "/images/partners/game-code-89.webp",
 		logo_colored: "/images/partners/game-code-89-colored.webp",
 		category: "slots",
@@ -1510,7 +1509,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Octoplay",
-		url: "/slots/octoplay",
+		url: "/slots?p=octoplay",
 		logo: "/images/partners/game-code-109.webp",
 		logo_colored: "/images/partners/game-code-109-colored.webp",
 		category: "slots",
@@ -1518,7 +1517,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Mario Club",
-		url: "/slots/mario-club",
+		url: "/slots?p=mario-club",
 		logo: "/images/partners/game-code-80.webp",
 		logo_colored: "/images/partners/game-code-80-colored.webp",
 		category: "slots",
@@ -1526,7 +1525,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Dragoon Soft",
-		url: "/slots/dragoonsoft",
+		url: "/slots?p=dragoonsoft",
 		logo: "/images/partners/game-code-81.webp",
 		logo_colored: "/images/partners/game-code-81-colored.webp",
 		category: "slots",
@@ -1534,7 +1533,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "FG Games",
-		url: "/slots/fun-gaming",
+		url: "/slots?p=fun-gaming",
 		logo: "/images/partners/game-code-79.webp",
 		logo_colored: "/images/partners/game-code-79-colored.webp",
 		category: "slots",
@@ -1542,7 +1541,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Funky Games",
-		url: "/slots/funky-games",
+		url: "/slots?p=funky-games",
 		logo: "/images/partners/game-code-35.webp",
 		logo_colored: "/images/partners/game-code-35-colored.webp",
 		category: "slots",
@@ -1550,7 +1549,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Live22",
-		url: "/slots/live22",
+		url: "/slots?p=live22",
 		logo: "/images/partners/game-code-45.webp",
 		logo_colored: "/images/partners/game-code-45-colored.webp",
 		category: "slots",
@@ -1558,7 +1557,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "CQ9",
-		url: "/slots/cq9",
+		url: "/slots?p=cq9",
 		logo: "/images/partners/game-code-13.webp",
 		logo_colored: "/images/partners/game-code-13-colored.webp",
 		category: "slots",
@@ -1566,7 +1565,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Onlyplay",
-		url: "/slots/only-play",
+		url: "/slots?p=only-play",
 		logo: "/images/partners/game-code-97.webp",
 		logo_colored: "/images/partners/game-code-97-colored.webp",
 		category: "slots",
@@ -1574,7 +1573,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "NetEnt",
-		url: "/slots/netent",
+		url: "/slots?p=netent",
 		logo: "/images/partners/game-code-94.webp",
 		logo_colored: "/images/partners/game-code-94-colored.webp",
 		category: "slots",
@@ -1582,7 +1581,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "BigTime Gaming",
-		url: "/slots/big-time-gaming",
+		url: "/slots?p=big-time-gaming",
 		logo: "/images/partners/game-code-95.webp",
 		logo_colored: "/images/partners/game-code-95-colored.webp",
 		category: "slots",
@@ -1590,7 +1589,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Red Tiger",
-		url: "/slots/red-tiger",
+		url: "/slots?p=red-tiger",
 		logo: "/images/partners/game-code-93.webp",
 		logo_colored: "/images/partners/game-code-93-colored.webp",
 		category: "slots",
@@ -1598,7 +1597,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Skywind Group",
-		url: "/slots/skywind",
+		url: "/slots?p=skywind",
 		logo: "/images/partners/game-code-90.webp",
 		logo_colored: "/images/partners/game-code-90-colored.webp",
 		category: "slots",
@@ -1606,7 +1605,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Yggdrasil",
-		url: "/slots/yggdrasil",
+		url: "/slots?p=yggdrasil",
 		logo: "/images/partners/game-code-42.webp",
 		logo_colored: "/images/partners/game-code-42-colored.webp",
 		category: "slots",
@@ -1614,7 +1613,7 @@ export const SlotsProvidersCategory: Partner[] = [
 	},
 	{
 		name: "Play'n GO",
-		url: "/slots/playngo",
+		url: "/slots?p=playngo",
 		logo: "/images/partners/game-code-18.webp",
 		logo_colored: "/images/partners/game-code-18-colored.webp",
 		category: "slots",
@@ -1628,7 +1627,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-41.webp",
 		category: "crash-game",
 		slug: "pplivecasino",
-		url: "/crash-game/pplivecasino",
+		url: "/crash-game?p=pplivecasino",
 	},
 	{
 		name: "Aviator",
@@ -1636,7 +1635,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-82.webp",
 		category: "crash-game",
 		slug: "spribe",
-		url: "/crash-game/spribe",
+		url: "/crash-game?p=spribe",
 	},
 	{
 		name: "Microgaming",
@@ -1644,7 +1643,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-17.webp",
 		category: "crash-game",
 		slug: "microgaming",
-		url: "/crash-game/microgaming",
+		url: "/crash-game?p=microgaming",
 	},
 	{
 		name: "Smartsoft",
@@ -1652,7 +1651,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-108.webp",
 		category: "crash-game",
 		slug: "smartsoft",
-		url: "/crash-game/smartsoft",
+		url: "/crash-game?p=smartsoft",
 	},
 	{
 		name: "Spinix",
@@ -1660,7 +1659,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-91.webp",
 		category: "crash-game",
 		slug: "spinix",
-		url: "/crash-game/spinix",
+		url: "/crash-game?p=spinix",
 	},
 	{
 		name: "Gemini",
@@ -1668,7 +1667,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-107.webp",
 		category: "crash-game",
 		slug: "gemini",
-		url: "/crash-game/gemini",
+		url: "/crash-game?p=gemini",
 	},
 	{
 		name: "AdvantPlay Mini Game",
@@ -1676,7 +1675,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-62.webp",
 		category: "crash-game",
 		slug: "advantplay-mini-game",
-		url: "/crash-game/advantplay-mini-game",
+		url: "/crash-game?p=advantplay-mini-game",
 	},
 	{
 		name: "Spade Gaming",
@@ -1684,7 +1683,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-29.webp",
 		category: "crash-game",
 		slug: "spade-gaming",
-		url: "/crash-game/pade-gaming",
+		url: "/crash-game?p=spade-gaming",
 	},
 	{
 		name: "Only Play",
@@ -1692,7 +1691,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-97.webp",
 		category: "crash-game",
 		slug: "only-play",
-		url: "/crash-game/only-play",
+		url: "/crash-game?p=only-play",
 	},
 	{
 		name: "Joker",
@@ -1700,7 +1699,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-6.webp",
 		category: "crash-game",
 		slug: "joker",
-		url: "/crash-game/joker",
+		url: "/crash-game?p=joker",
 	},
 	{
 		name: "Dragoonsoft",
@@ -1708,7 +1707,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-81.webp",
 		category: "crash-game",
 		slug: "dragoonsoft",
-		url: "/crash-game/dragoonsoft",
+		url: "/crash-game?p=dragoonsoft",
 	},
 	{
 		name: "Funky Games",
@@ -1716,7 +1715,7 @@ export const CrashProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/crash-game/game-code-35.webp",
 		category: "crash-game",
 		slug: "sbo-funky-game",
-		url: "/crash-game/sbo-funky-game",
+		url: "/crash-game?p=sbo-funky-game",
 	},
 ];
 export const ArcadeProvidersCategory: Partner[] = [
@@ -1726,7 +1725,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-7.webp",
 		category: "arcade",
 		slug: "pragmatic",
-		url: "/arcade/pragmatic",
+		url: "/arcade?p=pragmatic",
 	},
 	{
 		name: "MicroGaming",
@@ -1734,7 +1733,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-17.webp",
 		category: "arcade",
 		slug: "microGaming",
-		url: "/arcade/microGaming",
+		url: "/arcade?p=microGaming",
 	},
 	{
 		name: "Hacksaw",
@@ -1742,7 +1741,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-98.webp",
 		category: "arcade",
 		slug: "hacksaw",
-		url: "/arcade/hacksaw",
+		url: "/arcade?p=hacksaw",
 	},
 	{
 		name: "King Midas",
@@ -1750,7 +1749,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-116.webp",
 		category: "arcade",
 		slug: "king-midas",
-		url: "/arcade/king-midas",
+		url: "/arcade?p=king-midas",
 	},
 	{
 		name: "Jili",
@@ -1758,7 +1757,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-70.webp",
 		category: "arcade",
 		slug: "jili",
-		url: "/arcade/jili",
+		url: "/arcade?p=jili",
 	},
 	{
 		name: "Gemini",
@@ -1766,7 +1765,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-107.webp",
 		category: "arcade",
 		slug: "gemini",
-		url: "/arcade/gemini",
+		url: "/arcade?p=gemini",
 	},
 	{
 		name: "Aviator",
@@ -1774,7 +1773,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-82.webp",
 		category: "arcade",
 		slug: "aviator",
-		url: "/arcade/aviator",
+		url: "/arcade?p=aviator",
 	},
 	{
 		name: "Fachai",
@@ -1782,7 +1781,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-72.webp",
 		category: "arcade",
 		slug: "fachai",
-		url: "/arcade/fachai",
+		url: "/arcade?p=fachai",
 	},
 	{
 		name: "Joker",
@@ -1790,7 +1789,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-6.webp",
 		category: "arcade",
 		slug: "joker",
-		url: "/arcade/joker",
+		url: "/arcade?p=joker",
 	},
 	{
 		name: "Spinix",
@@ -1798,7 +1797,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-91.webp",
 		category: "arcade",
 		slug: "spinix",
-		url: "/arcade/spinix",
+		url: "/arcade?p=spinix",
 	},
 	{
 		name: "AMB Slot",
@@ -1806,7 +1805,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-61.webp",
 		category: "arcade",
 		slug: "amb-slot",
-		url: "/arcade/amb-slot",
+		url: "/arcade?p=amb-slot",
 	},
 	{
 		name: "Crowd Play",
@@ -1814,7 +1813,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-73.webp",
 		category: "arcade",
 		slug: "crowd-play",
-		url: "/arcade/crowd-play",
+		url: "/arcade?p=crowd-play",
 	},
 	{
 		name: "VPower",
@@ -1822,7 +1821,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-77.webp",
 		category: "arcade",
 		slug: "vpower",
-		url: "/arcade/vpower",
+		url: "/arcade?p=vpower",
 	},
 	{
 		name: "Worldmatch",
@@ -1830,7 +1829,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-89.webp",
 		category: "arcade",
 		slug: "worldmatch",
-		url: "/arcade/worldmatch",
+		url: "/arcade?p=worldmatch",
 	},
 	{
 		name: "Mario Club",
@@ -1838,7 +1837,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-80.webp",
 		category: "arcade",
 		slug: "mario-club",
-		url: "/arcade/mario-club",
+		url: "/arcade?p=mario-club",
 	},
 	{
 		name: "Dragoonsoft",
@@ -1846,7 +1845,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-81.webp",
 		category: "arcade",
 		slug: "dragoonsoft",
-		url: "/arcade/dragoonsoft",
+		url: "/arcade?p=dragoonsoft",
 	},
 	{
 		name: "CQ9",
@@ -1854,7 +1853,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-13.webp",
 		category: "arcade",
 		slug: "cq9",
-		url: "/arcade/cq9",
+		url: "/arcade?p=cq9",
 	},
 	{
 		name: "Fun Gaming",
@@ -1862,7 +1861,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-79.webp",
 		category: "arcade",
 		slug: "fun-gaming",
-		url: "/arcade/fun-gaming",
+		url: "/arcade?p=fun-gaming",
 	},
 	{
 		name: "MM Tangkas",
@@ -1870,7 +1869,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-96.webp",
 		category: "arcade",
 		slug: "g8-tangkas",
-		url: "/arcade/g8-tangkas",
+		url: "/arcade?p=g8-tangkas",
 	},
 	{
 		name: "Skywind",
@@ -1878,7 +1877,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-90.webp",
 		category: "arcade",
 		slug: "skywind",
-		url: "/arcade/skywind",
+		url: "/arcade?p=skywind",
 	},
 	{
 		name: "JDB",
@@ -1886,7 +1885,7 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-51.webp",
 		category: "arcade",
 		slug: "jdb",
-		url: "/arcade/jdb",
+		url: "/arcade?p=jdb",
 	},
 	{
 		name: "Funky Games",
@@ -1894,6 +1893,6 @@ export const ArcadeProvidersCategory: Partner[] = [
 		logo_colored: "/images/categories/arcade/game-code-35.webp",
 		category: "arcade",
 		slug: "funky-games",
-		url: "/arcade/funky-games",
+		url: "/arcade?p=funky-games",
 	},
 ];

@@ -90,7 +90,7 @@ export const defaultCarouselItems: CarouselItem[] = [
 	},
 	{
 		image: "/images/carousels/banner-10.png",
-		link: "/slots/hacksaw",
+		link: "/slots?p=hacksaw",
 		alt: "Carousel slide 1",
 		is_external: false,
 	},
@@ -103,7 +103,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Pragmatic Play adalah salah satu pemain utama di dunia iGaming. Kami hadir dengan slot pemenang penghargaan, live casino, dan konten multi-produk yang ngasih performa maksimal dan bikin pemain terpikat di seluruh dunia. Dikenal karena inovasi, kualitas, dan gerak cepat—kami bukan cuma ikut tren, tapi yang bikin tren!",
 		image: "/images/providers/game-code-7.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/pragmatic",
+		buttonLink: "/slots?p=pragmatic",
 	},
 	{
 		id: "2",
@@ -112,7 +112,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Didirikan di tahun 2015 dan berbasis di Malta, PG SOFT adalah perusahaan pertama yang mematenkan permainan seluler dalam format potret. Dengan kantor di seluruh dunia, timnya memiliki lebih dari 10 tahun pengalaman dalam Riset dan Pengembangan.",
 		image: "/images/providers/game-code-9.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/pgsoft",
+		buttonLink: "/slots?p=pgsoft",
 	},
 	{
 		id: "3",
@@ -121,7 +121,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Slot88 menghadirkan permainan slot yang sederhana dan menyenangkan, memberikan pengalaman seru bagi pemain yang mencari hiburan berkualitas dan gameplay yang mulus.",
 		image: "/images/providers/game-code-40.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/slot88",
+		buttonLink: "/slots?p=slot88",
 	},
 	{
 		id: "4",
@@ -130,7 +130,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Mobile friendly, inovatif, dan tema yang kuat - permainan slot kami dirancang untuk hiburan maksimal. Semua desain didasarkan pada layar vertikal untuk permainan yang dioptimalkan saat bepergian, permainan kami akan berfungsi pada setiap perangkat, semua smartphone, tablet, dan komputer desktop. Permainan kami tersedia di sebagian besar yurisdiksi yang diatur di seluruh dunia dan memiliki fitur seperti pembelian fitur, tingkat taruhan variabel, dan autoplay.",
 		image: "/images/providers/game-code-98.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/hacksaw",
+		buttonLink: "/slots?p=hacksaw",
 	},
 	{
 		id: "5",
@@ -139,7 +139,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Fat Panda adalah slot brand dari Pragmatic Play yang bold dan penuh impact! Dirancang buat nyita perhatian dan kasih gameplay seru yang nggak ketebak. Dengan energi yang meledak-ledak, visual yang kece, dan potensi menang besar—Fat Panda bukan cuma hiburan, tapi pembawa hoki sejati!",
 		image: "/images/providers/game-code-112.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/fat-panda",
+		buttonLink: "/slots?p=fat-panda",
 	},
 	{
 		id: "6",
@@ -148,7 +148,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Dengan tema yang gelap, berani, dan sering kali provokatif, permainan Nolimit City menawarkan pengalaman yang benar-benar tak terlupakan bagi pemain di seluruh dunia yang suka mencoba sesuatu yang sedikit berbeda!",
 		image: "/images/providers/game-code-92.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/no-limit-city",
+		buttonLink: "/slots?p=no-limit-city",
 	},
 	{
 		id: "7",
@@ -157,7 +157,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Kami berkomitmen untuk menciptakan permainan terbaik dan orisinal dalam mencapai keunggulan dan inovasi, yang merupakan nilai inti kami. Kami merancang slot video online yang menarik dan permainan memancing, selalu berada di depan persaingan, dan merilis permainan inovatif.",
 		image: "/images/providers/game-code-70.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/jili",
+		buttonLink: "/slots?p=jili",
 	},
 	{
 		id: "8",
@@ -166,7 +166,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Habanero menciptakan permainan slot dan permainan meja berkualitas untuk industri gaming. Cocok untuk operator dan agregator, game HTML5 kami yang mendukung berbagai bahasa dan mata uang merupakan pilihan tepat untuk pasar mana pun.",
 		image: "/images/providers/game-code-16.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/habanero",
+		buttonLink: "/slots?p=habanero",
 	},
 	{
 		id: "9",
@@ -175,7 +175,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Microgaming menghadirkan slot dan permainan live casino yang dirancang secara ahli, menghadirkan sensasi tanpa henti dan gameplay terpercaya",
 		image: "/images/providers/game-code-17.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/microgaming",
+		buttonLink: "/slots?p=microgaming",
 	},
 	{
 		id: "10",
@@ -184,7 +184,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Sebagai pengembang inovatif aplikasi seluler yang digamifikasi, kami menyediakan permainan paling canggih bagi pemain di seluruh dunia, dengan efek suara yang menakjubkan dan pengalaman visual yang tak terlupakan.",
 		image: "/images/providers/game-code-114.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/fivegg",
+		buttonLink: "/slots?p=fivegg",
 	},
 	{
 		id: "11",
@@ -193,7 +193,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Jackpot giant adalah slot online dari Playtech dengan nuansa jaman batu dan tema prasejarah dengan fitur progressive jackpot dengan 50 pay lines dan 5 baris. Kumpulkanlah 3 tangan raksasa memegang uang untuk mengaktifkan fitur putaran gratis.",
 		image: "/images/providers/game-code-2.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/playtech",
+		buttonLink: "/slots?p=playtech",
 	},
 	{
 		id: "12",
@@ -202,7 +202,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Spadegaming adalah pengembang game terkemuka yang dikenal karena beragam game kasino online yang inovatif. Didirikan di Asia, Spadegaming telah membangun reputasi kuat dalam menciptakan game slot yang menarik serta RNG lainnya seperti Crash Game, dan juga Fishing games, yang berhasil memikat pemain di seluruh dunia. Dengan komitmen kami terhadap konten berkualitas tinggi, tema-tema unik, dan pengalaman bermain yang superior, Spadegaming terus menghadirkan More Than Games untuk pemain kasual maupun berpengalaman.",
 		image: "/images/providers/game-code-29.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/spade-gaming",
+		buttonLink: "/slots?p=spade-gaming",
 	},
 	{
 		id: "13",
@@ -211,7 +211,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Sejak 2018, KingMidas Games telah mendefinisikan ulang iGaming. Konten generasi berikutnya kami bukan hanya berbeda — tetapi juga transformasional, meningkatkan keterlibatan dan pendapatan bagi para mitra yang mencari inovasi dan hasil yang nyata.",
 		image: "/images/providers/game-code-116.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/king-midas",
+		buttonLink: "/slots?p=king-midas",
 	},
 	{
 		id: "14",
@@ -220,7 +220,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"FASTPIN mendefinisikan ulang dunia game melalui rilisan-rilisan yang kreatif dan berkualitas tinggi dengan memadukan inovasi dan desain, serta menghadirkan pengalaman bermain yang segar dan mendebarkan di setiap saat.",
 		image: "/images/providers/game-code-110.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/fast-spin",
+		buttonLink: "/slots?p=fast-spin",
 	},
 	{
 		id: "15",
@@ -229,7 +229,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"VPlus, berlisensi Malta, menawarkan slot dari klasik hingga jackpot, dengan bonus berbasis turnover dan hadiah misi baru untuk meningkatkan keterlibatan dan retensi pemain.",
 		image: "/images/providers/game-code-115.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/vplus",
+		buttonLink: "/slots?p=vplus",
 	},
 	{
 		id: "16",
@@ -238,7 +238,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Kami tawarkan slot, memancing, bingo, funky &amp; e-game di H5 &amp; APP. Main fleksibel, dukungan 24/7, event seru &amp; hadiah keren bersama Joker!",
 		image: "/images/providers/game-code-6.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/joker",
+		buttonLink: "/slots?p=joker",
 	},
 	{
 		id: "17",
@@ -247,7 +247,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"FA CHAI didirikan pada 2019, menyajikan game bersertifikasi GLI dengan visual memukau &amp; gameplay unik dari Asia ke pasar global.",
 		image: "/images/providers/game-code-72.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/fachai",
+		buttonLink: "/slots?p=fachai",
 	},
 	{
 		id: "18",
@@ -256,7 +256,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"AdvantPlay, yang didirikan pada tahun 2020, adalah penyedia permainan generasi berikutnya yang menciptakan permainan kasino unik yang terinspirasi dari kehidupan nyata. Energi muda kami mendorong inovasi dan kreativitas, yang menarik pemain Gen Y. Dengan teknologi Provably Fair, kami memastikan permainan yang transparan dan dapat diverifikasi untuk semua orang.",
 		image: "/images/providers/game-code-54.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/advantplay",
+		buttonLink: "/slots?p=advantplay",
 	},
 	{
 		id: "19",
@@ -265,7 +265,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Smartsoft Gaming adalah penyedia game Crash terkemuka yang menawarkan pengalaman bermain game berkualitas tinggi di seluruh dunia untuk memberikan pengalaman yang lebih menarik, menghibur, dan unggul.",
 		image: "/images/providers/game-code-108.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/smartsoft",
+		buttonLink: "/slots?p=smartsoft",
 	},
 	{
 		id: "20",
@@ -274,7 +274,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Kami bertujuan untuk menjadi penyedia permainan slot kelas dunia dalam industri ini. Kami selalu berusaha untuk mendefinisikan ulang dan menghidupkan kembali permainan slot klasik, memberikan pengalaman bermain yang diperbarui kepada pengguna setiap kali bermain",
 		image: "/images/providers/game-code-87.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/naga-games",
+		buttonLink: "/slots?p=naga-games",
 	},
 	{
 		id: "21",
@@ -283,7 +283,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"JDB Gaming—ahli terpercaya dalam permainan tembak ikan dan penyedia game dengan retensi tinggi untuk mitra yang mencari performa terbukti di iGaming!",
 		image: "/images/providers/game-code-51.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/jdb",
+		buttonLink: "/slots?p=jd-b",
 	},
 	{
 		id: "22",
@@ -292,7 +292,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Dengan pengalaman puluhan tahun dan inovasi HTML5, PLAYSTAR mendefinisikan ulang permainan tradisional—menawarkan pengalaman yang halus dan beragam untuk memenuhi permintaan pasar",
 		image: "/images/providers/game-code-65.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/playstar",
+		buttonLink: "/slots?p=playstar",
 	},
 	{
 		id: "23",
@@ -301,7 +301,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"SPINIX didirikan pada tahun 2020 oleh para pemain dengan hasrat untuk inovasi dalam pengalaman bermain game dan komitmen untuk membangun produk game kelas dunia. Dibangun oleh para pemain untuk para pemain",
 		image: "/images/providers/game-code-91.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/spinix",
+		buttonLink: "/slots?p=spinix",
 	},
 	{
 		id: "24",
@@ -310,7 +310,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"CrowdPlay lahir dari cinta kami pada permainan, menghadirkan game terbaik dan inovasi interaksi pemain untuk mendorong pertumbuhan Anda di iGaming",
 		image: "/images/providers/game-code-73.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/crowd-play",
+		buttonLink: "/slots?p=crowd-play",
 	},
 	{
 		id: "25",
@@ -319,7 +319,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"ION SLOT adalah merek slot online terpercaya yang memberikan pengalaman dengan bayaran tinggi dan sensasi tinggi bagi para pemain di seluruh dunia. Dari reels klasik hingga petualangan bertema, setiap putaran menghadirkan kegembiraan!",
 		image: "/images/providers/game-code-50.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/ion-slot",
+		buttonLink: "/slots?p=ion-slot",
 	},
 	{
 		id: "26",
@@ -328,7 +328,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Bigpot Gaming membangun permainan hebat, dan kami bertujuan melakukan segala yang kami bisa untuk merangsang pemain dengan lebih banyak kegembiraan dan antusiasme. Fitur yang paling dicintai oleh pemain ada di Bigpot Gaming",
 		image: "/images/providers/game-code-75.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/bigpot",
+		buttonLink: "/slots?p=bigpot",
 	},
 	{
 		id: "27",
@@ -337,7 +337,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Apakah Anda siap menjelajahi dan memainkan permainan undian terbaik yang datang dengan hadiah yang memuaskan? V-Power menggetarkan imajinasi liar Anda! Ini adalah platform di mana Anda dapat meningkatkan permainan Anda dengan bonus khusus yang meningkatkan peluang kemenangan Anda",
 		image: "/images/providers/game-code-77.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/vpower",
+		buttonLink: "/slots?p=vpower",
 	},
 	{
 		id: "28",
@@ -346,7 +346,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Askmeslot membangkitkan imajinasi iGaming dengan teknologi mutakhir dan pengalaman imersif yang membawa pemain melampaui masa depan dunia game",
 		image: "/images/providers/game-code-61.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/amb-slot",
+		buttonLink: "/slots?p=amb-slot",
 	},
 	{
 		id: "29",
@@ -355,7 +355,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Penyedia slot berbasis di Veneto, World Match, memiliki sejumlah pencapaian pertama di industri, terutama sebagai penyedia permainan pertama yang membuka markasnya di Malta. Pandangan masa depan yang visioner ini membuka jalan bagi perpustakaan beragam dengan lebih dari 300 permainan",
 		image: "/images/providers/game-code-89.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/worldmatch",
+		buttonLink: "/slots?p=worldmatch",
 	},
 	{
 		id: "30",
@@ -364,7 +364,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Octoplay menciptakan permainan slot berkualitas tinggi yang menggabungkan fitur asli, desain menonjol, dan gameplay menarik untuk memberikan pengalaman pemain yang luar biasa",
 		image: "/images/providers/game-code-109.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/octoplay",
+		buttonLink: "/slots?p=octoplay",
 	},
 	{
 		id: "31",
@@ -373,7 +373,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Komunitas iGaming berorientasi AI yang PERTAMA dan mungkin satu-satunya di Asia, yang berdedikasi untuk mengumpulkan jutaan pemain game Asia dalam satu komunitas, dari mana saja, kapan saja, dengan perangkat apa pun!",
 		image: "/images/providers/game-code-80.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/mario-club",
+		buttonLink: "/slots?p=mario-club",
 	},
 	{
 		id: "32",
@@ -382,7 +382,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Dragoon Soft adalah studio muda yang telah berada dalam industri game sejak tahun 2018. Fokusnya adalah pasar perjudian Asia, dengan mengumpulkan sekelompok profesional berpengalaman dan penggemar game, tim ini bertekad memberikan pemain petualangan paling menghibur dan memberikan hasil yang memuaskan",
 		image: "/images/providers/game-code-81.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/dragoonsoft",
+		buttonLink: "/slots?p=dragoonsoft",
 	},
 	{
 		id: "33",
@@ -391,7 +391,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 			"Funky Games, sebagai penyedia permainan kasino yang berbeda, berkomitmen untuk menawarkan pengalaman bermain yang unik, aman, dan menarik kepada pemain di seluruh dunia seperti tak ada yang lain",
 		image: "/images/providers/game-code-35.webp",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/funky-games",
+		buttonLink: "/slots?p=funky-games",
 	},
 	{
 		id: "34",
@@ -400,7 +400,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Live22 menghadirkan game slot berkualitas tinggi dengan alur cerita dan fitur PvP sosial yang membantu operator menarik pemain, menonjol, dan menjangkau pasar baru",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/live22",
+		buttonLink: "/slots?p=live22",
 	},
 	{
 		id: "35",
@@ -409,7 +409,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"CQ9 berupaya memimpin industri dengan menciptakan permainan hiburan berkualitas tinggi, berkembang pesat melalui R&amp;D, dan menggunakan teknologi untuk memenuhi beragam kebutuhan pelanggan",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/cq9",
+		buttonLink: "/slots?p=cq9",
 	},
 	{
 		id: "36",
@@ -418,7 +418,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Menciptakan permainan hari ini untuk pemain esok. Kami mengubah aturan pengembangan game dengan fokus pada pengalaman pemain dan bagaimana dapat ditingkatkan. Kreativitas menyentuh mekanika permainan dan alat, kami bereksperimen saat menciptakan permainan baru dan/atau mengembangkan fitur baru",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/only-play",
+		buttonLink: "/slots?p=only-play",
 	},
 	{
 		id: "37",
@@ -427,7 +427,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"NetEnt adalah penyedia solusi permainan premium terkemuka untuk operator kasino online paling sukses di dunia. Kami telah menjadi pelopor sejati dalam menggerakkan pasar dengan permainan seru yang didukung oleh platform mutakhir kami",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/netent",
+		buttonLink: "/slots?p=netent",
 	},
 	{
 		id: "38",
@@ -436,7 +436,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Big Time Gaming membakar dunia slot online dengan mekanika permainan Megaways™ yang inovatif, memiliki basis penggemar yang kuat, dan judul slot yang sangat terkenal",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/big-time-gaming",
+		buttonLink: "/slots?p=big-time-gaming",
 	},
 	{
 		id: "40",
@@ -445,7 +445,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Kami berkomitmen untuk membangun slot dan permainan meja terbaik di pasar. Setiap hari, kami mencari cara baru, inovatif, dan menyenangkan untuk menyeimbangkan seni dan ilmu desain permainan kasino",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/red-tiger",
+		buttonLink: "/slots?p=red-tiger",
 	},
 	{
 		id: "41",
@@ -454,7 +454,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Dengan lebih dari 200 permainan dalam portofolio kami, jelas bahwa kami didorong oleh gairah kami untuk menciptakan pengalaman yang menarik dan memikat",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/skywind",
+		buttonLink: "/slots?p=skywind",
 	},
 	{
 		id: "42",
@@ -463,7 +463,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Yggdrasil menonjol dengan mekanisme slot yang inovatif, visual yang memukau, dan fokus yang kuat pada kepatuhan, menghadirkan permainan yang unik dan solusi operator yang tepercaya",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/yggdrasil",
+		buttonLink: "/slots?p=yggdrasil",
 	},
 	{
 		id: "43",
@@ -472,7 +472,7 @@ export const defaultInnerSlides: CarouselInnerSlide[] = [
 		description:
 			"Play’n GO pelopori iGaming dengan konten tingkat atas, inovasi, dan lebih dari 400 permainan – melampaui batasan untuk memberikan pengalaman pemain yang tak terlupakan",
 		buttonText: "Coba Sekarang",
-		buttonLink: "/slots/playngo",
+		buttonLink: "/slots?p=playngo",
 	},
 ];
 export const partners: Partner[] = [
@@ -482,7 +482,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-7-colored.webp",
 		category: "slots",
 		slug: "pragmatic",
-		url: "/slots/pragmatic",
+		url: "/slots?p=pragmatic",
 	},
 	{
 		name: "PG Soft",
@@ -490,7 +490,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-9-colored.webp",
 		category: "slots",
 		slug: "pgsoft",
-		url: "/slots/pgsoft",
+		url: "/slots?p=pgsoft",
 	},
 	{
 		name: "Slot88",
@@ -498,7 +498,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-40-colored.webp",
 		category: "slots",
 		slug: "slot88",
-		url: "/slots/slot88",
+		url: "/slots?p=slot88",
 	},
 	{
 		name: "Hacksaw Gaming",
@@ -506,7 +506,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-98-colored.webp",
 		category: "slots",
 		slug: "hacksaw",
-		url: "/slots/hacksaw",
+		url: "/slots?p=hacksaw",
 	},
 	{
 		name: "Fat Panda",
@@ -514,7 +514,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-112-colored.webp",
 		category: "slots",
 		slug: "fat-panda",
-		url: "/slots/fat-panda",
+		url: "/slots?p=fat-panda",
 	},
 	{
 		name: "Nolimit City",
@@ -522,7 +522,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-92-colored.webp",
 		category: "slots",
 		slug: "no-limit-city",
-		url: "/slots/no-limit-city",
+		url: "/slots?p=no-limit-city",
 	},
 	{
 		name: "JILI",
@@ -530,7 +530,7 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-70-colored.webp",
 		category: "slots",
 		slug: "jili",
-		url: "/slots/jili",
+		url: "/slots?p=jili",
 	},
 	{
 		name: "Habanero",
@@ -538,11 +538,11 @@ export const partners: Partner[] = [
 		logo_colored: "/images/partners/game-code-16-colored.webp",
 		category: "slots",
 		slug: "habanero",
-		url: "/slots/habanero",
+		url: "/slots?p=habanero",
 	},
 	{
 		name: "Microgaming",
-		url: "/slots/microgaming",
+		url: "/slots?p=microgaming",
 		logo: "/images/partners/game-code-17.webp",
 		logo_colored: "/images/partners/game-code-72-colored.webp",
 		category: "slots",
@@ -550,7 +550,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "5G Games",
-		url: "/slots/fivegg",
+		url: "/slots?p=fivegg",
 		logo: "/images/partners/game-code-114.webp",
 		logo_colored: "/images/partners/game-code-114-colored.webp",
 		category: "slots",
@@ -558,7 +558,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Playtech",
-		url: "/slots/playtech",
+		url: "/slots?p=playtech",
 		logo: "/images/partners/game-code-2.webp",
 		logo_colored: "/images/partners/game-code-2-colored.webp",
 		category: "slots",
@@ -566,7 +566,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Spade Gaming",
-		url: "/slots/spade-gaming",
+		url: "/slots?p=spade-gaming",
 		logo: "/images/partners/game-code-29.webp",
 		logo_colored: "/images/partners/game-code-29-colored.webp",
 		category: "slots",
@@ -574,7 +574,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "King Midas",
-		url: "/slots/king-midas",
+		url: "/slots?p=king-midas",
 		logo: "/images/partners/game-code-116.webp",
 		logo_colored: "/images/partners/game-code-116-colored.webp",
 		category: "slots",
@@ -582,7 +582,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Fast Spin",
-		url: "/slots/fast-spin",
+		url: "/slots?p=fast-spin",
 		logo: "/images/partners/game-code-110.webp",
 		logo_colored: "/images/partners/game-code-110-colored.webp",
 		category: "slots",
@@ -590,7 +590,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "V Plus",
-		url: "/slots/vplus",
+		url: "/slots?p=vplus",
 		logo: "/images/partners/game-code-115.webp",
 		logo_colored: "/images/partners/game-code-115-colored.webp",
 		category: "slots",
@@ -598,7 +598,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Joker",
-		url: "/slots/joker",
+		url: "/slots?p=joker",
 		logo: "/images/partners/game-code-6.webp",
 		logo_colored: "/images/partners/game-code-6-colored.webp",
 		category: "slots",
@@ -606,7 +606,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "FA Chai",
-		url: "/slots/fachai",
+		url: "/slots?p=fachai",
 		logo: "/images/partners/game-code-72.webp",
 		logo_colored: "/images/partners/game-code-72-colored.webp",
 		category: "slots",
@@ -614,7 +614,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Advant Play",
-		url: "/slots/advantplay",
+		url: "/slots?p=advantplay",
 		logo: "/images/partners/game-code-54.webp",
 		logo_colored: "/images/partners/game-code-54-colored.webp",
 		category: "slots",
@@ -622,7 +622,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Smartsoft Gaming",
-		url: "/slots/smartsoft",
+		url: "/slots?p=smartsoft",
 		logo: "/images/partners/game-code-108.webp",
 		logo_colored: "/images/partners/game-code-108-colored.webp",
 		category: "slots",
@@ -630,7 +630,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Naga Games",
-		url: "/slots/naga-games",
+		url: "/slots?p=naga-games",
 		logo: "/images/partners/game-code-87.webp",
 		logo_colored: "/images/partners/game-code-87-colored.webp",
 		category: "slots",
@@ -638,7 +638,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "JDB",
-		url: "/slots/jdb",
+		url: "/slots?p=jdb",
 		logo: "/images/partners/game-code-51.webp",
 		logo_colored: "/images/partners/game-code-51-colored.webp",
 		category: "slots",
@@ -646,7 +646,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Play Star",
-		url: "/slots/playstar",
+		url: "/slots?p=playstar",
 		logo: "/images/partners/game-code-65.webp",
 		logo_colored: "/images/partners/game-code-65-colored.webp",
 		category: "slots",
@@ -654,7 +654,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "SpinX",
-		url: "/slots/spinix",
+		url: "/slots?p=spinix",
 		logo: "/images/partners/game-code-91.webp",
 		logo_colored: "/images/partners/game-code-91-colored.webp",
 		category: "slots",
@@ -662,7 +662,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Crowd Play",
-		url: "/slots/crowd-play",
+		url: "/slots?p=crowd-play",
 		logo: "/images/partners/game-code-73.webp",
 		logo_colored: "/images/partners/game-code-73-colored.webp",
 		category: "slots",
@@ -670,7 +670,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Ion Slot",
-		url: "/slots/ion-slot",
+		url: "/slots?p=ion-slot",
 		logo: "/images/partners/game-code-50.webp",
 		logo_colored: "/images/partners/game-code-50-colored.webp",
 		category: "slots",
@@ -678,7 +678,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Bigpot Gaming",
-		url: "/slots/bigpot",
+		url: "/slots?p=bigpot",
 		logo: "/images/partners/game-code-75.webp",
 		logo_colored: "/images/partners/game-code-75-colored.webp",
 		category: "slots",
@@ -686,7 +686,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "KA Gaming",
-		url: "/slots/vpower",
+		url: "/slots?p=vpower",
 		logo: "/images/partners/game-code-77.webp",
 		logo_colored: "/images/partners/game-code-77-colored.webp",
 		category: "slots",
@@ -694,7 +694,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Askmebet",
-		url: "/slots/amb-slot",
+		url: "/slots?p=amb-slot",
 		logo: "/images/partners/game-code-61.webp",
 		logo_colored: "/images/partners/game-code-61-colored.webp",
 		category: "slots",
@@ -702,7 +702,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "WorldMatch",
-		url: "/slots/worldmatch",
+		url: "/slots?p=worldmatch",
 		logo: "/images/partners/game-code-89.webp",
 		logo_colored: "/images/partners/game-code-89-colored.webp",
 		category: "slots",
@@ -710,7 +710,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Octoplay",
-		url: "/slots/octoplay",
+		url: "/slots?p=octoplay",
 		logo: "/images/partners/game-code-109.webp",
 		logo_colored: "/images/partners/game-code-109-colored.webp",
 		category: "slots",
@@ -718,7 +718,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Mario Club",
-		url: "/slots/mario-club",
+		url: "/slots?p=mario-club",
 		logo: "/images/partners/game-code-80.webp",
 		logo_colored: "/images/partners/game-code-80-colored.webp",
 		category: "slots",
@@ -726,7 +726,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Dragoon Soft",
-		url: "/slots/dragoonsoft",
+		url: "/slots?p=dragoonsoft",
 		logo: "/images/partners/game-code-81.webp",
 		logo_colored: "/images/partners/game-code-81-colored.webp",
 		category: "slots",
@@ -734,7 +734,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "FG Games",
-		url: "/slots/fun-gaming",
+		url: "/slots?p=fun-gaming",
 		logo: "/images/partners/game-code-79.webp",
 		logo_colored: "/images/partners/game-code-79-colored.webp",
 		category: "slots",
@@ -742,7 +742,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Funky Games",
-		url: "/slots/funky-games",
+		url: "/slots?p=funky-games",
 		logo: "/images/partners/game-code-35.webp",
 		logo_colored: "/images/partners/game-code-35-colored.webp",
 		category: "slots",
@@ -750,7 +750,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Live22",
-		url: "/slots/live22",
+		url: "/slots?p=live22",
 		logo: "/images/partners/game-code-45.webp",
 		logo_colored: "/images/partners/game-code-45-colored.webp",
 		category: "slots",
@@ -758,7 +758,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "CQ9",
-		url: "/slots/cq9",
+		url: "/slots?p=cq9",
 		logo: "/images/partners/game-code-13.webp",
 		logo_colored: "/images/partners/game-code-13-colored.webp",
 		category: "slots",
@@ -766,7 +766,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Onlyplay",
-		url: "/slots/only-play",
+		url: "/slots?p=only-play",
 		logo: "/images/partners/game-code-97.webp",
 		logo_colored: "/images/partners/game-code-97-colored.webp",
 		category: "slots",
@@ -774,7 +774,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "NetEnt",
-		url: "/slots/netent",
+		url: "/slots?p=netent",
 		logo: "/images/partners/game-code-94.webp",
 		logo_colored: "/images/partners/game-code-94-colored.webp",
 		category: "slots",
@@ -782,7 +782,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "BigTime Gaming",
-		url: "/slots/big-time-gaming",
+		url: "/slots?p=big-time-gaming",
 		logo: "/images/partners/game-code-95.webp",
 		logo_colored: "/images/partners/game-code-95-colored.webp",
 		category: "slots",
@@ -790,7 +790,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Red Tiger",
-		url: "/slots/red-tiger",
+		url: "/slots?p=red-tiger",
 		logo: "/images/partners/game-code-93.webp",
 		logo_colored: "/images/partners/game-code-93-colored.webp",
 		category: "slots",
@@ -798,7 +798,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Skywind Group",
-		url: "/slots/skywind",
+		url: "/slots?p=skywind",
 		logo: "/images/partners/game-code-90.webp",
 		logo_colored: "/images/partners/game-code-90-colored.webp",
 		category: "slots",
@@ -806,7 +806,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Yggdrasil",
-		url: "/slots/yggdrasil",
+		url: "/slots?p=yggdrasil",
 		logo: "/images/partners/game-code-42.webp",
 		logo_colored: "/images/partners/game-code-42-colored.webp",
 		category: "slots",
@@ -814,7 +814,7 @@ export const partners: Partner[] = [
 	},
 	{
 		name: "Play'n GO",
-		url: "/slots/playngo",
+		url: "/slots?p=playngo",
 		logo: "/images/partners/game-code-18.webp",
 		logo_colored: "/images/partners/game-code-18-colored.webp",
 		category: "slots",

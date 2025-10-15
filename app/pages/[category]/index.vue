@@ -172,7 +172,7 @@ const {
 } = useSlotGames();
 const { searchArcadeTerm, selectedArcadeFilter, selectedArcadeProvider } =
 	useArcadeGames();
-const { selectedCrashProvider } = useCrashGames();
+const { selectedCrashProvider, searchCrashTerm } = useCrashGames();
 
 const categorParams = route.params.category as string;
 const category = computed(() =>
@@ -278,6 +278,7 @@ const handleArcadeFilterChange = (filter?: ArcadeFilterType) => {
 					v-if="category?.slug === 'crash-game'"
 					:providers="CrashProvidersCategory"
 					@select-provider="(val) => (selectedCrashProvider = val)"
+					@on-search="(val) => (searchCrashTerm = val)"
 				/>
 				<arcade-provider-category
 					v-if="category?.slug === 'arcade'"
@@ -310,6 +311,7 @@ const handleArcadeFilterChange = (filter?: ArcadeFilterType) => {
 				<CrashGameCardHorizontal
 					v-if="category?.slug === 'crash-game'"
 					:selected-provider="selectedCrashProvider"
+					:search-term="searchCrashTerm"
 					:initial-limit="12"
 					:load-more-increment="12"
 					:use-filter="true"
@@ -319,6 +321,12 @@ const handleArcadeFilterChange = (filter?: ArcadeFilterType) => {
 					:selected-provider="selectedArcadeProvider"
 					:filtered-type="selectedArcadeFilter"
 					:search-term="searchArcadeTerm"
+					:initial-limit="12"
+					:load-more-increment="12"
+					:use-filter="true"
+				/>
+				<RaceGamesCardHorizontal
+					v-if="route.query.p === 'marblex'"
 					:initial-limit="12"
 					:load-more-increment="12"
 					:use-filter="true"

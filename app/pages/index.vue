@@ -156,6 +156,8 @@ useHead({
 		},
 	],
 });
+
+const user = useSupabaseUser();
 </script>
 
 <template>
@@ -171,6 +173,8 @@ useHead({
 			:popular-games="defaultPopularGames"
 			:trending-game="trendingGameItems"
 		/>
+		<latest-game-played v-if="user" />
+		<latest-added-games />
 		<home-carousel-inner
 			:auto-play="true"
 			:interval="5000"

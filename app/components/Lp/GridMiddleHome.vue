@@ -101,12 +101,12 @@ onMounted(() => {
 </script>
 
 <template>
-	<div class="w-full bg-gray-950 py-6">
+	<div class="w-full bg-neutral-950 py-6">
 		<div class="container mx-auto w-full px-2 lg:max-w-[1024px]">
 			<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
 				<!-- Left Section - Popular Games -->
 				<div class="lg:col-span-2">
-					<div class="rounded-xl bg-gray-800 p-6">
+					<div class="rounded-xl bg-neutral-800 p-6">
 						<!-- Header -->
 						<div class="mb-6 flex items-center justify-between">
 							<div class="flex items-center gap-3">
@@ -116,11 +116,11 @@ onMounted(() => {
 							<!-- Navigation Buttons -->
 							<div class="flex items-center gap-2">
 								<button
-									class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-gray-700 transition-colors hover:bg-gray-600"
+									class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-neutral-700 transition-colors hover:bg-neutral-600"
 									@click="navigatePopular('prev')"
 								>
 									<svg
-										class="h-4 w-4 text-gray-300"
+										class="h-4 w-4 text-neutral-300"
 										fill="currentColor"
 										viewBox="0 0 24 24"
 									>
@@ -128,11 +128,11 @@ onMounted(() => {
 									</svg>
 								</button>
 								<button
-									class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-gray-700 transition-colors hover:bg-gray-600"
+									class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-neutral-700 transition-colors hover:bg-neutral-600"
 									@click="navigatePopular('next')"
 								>
 									<svg
-										class="h-4 w-4 text-gray-300"
+										class="h-4 w-4 text-neutral-300"
 										fill="currentColor"
 										viewBox="0 0 24 24"
 									>
@@ -162,10 +162,10 @@ onMounted(() => {
 										)"
 										:key="gameIndex"
 										class="game-card group cursor-pointer"
-										@click="launchGame(game.link)"
+										@click="launchGame(game)"
 									>
 										<div
-											class="flex h-32 w-36 flex-col rounded-lg bg-gray-950 p-2 shadow-xl transition-transform hover:scale-105 lg:h-32 lg:w-40"
+											class="flex h-32 w-36 flex-col rounded-lg bg-neutral-950 p-2 shadow-xl transition-transform hover:scale-105 lg:h-32 lg:w-40"
 										>
 											<div class="relative overflow-hidden rounded-sm">
 												<!-- Game Image -->
@@ -190,7 +190,7 @@ onMounted(() => {
 													class="absolute inset-0 flex items-center justify-center bg-black/0 transition-all duration-300 group-hover:bg-black/60"
 												>
 													<button
-														class="inline-flex cursor-pointer items-center justify-center rounded-xl border-b border-gray-200 bg-gradient-to-br from-[#9d7e39] to-[#fbeb8c] px-4 py-1 text-xs font-bold text-white opacity-0 shadow-xl transition-all duration-300 group-hover:opacity-100"
+														class="inline-flex cursor-pointer items-center justify-center rounded-xl border-b border-neutral-200 bg-gradient-to-br from-[#9d7e39] to-[#fbeb8c] px-4 py-1 text-xs font-bold text-white opacity-0 shadow-xl transition-all duration-300 group-hover:opacity-100"
 													>
 														MAIN
 													</button>
@@ -200,7 +200,7 @@ onMounted(() => {
 											<!-- Game Title -->
 											<div class="flex-1 p-1">
 												<h3
-													class="line-clamp-1 text-xs leading-tight font-medium text-gray-200"
+													class="line-clamp-1 text-xs leading-tight font-medium text-neutral-200"
 												>
 													{{ game.name }}
 												</h3>
@@ -220,7 +220,7 @@ onMounted(() => {
 								:class="
 									popularCurrentIndex === pageIndex - 1
 										? 'w-4 bg-[#fbeb8c]'
-										: 'bg-gray-600'
+										: 'bg-neutral-600'
 								"
 							></div>
 						</div>
@@ -230,7 +230,7 @@ onMounted(() => {
 				<!-- Right Section - Trending & Server Info -->
 				<div class="space-y-6">
 					<!-- Trending Today Section -->
-					<div class="rounded-xl bg-gray-800 p-6">
+					<div class="rounded-xl bg-neutral-800 p-6">
 						<div class="mb-4 flex items-center gap-3">
 							<div class="h-6 w-1 rounded-full bg-[#d7c068]"></div>
 							<h2 class="text-lg font-bold text-white">TRENDING HARI INI</h2>
@@ -244,7 +244,7 @@ onMounted(() => {
 							<div
 								v-for="(item, index) in trendingGameItems"
 								:key="index"
-								class="trending-item flex cursor-pointer items-center gap-3 rounded-lg bg-gray-700 p-3 transition-colors hover:bg-gray-600"
+								class="trending-item flex cursor-pointer items-center gap-3 rounded-lg bg-neutral-700 p-3 transition-colors hover:bg-neutral-600"
 							>
 								<!-- Game Image -->
 								<div class="h-12 w-12 flex-shrink-0 overflow-hidden rounded-md">
@@ -260,7 +260,7 @@ onMounted(() => {
 									<h4 class="line-clamp-1 text-sm font-medium text-white">
 										{{ item.title }}
 									</h4>
-									<p class="mt-1 text-xs text-gray-400">
+									<p class="mt-1 text-xs text-neutral-400">
 										{{ item.subtitle }}
 									</p>
 									<p class="mt-1 text-sm font-bold text-yellow-400">
@@ -272,11 +272,11 @@ onMounted(() => {
 					</div>
 
 					<!-- Server Info Section -->
-					<div class="rounded-xl bg-gray-800 p-6">
+					<div class="rounded-xl bg-neutral-800 p-6">
 						<div class="text-center">
 							<!-- Server Name -->
 							<div
-								class="mb-4 inline-block rounded-2xl border border-yellow-400 bg-gray-950 px-6 py-0.5"
+								class="mb-4 inline-block rounded-2xl border border-yellow-400 bg-neutral-950 px-6 py-0.5"
 							>
 								<span class="text-xs font-bold text-white">{{
 									serverInfo.name
@@ -286,7 +286,7 @@ onMounted(() => {
 							<!-- Server Number -->
 							<div class="mb-4">
 								<div
-									class="rounded-lg border border-gray-600 bg-gray-950 p-4 text-4xl font-bold text-yellow-400"
+									class="rounded-lg border border-neutral-600 bg-neutral-950 p-4 text-4xl font-bold text-yellow-400"
 								>
 									{{ serverInfo.number }}
 								</div>
@@ -294,7 +294,7 @@ onMounted(() => {
 
 							<!-- Next Draw -->
 							<div
-								class="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-600 px-4 py-1.5 text-xs font-bold text-gray-900"
+								class="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-600 px-4 py-1.5 text-xs font-bold text-neutral-900"
 							>
 								<ClientOnly>
 									<p>{{ serverInfo.nextDraw }}</p>

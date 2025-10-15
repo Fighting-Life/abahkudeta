@@ -85,7 +85,7 @@ const eMoneyPayments = [
 						for="payment_type"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Metode Pembayaran</div>
+						<div class="text-xs text-neutral-200">Metode Pembayaran</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -142,7 +142,7 @@ const eMoneyPayments = [
 						for="payment_method"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Bank</div>
+						<div class="text-xs text-neutral-200">Bank</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -152,7 +152,7 @@ const eMoneyPayments = [
 								<select
 									v-model="payment_method"
 									name="payment_method"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="on"
 								>
 									<option value="" disabled selected>--Pilih Bank--</option>
@@ -177,7 +177,7 @@ const eMoneyPayments = [
 						for="payment_method"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">E-Money</div>
+						<div class="text-xs text-neutral-200">E-Money</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -187,7 +187,7 @@ const eMoneyPayments = [
 								<select
 									v-model="payment_method"
 									name="payment_method"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="on"
 									placeholder="--Pilih E-Money--"
 								>
@@ -211,7 +211,7 @@ const eMoneyPayments = [
 							for="bank_account_number"
 							class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 						>
-							<div class="text-xs text-gray-200">
+							<div class="text-xs text-neutral-200">
 								Nomor {{ payment_type === "bank" ? "Rekening" : "Akun" }}
 							</div>
 							<div class="text-xs text-yellow-400">*</div>
@@ -224,7 +224,7 @@ const eMoneyPayments = [
 										v-model="bank_account_number"
 										type="text"
 										name="bank_account_number"
-										class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+										class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 										autocomplete="on"
 										:placeholder="`Nomor ${payment_type === 'bank' ? 'Rekening' : 'Akun'} Anda`"
 										@blur="validateField('bank_account_number')"
@@ -252,7 +252,7 @@ const eMoneyPayments = [
 							for="bank_account_name"
 							class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 						>
-							<div class="text-xs text-gray-200">Nama Lengkap</div>
+							<div class="text-xs text-neutral-200">Nama Lengkap</div>
 							<div class="text-xs text-yellow-400">*</div>
 						</label>
 						<div class="col-span-1 lg:col-span-9">
@@ -263,7 +263,7 @@ const eMoneyPayments = [
 										v-model="bank_account_name"
 										type="text"
 										name="bank_account_name"
-										class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+										class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 										autocomplete="name"
 										placeholder="Nama Lengkap Anda"
 										@blur="validateField('bank_account_name')"
@@ -337,7 +337,7 @@ const eMoneyPayments = [
 	position: relative;
 	width: 18px;
 	height: 18px;
-	border: 2px solid #4b5563; /* gray-600 */
+	border: 2px solid #4b5563; /* neutral-600 */
 	border-radius: 50%;
 	background-color: transparent;
 	transition: all 0.2s ease;
@@ -382,7 +382,7 @@ const eMoneyPayments = [
 	margin-left: 0.5rem;
 	font-size: 0.875rem;
 	font-weight: 500;
-	color: #e5e7eb; /* gray-200 */
+	color: #e5e7eb; /* neutral-200 */
 	transition: color 0.2s ease;
 	user-select: none;
 }
@@ -399,13 +399,13 @@ const eMoneyPayments = [
 
 /* Disabled state (optional) */
 .hidden-radio:disabled + .custom-radio {
-	border-color: #374151; /* gray-700 */
+	border-color: #374151; /* neutral-700 */
 	opacity: 0.5;
 	cursor: not-allowed;
 }
 
 .hidden-radio:disabled ~ .custom-radio-text {
-	color: #6b7280; /* gray-500 */
+	color: #6b7280; /* neutral-500 */
 	cursor: not-allowed;
 }
 

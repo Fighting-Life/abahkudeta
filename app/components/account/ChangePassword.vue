@@ -41,7 +41,7 @@ const submit = handleSubmit(async (values) => {
 		</div>
 		<div class="flex flex-col rounded-lg bg-neutral-700 p-2 lg:p-4">
 			<h4 class="text-base font-medium text-yellow-400">Catatan:</h4>
-			<ul class="ml-5 list-decimal text-sm text-gray-200">
+			<ul class="ml-5 list-decimal text-sm text-neutral-200">
 				<li>
 					Kata sandi harus memiliki minimal 8 karakter dan maksimal 20 karakter.
 				</li>
@@ -59,7 +59,7 @@ const submit = handleSubmit(async (values) => {
 					for="password"
 					class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 				>
-					<div class="text-xs text-gray-200">Kata Sandi</div>
+					<div class="text-xs text-neutral-200">Kata Sandi</div>
 					<div class="text-xs text-yellow-400">*</div>
 				</label>
 				<div class="col-span-1 lg:col-span-9">
@@ -69,7 +69,7 @@ const submit = handleSubmit(async (values) => {
 								v-model="password"
 								:type="inputPassword"
 								name="password"
-								class="h-8 w-full rounded-md border border-gray-600 bg-black pr-10 text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+								class="h-8 w-full rounded-md border border-neutral-600 bg-black pr-10 text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 								autocomplete="current-password"
 								placeholder="Kata Sandi Anda"
 								@blur="validateField('password')"
@@ -107,7 +107,7 @@ const submit = handleSubmit(async (values) => {
 					for="confirm_password"
 					class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 				>
-					<div class="text-xs text-gray-200">Ulangi Kata Sandi</div>
+					<div class="text-xs text-neutral-200">Ulangi Kata Sandi</div>
 					<div class="text-xs text-yellow-400">*</div>
 				</label>
 				<div class="col-span-1 lg:col-span-9">
@@ -117,7 +117,7 @@ const submit = handleSubmit(async (values) => {
 								v-model="confirmPassword"
 								:type="inputConfirmPassword"
 								name="confirm_password"
-								class="h-8 w-full rounded-md border border-gray-600 bg-black pr-10 text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+								class="h-8 w-full rounded-md border border-neutral-600 bg-black pr-10 text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 								autocomplete="current-password"
 								placeholder="Ulangi Kata Sandi Anda"
 								@blur="validateField('confirm_password')"

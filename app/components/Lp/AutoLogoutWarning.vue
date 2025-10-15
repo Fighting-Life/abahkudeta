@@ -35,7 +35,7 @@ const { showWarning, countdown, cancelAutoLogout } = useAutoLogout();
 						leave-to="opacity-0 scale-95"
 					>
 						<HeadlessDialogPanel
-							class="w-full max-w-md transform overflow-hidden rounded-2xl border-2 border-yellow-400 bg-gray-900 p-6 text-left align-middle shadow-xl transition-all"
+							class="w-full max-w-md transform overflow-hidden rounded-2xl border-2 border-yellow-400 bg-neutral-900 p-6 text-left align-middle shadow-xl transition-all"
 						>
 							<!-- Icon -->
 							<div class="mb-4 flex justify-center">
@@ -52,14 +52,14 @@ const { showWarning, countdown, cancelAutoLogout } = useAutoLogout();
 							<!-- Title -->
 							<HeadlessDialogTitle
 								as="h3"
-								class="mb-2 text-center text-xl font-bold text-gray-100"
+								class="mb-2 text-center text-xl font-bold text-neutral-100"
 							>
 								Sesi Akan Berakhir
 							</HeadlessDialogTitle>
 
 							<!-- Description -->
 							<div class="mb-6 text-center">
-								<p class="mb-4 text-gray-400">
+								<p class="mb-4 text-neutral-400">
 									Anda akan logout otomatis karena tidak ada aktivitas
 								</p>
 
@@ -86,13 +86,13 @@ const { showWarning, countdown, cancelAutoLogout } = useAutoLogout();
 									</div>
 								</div>
 
-								<p class="text-xs text-gray-500">Menit : Detik</p>
+								<p class="text-xs text-neutral-500">Menit : Detik</p>
 							</div>
 
 							<!-- Actions -->
 							<div class="flex gap-3">
 								<button
-									class="inline-flex flex-1 items-center justify-center rounded-lg bg-gray-700 px-4 py-3 text-sm font-semibold text-gray-200 transition-colors hover:bg-gray-600 active:scale-95"
+									class="inline-flex flex-1 items-center justify-center rounded-lg bg-neutral-700 px-4 py-3 text-sm font-semibold text-neutral-200 transition-colors hover:bg-neutral-600 active:scale-95"
 									@click="() => {}"
 								>
 									Biarkan Logout

@@ -59,8 +59,8 @@ const getLabelColor = (label: string) => {
 					cn(
 						'cursor-pointer rounded-lg px-6 py-3 text-sm font-bold uppercase transition-all duration-300',
 						activeTab === filter.value
-							? 'bg-gradient-to-r from-yellow-400 to-yellow-600 text-gray-900'
-							: 'bg-gray-700 text-gray-300 hover:bg-gray-600',
+							? 'bg-gradient-to-r from-yellow-400 to-yellow-600 text-neutral-900'
+							: 'bg-neutral-700 text-neutral-300 hover:bg-neutral-600',
 					)
 				"
 				@click="handleTabChange(filter.value)"
@@ -73,7 +73,7 @@ const getLabelColor = (label: string) => {
 		<div class="container mx-auto px-4 lg:hidden">
 			<select
 				v-model="selectedMobileFilter"
-				class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
+				class="w-full rounded-lg border border-neutral-700 bg-neutral-800 px-4 py-3 text-white focus:border-yellow-400 focus:outline-none"
 				@change="(e) => handleTabChange((e.target as HTMLSelectElement).value)"
 			>
 				<option value="all-promotion">Semua Promosi</option>
@@ -98,8 +98,8 @@ const getLabelColor = (label: string) => {
 					cn(
 						'cursor-pointer rounded-full px-6 py-2 text-xs font-bold whitespace-nowrap uppercase transition-all duration-300',
 						selectedCategory === category.id
-							? 'bg-gradient-to-r from-yellow-400 to-yellow-600 text-gray-900'
-							: 'bg-gray-800 text-gray-300 hover:bg-gray-700',
+							? 'bg-gradient-to-r from-yellow-400 to-yellow-600 text-neutral-900'
+							: 'bg-neutral-800 text-neutral-300 hover:bg-neutral-700',
 					)
 				"
 				@click="handleCategoryChange(category.id)"
@@ -152,13 +152,13 @@ const getLabelColor = (label: string) => {
 							<NuxtLink
 								v-if="promo.claim_url"
 								:to="promo.claim_url"
-								class="rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-600 px-6 py-2.5 text-sm font-bold text-gray-900 uppercase shadow-lg transition-all duration-300 hover:from-yellow-500 hover:to-yellow-700 hover:shadow-yellow-500/50 active:scale-95"
+								class="rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-600 px-6 py-2.5 text-sm font-bold text-neutral-900 uppercase shadow-lg transition-all duration-300 hover:from-yellow-500 hover:to-yellow-700 hover:shadow-yellow-500/50 active:scale-95"
 							>
 								Ambil Promo
 							</NuxtLink>
 							<NuxtLink
 								:to="promo.detail_url"
-								class="rounded-lg border-2 border-white bg-white/10 px-6 py-2.5 text-sm font-bold text-white uppercase backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-gray-900 active:scale-95"
+								class="rounded-lg border-2 border-white bg-white/10 px-6 py-2.5 text-sm font-bold text-white uppercase backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-neutral-900 active:scale-95"
 							>
 								Detail
 							</NuxtLink>
@@ -181,7 +181,7 @@ const getLabelColor = (label: string) => {
 						</div>
 
 						<!-- End Date -->
-						<div class="flex items-center gap-2 text-xs text-gray-400">
+						<div class="flex items-center gap-2 text-xs text-neutral-400">
 							<Icon name="mdi:clock-outline" class="text-yellow-400" />
 							<span>Tanggal akhir: {{ promo.end_date ?? "-" }}</span>
 						</div>
@@ -194,8 +194,8 @@ const getLabelColor = (label: string) => {
 				v-if="filteredPromotions.length === 0"
 				class="flex flex-col items-center justify-center py-16 text-center"
 			>
-				<Icon name="mdi:gift-outline" class="mb-4 text-6xl text-gray-600" />
-				<p class="text-lg text-gray-400">Tidak ada promosi tersedia</p>
+				<Icon name="mdi:gift-outline" class="mb-4 text-6xl text-neutral-600" />
+				<p class="text-lg text-neutral-400">Tidak ada promosi tersedia</p>
 			</div>
 		</div>
 	</div>

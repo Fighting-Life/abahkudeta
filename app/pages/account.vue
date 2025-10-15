@@ -186,6 +186,13 @@ const sidebarMenuItems: PageMenuAccount[] = [
 		icon: "/images/menus/loyalty-reward-active.webp",
 	},
 	{
+		name: "Laporan",
+		path_url: "/account?q=history&t=report",
+		main_query: "history",
+		sub_query: "report",
+		icon: "/images/menus/reporting-active.webp",
+	},
+	{
 		name: "Kotak Masuk",
 		path_url: "/account?q=messages&t=inbox",
 		main_query: "messages",
@@ -227,13 +234,22 @@ const handleMenuClick = (item: PageMenuAccount) => {
 					</div>
 
 					<!-- Main Content -->
-					<div class="col-span-1 rounded-lg bg-gray-900 p-5 lg:col-span-9">
+					<div class="col-span-1 rounded-lg bg-neutral-900 p-5 lg:col-span-9">
 						<div class="flex-1">
 							<!-- Account Information Section -->
 							<AccountInformationSection v-if="queryQName === 'main'" />
 
 							<!-- Account Deposit Section -->
 							<AccountDepositSection v-if="queryQName === 'finance'" />
+
+							<!-- Account Claim Bonus Section -->
+							<HistorySection v-if="queryQName === 'history'" />
+
+							<!-- Account Inbox Section -->
+							<InboxSection v-if="queryQName === 'messages'" />
+
+							<!-- Account Loyalty Section -->
+							<LoyaltySection v-if="queryQName === 'loyalty'" />
 						</div>
 					</div>
 				</div>

@@ -150,7 +150,7 @@ const getItemPosition = (index: number) => {
 					<Transition name="slide-fade">
 						<span
 							v-if="selctedHoverID === item.id"
-							class="fab-label pointer-events-none absolute rounded-lg bg-gray-900 px-3 py-1.5 font-sans text-sm font-semibold whitespace-nowrap text-yellow-400 shadow-lg"
+							class="fab-label pointer-events-none absolute rounded-lg bg-neutral-900 px-3 py-1.5 font-sans text-sm font-semibold whitespace-nowrap text-yellow-400 shadow-lg"
 							:class="
 								position === 'left' ? 'left-full ml-3' : 'right-full mr-3'
 							"

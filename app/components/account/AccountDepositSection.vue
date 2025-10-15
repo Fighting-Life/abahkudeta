@@ -1,61 +1,7 @@
 <script setup lang="ts">
-import { cn } from "~/lib/utils";
-import { LoaderCircleIcon } from "lucide-vue-next";
-
 const route = useRoute();
-const { $profileState } = useNuxtApp();
-const { createTransaction } = useTransactions();
-const toast = useToast();
 
 const queryTName = computed(() => route.query.t as string);
-const openQrisDepositModal = ref(false);
-
-const { handleSubmit, errors, isSubmitting, resetForm } = useForm({
-	validationSchema: createDepositSchema,
-	initialValues: {
-		payment_type: "qiris",
-		amount: 20000,
-		notes: "",
-	},
-});
-
-const { value: payment_type } = useField<
-	"bank" | "e-money" | "qiris" | "pulsa" | undefined
->("payment_type");
-const { value: amount } = useField<number>("amount");
-const { value: notes } = useField<string>("notes");
-
-const submit = handleSubmit(async (values) => {
-	if (!$profileState.value) {
-		toast.error("Anda harus login terlebih dahulu");
-		return;
-	}
-	try {
-		await createTransaction({
-			transaction_type: "deposit",
-			amount: values.amount,
-			payment_method:
-				values.payment_type === "qiris" ? "e_wallet" : "bank_transfer",
-			user_account_number: $profileState.value?.id || "1234567890",
-			user_account_name: $profileState.value?.full_name || "John Doe",
-			notes: values.notes,
-		});
-		openQrisDepositModal.value = true;
-		toast.success("Deposit berhasil diproses");
-	} catch (error) {
-		toast.error("Gagal memproses deposit, coba lagi");
-	}
-});
-
-const validateAmount = () => {
-	const regex = /^\d+(\.\d{1,2})?$/;
-	if (!regex.test(amount.value.toString())) {
-		errors.value.amount = "Masukkan angka yang valid";
-	}
-	if (amount.value < 20000) {
-		errors.value.amount = "Minimal deposit 10.000";
-	}
-};
 const topMenuItems = [
 	{
 		name: "Deposit",
@@ -77,32 +23,6 @@ const topMenuItems = [
 		link: "/account?q=finance&t=claim",
 		image: "/images/menus/claim.webp",
 		image_active: "/images/menus/claim-active.webp",
-	},
-];
-const paymentMethods = [
-	{
-		name: "QIRIS EON",
-		image: "/images/menus/QR.svg",
-		value: "qiris",
-		is_available: true,
-	},
-	{
-		name: "Pulsa",
-		image: "/images/menus/PULSA.svg",
-		value: "pulsa",
-		is_available: false,
-	},
-	{
-		name: "E-Money",
-		image: "/images/menus/EMONEY.svg",
-		value: "e-money",
-		is_available: false,
-	},
-	{
-		name: "Bank Transfer",
-		image: "/images/menus/BANK.svg",
-		value: "bank",
-		is_available: false,
 	},
 ];
 </script>
@@ -130,7 +50,7 @@ const paymentMethods = [
 							:alt="menu.name"
 							class="mb-2 h-8 w-8"
 						/>
-						<span class="text-sm whitespace-nowrap text-gray-300">{{
+						<span class="text-sm whitespace-nowrap text-neutral-300">{{
 							menu.name
 						}}</span>
 					</NuxtLink>
@@ -139,6 +59,12 @@ const paymentMethods = [
 		</div>
 		<div v-if="queryTName === 'deposit'">
 			<account-deposit-form />
+		</div>
+		<div v-if="queryTName === 'withdrawal'">
+			<account-withdrawal-form />
+		</div>
+		<div v-if="queryTName === 'claim'">
+			<account-claim-form />
 		</div>
 	</div>
 </template>

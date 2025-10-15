@@ -18,6 +18,7 @@ const props = withDefaults(defineProps<Props>(), {
 const { gameByArcadeCategorySlug, baseImgUrl, filterArcadeGames } =
 	useArcadeGames();
 const { launchGame } = useGameLauncher();
+const { addGameHistory } = useGameHistory();
 
 const isMounted = ref(false);
 
@@ -110,7 +111,7 @@ onMounted(() => {
 
 const handleGameClick = (game: Game) => {
 	// console.log("Play game:", game);
-	launchGame(game.link);
+	launchGame(game);
 };
 
 watch(
@@ -138,7 +139,7 @@ watch(
 				{{ selectedProvider?.name }}
 			</h2>
 			<ClientOnly>
-				<span v-if="totalGames > 0" class="text-sm text-gray-400">
+				<span v-if="totalGames > 0" class="text-sm text-neutral-400">
 					({{ totalGames }} games)
 				</span>
 			</ClientOnly>
@@ -154,7 +155,7 @@ watch(
 					name="svg-spinners:ring-resize"
 					class="text-2xl text-yellow-400"
 				/>
-				<span class="text-sm text-gray-400">Memuat game...</span>
+				<span class="text-sm text-neutral-400">Memuat game...</span>
 			</div>
 		</div>
 
@@ -167,7 +168,7 @@ watch(
 					<div
 						v-for="game in displayedGames"
 						:key="game.gameCode"
-						class="group relative overflow-hidden rounded-lg bg-gray-800 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-yellow-500/20"
+						class="group relative overflow-hidden rounded-lg bg-neutral-800 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-yellow-500/20"
 					>
 						<!-- Game Card -->
 						<div class="relative aspect-[4/3] overflow-hidden">
@@ -218,7 +219,7 @@ watch(
 								class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 							>
 								<button
-									class="transform cursor-pointer rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-2.5 text-sm font-bold text-gray-900 uppercase shadow-lg transition-all hover:from-yellow-500 hover:to-yellow-700 hover:shadow-yellow-500/50 active:scale-95 sm:px-10 sm:py-3 sm:text-base"
+									class="transform cursor-pointer rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-2.5 text-sm font-bold text-neutral-900 uppercase shadow-lg transition-all hover:from-yellow-500 hover:to-yellow-700 hover:shadow-yellow-500/50 active:scale-95 sm:px-10 sm:py-3 sm:text-base"
 									@click="handleGameClick(game)"
 								>
 									Main
@@ -249,7 +250,7 @@ watch(
 						name="svg-spinners:ring-resize"
 						class="text-2xl text-yellow-400"
 					/>
-					<span class="text-sm text-gray-400">Memuat game...</span>
+					<span class="text-sm text-neutral-400">Memuat game...</span>
 				</div>
 
 				<!-- Load More Trigger (for Intersection Observer) -->
@@ -258,7 +259,7 @@ watch(
 				<!-- Manual Load More Button (Backup) -->
 				<button
 					v-if="hasMore && !isLoadingMore"
-					class="cursor-pointer rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-3 text-sm font-bold text-gray-900 uppercase transition-all hover:from-yellow-500 hover:to-yellow-700 hover:shadow-lg hover:shadow-yellow-500/50 active:scale-95"
+					class="cursor-pointer rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-3 text-sm font-bold text-neutral-900 uppercase transition-all hover:from-yellow-500 hover:to-yellow-700 hover:shadow-lg hover:shadow-yellow-500/50 active:scale-95"
 					@click="loadMore"
 				>
 					Muat Lebih Banyak ({{ allCategoryGames.length - displayLimit }} lagi)
@@ -267,12 +268,12 @@ watch(
 				<!-- Progress Indicator -->
 				<div class="w-full max-w-xs">
 					<div
-						class="mb-2 flex items-center justify-between text-xs text-gray-400"
+						class="mb-2 flex items-center justify-between text-xs text-neutral-400"
 					>
 						<span>Menampilkan {{ displayLimit }} dari {{ totalGames }}</span>
 						<span>{{ Math.round((displayLimit / totalGames) * 100) }}%</span>
 					</div>
-					<div class="h-1.5 w-full overflow-hidden rounded-full bg-gray-700">
+					<div class="h-1.5 w-full overflow-hidden rounded-full bg-neutral-700">
 						<div
 							class="h-full bg-gradient-to-r from-yellow-400 to-yellow-600 transition-all duration-500"
 							:style="{ width: `${(displayLimit / totalGames) * 100}%` }"
@@ -287,7 +288,9 @@ watch(
 				class="flex flex-col items-center justify-center py-6 text-center"
 			>
 				<Icon name="mdi:check-circle" class="mb-2 text-4xl text-green-500" />
-				<p class="text-sm font-medium text-gray-400">Semua game telah dimuat</p>
+				<p class="text-sm font-medium text-neutral-400">
+					Semua game telah dimuat
+				</p>
 			</div>
 
 			<!-- Empty State -->
@@ -297,10 +300,12 @@ watch(
 			>
 				<Icon
 					name="mdi:gamepad-variant-outline"
-					class="mb-4 text-6xl text-gray-600"
+					class="mb-4 text-6xl text-neutral-600"
 				/>
-				<p class="text-lg font-medium text-gray-400">Tidak ada game tersedia</p>
-				<p class="mt-1 text-sm text-gray-500">Coba kategori lain</p>
+				<p class="text-lg font-medium text-neutral-400">
+					Tidak ada game tersedia
+				</p>
+				<p class="mt-1 text-sm text-neutral-500">Coba kategori lain</p>
 			</div>
 		</client-only>
 	</div>

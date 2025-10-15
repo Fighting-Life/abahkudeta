@@ -1896,3 +1896,13 @@ export const ArcadeProvidersCategory: Partner[] = [
 		url: "/arcade?p=funky-games",
 	},
 ];
+export const MarblexProvidersCategory: Partner[] = [
+	{
+		name: "Marblex",
+		logo: "/images/sub-categories/game-code-117.webp",
+		logo_colored: "/images/sub-categories/game-code-117.webp",
+		category: "race",
+		slug: "marblex",
+		url: "/race?p=marblex",
+	},
+];

@@ -5,7 +5,7 @@ const props = defineProps<{
 }>();
 
 const route = useRoute();
-const { launchGame } = useGameLauncher();
+const { launchLink } = useGameLauncher();
 
 async function goAdditionalLink(link?: string) {
 	await navigateTo(link ?? route.fullPath);
@@ -30,7 +30,7 @@ async function goAdditionalLink(link?: string) {
 				v-for="(item, index) in category"
 				:key="index"
 				class="game-card group relative"
-				@click="launchGame(item.link)"
+				@click="launchLink(item.link)"
 			>
 				<!-- Background Image -->
 				<div
@@ -48,8 +48,8 @@ async function goAdditionalLink(link?: string) {
 				></div> -->
 
 				<button
-					class="absolute top-3 right-3 z-10 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/90 text-gray-900 transition-all hover:scale-110 hover:bg-white"
-					@click.stop="launchGame(item.alternative_link)"
+					class="absolute top-3 right-3 z-10 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/90 text-neutral-900 transition-all hover:scale-110 hover:bg-white"
+					@click.stop="launchLink(item.alternative_link)"
 				>
 					<Icon name="heroicons:information-circle-solid" class="h-4 w-4" />
 				</button>
@@ -61,7 +61,7 @@ async function goAdditionalLink(link?: string) {
 						</h3>
 						<button
 							class="main-button w-fit cursor-pointer self-start"
-							@click.stop="launchGame(item.link)"
+							@click.stop="launchLink(item.link)"
 						>
 							MAIN
 						</button>
@@ -110,7 +110,7 @@ async function goAdditionalLink(link?: string) {
 
 /* Main Button */
 .main-button {
-	@apply cursor-pointer rounded-full border-0 px-6 py-2.5 text-sm font-bold tracking-wide text-gray-900 uppercase transition-all duration-200 lg:px-8;
+	@apply cursor-pointer rounded-full border-0 px-6 py-2.5 text-sm font-bold tracking-wide text-neutral-900 uppercase transition-all duration-200 lg:px-8;
 	background: linear-gradient(to bottom, #fbeb8c 0%, #d4af37 50%, #9d7e39 100%);
 	box-shadow: 0 4px 15px rgba(251, 235, 140, 0.4);
 }

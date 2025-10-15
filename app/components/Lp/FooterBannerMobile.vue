@@ -93,7 +93,7 @@ function handlePhoneImage(e: Event) {
 						>
 							{{ appName }} APP
 						</h3>
-						<p class="mt-4 text-base text-gray-300 lg:text-lg">
+						<p class="mt-4 text-base text-neutral-300 lg:text-lg">
 							{{ subtitle }}
 						</p>
 					</div>
@@ -120,7 +120,9 @@ function handlePhoneImage(e: Event) {
 								<p class="text-sm font-bold text-yellow-400 lg:text-base">
 									{{ appName }} App
 								</p>
-								<p class="text-sm leading-relaxed text-gray-300 lg:text-base">
+								<p
+									class="text-sm leading-relaxed text-neutral-300 lg:text-base"
+								>
 									<strong class="text-white">Pindai kode QR</strong><br />
 									untuk Unduh<br />
 									<strong class="text-yellow-400">Android APK</strong>
@@ -141,7 +143,7 @@ function handlePhoneImage(e: Event) {
 					<div class="flex flex-wrap gap-4 pt-4">
 						<!-- Android Button -->
 						<button
-							class="group flex transform cursor-pointer items-center gap-3 rounded-xl bg-gray-800 px-6 py-3 text-white transition-all duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-lg"
+							class="group flex transform cursor-pointer items-center gap-3 rounded-xl bg-neutral-800 px-6 py-3 text-white transition-all duration-300 hover:scale-105 hover:bg-neutral-700 hover:shadow-lg"
 							@click="handleDownloadAndroid"
 						>
 							<svg
@@ -154,18 +156,18 @@ function handlePhoneImage(e: Event) {
 								/>
 							</svg>
 							<div class="text-left">
-								<p class="text-xs text-gray-400">Download on</p>
+								<p class="text-xs text-neutral-400">Download on</p>
 								<p class="text-sm font-bold">Android</p>
 							</div>
 						</button>
 
 						<!-- iOS Button -->
 						<button
-							class="group flex transform cursor-pointer items-center gap-3 rounded-xl bg-gray-800 px-6 py-3 text-white transition-all duration-300 hover:scale-105 hover:bg-gray-700 hover:shadow-lg"
+							class="group flex transform cursor-pointer items-center gap-3 rounded-xl bg-neutral-800 px-6 py-3 text-white transition-all duration-300 hover:scale-105 hover:bg-neutral-700 hover:shadow-lg"
 							@click="handleDownloadIOS"
 						>
 							<svg
-								class="h-8 w-8 text-gray-300 transition-transform group-hover:scale-110"
+								class="h-8 w-8 text-neutral-300 transition-transform group-hover:scale-110"
 								fill="currentColor"
 								viewBox="0 0 24 24"
 							>
@@ -174,7 +176,7 @@ function handlePhoneImage(e: Event) {
 								/>
 							</svg>
 							<div class="text-left">
-								<p class="text-xs text-gray-400">Download on</p>
+								<p class="text-xs text-neutral-400">Download on</p>
 								<p class="text-sm font-bold">App Store</p>
 							</div>
 						</button>

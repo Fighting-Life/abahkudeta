@@ -95,7 +95,7 @@ async function handleSignOut() {
 				<div
 					v-if="open"
 					ref="sidebarContainer"
-					class="flex h-full w-[80%] max-w-sm flex-col bg-gray-900 shadow-2xl"
+					class="flex h-full w-[80%] max-w-sm flex-col bg-neutral-900 shadow-2xl"
 					@click.stop
 				>
 					<div class="flex-shrink-0 px-3 py-4 sm:px-4">
@@ -121,13 +121,13 @@ async function handleSignOut() {
 								</div>
 								<div class="grid w-full gap-2 sm:gap-3">
 									<div
-										class="inline-flex w-full items-center justify-start rounded-md bg-black px-3 py-2 text-sm font-medium text-gray-100 sm:text-base"
+										class="inline-flex w-full items-center justify-start rounded-md bg-black px-3 py-2 text-sm font-medium text-neutral-100 sm:text-base"
 									>
 										{{ formatBalanceWithCurrency($profileState?.balance) }}
 									</div>
 									<NuxtLink
 										to="/account?q=loyalty&t=benefits"
-										class="inline-flex w-full items-center justify-start gap-3 rounded-md bg-black px-3 py-2 text-sm font-medium text-gray-100 sm:gap-4"
+										class="inline-flex w-full items-center justify-start gap-3 rounded-md bg-black px-3 py-2 text-sm font-medium text-neutral-100 sm:gap-4"
 									>
 										<div
 											class="flex items-center justify-center rounded-md bg-amber-500 px-2 py-0.5 text-xs sm:text-sm"
@@ -138,10 +138,10 @@ async function handleSignOut() {
 									</NuxtLink>
 									<NuxtLink
 										to="/account?q=loyalty&t=rewards"
-										class="inline-flex w-full items-center justify-start gap-3 rounded-md bg-black px-3 py-2 text-sm font-medium text-gray-100 sm:gap-4"
+										class="inline-flex w-full items-center justify-start gap-3 rounded-md bg-black px-3 py-2 text-sm font-medium text-neutral-100 sm:gap-4"
 									>
 										<div
-											class="flex items-center justify-center rounded-md border border-gray-300 px-2 py-0.5 text-xs sm:text-sm"
+											class="flex items-center justify-center rounded-md border border-neutral-300 px-2 py-0.5 text-xs sm:text-sm"
 										>
 											EXP
 										</div>
@@ -149,7 +149,7 @@ async function handleSignOut() {
 									</NuxtLink>
 									<div class="flex w-full items-center justify-center">
 										<button
-											class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-gray-700 px-6 py-2 text-xs font-semibold text-gray-200 uppercase shadow-xl transition-all active:scale-95 sm:text-sm"
+											class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-neutral-700 px-6 py-2 text-xs font-semibold text-neutral-200 uppercase shadow-xl transition-all active:scale-95 sm:text-sm"
 											@click="handleSignOut"
 										>
 											KELUAR
@@ -159,7 +159,7 @@ async function handleSignOut() {
 							</div>
 							<div v-else class="grid gap-2 sm:gap-3">
 								<button
-									class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl border border-gray-300 py-3 text-xs font-semibold text-white uppercase active:scale-95 sm:text-sm"
+									class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl border border-neutral-300 py-3 text-xs font-semibold text-white uppercase active:scale-95 sm:text-sm"
 									@click="
 										() => {
 											emits('openLogin', true);
@@ -171,7 +171,7 @@ async function handleSignOut() {
 								</button>
 								<NuxtLink
 									href="/register"
-									class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl border border-gray-300 bg-gradient-to-br from-[#fbeb8c] to-[#9d7e39] py-3 text-xs font-semibold text-white uppercase active:scale-95 sm:text-sm"
+									class="inline-flex w-full cursor-pointer items-center justify-center rounded-xl border border-neutral-300 bg-gradient-to-br from-[#fbeb8c] to-[#9d7e39] py-3 text-xs font-semibold text-white uppercase active:scale-95 sm:text-sm"
 								>
 									DAFTAR
 								</NuxtLink>
@@ -194,7 +194,7 @@ async function handleSignOut() {
 							>
 								<Icon
 									name="mingcute:search-2-fill"
-									class="text-xl text-gray-400 transition-colors group-hover:text-[#fbeb8c] group-active:text-[#fbeb8c]"
+									class="text-xl text-neutral-400 transition-colors group-hover:text-[#fbeb8c] group-active:text-[#fbeb8c]"
 								/>
 								<span
 									class="transition-colors group-hover:text-[#fbeb8c] group-active:text-[#fbeb8c]"
@@ -211,7 +211,9 @@ async function handleSignOut() {
 									name="material-symbols:home-outline"
 									class="text-xl transition-colors group-hover:text-[#fbeb8c]"
 									:class="
-										route.name === 'home' ? 'text-[#fbeb8c]' : 'text-gray-400'
+										route.name === 'home'
+											? 'text-[#fbeb8c]'
+											: 'text-neutral-400'
 									"
 								/>
 								<span
@@ -237,7 +239,7 @@ async function handleSignOut() {
 									:class="
 										route.name === 'loyalty-rewards'
 											? 'text-[#fbeb8c]'
-											: 'text-gray-400'
+											: 'text-neutral-400'
 									"
 								/>
 								<span
@@ -267,7 +269,7 @@ async function handleSignOut() {
 							>
 								<Icon
 									name="ic:outline-exit-to-app"
-									class="text-xl text-gray-400 transition-colors group-hover:text-[#fbeb8c] group-active:text-[#fbeb8c]"
+									class="text-xl text-neutral-400 transition-colors group-hover:text-[#fbeb8c] group-active:text-[#fbeb8c]"
 								/>
 								<span
 									class="transition-colors group-hover:text-[#fbeb8c] group-active:text-[#fbeb8c]"

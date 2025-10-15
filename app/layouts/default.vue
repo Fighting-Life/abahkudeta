@@ -12,7 +12,7 @@ $listen("alert-deposit", (val) => {
 });
 </script>
 <template>
-	<div class="relative min-h-screen w-full bg-gray-950 text-gray-50">
+	<div class="relative min-h-screen w-full bg-neutral-950 text-neutral-50">
 		<NavBar />
 		<NuxtPage />
 		<footer-app />

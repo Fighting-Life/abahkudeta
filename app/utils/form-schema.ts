@@ -247,18 +247,135 @@ const createDeposit = z.object({
 	payment_type: z.enum(["bank", "e-money", "qiris", "pulsa"]).default("bank"),
 	amount: z
 		.number()
-		.min(20000, "Minimal deposit 20.000")
+		.min(50000, "Minimal deposit 50.000")
 		.max(20000000, "Maksimal deposit 20.000.000")
-		.default(20000),
+		.default(50000),
 	notes: z.string().optional(),
 });
+const createWithdraw = z
+	.object({
+		payment_type: z.enum(["bank", "e-money"]).default("bank"),
+		amount: z
+			.number()
+			.min(50000, "Minimal penarikan 50.000")
+			.max(20000000, "Maksimal penarikan 20.000.000")
+			.default(0),
+		bank_account_number: z
+			.string()
+			.regex(/^\d+$/, "Nomor rekening harus berupa angka")
+			.min(5, "Nomor rekening terlalu pendek")
+			.max(20, "Nomor rekening terlalu panjang"),
+		bank_account_name: z
+			.string({
+				required_error: "Nama lengkap hanya boleh berisi karakter alfanumerik.",
+			})
+			.min(2, "Nama harus minimal 2 karakter")
+			.nonempty("Nama akun bank harus diisi"),
+	})
+	.superRefine((data, ctx) => {
+		if (data.payment_type === "bank") {
+			// Validasi bank account number harus angka
+			if (data.bank_account_number) {
+				if (!/^\d+$/.test(data.bank_account_number)) {
+					ctx.addIssue({
+						path: ["bank_account_number"],
+						code: z.ZodIssueCode.custom,
+						message: "Nomor rekening harus berupa angka",
+					});
+				}
 
+				if (data.bank_account_number.length < 5) {
+					ctx.addIssue({
+						path: ["bank_account_number"],
+						code: z.ZodIssueCode.custom,
+						message: "Nomor rekening terlalu pendek",
+					});
+				}
+
+				if (data.bank_account_number.length > 20) {
+					ctx.addIssue({
+						path: ["bank_account_number"],
+						code: z.ZodIssueCode.custom,
+						message: "Nomor rekening terlalu panjang",
+					});
+				}
+			} else {
+				ctx.addIssue({
+					path: ["bank_account_number"],
+					code: z.ZodIssueCode.custom,
+					message: "Nomor rekening harus diisi untuk transfer bank",
+				});
+			}
+		}
+	});
+export const createNewTicket = z.object({
+	subject: z
+		.string()
+		.min(2, "Subjek harus minimal 2 karakter")
+		.max(100, "Subjek maksimal 100 karakter"),
+
+	type: z.enum(["game", "transaction", "other"]).default("other"),
+
+	message: z
+		.string()
+		.min(10, "Pesan harus minimal 10 karakter")
+		.max(1000, "Pesan maksimal 1000 karakter"),
+
+	attachment: z
+		.array(z.any())
+		.min(1, "Minimal unggah 1 file sebagai bukti")
+		.max(5, "Batas maksimal upload sebanyak 5 file")
+		.superRefine((files, ctx) => {
+			files.forEach((file, index) => {
+				// Validasi file instance
+				if (!(file instanceof File)) {
+					ctx.addIssue({
+						code: z.ZodIssueCode.custom,
+						message: "File tidak valid",
+						path: [index],
+					});
+					return;
+				}
+
+				// Validasi size
+				if (file.size > 2 * 1024 * 1024) {
+					ctx.addIssue({
+						code: z.ZodIssueCode.custom,
+						message: `File ${file.name} melebihi ukuran maksimal 2MB`,
+						path: [index],
+					});
+				}
+
+				// Validasi type
+				const allowedTypes = [
+					"image/jpeg",
+					"image/jpg",
+					"image/png",
+					"image/webp",
+					"application/pdf",
+				];
+
+				if (!allowedTypes.includes(file.type)) {
+					ctx.addIssue({
+						code: z.ZodIssueCode.custom,
+						message: `File ${file.name} harus berformat JPG, PNG, WebP, atau PDF`,
+						path: [index],
+					});
+				}
+			});
+		})
+		.default([]),
+
+	attachmentPreview: z.array(z.string()).optional().default([]),
+});
 export const loginSchema = toTypedSchema(login);
 export const registerSchema = toTypedSchema(register);
 export const changeProfileSchema = toTypedSchema(changeProfile);
 export const changePasswordSchema = toTypedSchema(changePassword);
 export const changeBankAccountSchema = toTypedSchema(changeBankAccount);
 export const createDepositSchema = toTypedSchema(createDeposit);
+export const createWithdrawSchema = toTypedSchema(createWithdraw);
+export const createNewTicketSchema = toTypedSchema(createNewTicket);
 
 export type LoginSchema = z.infer<typeof login>;
 export type RegisterSchema = z.infer<typeof register>;
@@ -266,3 +383,5 @@ export type ChangeProfileSchema = z.infer<typeof changeProfile>;
 export type ChangePasswordSchema = z.infer<typeof changePassword>;
 export type ChangeBankAccountSchema = z.infer<typeof changeBankAccount>;
 export type CreateDepositSchema = z.infer<typeof createDeposit>;
+export type CreateWithdrawSchema = z.infer<typeof createWithdraw>;
+export type CreateNewTicketSchema = z.infer<typeof createNewTicket>;

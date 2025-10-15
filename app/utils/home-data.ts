@@ -1549,3 +1549,504 @@ export const trendingGameItems = [
 		link: "javascript:openNewTab('/dispatch/game/PP/Desktop/vswaysmahwgong', 'Slots')",
 	},
 ];
+export const LatestAddedGameItems: Game[] = [
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 4,
+			},
+			{
+				name: "Video Slots",
+				seqNo: 21,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 22,
+			},
+		],
+		provider: 0,
+		name: "Sweet Bonanza Super Scatter",
+		gameCode: "vs20swbonsup",
+		gameImage: "vs20swbonsup.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PP/Desktop/vs20swbonsup', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 1,
+			},
+			{
+				name: "Top 20",
+				seqNo: -1,
+			},
+			{
+				name: "Video Slots",
+				seqNo: -1,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 16,
+			},
+		],
+		provider: 0,
+		name: "Mahjong Ways",
+		gameCode: "PGSOFT_65",
+		gameImage: "PGSOFT_65.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PGSOFT/Desktop/PGSOFT_65', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 3,
+			},
+			{
+				name: "Video Slots",
+				seqNo: 480,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 117,
+			},
+		],
+		provider: 0,
+		name: "Mahjong Wins 3 – Black Scatter",
+		gameCode: "vswaysmahwblck",
+		gameImage: "vswaysmahwblck.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PP/Desktop/vswaysmahwblck', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Slots",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 2,
+			},
+			{
+				name: "Slots",
+				seqNo: 2,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 933,
+			},
+		],
+		provider: 0,
+		name: "Wukong - Black Scatter",
+		gameCode: "vswayswkngblck",
+		gameImage: "vswayswkngblck.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/SLOT88/Desktop/vswayswkngblck', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 1,
+			},
+			{
+				name: "Top 20",
+				seqNo: -1,
+			},
+			{
+				name: "New Games",
+				seqNo: 1,
+			},
+			{
+				name: "Classic Games",
+				seqNo: -1,
+			},
+			{
+				name: "Bonus Buy",
+				seqNo: 1,
+			},
+			{
+				name: "Jackpot Games",
+				seqNo: -1,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 2700,
+			},
+		],
+		provider: 0,
+		name: "Sticky Bandits Thunder Rail",
+		gameCode: "pop_001378cc_qsp",
+		gameImage: "pop_001378cc_qsp.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PLAYTECH/Desktop/pop_001378cc_qsp', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Slots",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 3,
+			},
+			{
+				name: "Slots",
+				seqNo: 3,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 1151,
+			},
+		],
+		provider: 0,
+		name: "Bang Gacor 1000",
+		gameCode: "vs20gacorx",
+		gameImage: "vs20gacorx.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/SLOT88/Desktop/vs20gacorx', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: -1,
+			},
+			{
+				name: "Top 20",
+				seqNo: -1,
+			},
+			{
+				name: "Slots",
+				seqNo: 31,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 5603,
+			},
+		],
+		provider: 0,
+		name: "Sugar Bang Bang 2",
+		gameCode: "FACAHI_22071",
+		gameImage: "FACAHI_22071.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/FACHAI/Desktop/FACAHI_22071', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 9,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 370,
+			},
+		],
+		provider: 0,
+		name: "Fortune Gems",
+		gameCode: "JILI_109",
+		gameImage: "JILI_109.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/JILI/Desktop/JILI_109', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 2,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 23,
+			},
+		],
+		provider: 0,
+		name: "Mahjong Ways 2",
+		gameCode: "PGSOFT_74",
+		gameImage: "PGSOFT_74.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PGSOFT/Desktop/PGSOFT_74', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 2,
+			},
+			{
+				name: "Video Slots",
+				seqNo: 36,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 79,
+			},
+		],
+		provider: 0,
+		name: "Gates of Olympus Super Scatter",
+		gameCode: "vs20olympgold",
+		gameImage: "vs20olympgold.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PP/Desktop/vs20olympgold', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 3,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 67,
+			},
+		],
+		provider: 0,
+		name: "Wild Bounty Showdown",
+		gameCode: "PGSOFT_135",
+		gameImage: "PGSOFT_135.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/PGSOFT/Desktop/PGSOFT_135', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 4,
+			},
+			{
+				name: "Top 20",
+				seqNo: -1,
+			},
+			{
+				name: "Bonus Buy Feature",
+				seqNo: 22,
+			},
+			{
+				name: "MEGAWays",
+				seqNo: -1,
+			},
+			{
+				name: "Fixed Jackpot",
+				seqNo: -1,
+			},
+			{
+				name: "Video Slots",
+				seqNo: 184,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 12,
+			},
+		],
+		provider: 0,
+		name: "Lucky Twins Nexus",
+		gameCode: "SMG_luckyTwinsNexus",
+		gameImage: "SMG_luckyTwinsNexus.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_luckyTwinsNexus', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 1,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 2811,
+			},
+		],
+		provider: 0,
+		name: "Nexus Koi Gate",
+		gameCode: "SGNexusKoiGate",
+		gameImage: "SGNexusKoiGate.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGNexusKoiGate', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 12,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 351,
+			},
+		],
+		provider: 0,
+		name: "The Crypt",
+		gameCode: "thecrypt00000000",
+		gameImage: "thecrypt00000000.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/NOLIMITCITY/Desktop/thecrypt00000000', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 1,
+			},
+			{
+				name: "Video Slots",
+				seqNo: 22,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 62,
+			},
+		],
+		provider: 0,
+		name: "Nexus Mahjong Jackpots",
+		gameCode: "SMG_nexusMahjongJackpots",
+		gameImage: "SMG_nexusMahjongJackpots.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/MICROGAMING/Desktop/SMG_nexusMahjongJackpots', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Slots",
+		categories: [
+			{
+				name: "Slots",
+				seqNo: 3,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 84,
+			},
+		],
+		provider: 0,
+		name: "Fire in the Hole 3",
+		gameCode: "fireinthehole300",
+		gameImage: "fireinthehole300.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/NOLIMITCITY/Desktop/fireinthehole300', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 2,
+			},
+			{
+				name: "Video Slots",
+				seqNo: 2,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 2971,
+			},
+		],
+		provider: 0,
+		name: "777 Rush",
+		gameCode: "vs5t8goldfp",
+		gameImage: "vs5t8goldfp.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/FATPANDA/Desktop/vs5t8goldfp', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Top 20",
+		categories: [
+			{
+				name: "Top 20",
+				seqNo: 5,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 3071,
+			},
+		],
+		provider: 0,
+		name: "Hot Hot Nexus",
+		gameCode: "SGHotHotNexus",
+		gameImage: "SGHotHotNexus.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/HABANERO/Desktop/SGHotHotNexus', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "New",
+		categories: [
+			{
+				name: "Slots",
+				seqNo: 69,
+			},
+			{
+				name: "New",
+				seqNo: 31,
+			},
+			{
+				name: "DEFAULT",
+				seqNo: 1236,
+			},
+		],
+		provider: 0,
+		name: "Le Pharaoh",
+		gameCode: "HACKSAW_1562",
+		gameImage: "HACKSAW_1562.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/HACKSAW/Desktop/HACKSAW_1562', 'Slots')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+	{
+		category: "Crash Game",
+		categories: null,
+		provider: 108,
+		name: "JetX",
+		gameCode: "JetX_JetX",
+		gameImage: "JetX_JetX.jpg?v=20250528",
+		link: "javascript:openNewTab('/dispatch/game/SMARTSOFT/Desktop/JetX_JetX', 'CrashGame')",
+		isFavourite: false,
+		rtpValue: null,
+		rtpChanged: null,
+	},
+];

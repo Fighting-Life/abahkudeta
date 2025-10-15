@@ -53,7 +53,7 @@ const handleTabClick = (item: AccountTabMenu) => {
 	<div class="animate-page-grow rounded-lg p-0 lg:p-6">
 		<!-- Wallet Info -->
 		<div
-			class="mb-6 flex items-center justify-between border-b border-gray-800 pb-4"
+			class="mb-6 flex items-center justify-between border-b border-neutral-800 pb-4"
 		>
 			<div>
 				<h2 class="text-lg text-white">
@@ -130,7 +130,7 @@ const handleTabClick = (item: AccountTabMenu) => {
 				</h3>
 				<div class="space-y-3 rounded-lg bg-[#2a2a2a] p-4">
 					<div class="flex justify-between">
-						<span class="text-sm font-medium text-gray-400"
+						<span class="text-sm font-medium text-neutral-400"
 							>NAMA LENGKAP :</span
 						>
 						<span class="text-xs font-semibold text-white">
@@ -138,7 +138,7 @@ const handleTabClick = (item: AccountTabMenu) => {
 						</span>
 					</div>
 					<div class="flex items-center justify-between">
-						<span class="text-sm font-medium text-gray-400">EMAIL :</span>
+						<span class="text-sm font-medium text-neutral-400">EMAIL :</span>
 						<div class="flex items-center gap-2">
 							<span
 								v-if="!$profileState?.email"
@@ -151,7 +151,7 @@ const handleTabClick = (item: AccountTabMenu) => {
 						</div>
 					</div>
 					<div class="flex justify-between">
-						<span class="text-sm font-medium text-gray-400"
+						<span class="text-sm font-medium text-neutral-400"
 							>NAMA PENGGUNA :</span
 						>
 						<span class="text-xs font-semibold text-white">{{
@@ -159,7 +159,9 @@ const handleTabClick = (item: AccountTabMenu) => {
 						}}</span>
 					</div>
 					<div class="flex justify-between">
-						<span class="text-sm font-medium text-gray-400">MATA UANG :</span>
+						<span class="text-sm font-medium text-neutral-400"
+							>MATA UANG :</span
+						>
 						<span class="text-xs font-semibold text-white">IDR</span>
 					</div>
 				</div>
@@ -170,14 +172,14 @@ const handleTabClick = (item: AccountTabMenu) => {
 				<div class="rounded-lg bg-[#2a2a2a] p-4">
 					<div class="mb-4 flex items-start justify-between">
 						<div>
-							<p class="mb-1 text-sm text-gray-400">
+							<p class="mb-1 text-sm text-neutral-400">
 								{{ $profileState?.bank_account_name }}
 							</p>
 							<p class="font-mono text-2xl tracking-wider text-white">
 								{{ $profileState?.bank_account_number }}
 							</p>
 						</div>
-						<button class="text-gray-400 hover:text-white">
+						<button class="text-neutral-400 hover:text-white">
 							<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
 								<path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z" />
 								<path
@@ -187,7 +189,7 @@ const handleTabClick = (item: AccountTabMenu) => {
 						</button>
 					</div>
 					<div
-						class="border-t border-gray-700 pt-3 text-sm font-bold text-yellow-500 uppercase"
+						class="border-t border-neutral-700 pt-3 text-sm font-bold text-yellow-500 uppercase"
 					>
 						{{ $profileState?.payment_type }}
 					</div>

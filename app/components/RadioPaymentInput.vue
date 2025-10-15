@@ -54,9 +54,9 @@ watch(
 				:class="{
 					'border-yellow-500 bg-yellow-500/10':
 						selectedValue === item.value && item.is_available,
-					'border-gray-600 bg-gray-800/50 hover:border-gray-500':
+					'border-neutral-600 bg-neutral-800/50 hover:border-neutral-500':
 						selectedValue !== item.value && item.is_available,
-					'border-gray-700 bg-gray-900/50': !item.is_available,
+					'border-neutral-700 bg-neutral-900/50': !item.is_available,
 				}"
 			>
 				<!-- Gambar -->
@@ -98,8 +98,8 @@ watch(
 				<div
 					class="p-3 text-center"
 					:class="{
-						'text-gray-300': item.is_available,
-						'text-gray-500': !item.is_available,
+						'text-neutral-300': item.is_available,
+						'text-neutral-500': !item.is_available,
 					}"
 				>
 					<span class="text-sm font-medium">{{ item.name }}</span>
@@ -111,7 +111,7 @@ watch(
 					class="absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full border-2"
 					:class="{
 						'border-yellow-500 bg-yellow-500': selectedValue === item.value,
-						'border-gray-400': selectedValue !== item.value,
+						'border-neutral-400': selectedValue !== item.value,
 					}"
 				>
 					<div

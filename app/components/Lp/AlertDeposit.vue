@@ -62,7 +62,9 @@ const modelValue = useVModel(props, "open", emits, {
 									</div>
 								</div>
 							</div>
-							<div class="flex flex-col items-center gap-10 bg-gray-950 py-10">
+							<div
+								class="flex flex-col items-center gap-10 bg-neutral-950 py-10"
+							>
 								<div class="text-sm">
 									Silahkan deposit terlebih dahulu untuk melanjutkan permainan.
 								</div>

@@ -62,7 +62,9 @@ const modelValue = useVModel(props, "open", emits, {
 									</div>
 								</div>
 							</div>
-							<div class="flex flex-col items-center gap-10 bg-gray-950 py-10">
+							<div
+								class="flex flex-col items-center gap-10 bg-neutral-950 py-10"
+							>
 								<div class="text-sm">Silahkan login terlebih dahulu.</div>
 								<button
 									class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-gradient-to-br from-[#fbeb8c] to-[#9d7e39] px-10 py-1 text-sm font-semibold uppercase active:scale-95"

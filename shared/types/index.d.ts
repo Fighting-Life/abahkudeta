@@ -15,7 +15,7 @@ declare global {
 	type Profile = Database["public"]["Tables"]["profiles"]["Row"];
 	type ProfileInsert = Database["public"]["Tables"]["profiles"]["Insert"];
 	type ProfileUpdate = Database["public"]["Tables"]["profiles"]["Update"];
-	// type GameCategory = Database["public"]["Tables"]["game_categories"]["Row"];
+	type GameHistory = Database["public"]["Tables"]["history_games"]["Row"];
 	// type Game = Database["public"]["Tables"]["games"]["Row"];
 	// type DoubleExpClaim =
 	// 	Database["public"]["Tables"]["double_exp_claims"]["Row"];
@@ -175,7 +175,8 @@ declare global {
 		| "ArcadeMMTangkasGames"
 		| "ArcadeSkywindGames"
 		| "ArcadeJDBGames"
-		| "ArcadeFungkyGames";
+		| "ArcadeFungkyGames"
+		| "RaceMarblexGames";
 
 	type ShorcutGame =
 		| "PP"
@@ -226,7 +227,8 @@ declare global {
 		| "GEMINI"
 		| "ADVANTPLAYMINIGAME"
 		| "G8TANGKAS"
-		| "BTGAMING";
+		| "BTGAMING"
+		| "MARBLEX";
 
 	interface TrendingGame {
 		id: string;
@@ -338,6 +340,38 @@ declare global {
 		min_amount?: number;
 		max_amount?: number;
 		search?: string; // Search by reference, name, account
+	}
+	interface CreateGameHistoryInput {
+		game_name: string;
+		game_slug?: string;
+		game_category?: string;
+		game_provider: number;
+		game_code?: string;
+		game_image?: string;
+		game_link?: string;
+		bet_amount?: number;
+		win_amount?: number;
+		total_play?: number;
+		is_win?: boolean;
+		is_favourite?: boolean;
+		rtp_value?: number;
+	}
+	interface UpdateGameHistoryInput {
+		total_play?: number;
+		bet_amount?: number;
+		win_amount?: number;
+		is_win?: boolean;
+		is_favourite?: boolean;
+		rtp_value?: number;
+		rtp_changed?: boolean;
+	}
+	interface GameHistoryStats {
+		total_plays: number;
+		total_bet_amount: number;
+		total_win_amount: number;
+		favourite_games: number;
+		win_rate: number;
+		most_played_game: string;
 	}
 }
 export {};

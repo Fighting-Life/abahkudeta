@@ -137,7 +137,7 @@ const formattedAmount = computed(() => {
 				>
 					<!-- Inner container with dark background -->
 					<div
-						class="relative rounded-full border border-[#e5d177] bg-gradient-to-r from-gray-900 via-black to-gray-900"
+						class="relative rounded-full border border-[#e5d177] bg-gradient-to-r from-neutral-900 via-black to-neutral-900"
 					>
 						<!-- Content container -->
 						<div
@@ -241,7 +241,7 @@ const formattedAmount = computed(() => {
 				>
 					<!-- Inner container -->
 					<div
-						class="relative rounded-2xl border border-[#e5d177] bg-gradient-to-r from-gray-900 via-black to-gray-900"
+						class="relative rounded-2xl border border-[#e5d177] bg-gradient-to-r from-neutral-900 via-black to-neutral-900"
 					>
 						<!-- Content -->
 						<div class="px-4 py-4">

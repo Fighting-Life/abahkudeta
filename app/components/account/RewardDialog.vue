@@ -124,7 +124,7 @@ onUnmounted(() => {
 	>
 		<img
 			:src="
-				isClaimed
+				isClaimable
 					? '/images/badge/chest-open.webp'
 					: '/images/badge/chest-claimed.webp'
 			"
@@ -173,7 +173,7 @@ onUnmounted(() => {
 								<button
 									:class="
 										cn(
-											'absolute inline-flex cursor-pointer items-center justify-center text-white transition-colors hover:text-gray-200 active:scale-95',
+											'absolute inline-flex cursor-pointer items-center justify-center text-white transition-colors hover:text-neutral-200 active:scale-95',
 											isClaimed ? 'top-0 right-4' : 'top-4 right-4',
 										)
 									"
@@ -187,7 +187,7 @@ onUnmounted(() => {
 							</div>
 
 							<!-- Content -->
-							<div class="bg-gray-950 px-6 py-10 lg:px-10">
+							<div class="bg-neutral-950 px-6 py-10 lg:px-10">
 								<!-- Chest Animation -->
 								<div class="mb-6 flex justify-center">
 									<div class="relative">
@@ -219,7 +219,7 @@ onUnmounted(() => {
 									>
 										<div class="text-3xl font-bold text-green-400">+DOUBLE</div>
 										<div
-											class="rounded-lg border border-gray-600 bg-gradient-to-br from-gray-700 to-gray-800 px-3 py-1.5 text-lg font-semibold text-gray-100"
+											class="rounded-lg border border-neutral-600 bg-gradient-to-br from-neutral-700 to-neutral-800 px-3 py-1.5 text-lg font-semibold text-neutral-100"
 										>
 											EXP
 										</div>
@@ -228,7 +228,7 @@ onUnmounted(() => {
 
 								<!-- Description -->
 								<div
-									class="mb-6 text-center text-sm leading-relaxed text-gray-300"
+									class="mb-6 text-center text-sm leading-relaxed text-neutral-300"
 								>
 									<template v-if="!isClaimed">
 										Double EXP adalah event yang dapat diikuti agar dapat
@@ -290,13 +290,16 @@ onUnmounted(() => {
 
 									<!-- Labels -->
 									<div class="flex items-center justify-center gap-12">
-										<span class="text-xs font-semibold text-gray-400 uppercase"
+										<span
+											class="text-xs font-semibold text-neutral-400 uppercase"
 											>JAM</span
 										>
-										<span class="text-xs font-semibold text-gray-400 uppercase"
+										<span
+											class="text-xs font-semibold text-neutral-400 uppercase"
 											>MENIT</span
 										>
-										<span class="text-xs font-semibold text-gray-400 uppercase"
+										<span
+											class="text-xs font-semibold text-neutral-400 uppercase"
 											>DETIK</span
 										>
 									</div>
@@ -309,7 +312,7 @@ onUnmounted(() => {
 											cn(
 												'inline-flex w-full items-center justify-center gap-2 rounded-xl px-8 py-4 text-base font-bold tracking-wide uppercase shadow-lg transition-all',
 												isClaimed || !isClaimable || isLoading
-													? 'cursor-not-allowed border border-gray-600 bg-gray-700 text-gray-400'
+													? 'cursor-not-allowed border border-neutral-600 bg-neutral-700 text-neutral-400'
 													: 'cursor-pointer bg-gradient-to-br from-yellow-400 to-yellow-600 text-white shadow-yellow-500/50 hover:from-yellow-500 hover:to-yellow-700 active:scale-95',
 											)
 										"
@@ -330,7 +333,7 @@ onUnmounted(() => {
 									<!-- Next Claim Countdown -->
 									<Transition name="fade-slide-down">
 										<div v-if="isClaimed && nextClaimTime" class="text-center">
-											<p class="mb-2 text-sm text-gray-400">
+											<p class="mb-2 text-sm text-neutral-400">
 												Klaim hadiah lagi dalam:
 											</p>
 											<div

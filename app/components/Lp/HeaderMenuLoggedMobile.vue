@@ -73,9 +73,9 @@ async function refresh() {
 						/>
 					</NuxtLink>
 					<div
-						class="absolute -top-1 -right-1 flex h-3 w-3 items-center justify-center rounded-full bg-red-600 text-[9px] text-white sm:h-4 sm:w-4 sm:text-[10px]"
+						class="absolute top-1 right-1 flex h-3 w-3 items-center justify-center rounded-full bg-neutral-600 text-[9px] text-white sm:h-4 sm:w-4 sm:text-[10px]"
 					>
-						1
+						0
 					</div>
 				</div>
 				<button
@@ -90,7 +90,7 @@ async function refresh() {
 		<!-- Balance Bar -->
 		<div
 			v-if="!isHiddenRoute"
-			class="flex w-full items-center justify-between bg-gray-800 px-3 py-2 sm:px-4"
+			class="flex w-full items-center justify-between bg-neutral-800 px-3 py-2 sm:px-4"
 		>
 			<!-- Username -->
 			<div
@@ -105,10 +105,10 @@ async function refresh() {
 				<DropdownMenu v-model:open="open" @update:open="(e) => (open = e)">
 					<DropdownMenuTrigger as-child>
 						<button
-							class="flex max-w-[140px] min-w-[100px] cursor-pointer items-center justify-between rounded-sm bg-gray-950 px-2 py-1.5 text-white transition-all active:scale-95 sm:max-w-[160px] sm:min-w-[120px] sm:px-3"
+							class="flex max-w-[140px] min-w-[100px] cursor-pointer items-center justify-between rounded-sm bg-neutral-950 px-2 py-1.5 text-white transition-all active:scale-95 sm:max-w-[160px] sm:min-w-[120px] sm:px-3"
 						>
 							<div
-								class="truncate text-[11px] font-bold text-gray-100 sm:text-xs"
+								class="truncate text-[11px] font-bold text-neutral-100 sm:text-xs"
 							>
 								{{ formatBalanceWithCurrency($profileState?.balance) }}
 							</div>
@@ -125,7 +125,7 @@ async function refresh() {
 					</DropdownMenuTrigger>
 
 					<DropdownMenuContent
-						class="w-[280px] border-2 border-solid border-yellow-400 bg-gray-950 px-4 py-2 text-gray-100 sm:w-64"
+						class="w-[280px] border-2 border-solid border-yellow-400 bg-neutral-950 px-4 py-2 text-neutral-100 sm:w-64"
 					>
 						<DropdownMenuLabel as-child>
 							<div class="flex items-center justify-between">
@@ -153,7 +153,7 @@ async function refresh() {
 								<div
 									v-for="(vendor, vi) in item.vendors"
 									:key="vi"
-									class="flex w-full items-center justify-between rounded px-2 py-1 text-[10px] font-semibold text-gray-100 transition-colors hover:bg-yellow-400/10 sm:text-[11px]"
+									class="flex w-full items-center justify-between rounded px-2 py-1 text-[10px] font-semibold text-neutral-100 transition-colors hover:bg-yellow-400/10 sm:text-[11px]"
 								>
 									<div class="flex items-center gap-2">
 										<div
@@ -192,7 +192,7 @@ async function refresh() {
 		<!-- Loyalty & Points Bar -->
 		<div
 			v-if="!isHiddenRoute"
-			class="grid w-full grid-cols-12 divide-x divide-gray-700 px-2 py-2 sm:px-3"
+			class="grid w-full grid-cols-12 divide-x divide-neutral-700 px-2 py-2 sm:px-3"
 		>
 			<!-- EXP Section -->
 			<NuxtLink
@@ -208,12 +208,12 @@ async function refresh() {
 				</div>
 				<div class="flex w-full items-center justify-between gap-1 sm:gap-2">
 					<div
-						class="flex w-[20%] items-center justify-center rounded-md border border-gray-100 py-0.5 text-center text-[9px] sm:text-[11px]"
+						class="flex w-[20%] items-center justify-center rounded-md border border-neutral-100 py-0.5 text-center text-[9px] sm:text-[11px]"
 					>
 						EXP
 					</div>
 					<div
-						class="flex w-[60%] items-center justify-end truncate rounded-lg bg-gray-700 py-0.5 pr-1 text-right text-[9px] sm:pr-2 sm:text-[11px]"
+						class="flex w-[60%] items-center justify-end truncate rounded-lg bg-neutral-700 py-0.5 pr-1 text-right text-[9px] sm:pr-2 sm:text-[11px]"
 					>
 						BRONZE
 					</div>
@@ -245,7 +245,7 @@ async function refresh() {
 						LP
 					</div>
 					<div
-						class="flex w-[60%] items-center justify-start truncate rounded-lg bg-gray-700 py-0.5 pl-1 text-start text-[9px] sm:pl-2 sm:text-[11px]"
+						class="flex w-[60%] items-center justify-start truncate rounded-lg bg-neutral-700 py-0.5 pl-1 text-start text-[9px] sm:pl-2 sm:text-[11px]"
 					>
 						0
 					</div>

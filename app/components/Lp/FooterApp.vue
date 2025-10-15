@@ -13,7 +13,7 @@ const defaultPayments = [
 const currentDate = new Date();
 </script>
 <template>
-	<footer class="relative w-full bg-gray-950 pb-20 lg:pb-0">
+	<footer class="relative w-full bg-neutral-950 pb-20 lg:pb-0">
 		<div class="container mx-auto w-full px-2 lg:max-w-[1024px]">
 			<div class="w-full space-y-5">
 				<div class="border-b border-yellow-400 py-3">
@@ -32,7 +32,7 @@ const currentDate = new Date();
 				>
 					<div class="w-full space-y-5 lg:w-[85%]">
 						<div
-							class="w-full text-center text-sm text-gray-400 uppercase lg:text-start"
+							class="w-full text-center text-sm text-neutral-400 uppercase lg:text-start"
 						>
 							Metode Pembayaran
 						</div>
@@ -49,7 +49,7 @@ const currentDate = new Date();
 						</div>
 					</div>
 					<div class="w-full space-y-5 lg:w-[15%]">
-						<div class="w-full text-center text-sm text-gray-400 uppercase">
+						<div class="w-full text-center text-sm text-neutral-400 uppercase">
 							Hubungi Kami
 						</div>
 						<div class="flex w-full items-center justify-center">
@@ -73,7 +73,7 @@ const currentDate = new Date();
 							class="flex items-center justify-center gap-2"
 						>
 							<div
-								class="flex items-center justify-center rounded-md border-2 border-solid border-gray-900 p-1"
+								class="flex items-center justify-center rounded-md border-2 border-solid border-neutral-900 p-1"
 							>
 								<icon name="ic:baseline-whatsapp" class="text-xl font-bold" />
 							</div>
@@ -88,7 +88,7 @@ const currentDate = new Date();
 							class="flex items-center justify-center gap-2"
 						>
 							<div
-								class="flex items-center justify-center rounded-md border-2 border-solid border-gray-900 p-1"
+								class="flex items-center justify-center rounded-md border-2 border-solid border-neutral-900 p-1"
 							>
 								<icon name="mdi:telegram" class="text-xl font-bold" />
 							</div>
@@ -105,7 +105,7 @@ const currentDate = new Date();
 							class="flex items-center justify-center gap-2"
 						>
 							<div
-								class="flex items-center justify-center rounded-md border-2 border-solid border-gray-900 p-1"
+								class="flex items-center justify-center rounded-md border-2 border-solid border-neutral-900 p-1"
 							>
 								<icon name="bx:bxl-gmail" class="text-xl font-bold" />
 							</div>
@@ -122,7 +122,7 @@ const currentDate = new Date();
 							class="flex items-center justify-center gap-2"
 						>
 							<div
-								class="flex items-center justify-center rounded-md border-2 border-solid border-gray-900 p-1"
+								class="flex items-center justify-center rounded-md border-2 border-solid border-neutral-900 p-1"
 							>
 								<icon name="ic:baseline-facebook" class="text-xl font-bold" />
 							</div>
@@ -139,7 +139,7 @@ const currentDate = new Date();
 							class="flex items-center justify-center gap-2"
 						>
 							<div
-								class="flex items-center justify-center rounded-md border-2 border-solid border-gray-900 p-1"
+								class="flex items-center justify-center rounded-md border-2 border-solid border-neutral-900 p-1"
 							>
 								<icon name="mdi:instagram" class="text-xl font-bold" />
 							</div>
@@ -377,7 +377,7 @@ const currentDate = new Date();
 				</ul>
 			</div>
 		</div>
-		<div class="border-b border-gray-700 py-2"></div>
+		<div class="border-b border-neutral-700 py-2"></div>
 		<div class="container mx-auto w-full px-2 py-5 lg:max-w-[1024px]">
 			<div
 				class="flex w-full flex-col items-center justify-center gap-5 lg:flex-row lg:justify-between lg:gap-0"

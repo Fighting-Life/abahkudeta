@@ -146,16 +146,16 @@ function handleGameClick(game: Game) {
 						leave-to="opacity-0 scale-95"
 					>
 						<HeadlessDialogPanel
-							class="w-full max-w-3xl transform overflow-hidden rounded-2xl bg-gray-900 text-left align-middle shadow-xl transition-all"
+							class="w-full max-w-3xl transform overflow-hidden rounded-2xl bg-neutral-900 text-left align-middle shadow-xl transition-all"
 						>
 							<!-- Header (Fixed) -->
 							<div
-								class="sticky top-0 z-10 border-b border-gray-700 bg-gray-900 px-5 py-4"
+								class="sticky top-0 z-10 border-b border-neutral-700 bg-neutral-900 px-5 py-4"
 							>
 								<!-- Close Button -->
 								<div class="absolute top-4 right-4">
 									<button
-										class="inline-flex cursor-pointer items-center justify-center text-white transition-colors hover:text-gray-300 active:scale-95"
+										class="inline-flex cursor-pointer items-center justify-center text-white transition-colors hover:text-neutral-300 active:scale-95"
 										@click="handleClose"
 									>
 										<Icon name="ph:x-bold" class="text-xl font-bold" />
@@ -179,12 +179,12 @@ function handleGameClick(game: Game) {
 										type="text"
 										placeholder="Cari nama game, kode, atau kategori..."
 										autocomplete="off"
-										class="h-11 w-full border-gray-700 bg-gray-800 pr-10 pl-10 text-white placeholder:text-gray-400 focus:border-yellow-400"
+										class="h-11 w-full border-neutral-700 bg-neutral-800 pr-10 pl-10 text-white placeholder:text-neutral-400 focus:border-yellow-400"
 									/>
 									<span
 										class="absolute inset-y-0 left-0 flex items-center justify-center px-3"
 									>
-										<Search class="size-5 text-gray-400" />
+										<Search class="size-5 text-neutral-400" />
 									</span>
 									<!-- Loading Indicator -->
 									<span
@@ -199,7 +199,7 @@ function handleGameClick(game: Game) {
 									<!-- Clear Button -->
 									<button
 										v-else-if="searchInput"
-										class="absolute inset-y-0 right-0 flex items-center justify-center px-3 text-gray-400 hover:text-white"
+										class="absolute inset-y-0 right-0 flex items-center justify-center px-3 text-neutral-400 hover:text-white"
 										@click="searchInput = ''"
 									>
 										<Icon name="ph:x-circle-fill" class="size-5" />
@@ -208,7 +208,7 @@ function handleGameClick(game: Game) {
 
 								<!-- Results Count -->
 								<div
-									class="mt-2 flex items-center justify-between text-xs text-gray-400"
+									class="mt-2 flex items-center justify-between text-xs text-neutral-400"
 								>
 									<span>
 										{{
@@ -236,7 +236,7 @@ function handleGameClick(game: Game) {
 										<button
 											v-for="game in visibleResults"
 											:key="game.gameCode"
-											class="group hover:bg-gray-750 flex w-full cursor-pointer items-center gap-3 rounded-lg border border-gray-700 bg-gray-800 p-3 transition-all duration-200 hover:border-yellow-400 active:scale-[0.98]"
+											class="group hover:bg-neutral-750 flex w-full cursor-pointer items-center gap-3 rounded-lg border border-neutral-700 bg-neutral-800 p-3 transition-all duration-200 hover:border-yellow-400 active:scale-[0.98]"
 											@click="handleGameClick(game)"
 										>
 											<!-- Game Image -->
@@ -255,13 +255,13 @@ function handleGameClick(game: Game) {
 											<!-- Game Info -->
 											<div class="flex-1 space-y-1.5 text-left">
 												<h3
-													class="line-clamp-1 text-sm font-semibold text-gray-100 transition-colors group-hover:text-yellow-400"
+													class="line-clamp-1 text-sm font-semibold text-neutral-100 transition-colors group-hover:text-yellow-400"
 												>
 													{{ game.name }}
 												</h3>
 												<div class="flex items-center gap-2">
 													<span
-														class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 px-3 py-0.5 text-[10px] font-bold text-gray-900 uppercase"
+														class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 px-3 py-0.5 text-[10px] font-bold text-neutral-900 uppercase"
 													>
 														{{ categoryName(game.link) }}
 													</span>
@@ -273,7 +273,7 @@ function handleGameClick(game: Game) {
 
 											<!-- Arrow Icon -->
 											<div
-												class="flex-shrink-0 text-gray-400 transition-transform group-hover:translate-x-1 group-hover:text-yellow-400"
+												class="flex-shrink-0 text-neutral-400 transition-transform group-hover:translate-x-1 group-hover:text-yellow-400"
 											>
 												<Icon name="mdi:chevron-right" class="text-2xl" />
 											</div>
@@ -299,12 +299,14 @@ function handleGameClick(game: Game) {
 								>
 									<Icon
 										name="mdi:magnify-close"
-										class="mb-4 text-6xl text-gray-600"
+										class="mb-4 text-6xl text-neutral-600"
 									/>
-									<p class="text-base font-medium text-gray-400">
+									<p class="text-base font-medium text-neutral-400">
 										Tidak ada game ditemukan
 									</p>
-									<p class="mt-1 text-sm text-gray-500">Coba kata kunci lain</p>
+									<p class="mt-1 text-sm text-neutral-500">
+										Coba kata kunci lain
+									</p>
 								</div>
 							</div>
 						</HeadlessDialogPanel>

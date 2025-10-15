@@ -36,7 +36,7 @@ function handleImageFallback(e: Event) {
 
 <template>
 	<div
-		class="error-page relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-gray-900 via-black to-gray-900 px-4 py-12"
+		class="error-page relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-neutral-900 via-black to-neutral-900 px-4 py-12"
 	>
 		<!-- Animated background lines -->
 		<div class="pointer-events-none absolute inset-0 overflow-hidden">
@@ -64,16 +64,16 @@ function handleImageFallback(e: Event) {
 					>
 						{{ errorTitle }}
 					</h1>
-					<p class="text-xl font-medium text-gray-300 lg:text-2xl">
+					<p class="text-xl font-medium text-neutral-300 lg:text-2xl">
 						{{ errorMessage }}
 					</p>
 				</div>
 
 				<!-- Error details box -->
 				<div
-					class="error-box mx-auto max-w-2xl rounded-xl border border-gray-700 bg-gray-800/50 p-8 backdrop-blur-sm lg:p-10"
+					class="error-box mx-auto max-w-2xl rounded-xl border border-neutral-700 bg-neutral-800/50 p-8 backdrop-blur-sm lg:p-10"
 				>
-					<p class="mb-6 text-base text-gray-200 lg:text-lg">
+					<p class="mb-6 text-base text-neutral-200 lg:text-lg">
 						For further assistance,<br />
 						you may contact our customer service and provide the following
 						details:
@@ -82,11 +82,11 @@ function handleImageFallback(e: Event) {
 					<div class="space-y-3 text-left">
 						<div class="flex items-start gap-3">
 							<span class="flex-shrink-0 font-bold text-yellow-400">1.</span>
-							<p class="text-sm text-gray-300 lg:text-base">
+							<p class="text-sm text-neutral-300 lg:text-base">
 								The page that encountered the error (Please provide the full
 								url)
 								<client-only>
-									<span class="mt-1 block text-xs break-all text-gray-500">{{
+									<span class="mt-1 block text-xs break-all text-neutral-500">{{
 										currentUrl
 									}}</span>
 								</client-only>
@@ -94,13 +94,13 @@ function handleImageFallback(e: Event) {
 						</div>
 						<div class="flex items-start gap-3">
 							<span class="flex-shrink-0 font-bold text-yellow-400">2.</span>
-							<p class="text-sm text-gray-300 lg:text-base">
+							<p class="text-sm text-neutral-300 lg:text-base">
 								What action that triggered the error
 							</p>
 						</div>
 						<div class="flex items-start gap-3">
 							<span class="flex-shrink-0 font-bold text-yellow-400">3.</span>
-							<p class="text-sm text-gray-300 lg:text-base">
+							<p class="text-sm text-neutral-300 lg:text-base">
 								Report Code:
 								<span class="font-mono text-yellow-400">{{ errorCode }}</span>
 							</p>

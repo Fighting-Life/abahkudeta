@@ -33,7 +33,7 @@ const handleClick = async (event: MouseEvent) => {
 	<NuxtLink
 		v-if="!method || method === 'get'"
 		:to="props.href"
-		class="text-foreground underline decoration-gray-300 underline-offset-4 transition-colors duration-300 ease-out hover:!decoration-current dark:decoration-gray-500"
+		class="text-foreground underline decoration-neutral-300 underline-offset-4 transition-colors duration-300 ease-out hover:!decoration-current dark:decoration-neutral-500"
 	>
 		<slot />
 	</NuxtLink>
@@ -42,7 +42,7 @@ const handleClick = async (event: MouseEvent) => {
 		v-else
 		:href="href as string"
 		:tabindex="tabindex"
-		class="text-foreground underline decoration-gray-300 underline-offset-4 transition-colors duration-300 ease-out hover:!decoration-current dark:decoration-gray-500"
+		class="text-foreground underline decoration-neutral-300 underline-offset-4 transition-colors duration-300 ease-out hover:!decoration-current dark:decoration-neutral-500"
 		@click="handleClick"
 	>
 		<slot />

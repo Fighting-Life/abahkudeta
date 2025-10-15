@@ -65,28 +65,28 @@ function fallbackImages(event: Event) {
 						<div
 							v-for="partner in row1"
 							:key="`row1-1-${partner.name}`"
-							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-gray-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-gray-800/70 lg:h-20 lg:w-36"
+							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-neutral-800/70 lg:h-20 lg:w-36"
 						>
-							<a :href="partner.url">
+							<NuxtLink :to="partner.url">
 								<img
 									:src="partner.logo"
 									:alt="partner.name"
-									class="h-full w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+									class="neutralscale hover:neutralscale-0 h-full w-full object-contain filter transition-all duration-300"
 									loading="lazy"
 									@error="fallbackImages"
 								/>
-							</a>
+							</NuxtLink>
 						</div>
 						<!-- Duplicate set for seamless loop -->
 						<div
 							v-for="partner in row1"
 							:key="`row1-2-${partner.name}`"
-							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-gray-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-gray-800/70 lg:h-20 lg:w-36"
+							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-neutral-800/70 lg:h-20 lg:w-36"
 						>
 							<img
 								:src="partner.logo"
 								:alt="partner.name"
-								class="h-full w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+								class="neutralscale hover:neutralscale-0 h-full w-full object-contain filter transition-all duration-300"
 								loading="lazy"
 								@error="fallbackImages"
 							/>
@@ -105,28 +105,28 @@ function fallbackImages(event: Event) {
 						<div
 							v-for="partner in row2"
 							:key="`row2-1-${partner.name}`"
-							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-gray-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-gray-800/70 lg:h-20 lg:w-36"
+							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-neutral-800/70 lg:h-20 lg:w-36"
 						>
-							<a :href="partner.url">
+							<NuxtLink :to="partner.url">
 								<img
 									:src="partner.logo"
 									:alt="partner.name"
-									class="h-full w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+									class="neutralscale hover:neutralscale-0 h-full w-full object-contain filter transition-all duration-300"
 									loading="lazy"
 									@error="fallbackImages"
 								/>
-							</a>
+							</NuxtLink>
 						</div>
 						<!-- Duplicate set for seamless loop -->
 						<div
 							v-for="partner in row2"
 							:key="`row2-2-${partner.name}`"
-							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-gray-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-gray-800/70 lg:h-20 lg:w-36"
+							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-neutral-800/70 lg:h-20 lg:w-36"
 						>
 							<img
 								:src="partner.logo"
 								:alt="partner.name"
-								class="h-full w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+								class="neutralscale hover:neutralscale-0 h-full w-full object-contain filter transition-all duration-300"
 								loading="lazy"
 								@error="fallbackImages"
 							/>
@@ -145,28 +145,28 @@ function fallbackImages(event: Event) {
 						<div
 							v-for="partner in row3"
 							:key="`row3-1-${partner.name}`"
-							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-gray-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-gray-800/70 lg:h-20 lg:w-36"
+							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-neutral-800/70 lg:h-20 lg:w-36"
 						>
-							<a :href="partner.url">
+							<NuxtLink :to="partner.url">
 								<img
 									:src="partner.logo"
 									:alt="partner.name"
-									class="h-full w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+									class="neutralscale hover:neutralscale-0 h-full w-full object-contain filter transition-all duration-300"
 									loading="lazy"
 									@error="fallbackImages"
 								/>
-							</a>
+							</NuxtLink>
 						</div>
 						<!-- Duplicate set for seamless loop -->
 						<div
 							v-for="partner in row3"
 							:key="`row3-2-${partner.name}`"
-							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-gray-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-gray-800/70 lg:h-20 lg:w-36"
+							class="partner-logo flex h-16 w-28 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900/50 p-4 transition-all duration-300 hover:scale-110 hover:bg-neutral-800/70 lg:h-20 lg:w-36"
 						>
 							<img
 								:src="partner.logo"
 								:alt="partner.name"
-								class="h-full w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+								class="neutralscale hover:neutralscale-0 h-full w-full object-contain filter transition-all duration-300"
 								loading="lazy"
 								@error="fallbackImages"
 							/>
@@ -236,13 +236,13 @@ function fallbackImages(event: Event) {
 	box-shadow: 0 0 20px rgba(250, 204, 21, 0.2);
 }
 
-/* Grayscale effect */
-.filter.grayscale {
-	filter: grayscale(100%) brightness(0.8);
+/* neutralscale effect */
+.filter.neutralscale {
+	filter: neutralscale(100%) brightness(0.8);
 }
 
-.filter.grayscale:hover {
-	filter: grayscale(0%) brightness(1);
+.filter.neutralscale:hover {
+	filter: neutralscale(0%) brightness(1);
 }
 
 /* Gradient fade on edges */

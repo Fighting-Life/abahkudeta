@@ -233,17 +233,17 @@ const handleBackToHome = () => {
 							class="absolute inset-0 animate-pulse rounded-full bg-yellow-500/20 blur-2xl"
 						></div>
 						<div
-							class="relative rounded-full border border-gray-800 bg-gray-900 p-6"
+							class="relative rounded-full border border-neutral-800 bg-neutral-900 p-6"
 						>
 							<Loader2 class="h-12 w-12 animate-spin text-yellow-400" />
 						</div>
 					</div>
 
 					<div class="space-y-3">
-						<h1 class="text-2xl font-bold text-gray-100">
+						<h1 class="text-2xl font-bold text-neutral-100">
 							Memverifikasi Email Anda
 						</h1>
-						<p class="text-sm text-gray-400">
+						<p class="text-sm text-neutral-400">
 							Mohon tunggu sebentar, kami sedang memproses verifikasi...
 						</p>
 					</div>
@@ -275,17 +275,17 @@ const handleBackToHome = () => {
 					</div>
 
 					<div class="animate-fade-in-up space-y-3">
-						<h1 class="text-2xl font-bold text-gray-100">
+						<h1 class="text-2xl font-bold text-neutral-100">
 							Email Terverifikasi!
 						</h1>
-						<p class="text-sm text-gray-400">
+						<p class="text-sm text-neutral-400">
 							Akun Anda berhasil diverifikasi. Selamat bergabung dengan
 							KUDETABET98!
 						</p>
 					</div>
 
 					<div
-						class="animate-fade-in-up rounded-lg border border-gray-800 bg-gray-900 p-4 [animation-delay:0.2s]"
+						class="animate-fade-in-up rounded-lg border border-neutral-800 bg-neutral-900 p-4 [animation-delay:0.2s]"
 					>
 						<div class="flex items-center justify-between">
 							<div class="flex items-center gap-3">
@@ -293,7 +293,9 @@ const handleBackToHome = () => {
 									<Mail class="h-5 w-5 text-yellow-400" />
 								</div>
 								<div class="text-left">
-									<p class="text-xs text-gray-500">Redirect otomatis dalam</p>
+									<p class="text-xs text-neutral-500">
+										Redirect otomatis dalam
+									</p>
 									<p class="text-lg font-bold text-yellow-400">
 										{{ countdown }} detik
 									</p>
@@ -309,9 +311,9 @@ const handleBackToHome = () => {
 					</div>
 
 					<div
-						class="animate-fade-in-up border-t border-gray-800 pt-4 [animation-delay:0.4s]"
+						class="animate-fade-in-up border-t border-neutral-800 pt-4 [animation-delay:0.4s]"
 					>
-						<p class="text-xs text-gray-500">
+						<p class="text-xs text-neutral-500">
 							Terima kasih telah memverifikasi email Anda
 						</p>
 					</div>
@@ -324,21 +326,23 @@ const handleBackToHome = () => {
 							class="absolute inset-0 rounded-full bg-red-500/20 blur-2xl"
 						></div>
 						<div
-							class="relative rounded-full border border-red-900 bg-gray-900 p-6"
+							class="relative rounded-full border border-red-900 bg-neutral-900 p-6"
 						>
 							<XCircle class="animate-scale-in h-12 w-12 text-red-500" />
 						</div>
 					</div>
 
 					<div class="animate-fade-in-up space-y-3">
-						<h1 class="text-2xl font-bold text-gray-100">Verifikasi Gagal</h1>
-						<p class="text-sm text-gray-400">{{ errorMessage }}</p>
+						<h1 class="text-2xl font-bold text-neutral-100">
+							Verifikasi Gagal
+						</h1>
+						<p class="text-sm text-neutral-400">{{ errorMessage }}</p>
 					</div>
 
 					<div
-						class="animate-fade-in-up space-y-3 rounded-lg border border-gray-800 bg-gray-900 p-4 [animation-delay:0.2s]"
+						class="animate-fade-in-up space-y-3 rounded-lg border border-neutral-800 bg-neutral-900 p-4 [animation-delay:0.2s]"
 					>
-						<div class="text-sm text-gray-400">
+						<div class="text-sm text-neutral-400">
 							<p class="mb-2">Kemungkinan penyebab:</p>
 							<ul class="list-inside list-disc space-y-1 text-left text-xs">
 								<li>Link verifikasi sudah kadaluarsa</li>
@@ -357,9 +361,9 @@ const handleBackToHome = () => {
 					</div>
 
 					<div
-						class="animate-fade-in-up border-t border-gray-800 pt-4 [animation-delay:0.4s]"
+						class="animate-fade-in-up border-t border-neutral-800 pt-4 [animation-delay:0.4s]"
 					>
-						<p class="text-xs text-gray-500">
+						<p class="text-xs text-neutral-500">
 							Butuh bantuan? Hubungi customer service kami
 						</p>
 					</div>

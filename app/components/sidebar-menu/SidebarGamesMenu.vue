@@ -48,7 +48,10 @@ const isOpen = useVModel(props, "open", emits, {
 				<icon
 					name="bx:bxs-chevron-right"
 					:class="
-						cn('text-xl', isOpen ? 'rotate-90 text-[#fbeb8c]' : 'text-gray-100')
+						cn(
+							'text-xl',
+							isOpen ? 'rotate-90 text-[#fbeb8c]' : 'text-neutral-100',
+						)
 					"
 				/>
 			</div>

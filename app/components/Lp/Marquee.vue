@@ -124,14 +124,14 @@ onMounted(() => {
 
 <template>
 	<div
-		class="w-full border-b border-b-gray-700 bg-gray-800 py-4 lg:-mt-4 lg:border-none"
+		class="w-full border-b border-b-neutral-700 bg-neutral-800 py-4 lg:-mt-4 lg:border-none"
 	>
 		<div class="container mx-auto w-full lg:max-w-[1024px]">
 			<div class="flex w-full items-center gap-1 px-4 lg:px-0">
 				<!-- Date Display (Desktop Only) -->
 				<div
 					v-if="showDate"
-					class="hidden shrink-0 items-center justify-center px-2 text-xs font-bold text-nowrap text-gray-200 lg:flex"
+					class="hidden shrink-0 items-center justify-center px-2 text-xs font-bold text-nowrap text-neutral-200 lg:flex"
 				>
 					{{ currentDate }}
 				</div>
@@ -227,17 +227,17 @@ onMounted(() => {
 
 					<!-- Gradient Overlays -->
 					<div
-						class="pointer-events-none absolute top-0 left-0 z-10 h-full w-8 bg-gradient-to-r from-gray-900 via-transparent to-transparent"
+						class="pointer-events-none absolute top-0 left-0 z-10 h-full w-8 bg-gradient-to-r from-neutral-900 via-transparent to-transparent"
 					></div>
 					<div
-						class="pointer-events-none absolute top-0 right-0 z-10 h-full w-8 bg-gradient-to-l from-gray-900 via-transparent to-transparent"
+						class="pointer-events-none absolute top-0 right-0 z-10 h-full w-8 bg-gradient-to-l from-neutral-900 via-transparent to-transparent"
 					></div>
 				</div>
 
 				<!-- Pause Indicator (when hovered) -->
 				<div
 					v-if="isHovered && pauseOnHover"
-					class="hidden shrink-0 items-center justify-center px-2 text-xs text-gray-400 lg:flex"
+					class="hidden shrink-0 items-center justify-center px-2 text-xs text-neutral-400 lg:flex"
 				>
 					⏸️
 				</div>

@@ -398,11 +398,11 @@ const eMoneyPayments = [
 <template>
 	<div class="w-full space-y-3 pt-12 pb-5">
 		<form
-			class="container mx-auto max-w-[1024px] space-y-4 rounded-lg bg-gray-900 px-5 py-8 lg:px-10"
+			class="container mx-auto max-w-[1024px] space-y-4 rounded-lg bg-neutral-900 px-5 py-8 lg:px-10"
 			@submit.prevent="submit"
 		>
-			<div class="border-b border-gray-600 py-3">
-				<div class="text-gray-200">Informasi Pribadi</div>
+			<div class="border-b border-neutral-600 py-3">
+				<div class="text-neutral-200">Informasi Pribadi</div>
 			</div>
 
 			<div class="grid gap-5">
@@ -411,7 +411,7 @@ const eMoneyPayments = [
 						for="name"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Nama Lengkap</div>
+						<div class="text-xs text-neutral-200">Nama Lengkap</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -422,7 +422,7 @@ const eMoneyPayments = [
 									v-model="name"
 									type="text"
 									name="name"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="name"
 									placeholder="Nama Pengguna Anda"
 									@blur="validateField('name')"
@@ -444,7 +444,7 @@ const eMoneyPayments = [
 						for="email"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Email</div>
+						<div class="text-xs text-neutral-200">Email</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -454,7 +454,7 @@ const eMoneyPayments = [
 									v-model="email"
 									type="email"
 									name="email"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="email"
 									placeholder="Email Anda"
 									@blur="validateField('email')"
@@ -475,7 +475,7 @@ const eMoneyPayments = [
 						for="username"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Nama Pengguna</div>
+						<div class="text-xs text-neutral-200">Nama Pengguna</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -485,7 +485,7 @@ const eMoneyPayments = [
 									v-model="username"
 									type="text"
 									name="username"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="username"
 									placeholder="Username Anda"
 									@blur="validateField('username')"
@@ -506,7 +506,7 @@ const eMoneyPayments = [
 						for="password"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Kata Sandi</div>
+						<div class="text-xs text-neutral-200">Kata Sandi</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -516,7 +516,7 @@ const eMoneyPayments = [
 									v-model="password"
 									:type="inputPassword"
 									name="password"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black pr-10 text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black pr-10 text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="current-password"
 									placeholder="Kata Sandi Anda"
 									@blur="validateField('password')"
@@ -554,7 +554,7 @@ const eMoneyPayments = [
 						for="confirm_password"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Ulangi Kata Sandi</div>
+						<div class="text-xs text-neutral-200">Ulangi Kata Sandi</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -564,7 +564,7 @@ const eMoneyPayments = [
 									v-model="confirm_password"
 									:type="inputConfirmPassword"
 									name="confirm_password"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black pr-10 text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black pr-10 text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="current-password"
 									placeholder="Ulangi Kata Sandi Anda"
 									@blur="validateField('confirm_password')"
@@ -605,7 +605,7 @@ const eMoneyPayments = [
 						for="phone"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Nomer Kontak</div>
+						<div class="text-xs text-neutral-200">Nomer Kontak</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -615,7 +615,7 @@ const eMoneyPayments = [
 									v-model="phone"
 									type="tel"
 									name="phone"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="tel"
 									placeholder="Nomer Kontak Anda"
 									@blur="validateField('phone')"
@@ -637,7 +637,7 @@ const eMoneyPayments = [
 						for="whatsapp"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">WhatsApp</div>
+						<div class="text-xs text-neutral-200">WhatsApp</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -647,7 +647,7 @@ const eMoneyPayments = [
 									v-model="whatsapp"
 									type="tel"
 									name="whatsapp"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="tel"
 									placeholder="Nomer Whatsapp Anda"
 									@blur="validateField('whatsapp')"
@@ -669,7 +669,7 @@ const eMoneyPayments = [
 						for="referral_code"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Kode Referral</div>
+						<div class="text-xs text-neutral-200">Kode Referral</div>
 						<div class="text-xs text-yellow-400"></div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -679,7 +679,7 @@ const eMoneyPayments = [
 									v-model="referral_code"
 									type="text"
 									name="referral_code"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="on"
 									placeholder="Kode Referral"
 									@blur="validateField('referral_code')"
@@ -700,8 +700,8 @@ const eMoneyPayments = [
 				</div>
 			</div>
 
-			<div class="border-b border-gray-600 py-3">
-				<div class="text-gray-200">Informasi Pembayaran</div>
+			<div class="border-b border-neutral-600 py-3">
+				<div class="text-neutral-200">Informasi Pembayaran</div>
 			</div>
 			<div class="grid gap-5">
 				<div class="grid w-full grid-cols-1 gap-x-5 gap-y-3 lg:grid-cols-12">
@@ -709,7 +709,7 @@ const eMoneyPayments = [
 						for="payment_type"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Metode Pembayaran</div>
+						<div class="text-xs text-neutral-200">Metode Pembayaran</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -766,7 +766,7 @@ const eMoneyPayments = [
 						for="payment_method"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">Bank</div>
+						<div class="text-xs text-neutral-200">Bank</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -776,7 +776,7 @@ const eMoneyPayments = [
 								<select
 									v-model="payment_method"
 									name="payment_method"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="on"
 									@blur="validateField('payment_method')"
 								>
@@ -813,7 +813,7 @@ const eMoneyPayments = [
 						for="payment_method"
 						class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 					>
-						<div class="text-xs text-gray-200">E-Money</div>
+						<div class="text-xs text-neutral-200">E-Money</div>
 						<div class="text-xs text-yellow-400">*</div>
 					</label>
 					<div class="col-span-1 lg:col-span-9">
@@ -823,7 +823,7 @@ const eMoneyPayments = [
 								<select
 									v-model="payment_method"
 									name="payment_method"
-									class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+									class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 									autocomplete="on"
 									placeholder="--Pilih E-Money--"
 									@blur="validateField('payment_method')"
@@ -859,7 +859,7 @@ const eMoneyPayments = [
 							for="bank_account_number"
 							class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 						>
-							<div class="text-xs text-gray-200">
+							<div class="text-xs text-neutral-200">
 								Nomor {{ payment_type === "bank" ? "Rekening" : "Akun" }}
 							</div>
 							<div class="text-xs text-yellow-400">*</div>
@@ -872,7 +872,7 @@ const eMoneyPayments = [
 										v-model="bank_account_number"
 										type="text"
 										name="bank_account_number"
-										class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+										class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 										autocomplete="on"
 										:placeholder="`Nomor ${payment_type === 'bank' ? 'Rekening' : 'Akun'} Anda`"
 										@blur="validateField('bank_account_number')"
@@ -900,7 +900,7 @@ const eMoneyPayments = [
 							for="bank_account_name"
 							class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 						>
-							<div class="text-xs text-gray-200">Nama Lengkap</div>
+							<div class="text-xs text-neutral-200">Nama Lengkap</div>
 							<div class="text-xs text-yellow-400">*</div>
 						</label>
 						<div class="col-span-1 lg:col-span-9">
@@ -911,7 +911,7 @@ const eMoneyPayments = [
 										v-model="bank_account_name"
 										type="text"
 										name="bank_account_name"
-										class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+										class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 										autocomplete="name"
 										placeholder="Nama Lengkap Anda"
 										@blur="validateField('bank_account_name')"
@@ -997,7 +997,7 @@ const eMoneyPayments = [
 	position: relative;
 	width: 18px;
 	height: 18px;
-	border: 2px solid #4b5563; /* gray-600 */
+	border: 2px solid #4b5563; /* neutral-600 */
 	border-radius: 50%;
 	background-color: transparent;
 	transition: all 0.2s ease;
@@ -1042,7 +1042,7 @@ const eMoneyPayments = [
 	margin-left: 0.5rem;
 	font-size: 0.875rem;
 	font-weight: 500;
-	color: #e5e7eb; /* gray-200 */
+	color: #e5e7eb; /* neutral-200 */
 	transition: color 0.2s ease;
 	user-select: none;
 }
@@ -1059,13 +1059,13 @@ const eMoneyPayments = [
 
 /* Disabled state (optional) */
 .hidden-radio:disabled + .custom-radio {
-	border-color: #374151; /* gray-700 */
+	border-color: #374151; /* neutral-700 */
 	opacity: 0.5;
 	cursor: not-allowed;
 }
 
 .hidden-radio:disabled ~ .custom-radio-text {
-	color: #6b7280; /* gray-500 */
+	color: #6b7280; /* neutral-500 */
 	cursor: not-allowed;
 }
 

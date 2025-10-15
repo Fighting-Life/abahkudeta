@@ -15,7 +15,7 @@ const queryTName = computed(() => route.query.t as string);
 </script>
 
 <template>
-	<div class="mb-6 border-b border-gray-800">
+	<div class="mb-6 border-b border-neutral-800">
 		<div class="flex gap-6 overflow-x-auto">
 			<nuxt-link
 				v-for="(item, index) in menuItems"

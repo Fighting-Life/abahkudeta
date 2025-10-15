@@ -49,7 +49,7 @@ const submit = handleSubmit(async (values) => {
 					for="name"
 					class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 				>
-					<div class="text-xs text-gray-200">Nama Lengkap</div>
+					<div class="text-xs text-neutral-200">Nama Lengkap</div>
 					<div class="text-xs text-yellow-400">*</div>
 				</label>
 				<div class="col-span-1 lg:col-span-9">
@@ -60,7 +60,7 @@ const submit = handleSubmit(async (values) => {
 								v-model="name"
 								type="text"
 								name="name"
-								class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+								class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 								autocomplete="name"
 								placeholder="Nama Pengguna Anda"
 								:disabled="isSubmitting"
@@ -83,7 +83,7 @@ const submit = handleSubmit(async (values) => {
 					for="email"
 					class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 				>
-					<div class="text-xs text-gray-200">Email</div>
+					<div class="text-xs text-neutral-200">Email</div>
 					<div class="text-xs text-yellow-400">*</div>
 				</label>
 				<div class="col-span-1 lg:col-span-9">
@@ -93,7 +93,7 @@ const submit = handleSubmit(async (values) => {
 								v-model="email"
 								type="email"
 								name="email"
-								class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+								class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 								autocomplete="email"
 								placeholder="Email Anda"
 								@blur="validateField('email')"
@@ -114,7 +114,7 @@ const submit = handleSubmit(async (values) => {
 					for="username"
 					class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 				>
-					<div class="text-xs text-gray-200">Nama Pengguna</div>
+					<div class="text-xs text-neutral-200">Nama Pengguna</div>
 					<div class="text-xs text-yellow-400">*</div>
 				</label>
 				<div class="col-span-1 lg:col-span-9">
@@ -124,7 +124,7 @@ const submit = handleSubmit(async (values) => {
 								v-model="username"
 								type="text"
 								name="username"
-								class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+								class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 								autocomplete="username"
 								placeholder="Username Anda"
 								@blur="validateField('username')"

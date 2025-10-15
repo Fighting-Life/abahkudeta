@@ -6,6 +6,7 @@ const emits = defineEmits<{
 const props = defineProps<{
 	open: boolean;
 }>();
+
 const modelValue = useVModel(props, "open", emits, {
 	passive: true,
 });
@@ -13,6 +14,12 @@ const modelValue = useVModel(props, "open", emits, {
 const qrCodeUrl = ref(
 	"https://docs.lightburnsoftware.com/legacy/img/QRCode/ExampleCode.png",
 );
+
+// Function untuk handle close
+const handleClose = () => {
+	modelValue.value = false;
+};
+
 async function downloadFileInBrowser(): Promise<void> {
 	try {
 		const response = await fetch(qrCodeUrl.value);
@@ -21,22 +28,16 @@ async function downloadFileInBrowser(): Promise<void> {
 			throw new Error(`HTTP error! status: ${response.status}`);
 		}
 
-		// Dapatkan data sebagai Blob
 		const blob = await response.blob();
-
-		// Buat URL objek untuk Blob
 		const blobUrl = window.URL.createObjectURL(blob);
-
-		// Buat elemen <a> secara programmatic
 		const a = document.createElement("a");
 		a.style.display = "none";
 		a.href = blobUrl;
-		a.download = "qris-eon.jpg"; // Atur nama file yang akan digunakan
+		a.download = "qris-eon.jpg";
 
 		document.body.appendChild(a);
-		a.click(); // Memicu klik untuk memulai unduhan
+		a.click();
 
-		// Bersihkan objek dan DOM
 		window.URL.revokeObjectURL(blobUrl);
 		document.body.removeChild(a);
 	} catch (error) {
@@ -44,28 +45,29 @@ async function downloadFileInBrowser(): Promise<void> {
 		alert("Gagal mengunduh gambar. Silakan coba lagi.");
 	} finally {
 		setTimeout(() => {
-			modelValue.value = false;
+			handleClose(); // ✅ Gunakan handleClose
 		}, 1000);
 	}
 }
 </script>
+
 <template>
 	<Teleport to="body">
 		<div
 			v-if="modelValue"
 			class="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50"
-			@click="modelValue = false"
+			@click="handleClose"
 		>
 			<div class="relative">
 				<button
 					class="absolute top-4 right-4 cursor-pointer text-2xl text-white"
-					@click="modelValue = false"
+					@click="handleClose"
 				>
 					<Icon name="iconamoon:close-bold" />
 				</button>
 				<div class="w-full max-w-md rounded-lg bg-neutral-900 p-8" @click.stop>
 					<h3 class="mb-2 text-center text-lg font-semibold text-white">
-						Deposit QIRIS EON
+						Deposit QRIS EON
 					</h3>
 					<img :src="qrCodeUrl" alt="QRIS EON" class="mx-auto" />
 					<div class="mt-4 text-center text-sm text-white">
@@ -76,7 +78,7 @@ async function downloadFileInBrowser(): Promise<void> {
 					<div class="mt-4 text-start text-sm text-white">Catatan :</div>
 					<ul class="mt-4 list-decimal ps-6 text-start text-sm text-[#fbeb8c]">
 						<li>
-							<p>Deposit minimal 10.000</p>
+							<p>Deposit minimal 50.000</p>
 						</li>
 						<li>
 							<p>Deposit maksimal 20.000.000</p>

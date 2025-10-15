@@ -16,10 +16,10 @@ async function handleSignOut() {
 }
 </script>
 <template>
-	<div class="sticky top-0 right-0 left-0 z-50 min-w-screen bg-gray-950">
+	<div class="sticky top-0 right-0 left-0 z-50 min-w-screen bg-neutral-950">
 		<div class="container mx-auto w-full lg:max-w-[1024px]">
 			<div
-				class="flex w-full items-center justify-between bg-gray-900 py-2.5 lg:bg-gray-950 lg:py-5"
+				class="flex w-full items-center justify-between bg-neutral-900 py-2.5 lg:bg-neutral-950 lg:py-5"
 			>
 				<nuxt-link
 					to="/"
@@ -54,14 +54,14 @@ async function handleSignOut() {
 					</NuxtLink>
 					<div class="flex items-center justify-center gap-3 lg:gap-5">
 						<button
-							class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-[#2b2b2b] px-5 py-1 text-[11px] font-bold text-white uppercase transition-all hover:bg-gray-50 hover:text-gray-900 active:scale-95 lg:px-10 lg:py-2 lg:text-sm"
+							class="inline-flex cursor-pointer items-center justify-center rounded-lg bg-[#2b2b2b] px-5 py-1 text-[11px] font-bold text-white uppercase transition-all hover:bg-neutral-50 hover:text-neutral-900 active:scale-95 lg:px-10 lg:py-2 lg:text-sm"
 							@click="openLogin = true"
 						>
 							Masuk
 						</button>
 						<NuxtLink
 							to="/register"
-							class="inline-flex cursor-pointer items-center justify-center rounded-lg border border-solid border-[#e5d177] bg-gray-950 px-5 py-1 text-[11px] font-bold text-[#e5d177] uppercase transition-all active:scale-95 lg:px-10 lg:py-2 lg:text-sm"
+							class="inline-flex cursor-pointer items-center justify-center rounded-lg border border-solid border-[#e5d177] bg-neutral-950 px-5 py-1 text-[11px] font-bold text-[#e5d177] uppercase transition-all active:scale-95 lg:px-10 lg:py-2 lg:text-sm"
 						>
 							Daftar
 						</NuxtLink>

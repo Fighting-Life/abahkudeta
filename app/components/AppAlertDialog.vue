@@ -17,8 +17,8 @@ const props = withDefaults(defineProps<Props>(), {
 	title: "Modal Title",
 	message: "Modal Message",
 	enableAction: false,
-	labelAction: "OK",
-	labelClose: "CLOSE",
+	labelAction: "Konfirmasi",
+	labelClose: "Tutup",
 });
 const openDialog = computed({
 	get: () => props.open,
@@ -36,9 +36,9 @@ function onaction() {
 }
 </script>
 <template>
-	<AlertDialog v-model="openDialog">
+	<AlertDialog v-model:open="openDialog">
 		<AlertDialogContent
-			class="mx-auto flex w-[448px] flex-col items-center justify-center gap-10 bg-gray-100 py-12 dark:bg-gray-800"
+			class="mx-auto flex w-[448px] flex-col items-center justify-center gap-10 border border-neutral-800 bg-neutral-900 py-12"
 			@close-auto-focus="
 				(e) => {
 					e.preventDefault();
@@ -50,7 +50,7 @@ function onaction() {
 			<AlertDialogHeader>
 				<AlertDialogTitle class="flex w-full flex-col items-center">
 					<div
-						class="flex h-16 w-16 items-center justify-center rounded-full p-[1px]"
+						class="flex items-center justify-center rounded-full p-[1px] text-7xl"
 					>
 						<Icon
 							v-if="type === 'warning'"
@@ -96,7 +96,7 @@ function onaction() {
 							{{ title }}
 						</div>
 						<div
-							class="line-clamp-3 max-w-[320px] text-center text-sm text-gray-600 dark:text-gray-200"
+							class="line-clamp-3 max-w-[320px] text-center text-sm text-neutral-200"
 						>
 							{{ message }}
 						</div>
@@ -105,12 +105,15 @@ function onaction() {
 			</AlertDialogHeader>
 			<AlertDialogFooter class="max-w-[448px]">
 				<div class="flex max-w-[448px] items-center justify-center gap-2">
-					<AlertDialogCancel class="w-full" @click="onclose">
+					<AlertDialogCancel
+						class="w-full cursor-pointer rounded-full bg-neutral-800 px-8 py-3 text-sm font-bold text-white transition-all hover:bg-neutral-700 hover:text-neutral-200 active:scale-95"
+						@click="onclose"
+					>
 						{{ labelClose }}
 					</AlertDialogCancel>
 					<AlertDialogCancel
 						v-if="enableAction"
-						class="w-full"
+						class="w-full cursor-pointer rounded-full bg-yellow-400 px-8 py-3 text-sm font-bold text-neutral-900 transition-all hover:bg-yellow-500 active:scale-95"
 						@click="onaction"
 					>
 						{{ labelAction }}

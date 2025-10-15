@@ -235,7 +235,7 @@ onUnmounted(() => {
 						@input="onSearchChange"
 					/>
 					<svg
-						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-gray-400"
+						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-neutral-400"
 						fill="none"
 						stroke="currentColor"
 						viewBox="0 0 24 24"
@@ -254,7 +254,7 @@ onUnmounted(() => {
 					v-model="selectedFilter"
 					@update:model-value="selectFilter(selectedFilter)"
 				>
-					<SelectTrigger class="filter-select bg-gray-900 text-gray-100">
+					<SelectTrigger class="filter-select bg-neutral-900 text-neutral-100">
 						<SelectValue placeholder="Pilih" />
 					</SelectTrigger>
 					<SelectContent>
@@ -283,7 +283,7 @@ onUnmounted(() => {
 						@input="onSearchChange"
 					/>
 					<svg
-						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-gray-400"
+						class="absolute top-1/2 right-4 h-5 w-5 -translate-y-1/2 text-neutral-400"
 						fill="none"
 						stroke="currentColor"
 						viewBox="0 0 24 24"
@@ -304,7 +304,7 @@ onUnmounted(() => {
 <style scoped lang="css">
 @reference "tailwindcss";
 .provider-section {
-	@apply w-full space-y-4 rounded-lg bg-gray-900 p-4 lg:space-y-6 lg:p-6;
+	@apply w-full space-y-4 rounded-lg bg-neutral-900 p-4 lg:space-y-6 lg:p-6;
 }
 
 /* Carousel */
@@ -317,7 +317,7 @@ onUnmounted(() => {
 }
 
 .carousel-btn {
-	@apply z-10 flex h-8 w-8 items-center justify-center rounded-full bg-gray-800/50 text-white backdrop-blur-sm transition-all duration-200 hover:bg-gray-700 lg:h-10 lg:w-10;
+	@apply z-10 flex h-8 w-8 items-center justify-center rounded-full bg-neutral-800/50 text-white backdrop-blur-sm transition-all duration-200 hover:bg-neutral-700 lg:h-10 lg:w-10;
 }
 
 .carousel-btn:hover {
@@ -334,7 +334,7 @@ onUnmounted(() => {
 }
 
 .provider-logo-wrapper {
-	@apply flex h-16 w-16 items-center justify-center rounded-xl bg-gray-700/50 p-2 transition-all duration-300 group-hover:scale-110 group-hover:bg-gray-600/50 lg:h-20 lg:w-20;
+	@apply flex h-16 w-16 items-center justify-center rounded-xl bg-neutral-700/50 p-2 transition-all duration-300 group-hover:scale-110 group-hover:bg-neutral-600/50 lg:h-20 lg:w-20;
 }
 
 .provider-logo {
@@ -351,7 +351,7 @@ onUnmounted(() => {
 }
 
 .progress-bar-track {
-	@apply h-1 w-full overflow-hidden rounded-full bg-gray-800;
+	@apply h-1 w-full overflow-hidden rounded-full bg-neutral-800;
 }
 
 .progress-bar-fill {
@@ -360,25 +360,25 @@ onUnmounted(() => {
 
 /* Filters Section */
 .filters-section {
-	@apply flex items-center gap-4 border-t border-gray-800 pt-4;
+	@apply flex items-center gap-4 border-t border-neutral-800 pt-4;
 }
 
 .filter-btn {
-	@apply rounded-lg bg-transparent px-4 py-2 text-sm font-medium text-gray-300 transition-all duration-200 hover:bg-gray-800/50 hover:text-white;
+	@apply rounded-lg bg-transparent px-4 py-2 text-sm font-medium text-neutral-300 transition-all duration-200 hover:bg-neutral-800/50 hover:text-white;
 }
 
 .filter-btn-active {
-	@apply bg-gray-800/80 text-yellow-400;
+	@apply bg-neutral-800/80 text-yellow-400;
 }
 
 /* Search Input */
 .search-input {
-	@apply w-full rounded-lg border border-gray-700 bg-gray-900/50 px-4 py-2.5 text-sm text-white placeholder-gray-400 transition-colors focus:border-yellow-500 focus:outline-none lg:w-[280px];
+	@apply w-full rounded-lg border border-neutral-700 bg-neutral-900/50 px-4 py-2.5 text-sm text-white placeholder-neutral-400 transition-colors focus:border-yellow-500 focus:outline-none lg:w-[280px];
 }
 
 /* Mobile Select */
 .filter-select {
-	@apply w-full appearance-none rounded-lg border border-gray-700 bg-gray-900/50 px-4 py-2.5 text-sm text-white transition-colors focus:border-yellow-500 focus:outline-none;
+	@apply w-full appearance-none rounded-lg border border-neutral-700 bg-neutral-900/50 px-4 py-2.5 text-sm text-white transition-colors focus:border-yellow-500 focus:outline-none;
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
 	background-position: right 0.5rem center;
 	background-repeat: no-repeat;

@@ -10,7 +10,7 @@ const { handleSubmit, errors, isSubmitting, resetForm } = useForm({
 	validationSchema: createDepositSchema,
 	initialValues: {
 		payment_type: "qiris",
-		amount: 20000,
+		amount: 50000,
 		notes: "",
 	},
 });
@@ -32,10 +32,28 @@ const submit = handleSubmit(async (values) => {
 			amount: values.amount,
 			payment_method:
 				values.payment_type === "qiris" ? "e_wallet" : "bank_transfer",
-			user_account_number: $profileState.value?.id || "1234567890",
-			user_account_name: $profileState.value?.full_name || "John Doe",
+			user_account_number:
+				$profileState.value?.bank_account_number || "1234567890",
+			user_account_name: $profileState.value?.bank_account_name || "John Doe",
 			notes: values.notes,
 		});
+		try {
+			await $fetch("/api/transaction/deposit", {
+				method: "POST",
+				body: {
+					amount: values.amount,
+					payment_method:
+						values.payment_type === "qiris" ? "e_wallet" : "bank_transfer",
+					user_account_number:
+						$profileState.value?.bank_account_number || "1234567890",
+					user_account_name:
+						$profileState.value?.bank_account_name || "John Doe",
+					notes: values.notes,
+				},
+			});
+		} catch (error) {
+			console.log(error);
+		}
 		openQrisDepositModal.value = true;
 		toast.success("Deposit berhasil diproses");
 	} catch (error) {
@@ -142,15 +160,15 @@ const paymentMethods = [
 				</div>
 			</Transition>
 		</div>
-		<div class="text-sm text-neutral-100">
-			Keterangan <span class="text-red-500">*</span>
+		<div class="border-b border-neutral-600 py-4 text-sm text-neutral-100">
+			Informasi Deposit :
 		</div>
 		<div class="grid w-full grid-cols-1 gap-x-5 gap-y-3 lg:grid-cols-12">
 			<label
 				for="amount"
 				class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 			>
-				<div class="text-xs text-gray-200">Jumlah</div>
+				<div class="text-xs text-neutral-200">Jumlah</div>
 				<div class="text-xs text-yellow-400">*</div>
 			</label>
 			<div class="col-span-1 lg:col-span-9">
@@ -160,7 +178,7 @@ const paymentMethods = [
 							v-model="amount"
 							type="number"
 							name="amount"
-							class="h-8 w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+							class="h-8 w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 							autocomplete="amount"
 							placeholder="Masukkan jumlah"
 							:disabled="isSubmitting"
@@ -182,7 +200,7 @@ const paymentMethods = [
 				for="notes"
 				class="col-span-1 flex items-start justify-between pt-2 lg:col-span-3"
 			>
-				<div class="text-xs text-gray-200">Keterangan</div>
+				<div class="text-xs text-neutral-200">Keterangan</div>
 				<div class="text-xs text-yellow-400">*</div>
 			</label>
 			<div class="col-span-1 lg:col-span-9">
@@ -192,7 +210,7 @@ const paymentMethods = [
 							v-model="notes"
 							name="notes"
 							rows="5"
-							class="w-full rounded-md border border-gray-600 bg-black text-xs text-gray-100 ring-0 outline-none placeholder:text-gray-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
+							class="w-full rounded-md border border-neutral-600 bg-black text-xs text-neutral-100 ring-0 outline-none placeholder:text-neutral-400 hover:border-yellow-400 focus:border-yellow-400 focus:outline-none active:border-yellow-400"
 							autocomplete="notes"
 							placeholder="Masukkan keterangan"
 							:disabled="isSubmitting"
@@ -227,7 +245,7 @@ const paymentMethods = [
 	<DialogQrisDeposit
 		v-if="openQrisDepositModal"
 		v-model:open="openQrisDepositModal"
-		@close="openQrisDepositModal = false"
+		@update:open="(value) => (openQrisDepositModal = value)"
 	/>
 </template>
 <style scoped></style>

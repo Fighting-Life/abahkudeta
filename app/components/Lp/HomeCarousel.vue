@@ -108,7 +108,7 @@ const getTransformStyle = () => {
 
 <template>
 	<div
-		class="relative h-[200px] w-full overflow-hidden rounded-lg bg-gray-900 shadow-2xl md:h-[300px] lg:h-[400px] xl:h-[500px]"
+		class="relative h-[200px] w-full overflow-hidden rounded-lg bg-neutral-900 shadow-2xl md:h-[300px] lg:h-[400px] xl:h-[500px]"
 	>
 		<div
 			ref="carouselContainer"
@@ -144,7 +144,7 @@ const getTransformStyle = () => {
 				<NuxtLink
 					:to="item.link"
 					:external="item.is_external"
-					:target="item.is_external ? '_blank' : null"
+					:target="item.is_external ? '_blank' : undefined"
 					class="group block h-full w-full"
 				>
 					<div class="relative h-full w-full overflow-hidden">

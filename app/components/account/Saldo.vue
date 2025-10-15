@@ -63,7 +63,7 @@ async function refresh() {
 				<button
 					class="flex cursor-pointer items-center justify-center text-white transition-all active:scale-95"
 				>
-					<div class="text-xs font-bold text-gray-100">
+					<div class="text-xs font-bold text-neutral-100">
 						{{ formatBalanceWithCurrency(profile?.balance) }}
 					</div>
 					<icon
@@ -79,7 +79,7 @@ async function refresh() {
 			</DropdownMenuTrigger>
 
 			<DropdownMenuContent
-				class="w-64 border-2 border-solid border-yellow-400 bg-gray-950 px-4 py-2 text-gray-100"
+				class="w-64 border-2 border-solid border-yellow-400 bg-neutral-950 px-4 py-2 text-neutral-100"
 			>
 				<DropdownMenuLabel as-child>
 					<div class="flex items-center justify-between">
@@ -107,7 +107,7 @@ async function refresh() {
 						<div
 							v-for="(vendor, vi) in item.vendors"
 							:key="vi"
-							class="flex w-full items-center justify-between rounded px-2 py-1 text-[11px] font-semibold text-gray-100 transition-colors hover:bg-yellow-400/10"
+							class="flex w-full items-center justify-between rounded px-2 py-1 text-[11px] font-semibold text-neutral-100 transition-colors hover:bg-yellow-400/10"
 						>
 							<div class="flex items-center gap-2">
 								<div class="h-2 w-2 rounded-full bg-green-500"></div>

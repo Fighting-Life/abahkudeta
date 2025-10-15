@@ -62,7 +62,7 @@ async function goToPage(menu: NavMenu) {
 <template>
 	<div class="block lg:hidden">
 		<div
-			class="fixed right-0 bottom-0 left-0 z-[9999] w-full border-t-2 border-solid border-yellow-400 bg-gray-800 pt-5 pb-3"
+			class="fixed right-0 bottom-0 left-0 z-[9999] w-full border-t-2 border-solid border-yellow-400 bg-neutral-800 pt-5 pb-3"
 		>
 			<div class="flex w-full items-center justify-between px-4">
 				<template v-for="(menu, i) in navMenus" :key="i">

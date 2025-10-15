@@ -72,6 +72,69 @@ export type Database = {
         }
         Relationships: []
       }
+      history_games: {
+        Row: {
+          bet_amount: number | null
+          created_at: string
+          game_category: string | null
+          game_code: string | null
+          game_image: string | null
+          game_link: string | null
+          game_name: string
+          game_provider: number
+          game_slug: string | null
+          id: string
+          is_favourite: boolean | null
+          is_win: boolean | null
+          rtp_changed: boolean | null
+          rtp_value: number | null
+          total_play: number | null
+          updated_at: string
+          user_id: string
+          win_amount: number | null
+        }
+        Insert: {
+          bet_amount?: number | null
+          created_at?: string
+          game_category?: string | null
+          game_code?: string | null
+          game_image?: string | null
+          game_link?: string | null
+          game_name: string
+          game_provider: number
+          game_slug?: string | null
+          id?: string
+          is_favourite?: boolean | null
+          is_win?: boolean | null
+          rtp_changed?: boolean | null
+          rtp_value?: number | null
+          total_play?: number | null
+          updated_at?: string
+          user_id: string
+          win_amount?: number | null
+        }
+        Update: {
+          bet_amount?: number | null
+          created_at?: string
+          game_category?: string | null
+          game_code?: string | null
+          game_image?: string | null
+          game_link?: string | null
+          game_name?: string
+          game_provider?: number
+          game_slug?: string | null
+          id?: string
+          is_favourite?: boolean | null
+          is_win?: boolean | null
+          rtp_changed?: boolean | null
+          rtp_value?: number | null
+          total_play?: number | null
+          updated_at?: string
+          user_id?: string
+          win_amount?: number | null
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null

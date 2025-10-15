@@ -98,7 +98,7 @@ const submit = handleSubmit(async (values) => {
 						leave-to="opacity-0 scale-95"
 					>
 						<HeadlessDialogPanel
-							class="w-full transform overflow-hidden rounded-2xl bg-gray-900 px-5 py-6 text-left align-middle text-gray-50 shadow-xl transition-all lg:max-w-lg"
+							class="w-full transform overflow-hidden rounded-2xl bg-neutral-900 px-5 py-6 text-left align-middle text-neutral-50 shadow-xl transition-all lg:max-w-lg"
 						>
 							<div class="relative w-full">
 								<div class="absolute top-0 right-0 z-40">
@@ -117,7 +117,7 @@ const submit = handleSubmit(async (values) => {
 										<div class="text-white uppercase">MASUK</div>
 									</div>
 
-									<Separator class="bg-gray-600" />
+									<Separator class="bg-neutral-600" />
 
 									<form class="grid" @submit.prevent="submit">
 										<!-- Email or Username Field -->
@@ -128,7 +128,7 @@ const submit = handleSubmit(async (values) => {
 													v-model="identifier"
 													type="text"
 													name="identifier"
-													class="block w-full rounded-md border border-gray-600 bg-black text-gray-50 ring-0 outline-none placeholder:text-sm placeholder:text-gray-400 hover:border-2 hover:border-yellow-400/40 focus:border-2 focus:border-yellow-400/40 active:border-2 active:border-yellow-400/40"
+													class="block w-full rounded-md border border-neutral-600 bg-black text-neutral-50 ring-0 outline-none placeholder:text-sm placeholder:text-neutral-400 hover:border-2 hover:border-yellow-400/40 focus:border-2 focus:border-yellow-400/40 active:border-2 active:border-yellow-400/40"
 													autocomplete="username"
 													placeholder="Email atau Username"
 													@blur="validateField('identifier')"
@@ -172,7 +172,7 @@ const submit = handleSubmit(async (values) => {
 													v-model="password"
 													:type="passwordInput"
 													name="password"
-													class="block w-full rounded-md border border-gray-600 bg-black text-gray-50 ring-0 outline-none placeholder:text-sm placeholder:text-gray-400 hover:border-2 hover:border-yellow-400/40 focus:border-2 focus:border-yellow-400/40 active:border-2 active:border-yellow-400/40"
+													class="block w-full rounded-md border border-neutral-600 bg-black text-neutral-50 ring-0 outline-none placeholder:text-sm placeholder:text-neutral-400 hover:border-2 hover:border-yellow-400/40 focus:border-2 focus:border-yellow-400/40 active:border-2 active:border-yellow-400/40"
 													autocomplete="current-password"
 													placeholder="Kata Sandi"
 													@blur="validateField('password')"
@@ -211,7 +211,7 @@ const submit = handleSubmit(async (values) => {
 										<div class="flex items-center justify-end pt-2">
 											<NuxtLink
 												to="/forgot"
-												class="cursor-pointer text-sm font-semibold text-gray-100 transition-colors hover:text-yellow-400"
+												class="cursor-pointer text-sm font-semibold text-neutral-100 transition-colors hover:text-yellow-400"
 											>
 												Lupa Kata Sandi?
 											</NuxtLink>
@@ -240,7 +240,7 @@ const submit = handleSubmit(async (values) => {
 												{{ isSubmitting ? "Harap tunggu..." : "MASUK" }}
 											</button>
 
-											<div class="text-sm text-gray-400">
+											<div class="text-sm text-neutral-400">
 												Belum punya akun?
 												<NuxtLink
 													to="/register"

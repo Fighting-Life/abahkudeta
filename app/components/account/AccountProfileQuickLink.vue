@@ -21,7 +21,7 @@ const queryTName = computed(() => route.query.t as string);
 				alt="Akun Saya"
 				class="mb-2 h-8 w-8"
 			/>
-			<span class="text-sm text-gray-300">Akun Saya</span>
+			<span class="text-sm text-neutral-300">Akun Saya</span>
 		</NuxtLink>
 		<NuxtLink
 			to="/account?q=main&t=referral"
@@ -36,7 +36,7 @@ const queryTName = computed(() => route.query.t as string);
 				alt="Referral"
 				class="mb-2 h-8 w-8"
 			/>
-			<span class="text-sm text-gray-300">Referral</span>
+			<span class="text-sm text-neutral-300">Referral</span>
 		</NuxtLink>
 	</div>
 </template>

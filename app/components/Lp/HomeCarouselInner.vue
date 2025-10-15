@@ -106,7 +106,7 @@ const currentSlideData = computed(() => slides.value[currentSlide.value]);
 </script>
 <template>
 	<div
-		class="hero-carousel relative min-h-[500px] w-full overflow-hidden bg-gray-900 lg:min-h-[600px]"
+		class="hero-carousel relative min-h-[500px] w-full overflow-hidden bg-neutral-900 lg:min-h-[600px]"
 	>
 		<!-- Background overlay -->
 		<div
@@ -159,19 +159,19 @@ const currentSlideData = computed(() => slides.value[currentSlide.value]);
 
 									<!-- Description -->
 									<p
-										class="max-w-2xl text-sm leading-relaxed text-gray-300 lg:text-base"
+										class="max-w-2xl text-sm leading-relaxed text-neutral-300 lg:text-base"
 									>
 										{{ currentSlideData?.description }}
 									</p>
 
 									<!-- CTA Button -->
 									<div class="pt-4">
-										<a
-											:href="currentSlideData?.buttonLink"
+										<NuxtLink
+											:to="currentSlideData?.buttonLink"
 											class="inline-block transform rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-4 text-lg font-bold text-black transition-all duration-300 hover:scale-105 hover:from-yellow-500 hover:to-yellow-700 hover:shadow-2xl active:scale-95"
 										>
 											{{ currentSlideData?.buttonText }}
-										</a>
+										</NuxtLink>
 									</div>
 								</div>
 							</Transition>

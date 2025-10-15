@@ -6,7 +6,7 @@ const route = useRoute();
 const openMenuOverly = ref(false);
 const menuSelected = ref<SubMenu[] | undefined>([]);
 const menuContainer = ref<HTMLElement | null>(null);
-const { launchGame } = useGameLauncher();
+const { launchLink } = useGameLauncher();
 
 const scrollLeft = () => {
 	if (!import.meta.client) return;
@@ -79,7 +79,7 @@ function getIcon(slug: string, url: string) {
 	>
 		<!-- Trigger Menu -->
 		<div
-			class="-mt-1.5 w-full border-b border-b-gray-700 bg-gray-950 py-4 lg:-mt-4 lg:border-none lg:bg-gray-800"
+			class="-mt-1.5 w-full border-b border-b-neutral-700 bg-neutral-950 py-4 lg:-mt-4 lg:border-none lg:bg-neutral-800"
 		>
 			<div class="container mx-auto w-full lg:max-w-[1024px]">
 				<div class="flex w-full items-center justify-center gap-3">
@@ -89,7 +89,7 @@ function getIcon(slug: string, url: string) {
 					>
 						<Icon
 							name="mdi:chevron-left-circle"
-							class="text-2xl text-gray-50"
+							class="text-2xl text-neutral-50"
 						/>
 					</button>
 					<div
@@ -104,7 +104,7 @@ function getIcon(slug: string, url: string) {
 								name: 'category-game',
 								params: { category: category.slug },
 							}"
-							class="group flex w-full min-w-min cursor-pointer flex-col items-center justify-center gap-2 px-6 font-bold text-gray-50 uppercase lg:flex-row lg:border-r lg:border-r-gray-600"
+							class="group flex w-full min-w-min cursor-pointer flex-col items-center justify-center gap-2 px-6 font-bold text-neutral-50 uppercase lg:flex-row lg:border-r lg:border-r-neutral-600"
 							@mouseenter="onMouseEnterMenu(category.sub)"
 							@mouseleave="cancelClose"
 						>
@@ -119,7 +119,7 @@ function getIcon(slug: string, url: string) {
 										'text-[10px] text-nowrap group-hover:text-[#e5d177] lg:text-xs',
 										route.fullPath.replaceAll('/', '') === category.slug
 											? 'text-[#e5d177]'
-											: 'text-gray-50',
+											: 'text-neutral-50',
 									)
 								"
 							>
@@ -131,7 +131,7 @@ function getIcon(slug: string, url: string) {
 										'hidden items-center justify-center group-hover:rotate-180 group-hover:text-[#e5d177] lg:flex',
 										route.fullPath.replaceAll('/', '') === category.slug
 											? 'text-[#e5d177]'
-											: 'text-gray-50',
+											: 'text-neutral-50',
 									)
 								"
 							>
@@ -141,7 +141,7 @@ function getIcon(slug: string, url: string) {
 						<button
 							v-for="(category, i) in CategoriesTopMenu"
 							:key="i"
-							class="group flex w-full min-w-min cursor-pointer flex-col items-center justify-center gap-2 px-6 font-bold text-gray-50 uppercase lg:hidden lg:flex-row lg:border-r lg:border-r-gray-600"
+							class="group flex w-full min-w-min cursor-pointer flex-col items-center justify-center gap-2 px-6 font-bold text-neutral-50 uppercase lg:hidden lg:flex-row lg:border-r lg:border-r-neutral-600"
 							style="display: none"
 							@mouseenter="onMouseEnterMenu(category.sub)"
 							@mouseleave="cancelClose"
@@ -169,7 +169,7 @@ function getIcon(slug: string, url: string) {
 					>
 						<Icon
 							name="mdi:chevron-right-circle"
-							class="text-2xl text-gray-50"
+							class="text-2xl text-neutral-50"
 						/>
 					</button>
 				</div>
@@ -181,26 +181,26 @@ function getIcon(slug: string, url: string) {
 			<TransitionExpand :duration="300">
 				<div
 					v-if="openMenuOverly"
-					class="absolute top-full left-0 z-50 hidden w-full border-b-8 border-b-[#e5d177] bg-gray-950 py-5 lg:block"
+					class="absolute top-full left-0 z-50 hidden w-full border-b-8 border-b-[#e5d177] bg-neutral-950 py-5 lg:block"
 					@mouseenter="cancelClose"
 					@mouseleave="delayedClose"
 				>
 					<div class="container mx-auto w-full lg:max-w-[1024px]">
 						<div
-							class="scrollbar-thin scrollbar-track-gray-500 scrollbar-thumb-gray-900 flex max-h-[60vh] flex-wrap items-center justify-center gap-12 overflow-x-auto overflow-y-auto"
+							class="scrollbar-thin scrollbar-track-neutral-500 scrollbar-thumb-neutral-900 flex max-h-[60vh] flex-wrap items-center justify-center gap-12 overflow-x-auto overflow-y-auto"
 						>
 							<button
 								v-for="(sub, i) in menuSelected"
 								:key="i"
 								class="flex cursor-pointer flex-col items-center justify-center gap-2"
-								@click.stop="launchGame(sub.link)"
+								@click.stop="launchLink(sub.link)"
 							>
 								<img
 									:src="sub.icon"
 									:alt="sub.name"
 									class="h-24 w-auto object-fill object-center"
 								/>
-								<div class="text-xs font-bold text-gray-100">
+								<div class="text-xs font-bold text-neutral-100">
 									{{ sub.name }}
 								</div>
 							</button>

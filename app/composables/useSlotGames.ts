@@ -104,6 +104,7 @@ export const useSlotGames = () => {
 		...ArcadeSkywindGames,
 		...ArcadeJDBGames,
 		...ArcadeFungkyGames,
+		...RaceMarblexGames,
 	]);
 
 	const searchTerm = ref<string | undefined>(undefined);
@@ -412,6 +413,7 @@ export const useSlotGames = () => {
 			ArcadeSkywindGames: "Skywind",
 			ArcadeJDBGames: "JDB",
 			ArcadeFungkyGames: "Funky Games",
+			RaceMarblexGames: "Marblex",
 		};
 
 		return nameMap[gameType] || formatGameTypeName(gameType);
@@ -491,6 +493,7 @@ export const useSlotGames = () => {
 				ADVANTPLAYMINIGAME: "AdvantPlayMiniGames",
 				G8TANGKAS: "ArcadeMMTangkasGames",
 				BTGAMING: "ArcadeBtGamingGames",
+				MARBLEX: "RaceMarblexGames",
 			};
 
 			return formatGameTypeName(nameMap[name] || "PrgamaticGames");

@@ -18,28 +18,28 @@ const { $profileState, $refreshProfile } = useNuxtApp();
 					name="material-symbols:account-circle"
 					class="text-2xl font-bold"
 				/>
-				<div class="text-xs text-nowrap text-gray-100">Akun Saya</div>
+				<div class="text-xs text-nowrap text-neutral-100">Akun Saya</div>
 			</NuxtLink>
 			<NuxtLink
 				to="/account?q=finance&t=deposit"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon name="ic:round-add-card" class="text-2xl font-bold" />
-				<div class="text-xs text-nowrap text-gray-100">Deposit</div>
+				<div class="text-xs text-nowrap text-neutral-100">Deposit</div>
 			</NuxtLink>
 			<NuxtLink
 				to="/account?q=messages&t=inbox"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon name="ic:baseline-mail" class="text-2xl font-bold" />
-				<div class="text-xs text-nowrap text-gray-100">Kotak Masuk</div>
+				<div class="text-xs text-nowrap text-neutral-100">Kotak Masuk</div>
 			</NuxtLink>
 			<NuxtLink
 				to="/account?q=finance&t=withdrawal"
 				class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 			>
 				<icon name="ci:transfer" class="text-2xl font-bold" />
-				<div class="text-xs text-nowrap text-gray-100">Penarikan</div>
+				<div class="text-xs text-nowrap text-neutral-100">Penarikan</div>
 			</NuxtLink>
 			<div class="relative">
 				<NuxtLink
@@ -47,12 +47,12 @@ const { $profileState, $refreshProfile } = useNuxtApp();
 					class="flex cursor-pointer flex-col items-center justify-center text-white transition-all active:scale-95"
 				>
 					<icon name="ic:baseline-notifications" class="text-2xl font-bold" />
-					<div class="text-xs text-nowrap text-gray-100">Pengumuman</div>
+					<div class="text-xs text-nowrap text-neutral-100">Pengumuman</div>
 				</NuxtLink>
 				<div
-					class="absolute top-0 right-6 flex h-3 w-3 items-center justify-center rounded-full bg-red-600 text-[10px] text-white"
+					class="absolute top-0 right-6 flex h-3 w-3 items-center justify-center rounded-full bg-neutral-600 text-[10px] text-white"
 				>
-					1
+					0
 				</div>
 			</div>
 			<button
@@ -60,7 +60,7 @@ const { $profileState, $refreshProfile } = useNuxtApp();
 				@click="emits('onsignout')"
 			>
 				<icon name="ic:round-exit-to-app" class="text-2xl font-bold" />
-				<div class="text-xs text-nowrap text-gray-100">Keluar</div>
+				<div class="text-xs text-nowrap text-neutral-100">Keluar</div>
 			</button>
 		</div>
 		<div class="flex items-center justify-center gap-5">
@@ -69,7 +69,7 @@ const { $profileState, $refreshProfile } = useNuxtApp();
 				class="flex cursor-pointer items-center justify-center gap-1 text-white transition-all active:scale-95"
 			>
 				<img src="/images/badge/bronze.svg" class="h-8 w-8 object-fill" />
-				<div class="text-xs text-gray-100">
+				<div class="text-xs text-neutral-100">
 					{{ $profileState?.username }}
 				</div>
 			</NuxtLink>
